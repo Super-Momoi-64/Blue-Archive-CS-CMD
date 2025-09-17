@@ -1,9 +1,11 @@
-# Blue-Archive-CS-CMD
+# [CS/CMD] Blue Archive for sm64coopdx
+
+![header](img/header.jpg)
 
 Move everything to the mods folder and enable the mods
 
--> Blue Archive Main
--> Blue Archive Pack 1
--> Blue Archive Pack 2
--> Blue Archive Pack 3
--> Blue Archive Pack 4
+- Blue Archive Main
+- Blue Archive Pack 1
+- Blue Archive Pack 2
+- Blue Archive Pack 3
+- Blue Archive Pack 4
