@@ -81,6 +81,7 @@ BA_CHAR[E_MODEL_MIDORI] = {
   voiceTable = VT_MIDORI,
   altCostume = {
     { name = "Midori (Maid)", model = E_MODEL_MIDORI2, desc = 'Gamer Maid', cmdId = 'midori2', lifeIcon = TEX_MIDORI2 },
+	{ name = "Midori (Bunny)", model = E_MODEL_MIDORI3, desc = 'Sexy Gamer Bunny', cmdId = 'midori3', lifeIcon = TEX_MIDORI, credit="kzHouston" },
   },
   cmdId = 'midori'
 }
