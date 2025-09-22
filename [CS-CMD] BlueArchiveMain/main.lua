@@ -1,4 +1,4 @@
--- name: \\#FFFF00\\[CS/CMD] \\#00D7FB\\Blue \\#FFFFFF\\Archive Main 1.0.4
+-- name: \\#FFFF00\\[CS/CMD] \\#00D7FB\\Blue \\#FFFFFF\\Archive Main 1.0.5 (DEV)
 -- description: \\#FF0000\\ This script must be on in order to use the Blue Archive character packs. \n\n This applies to both Character Select and Command.
 -- category: cs
 

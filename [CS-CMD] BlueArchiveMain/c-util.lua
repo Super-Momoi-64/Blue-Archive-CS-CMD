@@ -159,15 +159,9 @@ end
 
 ---Check the sound files
 
-function character_sound_test2(packName, packTable)
-  for _, c in pairs(packTable) do
-    print(c.name)
-    for k, sound in pairs(c.voiceTable) do
-      print(k, sound)
-    end
-  end
-end
-
+---Character Sound Test
+---@param packName string
+---@param packTable table table of char tables in a pack
 function character_sound_test(packName, packTable)
   local sepSize = 42
   local sep = string.rep("=", sepSize)
@@ -226,6 +220,49 @@ function character_sound_test(packName, packTable)
   djui_chat_message_create(packName .. ' Sound Test. ' .. totalCount .. ' error(s) found. Check Console for log.')
 end
 
+
+local PRELOAD_VOICE_TABLE = {}
+
+---Try loading audio file based on filename
+---@param sound string|userdata|nil
+local function try_loading_audio(sound)
+  if not sound then return end
+  if type(sound) == "userdata" then
+    return sound
+  end
+  if PRELOAD_VOICE_TABLE[sound] then 
+    -- print('found preloaded voice ' .. sound)
+    return PRELOAD_VOICE_TABLE[sound]
+  end
+  if not mod_file_exists("sound/" .. sound) then
+    return
+  end
+  local load = audio_sample_load(sound)
+  PRELOAD_VOICE_TABLE[sound] = load
+  if load == nil then
+    -- print("Failed to load " .. sound)
+  end
+  if load and load.loaded then
+    -- print('loaded ' .. sound)
+  end
+  return load
+end
+
+---Replace strings with pointers to preloaded sounds
+---@param vt voiceTable
+function preload_voices(vt)
+  for k, voice in pairs(vt) do
+    -- Check if multiple sounds allocated
+    if type(voice) == "table" then
+      for i, fname in pairs(voice) do 
+        voice[i] = try_loading_audio(fname) or fname
+      end
+    elseif type(voice) == "string" then
+      vt[k] = try_loading_audio(voice) or voice
+    end
+  end
+end
+
 -- Export functions to global
 _G.baMainCmdExists = true
 _G.baMain = {
@@ -235,6 +272,7 @@ _G.baMain = {
   character_add_cmd = character_add_cmd,
   character_table_add = character_table_add,
   character_sound_test = character_sound_test,
+  sound = {},
   custom_geo = {},
   loadedPackStatus = {}
 }

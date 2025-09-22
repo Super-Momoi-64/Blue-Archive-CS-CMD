@@ -27,12 +27,14 @@ if _G.charSelectExists then
     -- Traverse the character table in alphabetical order
     for _, key in ipairs(sortedKeysCT) do
       local c = unsortedCharacterTable[key]
+      local vt = c.voiceTable
       -- Add a CS Character
-      local cID = cs_char_add(c.name, c.description, c.credit, c.color, c.model, c.forceChar, c.lifeIcon)
+      local cID = cs_char_add(c.name, c.description, c.credit, c.color, c.model, c.forceChar, c.lifeIcon, 0.8)
       -- Store name in translation table
       character_add_cmd(c.cmdId, c.name, c.school, c.color, 1)
       -- Add Voice table to model
-      cs_char_add_voice(c.model, c.voiceTable)
+      preload_voices(vt)
+      cs_char_add_voice(c.model, vt)
       -- Set health meter to character
       cs_add_health_meter(cID, HEALTH_METER)
       -- Add Animations
@@ -51,12 +53,14 @@ if _G.charSelectExists then
           end
           -- Add costume to character
           cs_char_add_costume(cID, alt.name, alt.desc, alt.credit or c.credit, c.color, alt.model, c.forceChar,
-            icon)
+            icon, 0.8)
+          
+          -- Add voice to alt
           if alt.voiceTable ~= nil then
-            cs_char_add_voice(alt.model, alt.voiceTable)
-          else
-            cs_char_add_voice(alt.model, c.voiceTable)
+            vt = alt.voiceTable
+            preload_voices(vt)
           end
+          cs_char_add_voice(alt.model, vt)
           -- Add animation to costume
           -- cs_char_add_anim(alt.model, ANIM_TABLE_CHAR[alt.model])
           -- Store alt name in translation table
@@ -82,7 +86,9 @@ else
     -- Traverse the character table in alphabetical order
     for _, key in ipairs(sortedKeysCT) do
       local c = unsortedCharacterTable[key]
-      ba_char_add(c.cmdId, c.name, c.school, c.color, c.model, c.lifeIcon, c.voiceTable)
+      local vt = c.voiceTable
+      preload_voices(vt)
+      ba_char_add(c.cmdId, c.name, c.school, c.color, c.model, c.lifeIcon, vt)
       -- If character has costumes
       if c.altCostume ~= nil then
         for j = 1, #c.altCostume do
@@ -93,10 +99,10 @@ else
           end
           -- Add new costume as character
           if alt.voiceTable ~= nil then
-            ba_char_add(alt.cmdId, alt.name, c.school, c.color, alt.model, icon, alt.voiceTable)
-          else
-            ba_char_add(alt.cmdId, alt.name, c.school, c.color, alt.model, icon, c.voiceTable)
+            vt = alt.voiceTable
+            preload_voices(vt)
           end
+          ba_char_add(alt.cmdId, alt.name, c.school, c.color, alt.model, icon, vt)
         end
       end
     end
