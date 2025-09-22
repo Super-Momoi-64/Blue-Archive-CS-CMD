@@ -35,7 +35,7 @@ E_MODEL_RUMI = smlua_model_util_get_id("rumi_geo")
 E_MODEL_SENA = smlua_model_util_get_id("senakzh_geo")
 E_MODEL_PNIYA = smlua_model_util_get_id("pniyakzh_geo")
 E_MODEL_REI = smlua_model_util_get_id("rei_geo")
-E_MODEL_MERU = = smlua_model_util_get_id("meru_geo")
+E_MODEL_MERU = smlua_model_util_get_id("meru_geo")
 
 -- Custom Texture Icons
 TEX_RENGE = get_texture_info("renge_icon")
