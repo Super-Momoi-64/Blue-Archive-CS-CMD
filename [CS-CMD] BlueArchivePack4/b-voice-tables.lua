@@ -807,3 +807,32 @@ VT_REI = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'rei_atk2.mp3' },                                 -- 1st Jump(s)
   [CHAR_SOUND_EEUH] = { 'rei_ledgeclimb.mp3' },											-- Slow climb from ledge
 }
+
+VT_MERU = {
+  [CHAR_SOUND_ATTACKED] = { 'Meru_ATTACKED1.ogg', 'Meru_ATTACKED2.ogg' },
+  [CHAR_SOUND_DOH] = 'Meru_ATTACKED2.ogg',                                              -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Meru_DYING.ogg' },
+  [CHAR_SOUND_HAHA] = { 'Meru_HAHA.ogg' },       								-- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'Meru_HEREWEGO.ogg', 'Meru_HEREWEGO2.ogg', 'Meru_HEREWEGO3.ogg'}, 				-- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'Meru_LETSAGO.ogg', 'Meru_LETSAGO2.ogg' },       -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'Meru_MAMAMIA.ogg' },      						-- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                      -- Object Pick-up
+  [CHAR_SOUND_HOOHOO] = { 'Meru_HOOHOO.ogg' },                                      -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'Meru_ATTACKED1.ogg' },                                    -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'Meru_OOOF.ogg',                                           -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Meru_OOOF2.ogg',                                         -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Meru_PUNCH_HOO.ogg' },                                 -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Meru_PUNCH_WAH.ogg',                                     -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Meru_YAH_WAH_HOO.ogg',                                     -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Meru_WAH2.ogg' },                       -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'Meru_WAH2.ogg' },                                 -- Throw Object
+  [CHAR_SOUND_UH] = 'Meru_UH.ogg',                                           -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_UH2] = { 'Meru_ATTACKED1.ogg' },              					-- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'Meru_DYING.ogg',                                   -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                              -- Boing
+  [CHAR_SOUND_WHOA] = 'Meru_UH.ogg',                                         -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Meru_YAHOO.ogg' },                                -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Meru_YAHOO_WAHA_YIPPEE.ogg' },                    -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Meru_YAH_WAH_HOO.ogg', 'Meru_YAH_WAH_HOO2.ogg' },        -- 1st Jump(s)
+  [CHAR_SOUND_EEUH] = { 'Meru_LETSAGO.ogg' },											-- Slow climb from ledge
+}

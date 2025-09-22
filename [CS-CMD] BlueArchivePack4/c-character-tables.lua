@@ -271,7 +271,7 @@ BA_CHAR[E_MODEL_UMIKA] = {
 BA_CHAR[E_MODEL_KANOE] = {
   name = "Kanoe",
   description = {
-    "Heehee"
+    "Ihi"
   },
   school = "WildHunt",
   credit = "MiyuEnjoyer",
@@ -440,4 +440,20 @@ BA_CHAR[E_MODEL_REI] = {
   voiceTable = VT_REI,
   altCostume = nil,
   cmdId = 'rei'
+}
+
+BA_CHAR[E_MODEL_MERU] = {
+  name = "Meru",
+  description = {
+    "Doujin Drawer"
+  },
+  school = "RedWinter",
+  credit = "MiyuEnjoyer",
+  color = { r = 193, g = 232, b = 198 },
+  model = E_MODEL_MERU,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_MERU,
+  voiceTable = VT_MERU,
+  altCostume = nil,
+  cmdId = 'meru'
 }
