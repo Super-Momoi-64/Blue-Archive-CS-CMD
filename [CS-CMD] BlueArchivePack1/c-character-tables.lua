@@ -205,7 +205,7 @@ BA_CHAR[E_MODEL_HARE] = {
   lifeIcon = TEX_HARE,
   voiceTable = VT_HARE,
   altCostume = {
-    { name = "Hare [Camp]", model = E_MODEL_HARE_CAMP, desc = 'She finally touched grass', cmdId = 'hare2' },
+    { name = "Hare (Camp)", model = E_MODEL_HARE_CAMP, desc = 'She finally touched grass', cmdId = 'hare2', lifeIcon = TEX_HARECMP },
   },
   cmdId = 'hare'
 }
@@ -260,7 +260,7 @@ BA_CHAR[E_MODEL_HOSHINO] = {
   lifeIcon = TEX_HOSHINO,
   voiceTable = VT_SHOSHINO,
   altCostume = {
-    { name = "Hoshino (Swimsuit)", model = E_MODEL_HOSHINO2, desc = 'Atsui yo', cmdId = 'hoshino2', lifeIcon = TEX_HOSHINO2 },
+    { name = "Hoshino (Swimsuit)", model = E_MODEL_HOSHINO2, desc = 'Atsui yo', cmdId = 'hoshino2', lifeIcon = TEX_HOSHINO2, credit="hash" },
 	{ name = "Hoshino (Armed)", model = E_MODEL_HOSHINO3, desc = 'Locked and Loaded', cmdId = 'hoshino3', lifeIcon = TEX_HOSHINO3, credit="kzHouston" },
   },
   cmdId = 'hoshino'
@@ -414,7 +414,7 @@ BA_CHAR[E_MODEL_NATSU] = {
   lifeIcon = TEX_NATSU,
   voiceTable = VT_NATSU,
   altCostume = {
-    { name = "Natsu (Band)", model = E_MODEL_NATSU2, desc = 'The beginning...of a legend...', cmdId = 'natsu2' },
+    { name = "Natsu (Band)", model = E_MODEL_NATSU2, desc = 'The beginning...of a legend...', lifeIcon = TEX_NATSU2, cmdId = 'natsu2' },
   },
   cmdId = 'natsu'
 }
@@ -464,6 +464,9 @@ BA_CHAR[E_MODEL_SHIGURE] = {
   forceChar = CT_MARIO,
   lifeIcon = TEX_SHIGURE,
   voiceTable = VT_SHIGURE,
+  altCostume = {
+    { name = "Shigure (Hot Springs)", model = E_MODEL_SHIGURE2, desc = 'Naked Stoat', cmdId = 'shigure2', lifeIcon = TEX_SHIGURE2, credit="AllergyDonor" },
+  },
   cmdId = 'shigure'
 }
 

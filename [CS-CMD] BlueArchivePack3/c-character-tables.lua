@@ -59,9 +59,11 @@ BA_CHAR[E_MODEL_AIRI] = {
   color = { r = 167, g = 231, b = 210 },
   model = E_MODEL_AIRI,
   forceChar = CT_MARIO,
-  lifeIcon = TEX_AIRI,
+  lifeIcon = TEX_AIRI2,
   voiceTable = VT_AIRI,
-  altCostume = nil,
+  altCostume = {
+    { name = "Airi (Band)", model = E_MODEL_AIRI2, desc = 'Chocomint', cmdId = 'airi2', lifeIcon = TEX_AIRI, credit="HerosLight" },
+  },
   cmdId = 'airi'
 }
 
@@ -225,7 +227,9 @@ BA_CHAR[E_MODEL_HIFUMI] = {
   forceChar = CT_MARIO,
   lifeIcon = TEX_HIFUMI,
   voiceTable = VT_HIFUMI,
-  altCostume = nil,
+  altCostume = {
+    { name = "Hifumi (Swimsuit)", model = E_MODEL_HIFUMI2, desc = '10 EX Skill Cost...', cmdId = 'hifumi2', lifeIcon = TEX_HIFUMI2, credit="MiyuEnjoyer" },
+  },
   cmdId = 'hifumi'
 }
 
@@ -321,7 +325,9 @@ BA_CHAR[E_MODEL_KOHARU] = {
   forceChar = CT_MARIO,
   lifeIcon = TEX_KOHARU,
   voiceTable = VT_KOHARU,
-  altCostume = nil,
+  altCostume = {
+    { name = "Koharu (Swimsuit)", model = E_MODEL_KOHARU_SWIM, desc = 'Ecchi na no wa dame, Shikei!', cmdId = 'koharu2', lifeIcon = TEX_KOHARU_SWIM, credit = "AllergyDonor" },
+  },
   cmdId = 'koharu'
 }
 
@@ -602,7 +608,7 @@ BA_CHAR[E_MODEL_VALK] = {
 BA_CHAR[E_MODEL_YOSHIMI] = {
   name = "Yoshimi",
   description = {
-    "Yoshimi the rock"
+    "Tsundere"
   },
   school = "Trinity",
   credit = "HerosLight",
@@ -611,7 +617,9 @@ BA_CHAR[E_MODEL_YOSHIMI] = {
   forceChar = CT_MARIO,
   lifeIcon = TEX_YOSH,
   voiceTable = VT_YOSHIMI,
-  altCostume = nil,
+  altCostume = {
+    { name = "Yoshimi (Band)", model = E_MODEL_YOSHIMI2, desc = 'Yoshimi the rock', cmdId = 'yoshimi2', lifeIcon = TEX_YOSH2 },
+  },
   cmdId = 'yoshimi'
 }
 
@@ -644,7 +652,7 @@ BA_CHAR[E_MODEL_SHUN] = {
   lifeIcon = TEX_SHUN,
   voiceTable = VT_SHUN,
   altCostume = {
-    { name = "Young Shun", model = E_MODEL_CHILD_SHUN, desc = '9', voiceTable = VT_CHILD_SHUN, cmdId = 'shun2' },
+    { name = "Young Shun", model = E_MODEL_CHILD_SHUN, desc = '9', voiceTable = VT_CHILD_SHUN, lifeIcon = TEX_YOUNG_SHUN, cmdId = 'shun2' },
   },
   cmdId = 'shun'
 }

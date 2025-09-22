@@ -145,6 +145,10 @@ BA_CHAR[E_MODEL_HINA] = {
   forceChar = CT_MARIO,
   lifeIcon = TEX_HINA,
   voiceTable = VT_HINA,
+  altCostume = {
+    { name = "Hina (Pajama)", model = E_MODEL_HINA2, desc = 'Eepy', voiceTable = VT_HINA, cmdId = 'hina2', lifeIcon = TEX_HINA2, credit = "MiyuEnjoyer" },
+	{ name = "Hina (Dress)", model = E_MODEL_HINA3, desc = 'Pretty', voiceTable = VT_HINA, cmdId = 'hina3', lifeIcon = TEX_HINA3, credit = "MiyuEnjoyer" },
+  },
   cmdId = 'hina'
 }
 
@@ -292,4 +296,146 @@ BA_CHAR[E_MODEL_ERI] = {
   lifeIcon = TEX_ERI,
   voiceTable = VT_ERI,
   cmdId = 'eri'
+}
+
+
+BA_CHAR[E_MODEL_CHIHIRO] = {
+  name = "Chihiro",
+  description = {
+    "Hacker mom"
+  },
+  school = "Millennium",
+  credit = "hash",
+  color = { r = 19, g = 20, b = 31 },
+  model = E_MODEL_CHIHIRO,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_CHIHIRO,
+  voiceTable = VT_CHIHIRO,
+  cmdId = 'chihiro'
+}
+
+BA_CHAR[E_MODEL_KOTAMA] = {
+  name = "Kotama",
+  description = {
+    "She's always watching"
+  },
+  school = "Millennium",
+  credit = "hash",
+  color = { r = 91, g = 88, b = 81 },
+  model = E_MODEL_KOTAMA,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_KOTAMA,
+  voiceTable = VT_KOTAMA,
+  cmdId = 'kotama'
+}
+
+BA_CHAR[E_MODEL_UTAHA] = {
+  name = "Utaha",
+  description = {
+    "Genius engineer"
+  },
+  school = "Millennium",
+  credit = "hash",
+  color = { r = 55, g = 49, b = 89 },
+  model = E_MODEL_UTAHA,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_UTAHA,
+  voiceTable = VT_UTAHA,
+  cmdId = 'utaha'
+}
+
+BA_CHAR[E_MODEL_KOTORI] = {
+  name = "Kotori",
+  description = {
+    "Nerd glasses emoji"
+  },
+  school = "Millennium",
+  credit = "hash",
+  color = { r = 99, g = 80, b = 65 },
+  model = E_MODEL_KOTORI,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_KOTORI,
+  voiceTable = VT_KOTORI,
+  cmdId = 'kotori'
+}
+
+BA_CHAR[E_MODEL_NODOKA] = {
+  name = "Nodoka",
+  description = {
+    "She's watching you"
+  },
+  school = "RedWinter",
+  credit = "AllergyDonor",
+  color = { r = 244, g = 59, b = 147 },
+  model = E_MODEL_NODOKA,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_NODOKA,
+  voiceTable = VT_NODOKA,
+  altCostume = nil,
+  cmdId = 'nodoka'
+}
+
+BA_CHAR[E_MODEL_RUMI] = {
+  name = "Rumi",
+  description = {
+    "I'm all ears"
+  },
+  school = "Shanhaijing",
+  credit = "kzHouston",
+  color = { r = 15, g = 34, b = 83 },
+  model = E_MODEL_RUMI,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_RUMI,
+  voiceTable = VT_RUMI,
+  altCostume = nil,
+  cmdId = 'rumi'
+}
+
+BA_CHAR[E_MODEL_SENA] = {
+  name = "Sena",
+  description = {
+    "Diagnostic?",
+    "You are dead!"
+  },
+  school = "Gehenna",
+  credit = "kzHouston",
+  color = { r = 0, g = 255, b = 255 },
+  model = E_MODEL_SENA,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_SENA,
+  voiceTable = VT_SENA,
+  altCostume = nil,
+  cmdId = 'sena'
+}
+
+BA_CHAR[E_MODEL_PNIYA] = {
+  name = "P. Niyaniya",
+  description = {
+    ":cryingemoji:"
+  },
+  school = "ETC",
+  credit = "kzHouston",
+  color = { r = 255, g = 255, b = 128 },
+  model = E_MODEL_PNIYA,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_PNIYA,
+  voiceTable = VT_NOVOICE,
+  altCostume = nil,
+  cmdId = 'pniya'
+}
+
+BA_CHAR[E_MODEL_REI] = {
+  name = "Rei",
+  description = {
+    "0.08 Batting Average Baseball Fan"
+  },
+  school = "Millennium",
+  credit = "HerosLight",
+  color = { r = 224, g = 136, b = 112 },
+  model = E_MODEL_REI,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_REI,
+  voiceTable = VT_REI,
+  altCostume = nil,
+  cmdId = 'rei'
 }

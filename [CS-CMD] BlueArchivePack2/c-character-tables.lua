@@ -132,7 +132,7 @@ BA_CHAR[E_MODEL_HARUKA] = {
 }
 
 BA_CHAR[E_MODEL_HIBIKI] = {
-  name = "Hibiki Cheerleader",
+  name = "Hibiki",
   description = {
     "Shy engineer"
   },
@@ -143,7 +143,9 @@ BA_CHAR[E_MODEL_HIBIKI] = {
   forceChar = CT_MARIO,
   lifeIcon = TEX_HIBIKI,
   voiceTable = VT_HIBIKI,
-  altCostume = nil,
+  altCostume = {
+    { name = 'Hibiki (Cheerleader)', desc = "Instant motivation", model = E_MODEL_HIBIKI2, lifeIcon = TEX_HIBIKI2, cmdId = 'hibiki2' }
+  },
   cmdId = 'hibiki'
 }
 
@@ -484,7 +486,9 @@ BA_CHAR[E_MODEL_SHIROKO] = {
   forceChar = CT_MARIO,
   lifeIcon = TEX_SHIROKO,
   voiceTable = VT_SHIROKO,
-  altCostume = nil,
+  altCostume =  {   
+  { name = "Shiroko (Swimsuit)", model = E_MODEL_SHIROKO2, desc = 'IWAK', voiceTable = VT_SHIROKO, cmdId = 'shiroko2', lifeIcon = TEX_SHIROKO2, credit="kzHouston" },
+  },
   cmdId = 'shiroko'
 }
 
@@ -502,7 +506,7 @@ BA_CHAR[E_MODEL_SHIROKOTERROR] = {
   lifeIcon = TEX_SHIROKOTERROR,
   voiceTable = VT_SHIROKOTERROR,
   altCostume = nil,
-  cmdId = 'shiroko2'
+  cmdId = 'shiroko3'
 }
 
 BA_CHAR[E_MODEL_TOKI] = {
@@ -511,16 +515,16 @@ BA_CHAR[E_MODEL_TOKI] = {
     "Peace Peace"
   },
   school = "Millennium",
-  credit = "hash",
+  credit = "kzHouston",
   color = { r = 56, g = 84, b = 110 },
   model = E_MODEL_TOKI,
   forceChar = CT_MARIO,
   lifeIcon = TEX_TOKI,
   voiceTable = VT_TOKI,
   altCostume = {
-    { name = "Toki (Combat)", model = E_MODEL_TOKI_COMBAT, desc = "Nah I'd win", cmdId = 'toki2' },
-	{ name = "Toki (Maid)", model = E_MODEL_TOKI_MAID, desc = "At your service", cmdId = 'toki3', credit ="kzHouston" },
-	{ name = "Toki (Bunny)", model = E_MODEL_TOKI_BUNNY, desc = "Pyon", cmdId = 'toki4', lifeIcon = TEX_TOKI2, credit ="kzHouston" },
+    { name = "Toki (Combat)", model = E_MODEL_TOKI_COMBAT, desc = "Ready for Combat", cmdId = 'toki2' },
+	{ name = "Toki (Maid)", model = E_MODEL_TOKI_MAID, desc = "At the very least, I can make tea.", cmdId = 'toki3' },
+	{ name = "Toki (Bunny)", model = E_MODEL_TOKI_BUNNY, desc = "Pyon", cmdId = 'toki4', lifeIcon = TEX_TOKI2 },
   },
   cmdId = 'toki'
 }
@@ -589,4 +593,20 @@ BA_CHAR[E_MODEL_SSMG] = {
   voiceTable = VT_NOVOICE,
   altCostume = nil,
   cmdId = 'sukeban'
+}
+
+BA_CHAR[E_MODEL_HG01] = {
+  name = "Helmet Gang 01",
+  description = {
+    ""
+  },
+  school = "ETC",
+  credit = "RD",
+  color = { r = 80, g = 80, b = 80 },
+  model = E_MODEL_HG01,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_HG01,
+  voiceTable = VT_NOVOICE,
+  altCostume = nil,
+  cmdId = 'helmet'
 }
