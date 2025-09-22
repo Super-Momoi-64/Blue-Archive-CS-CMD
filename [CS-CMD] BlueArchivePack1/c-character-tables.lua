@@ -117,6 +117,7 @@ BA_CHAR[E_MODEL_ALICE] = {
   voiceTable = VT_ALICE,
   altCostume = {
     { name = "Alice (Maid)", model = E_MODEL_ALICE2, desc = 'Super Gamer Maid', cmdId = 'alice2', lifeIcon = TEX_ALICE2 },
+    { name = "Alice (Bunny)", model = E_MODEL_ALICE3, desc = 'Your light (bunny suit)', cmdId = 'alice3', lifeIcon = TEX_ALICE3, credit="AllergyDonor" },
   },
   cmdId = 'alice'
 }

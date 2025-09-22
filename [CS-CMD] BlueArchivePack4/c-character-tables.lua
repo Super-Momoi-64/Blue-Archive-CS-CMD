@@ -371,7 +371,9 @@ BA_CHAR[E_MODEL_NODOKA] = {
   forceChar = CT_MARIO,
   lifeIcon = TEX_NODOKA,
   voiceTable = VT_NODOKA,
-  altCostume = nil,
+  altCostume = {
+    { name = "Nodoka (Hot Springs)", model = E_MODEL_NODOKA2, desc = 'She watches you bathe', cmdId = 'nodoka2', lifeIcon = TEX_NODOKA2 },
+  },
   cmdId = 'nodoka'
 }
 
