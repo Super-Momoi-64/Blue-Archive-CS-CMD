@@ -1,0 +1,43 @@
+name: Archive CS Packs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get date and commit hash
+        run: |
+          echo "FULL_SHA=$GITHUB_SHA" >> $GITHUB_ENV
+          TODAY=$(date +"%B-%d-%Y" | tr '[:upper:]' '[:lower:]')
+          echo "ARTIFACT_NAME=blue_archive_mod_pack_${TODAY}" >> $GITHUB_ENV
+
+      - name: Create ReadMe file
+        run: |
+          echo "Commit: $FULL_SHA" > "[ReadMe] Place everything inside mods folder.txt"
+          echo "" >> "[ReadMe] Place everything inside mods folder.txt"
+          echo "Move everything to the mods folder and enable the mods:" >> "[ReadMe] Place everything inside mods folder.txt"
+          echo "-> Blue Archive Main (Required)" >> "[ReadMe] Place everything inside mods folder.txt"
+          echo "-> Packs of your choice" >> "[ReadMe] Place everything inside mods folder.txt"
+
+      - name: Move folders and readme to temporary folder
+        run: |
+          mkdir mod_archive
+          mv "[CS-CMD] BlueArchiveMain" mod_archive/
+          mv "[CS-CMD] BlueArchivePack1" mod_archive/
+          mv "[CS-CMD] BlueArchivePack2" mod_archive/
+          mv "[CS-CMD] BlueArchivePack3" mod_archive/
+          mv "[CS-CMD] BlueArchivePack4" mod_archive/
+          mv "[ReadMe] Place everything inside mods folder.txt" mod_archive/
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: mod_archive
+          compression-level: 9
