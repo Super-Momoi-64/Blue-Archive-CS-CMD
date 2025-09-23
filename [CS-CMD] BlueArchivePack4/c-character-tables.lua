@@ -457,3 +457,19 @@ BA_CHAR[E_MODEL_MERU] = {
   altCostume = nil,
   cmdId = 'meru'
 }
+
+BA_CHAR[E_MODEL_CHIAKI] = {
+  name = "Chiaki",
+  description = {
+    "Look under your desk"
+  },
+  school = "Gehenna",
+  credit = "HerosLight",
+  color = { r = 224, g = 136, b = 112 },
+  model = E_MODEL_CHIAKI,
+  forceChar = CT_MARIO,
+  lifeIcon = TEX_CHIAKI,
+  voiceTable = VT_NOVOICE,
+  altCostume = nil,
+  cmdId = 'chiaki'
+}
