@@ -836,3 +836,32 @@ VT_MERU = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'Meru_YAH_WAH_HOO.ogg', 'Meru_YAH_WAH_HOO2.ogg' },        -- 1st Jump(s)
   [CHAR_SOUND_EEUH] = { 'Meru_LETSAGO.ogg' },											-- Slow climb from ledge
 }
+
+VT_CHIAKI = {
+  [CHAR_SOUND_ATTACKED] = { 'chiaki_dmg1.mp3', 'chiaki_dmg2.mp3' },
+  [CHAR_SOUND_DOH] = 'chiaki_are.mp3',                                              -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'chiaki_dead1.mp3', 'chiaki_dead2.mp3' },
+  [CHAR_SOUND_HAHA] = { 'chiaki_wuhaa.mp3' },       								-- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'chiaki_star2.mp3', 'chiaki_star4.mp3', 'chiaki_star5.mp3' }, 				-- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'chiaki_levelstart.mp3' },                           -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'chiaki_levelexit.mp3' },      						-- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'chiaki_grab.mp3',                                      -- Object Pick-up
+  [CHAR_SOUND_HOOHOO] = { 'chiaki_atk4.mp3' },                                      -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },                                    -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'chiaki_wah4.mp3',                                           -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'chiaki_dmg2.mp3',                                         -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'chiaki_atk3.mp3' },                                 -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'chiaki_atk1.mp3',                                     -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'chiaki_atk2.mp3',                                     -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'chiaki_bthrow.mp3' },                       -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'chiaki_throw1.mp3', 'chiaki_throw2.mp3' },                                 -- Throw Object
+  [CHAR_SOUND_UH] = 'chiaki_wah3.mp3',                                           -- Drop off of ledge + Fall off Ledge
+  --[CHAR_SOUND_UH2] = { 'rei_atk2.mp3' },              					-- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'chiaki_fall.mp3',                                   -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                              -- Boing
+  [CHAR_SOUND_WHOA] = { 'chiaki_ledgegrab.mp3', 'chiaki_wah.mp3' },                                         -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'chiaki_atk3.mp3' },                                -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'chiaki_atk3.mp3' },                    -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'chiaki_jump.mp3', 'chiaki_atk2.mp3' },                                 -- 1st Jump(s)
+  [CHAR_SOUND_IMA_TIRED] = 'chiaki_relax.mp3',
+}

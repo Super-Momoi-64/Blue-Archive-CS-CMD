@@ -469,7 +469,7 @@ BA_CHAR[E_MODEL_CHIAKI] = {
   model = E_MODEL_CHIAKI,
   forceChar = CT_MARIO,
   lifeIcon = TEX_CHIAKI,
-  voiceTable = VT_NOVOICE,
+  voiceTable = VT_CHIAKI,
   altCostume = nil,
   cmdId = 'chiaki'
 }
