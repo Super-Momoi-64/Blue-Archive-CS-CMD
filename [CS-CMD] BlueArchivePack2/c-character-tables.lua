@@ -523,8 +523,9 @@ BA_CHAR[E_MODEL_TOKI] = {
   voiceTable = VT_TOKI,
   altCostume = {
     { name = "Toki (Combat)", model = E_MODEL_TOKI_COMBAT, desc = "Ready for Combat", cmdId = 'toki2' },
-	{ name = "Toki (Maid)", model = E_MODEL_TOKI_MAID, desc = "At the very least, I can make tea.", cmdId = 'toki3' },
+	{ name = "Toki (Maid)", model = E_MODEL_TOKI_MAID, desc = "At the very least, she can make tea.", cmdId = 'toki3' },
 	{ name = "Toki (Bunny)", model = E_MODEL_TOKI_BUNNY, desc = "Pyon", cmdId = 'toki4', lifeIcon = TEX_TOKI2 },
+	{ name = "Toki (School)", model = E_MODEL_TOKI_SCHOOL, desc = "Official school alt, when?", cmdId = 'toki5', lifeIcon = TEX_TOKI3 },
   },
   cmdId = 'toki'
 }
