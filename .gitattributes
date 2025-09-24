@@ -13,7 +13,7 @@
 *.ld text
 *.inc text
 *.txt text
-*.lua text
+*.lua text eol=crlf
 *.json text
 *.yaml text
 
