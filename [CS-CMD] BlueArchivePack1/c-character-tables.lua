@@ -63,6 +63,7 @@ BA_CHAR[E_MODEL_MOMOI] = {
   voiceTable = VT_MOMOI,
   altCostume = {
     { name = "Momoi (Maid)", model = E_MODEL_MOMOI2, desc = 'Gamer Maid', cmdId = 'momoi2', lifeIcon = TEX_MOMOI2 },
+	{ name = "Momoi (Bunny)", model = E_MODEL_MOMOI3, desc = 'Sexy Gamer Bunny', cmdId = 'momoi3', lifeIcon = TEX_MOMOI3 },
   },
   cmdId = 'momoi'
 }

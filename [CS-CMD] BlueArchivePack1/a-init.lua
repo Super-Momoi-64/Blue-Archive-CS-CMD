@@ -5,6 +5,7 @@ TEXT_MOD_NAME = "Blue Archive Pack " .. PACK_ID
 -- Custom Models
 E_MODEL_MOMOI = smlua_model_util_get_id("momoi_geo")
 E_MODEL_MOMOI2 = smlua_model_util_get_id("momoi2_geo")
+E_MODEL_MOMOI3 = smlua_model_util_get_id("momoi3_geo")
 E_MODEL_MIDORI = smlua_model_util_get_id("midori_geo")
 E_MODEL_MIDORI2 = smlua_model_util_get_id("midori2_geo")
 E_MODEL_MIDORI3 = smlua_model_util_get_id("midori3_geo")
@@ -58,6 +59,7 @@ E_MODEL_NATSU2 = smlua_model_util_get_id("natsu2_geo")
 -- Custom Texture Icons
 TEX_MOMOI = get_texture_info("Momoi_Icon")
 TEX_MOMOI2 = get_texture_info("maidmomoiicon")
+TEX_MOMOI3 = get_texture_info("bunnymoiicon")
 TEX_MIDORI = get_texture_info("Midori_Icon")
 TEX_MIDORI2 = get_texture_info("maidmidori_icon")
 TEX_MIDORI3 = get_texture_info("bmidori_icon")
