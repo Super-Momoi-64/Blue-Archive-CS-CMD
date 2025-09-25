@@ -180,7 +180,7 @@ function mario_update(m)
           marioAnimID == MARIO_ANIM_FIRST_PERSON) and
         enableCustomIdle == true then
       -- if _G.baCustomIdleExists == true and m.action == ACT_IDLE then
-      smlua_anim_util_set_animation(m.marioObj, 'blue_archive_idle')
+      smlua_anim_util_set_animation(m.marioObj, 'blue_archive_idle2')
     end
     local tx = m.marioBodyState.torsoAngle.x
     local tz = m.marioBodyState.torsoAngle.z
