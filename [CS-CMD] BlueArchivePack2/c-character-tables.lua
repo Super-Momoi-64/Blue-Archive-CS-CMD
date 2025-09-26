@@ -592,7 +592,9 @@ BA_CHAR[E_MODEL_SSMG] = {
   forceChar = CT_MARIO,
   lifeIcon = TEX_SSMG,
   voiceTable = VT_NOVOICE,
-  altCostume = nil,
+  altCostume = {
+    { name = "Sukeban (HMG)", model = E_MODEL_SHMG, desc = '', voiceTable = VT_NOVOICE, cmdId = 'sukeban2', lifeIcon = TEX_SHMG },
+  },
   cmdId = 'sukeban'
 }
 

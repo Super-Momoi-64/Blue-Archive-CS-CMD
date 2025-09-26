@@ -54,6 +54,7 @@ E_MODEL_MIYU2 = smlua_model_util_get_id("miyu2_geo")
 E_MODEL_KEI = smlua_model_util_get_id("kei_geo")
 E_MODEL_KEI2 = smlua_model_util_get_id("kei2_geo")
 E_MODEL_SSMG = smlua_model_util_get_id("sukeban_smg_geo")
+E_MODEL_SHMG = smlua_model_util_get_id("skbhmg_geo")
 E_MODEL_HG01 = smlua_model_util_get_id("HG01_geo")
 
 -- Custom Texture Icons
@@ -104,4 +105,5 @@ TEX_MIKA2 = get_texture_info("mikaswimicon")
 TEX_KEI = get_texture_info("keiicon")
 TEX_KEI2 = get_texture_info("kei2icon")
 TEX_SSMG = get_texture_info("ssmgicon")
+TEX_SHMG = get_texture_info("Sukeban_HMG1")
 TEX_HG01 = get_texture_info("hg01icon")
