@@ -17,7 +17,7 @@
 
 
 local setModelId = nil
-local enableCustomIdle = true
+enableCustomIdle = true
 local enableNameTag = true
 
 local defaultChar = {
@@ -172,28 +172,7 @@ function mario_update(m)
       m.marioObj.hookRender = 0;
     end
     eye_state_handler(m)
-    -- Do stuff for each BA character
-    local marioAnimID = m.marioObj.header.gfx.animInfo.animID
-    if (marioAnimID == MARIO_ANIM_IDLE_HEAD_LEFT or
-          marioAnimID == MARIO_ANIM_IDLE_HEAD_RIGHT or
-          marioAnimID == MARIO_ANIM_IDLE_HEAD_CENTER or
-          marioAnimID == MARIO_ANIM_FIRST_PERSON) and
-        enableCustomIdle == true then
-      -- if _G.baCustomIdleExists == true and m.action == ACT_IDLE then
-      smlua_anim_util_set_animation(m.marioObj, 'blue_archive_idle2')
-    end
-    local tx = m.marioBodyState.torsoAngle.x
-    local tz = m.marioBodyState.torsoAngle.z
-    if m.action == ACT_WALKING then
-        -- Remove torso tilting forward
-        m.marioBodyState.torsoAngle.x = -10
-      m.marioBodyState.torsoAngle.z = -10
-    end
-    -- Remove/Reduce tilt when riding on shells
-    if m.action == ACT_RIDING_SHELL_GROUND then
-      m.marioBodyState.torsoAngle.x = -10
-      m.marioBodyState.torsoAngle.z = tz * 0.7
-    end
+    animation_handler(m, playerModelId)
   end
 end
 

@@ -120,17 +120,17 @@ local function character_table_add(ct)
   -- Store all the modelIds
   baCharacterTable[ct.model] = true
   -- Initiate Base animations
-  -- ANIM_TABLE_CHAR[ct.model] = table_shallow_copy(ANIM_TABLE_CHAR_BASE)
+  ANIM_TABLE_CHAR[ct.model] = table_shallow_copy(ANIM_TABLE_CHAR_BASE)
   -- Overwrite/Add unique animations
-  -- update_animation_table(ct.model, ct.cmdId)
+  update_animation_table(ct.model, ct.cmdId)
   if ct.altCostume ~= nil then
     for j = 1, #ct.altCostume do
       local alt = ct.altCostume[j]
       baCharacterTable[alt.model] = true
       -- Initiate Base animations for alt
-      -- ANIM_TABLE_CHAR[alt.model] = table_shallow_copy(ANIM_TABLE_CHAR_BASE)
+      ANIM_TABLE_CHAR[alt.model] = table_shallow_copy(ANIM_TABLE_CHAR_BASE)
       -- Overwrite/Add unique animations for alt
-      -- update_animation_table(alt.model, alt.cmdId)
+      update_animation_table(alt.model, alt.cmdId)
     end
   end
   table_insert(unsortedCharacterTable, ct)
@@ -309,3 +309,20 @@ function get_sorted_keys(table, compare)
   end
   return keys
 end
+
+---@param hookEventType LuaHookedEventType
+local function create_hook_wrapper(hookEventType)
+  local callbacks = {}
+
+  hook_event(hookEventType, function(...)
+    for _, func in pairs(callbacks) do
+      func(...)
+    end
+  end)
+
+  return function(func)
+    table.insert(callbacks, func)
+  end
+end
+
+ba_hook_mario_update = create_hook_wrapper(HOOK_MARIO_UPDATE)

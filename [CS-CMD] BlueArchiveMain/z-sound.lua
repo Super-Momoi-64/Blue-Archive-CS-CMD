@@ -61,21 +61,6 @@ local function stop_all_custom_character_sounds()
   end
 end
 
---[[local function stop_custom_character_sound(m, sound)
-    local voiceTable = character_get_voice(m)
-    -- if there's no pointer then it must be a sound clip table
-    if type(voiceTable[sound]) == "string" then return end
-    if voiceTable[sound]._pointer == nil then
-        for voice in pairs(voiceTable[sound]) do
-            if type(voiceTable[voice]) == "string" then
-                break
-            end
-            audio_sample_stop(voiceTable[sound][voice])
-        end
-    else
-        audio_sample_stop(voiceTable[sound])
-    end
-end]]
 
 local playerSample = {}
 for i = 0, MAX_PLAYERS - 1 do
@@ -85,29 +70,38 @@ end
 --- @param m MarioState
 --- @param sound CharacterSound
 local function custom_character_sound(m, sound)
-  if m.playerIndex == 0 then
-    if stallTimer < stallSayLine - 1 then
+  if sound ~= CHAR_SOUND_OOOF2 and sound ~= CHAR_SOUND_HAHA and m.playerIndex == 0 then
+    if stallTimer < stallSayLine then
       return NO_SOUND
     end
   end
   local index = m.playerIndex
-  if check_sound_exists(playerSample[index]) and type(playerSample[index]) ~= TYPE_STRING then
+  if sound ~= CHAR_SOUND_OOOF2 and sound ~= CHAR_SOUND_HAHA and check_sound_exists(playerSample[index]) and type(playerSample[index]) ~= TYPE_STRING then
     audio_sample_stop(playerSample[index])
   end
-  -- if optionTable[optionTableRef.localVoices].toggle == 0 then return NO_SOUND end
+
+
+  --- load samples that haven't been loaded
+  ---@param vt table
+  local function check_and_load_voice(vt)
+    for voice, name in pairs(vt) do
+      if type(name) == TYPE_TABLE then
+        check_and_load_voice(name)
+      end
+      if check_sound_exists(vt[voice]) and type(vt[voice]) == "string" then
+        local load = audio_sample_load(name)
+        if load ~= nil then
+          vt[voice] = load
+        end
+      end
+    end
+  end
 
   -- get the voice table
   local voiceTable = character_get_voice(m)
   if voiceTable == nil then return end
   -- load samples that haven't been loaded
-  for voice, name in pairs(voiceTable) do
-    if check_sound_exists(voiceTable[voice]) and type(voiceTable[voice]) == "string" then
-      local load = audio_sample_load(name)
-      if load ~= nil then
-        voiceTable[voice] = load
-      end
-    end
-  end
+  check_and_load_voice(voiceTable)
 
   -- get the sample to play
   local voice = voiceTable[sound]
@@ -196,7 +190,7 @@ local function update()
 end
 
 hook_event(HOOK_UPDATE, update)
-hook_event(HOOK_ON_LEVEL_INIT, stop_all_custom_character_sounds)
+-- hook_event(HOOK_ON_LEVEL_INIT, stop_all_custom_character_sounds)
 
 _G.baMain.voice = {
   sound = custom_character_sound,
@@ -206,7 +200,8 @@ _G.baMain.voice = {
 -- Must be ran on startup
 local function config_character_sounds()
   hook_event(HOOK_CHARACTER_SOUND, custom_character_sound)
-  hook_event(HOOK_MARIO_UPDATE, custom_character_snore)
+  -- hook_event(HOOK_MARIO_UPDATE, custom_character_snore)
+  ba_hook_mario_update(custom_character_snore)
 end
 _G.baMain.config_character_sounds = config_character_sounds
 
@@ -220,4 +215,5 @@ local function mario_update(m)
     stallTimer = stallTimer + 1
   end
 end
-hook_event(HOOK_MARIO_UPDATE, mario_update)
+-- hook_event(HOOK_MARIO_UPDATE, mario_update)
+ba_hook_mario_update(mario_update)
