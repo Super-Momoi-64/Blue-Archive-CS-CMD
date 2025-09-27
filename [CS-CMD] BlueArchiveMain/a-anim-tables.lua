@@ -53,3 +53,13 @@ ANIM_TABLE_UNIQUE['mika2'] = {
   [CHAR_ANIM_IDLE_HEAD_CENTER] = "midori_npc_idle",
 }
 
+ANIM_TABLE_UNIQUE['toki'] = {
+  [CHAR_ANIM_IDLE_HEAD_LEFT] = { anim = "toki_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_IDLE_HEAD_RIGHT] = { anim = "toki_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_IDLE_HEAD_CENTER] = { anim = "toki_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "toki_npc_walk", hand = MARIO_HAND_FISTS },
+}
+ANIM_TABLE_UNIQUE["toki2"] = ANIM_TABLE_UNIQUE["toki"]
+ANIM_TABLE_UNIQUE["toki3"] = ANIM_TABLE_UNIQUE["toki"]
+ANIM_TABLE_UNIQUE["toki4"] = ANIM_TABLE_UNIQUE["toki"]
+ANIM_TABLE_UNIQUE["toki5"] = ANIM_TABLE_UNIQUE["toki"]
