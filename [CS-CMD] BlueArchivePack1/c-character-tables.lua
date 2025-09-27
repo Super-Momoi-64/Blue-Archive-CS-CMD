@@ -173,8 +173,7 @@ BA_CHAR[E_MODEL_AZUSA] = {
   voiceTable = VT_AZUSA,
   altCostume = {
 --    { name = "Azoosa", model = E_MODEL_AZUSA2, desc = 'Vanilla Vitamins', cmdId = 'azusa2' },
---    { name = "Azusa (Swimsuit)", model = E_MODEL_AZUSA3, desc = 'Vanitas Vanitatum', cmdId = 'azusa3', lifeIcon = TEX_AZUSA2, credit="MiyuEnjoyer" },
-    { name = "Mari (Idol)", model = E_MODEL_AZUSA3, desc = 'Not a nun...?', cmdId = 'azusa3', lifeIcon = TEX_IMARI, credit="MiyuEnjoyer" },
+    { name = "Azusa (Swimsuit)", model = E_MODEL_AZUSA3, desc = 'Vanitas Vanitatum', cmdId = 'azusa3', lifeIcon = TEX_AZUSA2, credit="MiyuEnjoyer" },
   },
   cmdId = 'azusa'
 }
@@ -246,7 +245,7 @@ BA_CHAR[E_MODEL_HIYORI] = {
   lifeIcon = TEX_HIYORI,
   voiceTable = VT_HIYORI,
   altCostume = {
-    { name = "Hiyori (Lightsaber)", model = E_MODEL_HIYORI2, desc = 'Meme', cmdId = 'hiyori2' },
+--    { name = "Hiyori (Lightsaber)", model = E_MODEL_HIYORI2, desc = 'Meme', cmdId = 'hiyori2' },
 	{ name = "Hiyori (Swimsuit)", model = E_MODEL_HIYORI3, desc = 'Fun Fact: She has the biggest chibi breast in the game', cmdId = 'hiyori3', lifeIcon = TEX_HIYORI2, credit="MiyuEnjoyer" },
   },
   cmdId = 'hiyori'
@@ -372,6 +371,7 @@ BA_CHAR[E_MODEL_MARI] = {
   voiceTable = VT_MARI,
   altCostume = {
     { name = "Mari (Sportswear)", model = E_MODEL_SPMARI, desc = 'Not a fox', cmdId = 'mari2' },
+    { name = "Mari (Idol)", model = E_MODEL_IMARI, desc = 'Not a chihuahua', cmdId = 'mari3', lifeIcon = TEX_IMARI, credit="MiyuEnjoyer" },
   },
   cmdId = 'mari'
 }
