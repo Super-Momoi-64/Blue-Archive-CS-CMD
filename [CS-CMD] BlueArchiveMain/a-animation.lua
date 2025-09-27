@@ -41,10 +41,15 @@ function animation_handler(m, playerModelId)
     if customAnim then
       if type(customAnim) == "string" then
         smlua_anim_util_set_animation(m.marioObj, customAnim)
+        -- Remove acceleration from walking animation
+        if marioAnimID == MARIO_ANIM_TIPTOE then
+          set_mario_anim_with_accel(m, marioAnimID, 0)
+        end
       end
     end
 
   end
+
 
   --- Section for adjusting tilt
   local tx = m.marioBodyState.torsoAngle.x
@@ -55,7 +60,7 @@ function animation_handler(m, playerModelId)
     m.marioBodyState.torsoAngle.z = -10
   end
   -- Remove/Reduce tilt when riding on shells
-  if m.action == ACT_RIDING_SHELL_GROUND then
+  if m.action == ACT_RIDING_SHELL_GROUND or m.action == ACT_BUTT_SLIDE then
     m.marioBodyState.torsoAngle.x = -10
     m.marioBodyState.torsoAngle.z = tz * 0.7
   end

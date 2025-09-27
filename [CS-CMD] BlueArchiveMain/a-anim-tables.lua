@@ -58,8 +58,16 @@ ANIM_TABLE_UNIQUE['toki'] = {
   [CHAR_ANIM_IDLE_HEAD_RIGHT] = { anim = "toki_npc_idle", hand = MARIO_HAND_FISTS },
   [CHAR_ANIM_IDLE_HEAD_CENTER] = { anim = "toki_npc_idle", hand = MARIO_HAND_FISTS },
   [CHAR_ANIM_WALKING] = { anim = "toki_npc_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_START_TIPTOE] = { anim = "toki_npc_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_TIPTOE] = { anim = "toki_npc_walk", hand = MARIO_HAND_FISTS },
 }
 ANIM_TABLE_UNIQUE["toki2"] = ANIM_TABLE_UNIQUE["toki"]
 ANIM_TABLE_UNIQUE["toki3"] = ANIM_TABLE_UNIQUE["toki"]
 ANIM_TABLE_UNIQUE["toki4"] = ANIM_TABLE_UNIQUE["toki"]
 ANIM_TABLE_UNIQUE["toki5"] = ANIM_TABLE_UNIQUE["toki"]
+
+ANIM_TABLE_UNIQUE['moe2'] = {
+  [CHAR_ANIM_IDLE_HEAD_LEFT] = "moeswim_npc_idle",
+  [CHAR_ANIM_IDLE_HEAD_RIGHT] = "moeswim_npc_idle",
+  [CHAR_ANIM_IDLE_HEAD_CENTER] = "moeswim_npc_idle",
+}
