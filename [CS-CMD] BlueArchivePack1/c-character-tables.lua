@@ -153,7 +153,7 @@ BA_CHAR[E_MODEL_ATSUKO] = {
   voiceTable = VT_ATSUKO,
   altCostume = {
     { name = "Atsuko Masked", model = E_MODEL_ATSUKO2, desc = 'Masked Hime', cmdId = 'atsuko2' },
-    { name = "Atsuko Funny",  model = E_MODEL_ATSUKO3, desc = 'Meme',        cmdId = 'atsuko3' },
+    -- { name = "Atsuko Funny",  model = E_MODEL_ATSUKO3, desc = 'Meme',        cmdId = 'atsuko3' },
   },
   cmdId = 'atsuko'
 }
