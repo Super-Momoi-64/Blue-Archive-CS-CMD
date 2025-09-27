@@ -101,7 +101,7 @@ BA_CHAR[E_MODEL_YUZU] = {
   voiceTable = VT_YUZU,
   altCostume = {
     { name = "Yuzu (Maid)", model = E_MODEL_YUZU2, desc = 'Gamer Maid', cmdId = 'yuzu2', lifeIcon = TEX_YUZU2 },
-	{ name = "Yuzu (Bunny)", model = E_MODEL_YUZU3, desc = 'Gamer Bunny', cmdId = 'yuzu3', lifeIcon = TEX_YUZU2, credit="MiyuEnjoyer" },
+	{ name = "Yuzu (Bunny)", model = E_MODEL_YUZU3, desc = 'Gamer Bunny', cmdId = 'yuzu3', lifeIcon = TEX_YUZU3, credit="MiyuEnjoyer" },
   },
   cmdId = 'yuzu'
 }
@@ -173,7 +173,8 @@ BA_CHAR[E_MODEL_AZUSA] = {
   voiceTable = VT_AZUSA,
   altCostume = {
 --    { name = "Azoosa", model = E_MODEL_AZUSA2, desc = 'Vanilla Vitamins', cmdId = 'azusa2' },
-    { name = "Azusa (Swimsuit)", model = E_MODEL_AZUSA3, desc = 'Vanitas Vanitatum', cmdId = 'azusa3', lifeIcon = TEX_AZUSA2, credit="MiyuEnjoyer" },
+--    { name = "Azusa (Swimsuit)", model = E_MODEL_AZUSA3, desc = 'Vanitas Vanitatum', cmdId = 'azusa3', lifeIcon = TEX_AZUSA2, credit="MiyuEnjoyer" },
+    { name = "Mari (Idol)", model = E_MODEL_AZUSA3, desc = 'Not a nun...?', cmdId = 'azusa3', lifeIcon = TEX_IMARI, credit="MiyuEnjoyer" },
   },
   cmdId = 'azusa'
 }
