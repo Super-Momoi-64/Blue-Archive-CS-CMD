@@ -101,6 +101,7 @@ BA_CHAR[E_MODEL_YUZU] = {
   voiceTable = VT_YUZU,
   altCostume = {
     { name = "Yuzu (Maid)", model = E_MODEL_YUZU2, desc = 'Gamer Maid', cmdId = 'yuzu2', lifeIcon = TEX_YUZU2 },
+	{ name = "Yuzu (Bunny)", model = E_MODEL_YUZU3, desc = 'Gamer Bunny', cmdId = 'yuzu3', lifeIcon = TEX_YUZU2, credit="MiyuEnjoyer" },
   },
   cmdId = 'yuzu'
 }
@@ -171,7 +172,7 @@ BA_CHAR[E_MODEL_AZUSA] = {
   lifeIcon = TEX_AZUSA,
   voiceTable = VT_AZUSA,
   altCostume = {
-    { name = "Azoosa", model = E_MODEL_AZUSA2, desc = 'Vanilla Vitamins', cmdId = 'azusa2' },
+--    { name = "Azoosa", model = E_MODEL_AZUSA2, desc = 'Vanilla Vitamins', cmdId = 'azusa2' },
     { name = "Azusa (Swimsuit)", model = E_MODEL_AZUSA3, desc = 'Vanitas Vanitatum', cmdId = 'azusa3', lifeIcon = TEX_AZUSA2, credit="MiyuEnjoyer" },
   },
   cmdId = 'azusa'
