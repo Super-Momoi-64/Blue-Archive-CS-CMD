@@ -6,6 +6,12 @@ ANIM_TABLE_CHAR_BASE = {
   [CHAR_ANIM_IDLE_HEAD_CENTER] = "blue_archive_idle_edited_wider",
 }
 
+HAND_STATE_BASE = {
+  [CHAR_ANIM_IDLE_HEAD_LEFT] = MARIO_HAND_OPEN,
+  [CHAR_ANIM_IDLE_HEAD_RIGHT] = MARIO_HAND_OPEN,
+  [CHAR_ANIM_IDLE_HEAD_CENTER] = MARIO_HAND_OPEN,
+}
+
 -- Character Animations index by their modelId
 ANIM_TABLE_CHAR = {}
 
@@ -21,9 +27,23 @@ function animation_handler(m, playerModelId)
     local marioAnimID = m.marioObj.header.gfx.animInfo.animID
     -- Get the specific custom animation
     local customAnim = playerAnimTable[marioAnimID]
-    if customAnim then
-      smlua_anim_util_set_animation(m.marioObj, customAnim)
+    -- If table, then it may be anim, hand state
+    if type(customAnim) == "table" then
+      -- Try getting hand state before setting anim
+      local handState = customAnim.hand
+      -- Set to anim
+      customAnim = customAnim.anim
+      -- Set hand state
+      if handState then
+        m.marioBodyState.handState = handState
+      end
     end
+    if customAnim then
+      if type(customAnim) == "string" then
+        smlua_anim_util_set_animation(m.marioObj, customAnim)
+      end
+    end
+
   end
 
   --- Section for adjusting tilt
