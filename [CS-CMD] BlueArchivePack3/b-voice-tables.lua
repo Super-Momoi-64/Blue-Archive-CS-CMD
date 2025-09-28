@@ -119,97 +119,7 @@ VT_KISAKI = {
   [CHAR_SOUND_YAWNING] = { 'kisaki_hm1.mp3' },
 }
 
-VT_HIFUMI = {
-  [CHAR_SOUND_ATTACKED] = { 'hifumi_dmg2.mp3', 'hifumi_dmg4.mp3' },
-  [CHAR_SOUND_DOH] = 'hifumi_eh1.mp3',              -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'hifumi_dead1.mp3' },
-  [CHAR_SOUND_EEUH] = { 'hifumi_slowclimb.mp3' },   -- Slow Get up from ledge
-  [CHAR_SOUND_HAHA] = {'hifumi_ahaha.mp3'}, -- Landing after backflip
-  [CHAR_SOUND_HERE_WE_GO] = { 'hifumi_star1.mp3' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'hifumi_atk4.mp3' },      -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',     -- Object Pick-up
-  [CHAR_SOUND_IMA_TIRED] = 'hifumi_tired.mp3',
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'hifumi_atk2.mp3' },
-  [CHAR_SOUND_LETS_A_GO] = { 'hifumi_ls.mp3' },                                           -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'hifumi_levelexit.mp3' },                                     -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'hifumi_dmg3.mp3' },                                           -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'hifumi_are1.mp3',                                                  -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'hifumi_dmg1.mp3',                                                 -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'hifumi_atk2.mp3' },                                         -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'hifumi_atk4.mp3',                                             -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'hifumi_atk3.mp3',                                             -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'hifumi_longjump.mp3' },                               -- Bowser Throw
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                   -- Boing
-  [CHAR_SOUND_UH] = 'hifumi_wah1.mp3',                                                    -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_UH2] = { 'hifumi_atk3.mp3' },                                               -- Quick Ledge Get-Up
-  [CHAR_SOUND_WAAAOOOW] = 'hifumi_fall.mp3',                                              -- Falling
-  [CHAR_SOUND_WAH2] = { 'hifumi_atk1.mp3' },                                              -- Throw Object
-  [CHAR_SOUND_WHOA] = 'hifumi_wah2.mp3',                                                  -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'hifumi_longjump.mp3' },                                         -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'hifumi_atk2.mp3' },                                 -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'hifumi_atk3.mp3', 'hifumi_atk6.mp3', 'hifumi_atk5.mp3' }, -- 1st Jump(s)
-}
 
-VT_KOHARU = {
-  [CHAR_SOUND_ATTACKED] = { 'koharu_dmg4.mp3', 'koharu_dmg6.mp3' },
-  [CHAR_SOUND_DOH] = 'koharu_eh1.mp3',                                  -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'koharu_dead1.mp3', 'koharu_dead2.mp3' },
-  [CHAR_SOUND_HAHA] = { 'koharu_laugh.mp3' },                           -- Landing after backflip
-  [CHAR_SOUND_HERE_WE_GO] = { 'koharu_star1.mp3', 'koharu_star2.mp3' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'koharu_atk4.mp3' },                          -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                         -- Object Pick-up
-  [CHAR_SOUND_IMA_TIRED] = 'koharu_tired.mp3',
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'koharu_atk5.mp3' },
-  [CHAR_SOUND_LETS_A_GO] = { 'koharu_ls1.mp3' },                              -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'koharu_deathpenalty.mp3' },                      -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'koharu_dmg3.mp3' },                               -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'koharu_are1.mp3',                                      -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'koharu_dmg1.mp3',                                     -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'koharu_atk5.mp3' },                             -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'koharu_atk3.mp3',                                 -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'koharu_atk1.mp3',                                 -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'koharu_bthrow.mp3' },                     -- Bowser Throw
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                       -- Boing
-  [CHAR_SOUND_UH] = 'koharu_are1.mp3',                                        -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_UH2] = { 'koharu_atk1.mp3' },                                   -- Quick Ledge Get-Up
-  [CHAR_SOUND_WAAAOOOW] = 'koharu_fall.mp3',                                  -- Falling
-  [CHAR_SOUND_WAH2] = { 'koharu_echidame.mp3' },                              -- Throw Object
-  [CHAR_SOUND_WHOA] = 'koharu_eh1.mp3',                                       -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'koharu_jump2.mp3' },                                -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'koharu_jump1.mp3', 'koharu_atk6.mp3' }, -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'koharu_atk1.mp3', 'koharu_atk3.mp3' },        -- 1st Jump(s)
-}
-
-VT_HANAKO = {
-  [CHAR_SOUND_ATTACKED] = { 'hanako_dmg1.mp3', 'hanako_dmg2.mp3', 'hanako_dmg5.mp3' },
-  [CHAR_SOUND_DOH] = 'hanako_ah.mp3',                                                       -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'hanako_dead1.mp3' },
-  [CHAR_SOUND_EEUH] = { 'hanako_slowclimb.mp3' },                                           -- Slow Get up from ledge
-  [CHAR_SOUND_HAHA] = { 'hanako_laugh.mp3' },                                               -- Landing after backflip
-  [CHAR_SOUND_HERE_WE_GO] = { 'hanako_star1.mp3', 'hanako_star2.mp3', 'hanako_star3.mp3' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'hanako_atk2.mp3' },                                              -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                             -- Object Pick-up
-  --[CHAR_SOUND_IMA_TIRED] = 'kisaki_rest.mp3',
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'hanako_atk7.mp3' },
-  [CHAR_SOUND_LETS_A_GO] = { 'hanako_ls1.mp3' },                       -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'hanako_begentle.mp3' },                   -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'hanako_dmg6.mp3' },                        -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'hanako_ara1.mp3',                               -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'hanako_ara3.mp3',                              -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'hanako_atk3.mp3' },                      -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'hanako_atk4.mp3',                          -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'hanako_atk1.mp3',                          -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'hanako_bthrow.mp3' },              -- Bowser Throw
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                -- Boing
-  [CHAR_SOUND_UH] = 'hanako_eh.mp3',                                   -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_UH2] = { 'hanako_atk1.mp3' },                            -- Quick Ledge Get-Up
-  [CHAR_SOUND_WAAAOOOW] = 'hanako_gasp.mp3',                           -- Falling
-  [CHAR_SOUND_WAH2] = { 'hanako_atk5.mp3' },                           -- Throw Object
-  [CHAR_SOUND_WHOA] = 'hanako_ara2.mp3',                               -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'hanako_atk6.mp3' },                          -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'hanako_atk5.mp3' },              -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'hanako_atk1.mp3', 'hanako_atk8.mp3' }, -- 1st Jump(s)
-}
 
 VT_REIJO = {
   [CHAR_SOUND_ATTACKED] = { 'reijo_dmg2.mp3' },
@@ -242,96 +152,7 @@ VT_REIJO = {
   [CHAR_SOUND_YAWNING] = { 'reijo_yawn.mp3' },
 }
 
-VT_AIRI = {
-  [CHAR_SOUND_ATTACKED] = { 'airi_ehh.mp3' },
-  [CHAR_SOUND_DOH] = 'airi_eh1.mp3',                                 -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'airi_defeat1.mp3' },
-  [CHAR_SOUND_HAHA] = { 'airi_laugh1.mp3' },                         -- Landing after backflip
-  [CHAR_SOUND_HERE_WE_GO] = { 'airi_star1.mp3', 'airi_star2.mp3' },  -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'airi_atk3.mp3' },                         -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'airi_hm1.mp3',                                -- Object Pick-up
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'airi_atk1.mp3' },
-  [CHAR_SOUND_LETS_A_GO] = { 'airi_ls1.mp3' },                       -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'airi_levelexit.mp3', 'airi_pout.mp3' }, -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },                    -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'airi_ah1.mp3',                                -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'airi_dmg1.mp3',                              -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'airi_atk3.mp3' },                      -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'airi_atk6.mp3',                          -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'airi_atk5.mp3',                          -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'airi_bthrow.mp3' },             -- Bowser Throw
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },              -- Boing
-  [CHAR_SOUND_UH] = 'airi_eh2.mp3',                                  -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_UH2] = { 'airi_atk4.mp3' },                            -- Quick Ledge Get-Up
-  [CHAR_SOUND_WAAAOOOW] = 'airi_fall.mp3',                           -- Falling
-  [CHAR_SOUND_WAH2] = { 'airi_throw1.mp3' },                         -- Throw Object
-  [CHAR_SOUND_WHOA] = 'airi_hm1.mp3',                                -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'airi_atk2.mp3' },                          -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'airi_atk2.mp3' },              -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'airi_atk5.mp3', 'airi_atk1.mp3' },   -- 1st Jump(s)
-}
 
-VT_YOSHIMI = {
-  [CHAR_SOUND_ATTACKED] = { 'yosh_dmg3.mp3', 'yosh_dmg2.mp3' },
-  [CHAR_SOUND_DOH] = 'yosh_ah1.mp3',                                                  -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3' },
-  [CHAR_SOUND_HAHA] = { 'yosh_heh.mp3' },                                             -- Landing after backflip
-  [CHAR_SOUND_HERE_WE_GO] = { 'yosh_star1.mp3', 'yosh_star2.mp3', 'yosh_star3.mp3' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'yosh_atk2.mp3' },                                          -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'yosh_hm2.mp3',                                                 -- Object Pick-up
-  [CHAR_SOUND_IMA_TIRED] = 'yosh_tired.mp3',
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'yosh_atk6.mp3' },
-  [CHAR_SOUND_LETS_A_GO] = { 'yosh_ls1.mp3' },                                      -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'yosh_levelexit1.mp3', 'yosh_levelexit2.mp3' },         -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },                                   -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'yosh_grabbed.mp3',                                           -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'yosh_dmg3.mp3',                                             -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'yosh_atk3.mp3' },                                     -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'yosh_atk5.mp3',                                         -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'yosh_atk7.mp3',                                         -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'yosh_bthrow1.mp3' },                            -- Bowser Throw
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                             -- Boing
-  [CHAR_SOUND_UH] = 'yosh_hm2.mp3',                                                 -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_UH2] = { 'yosh_atk4.mp3' },                                           -- Quick Ledge Get-Up
-  [CHAR_SOUND_WAAAOOOW] = 'yosh_fall.mp3',                                          -- Falling
-  [CHAR_SOUND_WAH2] = { 'yosh_throw1.mp3' },                                        -- Throw Object
-  [CHAR_SOUND_WHOA] = 'yosh_are1.mp3',                                              -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'yosh_atk3.mp3' },                                         -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'yosh_atk3.mp3' },                             -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'yosh_atk4.mp3', 'yosh_atk5.mp3', 'yosh_atk7.mp3' }, -- 1st Jump(s)
-  [CHAR_SOUND_YAWNING] = { 'yosh_yawn.mp3' },
-}
-
-VT_HASUMI = {
-  [CHAR_SOUND_ATTACKED] = { 'hasumi_dmg2.mp3' },
-  [CHAR_SOUND_DOH] = 'hasumi_are1.mp3',                                 -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'hasumi_dying.mp3' },
-  [CHAR_SOUND_HAHA] = { 'hasumi_laugh.mp3' },                           -- Landing after backflip
-  [CHAR_SOUND_HERE_WE_GO] = { 'hasumi_star.mp3', 'hasumi_star2.mp3' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'hasumi_jump2_1.mp3' },                       -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                         -- Object Pick-up
-  [CHAR_SOUND_IMA_TIRED] = 'hasumi_hm.mp3',
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'hasumi_groundPound.mp3' },
-  [CHAR_SOUND_LETS_A_GO] = { 'hasumi_letsGo.mp3' },                       -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'hasumi_levelFail.mp3' },                     -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'hasumi_burn.mp3' },                           -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'hasumi_ah1.mp3',                                   -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'hasumi_dmg1.mp3',                                 -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'hasumi_punch2.mp3' },                       -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'hasumi_kick.mp3',                             -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'hasumi_kick.mp3',                             -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'hasumi_bowser.mp3' },                 -- Bowser Throw
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                   -- Boing
-  [CHAR_SOUND_UH] = 'hasumi_ah1.mp3',                                     -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_UH2] = { 'hasumi_jump1_2.mp3' },                            -- Quick Ledge Get-Up
-  [CHAR_SOUND_WAAAOOOW] = 'sfx_ssb64_falling.mp3',                        -- Falling
-  [CHAR_SOUND_WAH2] = { 'hasumi_punch2.mp3', 'hasumi_bowser.mp3' },       -- Throw Object
-  [CHAR_SOUND_WHOA] = 'hasumi_are1.mp3',                                  -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'hasumi_yahoo.mp3' },                            -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'hasumi_yahoo.mp3' },                -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'hasumi_kick.mp3', 'hasumi_jump1_2.mp3' }, -- 1st Jump(s)
-  -- [CHAR_SOUND_YAWNING] = {'hasumi_yawn.mp3'},
-}
 
 VT_SHIZUKO = {
   [CHAR_SOUND_ATTACKED] = { 'shizuko_dmg2.mp3', 'shizuko_wah.mp3' },
@@ -366,36 +187,6 @@ VT_SHIZUKO = {
 
 
 
-VT_SEIA = {
-  [CHAR_SOUND_ATTACKED] = { 'seia_dmg1.mp3' },
-  [CHAR_SOUND_DOH] = 'seia_dmg2.mp3',                                                 -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'seia_dead1.mp3' },
-  [CHAR_SOUND_HAHA] = { 'seia_subarashi.mp3' },                                       -- Landing after backflip
-  [CHAR_SOUND_HERE_WE_GO] = { 'seia_star1.mp3', 'seia_star2.mp3', 'seia_star3.mp3' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'seia_atk2.mp3' },                                          -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                       -- Object Pick-up
-  [CHAR_SOUND_IMA_TIRED] = 'seia_hm2.mp3',
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'seia_atk2.mp3' },
-  [CHAR_SOUND_LETS_A_GO] = { 'seia_ls1.mp3' },                                      -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'seia_levelexit.mp3' },                                 -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },                                   -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'seia_hm1.mp3',                                               -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'seia_dmg2.mp3',                                             -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'seia_atk1.mp3' },                                     -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'seia_atk5.mp3',                                         -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'seia_atk6.mp3',                                         -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'seia_useless.mp3' },                            -- Bowser Throw
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                             -- Boing
-  [CHAR_SOUND_UH] = 'sfx_smrpg_throw.mp3',                                          -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_UH2] = { 'seia_atk2.mp3' },                                           -- Quick Ledge Get-Up
-  [CHAR_SOUND_WAAAOOOW] = 'sfx_ssb64_falling.mp3',                                  -- Falling
-  [CHAR_SOUND_WAH2] = { 'sfx_ssb64_itemthrow.mp3', 'seia_kys.mp3' },                -- Throw Object
-  [CHAR_SOUND_WHOA] = 'seia_hm1.mp3',                                               -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'seia_atk3.mp3' },                                         -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'seia_atk3.mp3', 'seia_atk1.mp3' },                             -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'seia_atk1.mp3', 'seia_atk5.mp3', 'seia_atk7.mp3' }, -- 1st Jump(s)
-  -- [CHAR_SOUND_YAWNING] = {'serika_yawn.mp3'},
-}
 
 
 
@@ -430,36 +221,6 @@ VT_IROHA = {
   [CHAR_SOUND_YAWNING] = { 'iroha_yawn.mp3' },
 }
 
-VT_SUZUMI = {
-  [CHAR_SOUND_ATTACKED] = { 'suzumi_dmg1.mp3' },
-  [CHAR_SOUND_DOH] = 'suzumi_dmg2.mp3', -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'suzumi_dead1.mp3', 'suzumi_dead2.mp3' },
-  --[CHAR_SOUND_HAHA] = {'seia_subarashi.mp3'}, -- Landing after backflip
-  [CHAR_SOUND_HERE_WE_GO] = { 'suzumi_star1.mp3', 'suzumi_star2.mp3', 'suzumi_star3.mp3' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'suzumi_atk2.mp3' },                                              -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                             -- Object Pick-up
-  [CHAR_SOUND_IMA_TIRED] = 'suzumi_humu.mp3',
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'suzumi_atk1.mp3' },
-  [CHAR_SOUND_LETS_A_GO] = { 'suzumi_ls1.mp3' },           -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'suzumi_dead3.mp3' },          -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },          -- Touch Fire
-  --[CHAR_SOUND_OOOF] = 'seia_hm1.mp3', -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'suzumi_dmg2.mp3',                  -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'suzumi_atk5.mp3' },          -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'suzumi_atk2.mp3',              -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'suzumi_atk3.mp3',              -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'suzumi_bthrow1.mp3' }, -- Bowser Throw
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },    -- Boing
-  [CHAR_SOUND_UH] = 'sfx_smrpg_throw.mp3',                 -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_UH2] = { 'suzumi_atk1.mp3' },                -- Quick Ledge Get-Up
-  [CHAR_SOUND_WAAAOOOW] = 'sfx_ssb64_falling.mp3',         -- Falling
-  [CHAR_SOUND_WAH2] = { 'suzumi_bthrow2.mp3' },            -- Throw Object
-  [CHAR_SOUND_WHOA] = 'sfx_ssb64_ledge.mp3',               -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'suzumi_atk5.mp3' },              -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'suzumi_atk5.mp3' },  -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'suzumi_atk1.mp3' },        -- 1st Jump(s)
-  -- [CHAR_SOUND_YAWNING] = {'serika_yawn.mp3'},
-}
 
 
 
