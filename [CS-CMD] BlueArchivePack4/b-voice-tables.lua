@@ -213,35 +213,7 @@ VT_PINA = {
   [CHAR_SOUND_GROUND_POUND_WAH] = { 'Pina_skiai.ogg' },
 }
 
-VT_KANOE = {
-  [CHAR_SOUND_ATTACKED] = { 'Kanoe_ATTACKED1.ogg', 'Kanoe_ATTACKED2.ogg' },
-  [CHAR_SOUND_DOH] = 'Kanoe_ATTACKED1.ogg',                                                      -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'Kanoe_DYING.ogg' },
-  [CHAR_SOUND_HERE_WE_GO] = { 'kanoe_star1.ogg', 'Kanoe_HEREWEGO.ogg' },                         -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                                  -- Object Pick-up
-  [CHAR_SOUND_HOOHOO] = { 'Kanoe_HOOHOO.ogg' },                                                  -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'Kanoe_YAHOO.ogg' },
-  [CHAR_SOUND_HAHA] = { 'Kanoe_HAHA.ogg' },                                                      -- Landing after backflip
-  [CHAR_SOUND_HAHA_2] = 'Kanoe_HAHA.ogg',                                                        -- Landing on Water after a fall
-  [CHAR_SOUND_LETS_A_GO] = { 'kanoe_levelselect.ogg' },                                          -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'kanoe_levelexit.ogg', 'Kanoe_DYING.ogg' },                          -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'Kanoe_ATTACKED2.ogg' },                                              -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'Kanoe_OOOF2.ogg',                                                         -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'Kanoe_OOOF2.ogg',                                                        -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'Kanoe_HAHA.ogg' },                                                 -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'Kanoe_YAH_WAH_HOO2.ogg',                                             -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'kanoe_jump2.ogg',                                                    -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Kanoe_HAHA.ogg' },                                           -- Bowser Throw
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'Kanoe_YAHOO_WAHA_YIPPEE.ogg' },                                 -- Boing
-  [CHAR_SOUND_UH] = 'Kanoe_ATTACKED1.ogg',                                                       -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_UH2] = { 'Kanoe_YAH_WAH_HOO2.ogg' },                                               -- Quick Ledge Get-Up
-  [CHAR_SOUND_WAAAOOOW] = 'sfx_ssb64_falling.mp3',                                               -- Falling
-  [CHAR_SOUND_WAH2] = { 'Kanoe_WAH2.ogg' },                                                      -- Throw Object
-  [CHAR_SOUND_WHOA] = 'Kanoe_OOOF2.ogg',                                                         -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'Kanoe_YAHOO.ogg' },                                                    -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Kanoe_YAHOO_WAHA_YIPPEE.ogg', 'Kanoe_YAH_WAH_HOO.ogg' },   -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'kanoe_jump1.ogg', 'kanoe_jump2.ogg', 'Kanoe_YAH_WAH_HOO.ogg' }, -- 1st Jump(s)
-}
+
 
 VT_UMIKA = {
   [CHAR_SOUND_ATTACKED] = { 'umika_dmg1.ogg', 'umika_dmg2.ogg' }, --
@@ -278,41 +250,6 @@ VT_UMIKA = {
   --[CHAR_SOUND_YAWNING] = nil,
 }
 
-VT_ERI = {
-  [CHAR_SOUND_ATTACKED] = { 'eri_dmg1.ogg', 'eri_dmg2.ogg' },
-  [CHAR_SOUND_DOH] = 'eri_nyuhu.ogg', -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'eri_dead1.ogg' },
-  --[CHAR_SOUND_EEUH] = nil, -- Slow Get up from ledge
-  --[CHAR_SOUND_GAME_OVER] = nil,
-  --[CHAR_SOUND_GROUND_POUND_WAH] = { 'eri_jump3.mp3' },
-  [CHAR_SOUND_HAHA] = 'eri_jajan.ogg', -- Landing after backflip
-  --[CHAR_SOUND_HAHA_2] = nil, -- Landing on Water after a fall
-  --[CHAR_SOUND_HELLO] = nil,
-  [CHAR_SOUND_HERE_WE_GO] = { 'eri_star1.ogg', 'eri_star2.ogg', 'eri_laugh2.ogg' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'eri_jump.ogg' },                                         -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                     -- Object Pick-up
-  --[CHAR_SOUND_IMA_TIRED] = nil,
-  [CHAR_SOUND_LETS_A_GO] = 'eri_levelselect.ogg',                                   -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = 'eri_uu.ogg',                                             -- Getting up after thrown out of level --
-  [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },                                   -- Touch Fire --
-  [CHAR_SOUND_OOOF] = 'eri_nyuhu.ogg',                                              -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'eri_dmg1.ogg',                                              -- Landing After a Bonk + Thrown out of level
-  [CHAR_SOUND_PUNCH_HOO] = { 'eri_longjump.ogg' },                                  -- Kick --
-  [CHAR_SOUND_PUNCH_WAH] = 'eri_atk3.ogg',                                          -- 2nd Punch --
-  [CHAR_SOUND_PUNCH_YAH] = 'eri_atk1.ogg',                                          -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'eri_bowserthrow.ogg' },                         -- Bowser Throw --
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                             -- Boing
-  [CHAR_SOUND_UH] = 'eri_drop.ogg',                                                 -- Drop off of ledge
-  [CHAR_SOUND_UH2] = { 'eri_atk1.ogg' },                                            -- Quick Ledge Get-Up
-  --[CHAR_SOUND_UH2_2] = nil, 															-- Landing after Long Jump
-  [CHAR_SOUND_WAAAOOOW] = 'eri_fall.ogg',                                           -- Falling
-  [CHAR_SOUND_WAH2] = { 'eri_throw.ogg', 'eri_bowserthrow.ogg' },                   -- Throw Object
-  [CHAR_SOUND_WHOA] = 'eri_oh.ogg',                                                 -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'eri_longjump.ogg' },                                      -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'eri_laugh3.ogg' },                            -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'eri_atk1.ogg', 'eri_atk2.ogg', 'eri_atk3.ogg' },    -- 1st Jump(s)
-  [CHAR_SOUND_YAWNING] = { 'eri_yawn.ogg' },
-}
 
 
 

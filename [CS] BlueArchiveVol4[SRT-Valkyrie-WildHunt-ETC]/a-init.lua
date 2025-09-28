@@ -27,6 +27,9 @@ E_MODEL_AKIRA2 = smlua_model_util_get_id("akira2_geo")
 E_MODEL_RABU = smlua_model_util_get_id("rabu_geo")
 E_MODEL_SENSEI = smlua_model_util_get_id("sensei_geo")
 E_MODEL_VALK = smlua_model_util_get_id("valk_geo")
+E_MODEL_KANOE = smlua_model_util_get_id("kanoe_geo")
+E_MODEL_ERI = smlua_model_util_get_id("eri_geo")
+E_MODEL_PNIYA = smlua_model_util_get_id("pniyakzh_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
@@ -51,3 +54,6 @@ TEX_AKIRA = get_texture_info("Akira_Icon")
 TEX_RABU = get_texture_info("Rabu_Icon")
 TEX_SENSEI = get_texture_info('senseiicon')
 TEX_VALK = get_texture_info('valkicon')
+TEX_KANOE = get_texture_info("kanoe_icon")
+TEX_ERI = get_texture_info("eriicon")
+TEX_PNIYA = get_texture_info("pniya_icon")

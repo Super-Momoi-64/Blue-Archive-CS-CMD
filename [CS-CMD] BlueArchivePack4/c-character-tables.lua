@@ -173,35 +173,6 @@ BA_CHAR[E_MODEL_UMIKA] = {
   cmdId = 'umika'
 }
 
-BA_CHAR[E_MODEL_KANOE] = {
-  name = "Kanoe",
-  description = {
-    "Ihi"
-  },
-  school = "WildHunt",
-  credit = "MiyuEnjoyer",
-  color = { r = 214, g = 210, b = 223 },
-  model = E_MODEL_KANOE,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_KANOE,
-  voiceTable = VT_KANOE,
-  cmdId = 'kanoe'
-}
-
-BA_CHAR[E_MODEL_ERI] = {
-  name = "Eri",
-  description = {
-    "Abrakadabra"
-  },
-  school = "WildHunt",
-  credit = "HerosLight",
-  color = { r = 255, g = 255, b = 255 },
-  model = E_MODEL_ERI,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_ERI,
-  voiceTable = VT_ERI,
-  cmdId = 'eri'
-}
 
 
 
@@ -242,21 +213,7 @@ BA_CHAR[E_MODEL_RUMI] = {
 
 
 
-BA_CHAR[E_MODEL_PNIYA] = {
-  name = "P. Niyaniya",
-  description = {
-    ":cryingemoji:"
-  },
-  school = "ETC",
-  credit = "kzHouston",
-  color = { r = 255, g = 255, b = 128 },
-  model = E_MODEL_PNIYA,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_PNIYA,
-  voiceTable = VT_NOVOICE,
-  altCostume = nil,
-  cmdId = 'pniya'
-}
+
 
 
 

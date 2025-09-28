@@ -15,8 +15,7 @@ E_MODEL_WAKAMO2 = smlua_model_util_get_id("wakamo2_geo")
 
 E_MODEL_PINA = smlua_model_util_get_id("pina_geo")
 E_MODEL_UMIKA = smlua_model_util_get_id("umika_geo")
-E_MODEL_KANOE = smlua_model_util_get_id("kanoe_geo")
-E_MODEL_ERI = smlua_model_util_get_id("eri_geo")
+
 
 
 
@@ -24,7 +23,7 @@ E_MODEL_NODOKA = smlua_model_util_get_id("nodoka_geo")
 E_MODEL_NODOKA2 = smlua_model_util_get_id("nodoka2_geo")
 E_MODEL_RUMI = smlua_model_util_get_id("rumi_geo")
 E_MODEL_SENA = smlua_model_util_get_id("senakzh_geo")
-E_MODEL_PNIYA = smlua_model_util_get_id("pniyakzh_geo")
+
 
 E_MODEL_MERU = smlua_model_util_get_id("meru_geo")
 E_MODEL_CHIAKI = smlua_model_util_get_id("chiaki_geo")
@@ -42,14 +41,13 @@ TEX_WAKAMO = get_texture_info("Wakamo_Icon")
 
 TEX_PINA = get_texture_info("pina_icon")
 TEX_UMIKA = get_texture_info("umika_icon")
-TEX_KANOE = get_texture_info("kanoe_icon")
-TEX_ERI = get_texture_info("eriicon")
+
 
 
 TEX_NODOKA = get_texture_info("nodoka_icon")
 TEX_NODOKA2 = get_texture_info("nodoka2_icon")
 TEX_RUMI = get_texture_info("rumiicon")
 
-TEX_PNIYA = get_texture_info("pniya_icon")
+
 
 TEX_MERU = get_texture_info("meru_icon")
