@@ -173,3 +173,99 @@ BA_CHAR[E_MODEL_SAORI] = {
     },
     cmdId = 'saori'
 }
+BA_CHAR[E_MODEL_ICHIKA] = {
+    name = "Ichika",
+    description = {
+        "-ssu"
+    },
+    school = "Trinity",
+    credit = "HerosLight",
+    color = { r = 184, g = 184, b = 236 },
+    model = E_MODEL_ICHIKA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_ICHIKA,
+    voiceTable = VT_ICHIKA,
+    altCostume = nil,
+    cmdId = 'ichika'
+}
+
+BA_CHAR[E_MODEL_JTF] = {
+    name = "JTF Mob",
+    description = {
+        "Everyone's favorite Mob"
+    },
+    school = "Trinity",
+    credit = "HerosLight",
+    color = { r = 123, g = 120, b = 160 },
+    model = E_MODEL_JTF,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_JTF,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'jtf'
+}
+BA_CHAR[E_MODEL_MIKA] = {
+    name = "Mika",
+    description = {
+        "Waoh~"
+    },
+    school = "Trinity",
+    credit = "HerosLight",
+    color = { r = 225, g = 192, b = 200 },
+    model = E_MODEL_MIKA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MIKA,
+    voiceTable = VT_MIKA,
+    altCostume = {
+        { name = "Mika (Swimsuit)", model = E_MODEL_MIKA2, desc = 'She tries her best', cmdId = 'mika2', lifeIcon = TEX_MIKA2, credit = "kzHouston" },
+    },
+    cmdId = 'mika'
+}
+BA_CHAR[E_MODEL_MINE] = {
+    name = "Mine",
+    description = {
+        "Your what?"
+    },
+    school = "Trinity",
+    credit = "HerosLight",
+    color = { r = 205, g = 226, b = 253 },
+    model = E_MODEL_MINE,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MINE,
+    voiceTable = VT_MINE,
+    altCostume = nil,
+    cmdId = 'mine'
+}
+BA_CHAR[E_MODEL_NAGISA] = {
+    name = "Nagisa",
+    description = {
+        "Time for Tea"
+    },
+    school = "Trinity",
+    credit = "HerosLight",
+    color = { r = 225, g = 192, b = 200 },
+    model = E_MODEL_NAGISA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_NAGISA,
+    voiceTable = VT_NAGISA,
+    altCostume = {
+        { name = "Nagisa (with Chair)", model = E_MODEL_NAGISA2, desc = 'Eat your cakeroll', cmdId = 'nagisa2' },
+        { name = "Nagisa (Swimsuit)",   model = E_MODEL_NAGISA3, desc = 'Sexy',              lifeIcon = TEX_NAGISA2, cmdId = 'nagisa3' },
+    },
+    cmdId = 'nagisa'
+}
+BA_CHAR[E_MODEL_TSURUGI] = {
+    name = "Tsurugi",
+    description = {
+        "Scary"
+    },
+    school = "Trinity",
+    credit = "hash",
+    color = { r = 172, g = 17, b = 19 },
+    model = E_MODEL_TSURUGI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_TSURUGI,
+    voiceTable = VT_TSURUGI,
+    altCostume = nil,
+    cmdId = 'tsurugi'
+}

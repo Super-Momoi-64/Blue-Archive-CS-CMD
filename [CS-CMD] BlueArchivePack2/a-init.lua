@@ -10,13 +10,11 @@ E_MODEL_FUBUKI2 = smlua_model_util_get_id("fubuki2_geo")
 E_MODEL_AKIRA = smlua_model_util_get_id("akira_geo")
 E_MODEL_AKIRA2 = smlua_model_util_get_id("akira2_geo")
 
-E_MODEL_JTF = smlua_model_util_get_id("jtf_geo")
+
 
 E_MODEL_MIMORI = smlua_model_util_get_id("mimori_geo")
 
-E_MODEL_MINE = smlua_model_util_get_id("mine_geo")
-E_MODEL_TSURUGI = smlua_model_util_get_id("tsurugi_geo")
-E_MODEL_ICHIKA = smlua_model_util_get_id("ichika_geo")
+
 E_MODEL_RABU = smlua_model_util_get_id("rabu_geo")
 
 E_MODEL_KIRINO = smlua_model_util_get_id("kirino_geo")
@@ -31,11 +29,7 @@ E_MODEL_SAKI = smlua_model_util_get_id("saki_geo")
 E_MODEL_SAKI2 = smlua_model_util_get_id("saki_swim_geo")
 E_MODEL_MOMIJI = smlua_model_util_get_id("momiji_geo")
 
-E_MODEL_NAGISA = smlua_model_util_get_id("nagisa_geo")
-E_MODEL_NAGISA2 = smlua_model_util_get_id("nagisa2_geo")
-E_MODEL_NAGISA3 = smlua_model_util_get_id("nagisa_swim_geo")
-E_MODEL_MIKA = smlua_model_util_get_id("mika_geo")
-E_MODEL_MIKA2 = smlua_model_util_get_id("mika_swim_geo")
+
 E_MODEL_MIYU = smlua_model_util_get_id("miyu_geo")
 E_MODEL_MIYU_GOMI = smlua_model_util_get_id("miyu_gomi_geo")
 E_MODEL_MIYU2 = smlua_model_util_get_id("miyu2_geo")
@@ -50,13 +44,11 @@ TEX_FUBUKI2 = get_texture_info("fubukiswimsuit_icon")
 
 TEX_AKIRA = get_texture_info("Akira_Icon")
 
-TEX_JTF = get_texture_info("Jtf_Icon")
+
 
 TEX_MIMORI = get_texture_info("Mimori_Icon")
 
-TEX_MINE = get_texture_info("Mine_Icon")
-TEX_TSURUGI = get_texture_info("Tsurugi_Icon")
-TEX_ICHIKA = get_texture_info("Ichika_Icon")
+
 TEX_RABU = get_texture_info("Rabu_Icon")
 
 TEX_KIRINO = get_texture_info("kirinoicon")
@@ -73,10 +65,7 @@ TEX_SAKI = get_texture_info("sakiicon")
 TEX_SAKI2 = get_texture_info("sakiswimicon")
 TEX_MOMIJI = get_texture_info("momijiicon")
 
-TEX_NAGISA = get_texture_info("nagisaicon")
-TEX_NAGISA2 = get_texture_info("nagisaswimicon")
-TEX_MIKA = get_texture_info("mikaicon")
-TEX_MIKA2 = get_texture_info("mikaswimicon")
+
 
 TEX_SSMG = get_texture_info("ssmgicon")
 TEX_SHMG = get_texture_info("Sukeban_HMG1")
