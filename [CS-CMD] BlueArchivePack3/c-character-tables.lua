@@ -186,21 +186,7 @@ BA_CHAR[E_MODEL_REIJO] = {
 
 
 
-BA_CHAR[E_MODEL_SENSEI] = {
-  name = "Sensei",
-  description = {
-    "It's you. You look like this."
-  },
-  school = "ETC",
-  credit = "HerosLight",
-  color = { r = 255, g = 255, b = 255 },
-  model = E_MODEL_SENSEI,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_SENSEI,
-  voiceTable = VT_NERD,
-  altCostume = nil,
-  cmdId = 'sensei'
-}
+
 
 
 
@@ -240,21 +226,7 @@ BA_CHAR[E_MODEL_TOMOE] = {
   cmdId = 'tomoe'
 }
 
-BA_CHAR[E_MODEL_VALK] = {
-  name = "Valkyrie Student",
-  description = {
-    "Brat Cop"
-  },
-  school = "Valkyrie",
-  credit = "HerosLight",
-  color = { r = 203, g = 208, b = 223 },
-  model = E_MODEL_VALK,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_VALK,
-  voiceTable = VT_NERD,
-  altCostume = nil,
-  cmdId = 'valk'
-}
+
 
 
 

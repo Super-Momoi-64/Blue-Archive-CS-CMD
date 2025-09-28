@@ -22,9 +22,7 @@ E_MODEL_CHILD_SHUN = smlua_model_util_get_id("child_shun_geo")
 
 
 
-E_MODEL_SENSEI = smlua_model_util_get_id("sensei_geo")
 
-E_MODEL_VALK = smlua_model_util_get_id("valk_geo")
 
 
 
@@ -45,9 +43,7 @@ TEX_SHIZUKO = get_texture_info('shizuko_icon')
 
 
 
-TEX_SENSEI = get_texture_info('senseiicon')
 
-TEX_VALK = get_texture_info('valkicon')
 
 
 TEX_SHUN = get_texture_info("Shun_Icon")

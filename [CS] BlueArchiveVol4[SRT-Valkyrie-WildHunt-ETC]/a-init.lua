@@ -25,6 +25,8 @@ E_MODEL_HG01 = smlua_model_util_get_id("HG01_geo")
 E_MODEL_AKIRA = smlua_model_util_get_id("akira_geo")
 E_MODEL_AKIRA2 = smlua_model_util_get_id("akira2_geo")
 E_MODEL_RABU = smlua_model_util_get_id("rabu_geo")
+E_MODEL_SENSEI = smlua_model_util_get_id("sensei_geo")
+E_MODEL_VALK = smlua_model_util_get_id("valk_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
@@ -47,3 +49,5 @@ TEX_SHMG = get_texture_info("Sukeban_HMG1")
 TEX_HG01 = get_texture_info("hg01icon")
 TEX_AKIRA = get_texture_info("Akira_Icon")
 TEX_RABU = get_texture_info("Rabu_Icon")
+TEX_SENSEI = get_texture_info('senseiicon')
+TEX_VALK = get_texture_info('valkicon')
