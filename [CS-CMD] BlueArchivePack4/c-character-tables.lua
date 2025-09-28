@@ -299,65 +299,7 @@ BA_CHAR[E_MODEL_ERI] = {
 }
 
 
-BA_CHAR[E_MODEL_CHIHIRO] = {
-  name = "Chihiro",
-  description = {
-    "Hacker mom"
-  },
-  school = "Millennium",
-  credit = "hash",
-  color = { r = 19, g = 20, b = 31 },
-  model = E_MODEL_CHIHIRO,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_CHIHIRO,
-  voiceTable = VT_CHIHIRO,
-  cmdId = 'chihiro'
-}
 
-BA_CHAR[E_MODEL_KOTAMA] = {
-  name = "Kotama",
-  description = {
-    "She's always watching"
-  },
-  school = "Millennium",
-  credit = "hash",
-  color = { r = 91, g = 88, b = 81 },
-  model = E_MODEL_KOTAMA,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_KOTAMA,
-  voiceTable = VT_KOTAMA,
-  cmdId = 'kotama'
-}
-
-BA_CHAR[E_MODEL_UTAHA] = {
-  name = "Utaha",
-  description = {
-    "Genius engineer"
-  },
-  school = "Millennium",
-  credit = "hash",
-  color = { r = 55, g = 49, b = 89 },
-  model = E_MODEL_UTAHA,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_UTAHA,
-  voiceTable = VT_UTAHA,
-  cmdId = 'utaha'
-}
-
-BA_CHAR[E_MODEL_KOTORI] = {
-  name = "Kotori",
-  description = {
-    "Nerd glasses emoji"
-  },
-  school = "Millennium",
-  credit = "hash",
-  color = { r = 99, g = 80, b = 65 },
-  model = E_MODEL_KOTORI,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_KOTORI,
-  voiceTable = VT_KOTORI,
-  cmdId = 'kotori'
-}
 
 BA_CHAR[E_MODEL_NODOKA] = {
   name = "Nodoka",
@@ -426,21 +368,7 @@ BA_CHAR[E_MODEL_PNIYA] = {
   cmdId = 'pniya'
 }
 
-BA_CHAR[E_MODEL_REI] = {
-  name = "Rei",
-  description = {
-    "0.08 Batting Average Baseball Fan"
-  },
-  school = "Millennium",
-  credit = "HerosLight",
-  color = { r = 224, g = 136, b = 112 },
-  model = E_MODEL_REI,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_REI,
-  voiceTable = VT_REI,
-  altCostume = nil,
-  cmdId = 'rei'
-}
+
 
 BA_CHAR[E_MODEL_MERU] = {
   name = "Meru",
