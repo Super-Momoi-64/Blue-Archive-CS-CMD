@@ -14,7 +14,8 @@ E_MODEL_CHISE2 = smlua_model_util_get_id("chise_swimsuit_geo")
 E_MODEL_SAYA = smlua_model_util_get_id("saya_geo")
 E_MODEL_SHIGURE = smlua_model_util_get_id("shigure_geo")
 E_MODEL_SHIGURE2 = smlua_model_util_get_id("shigure2_geo")
-
+E_MODEL_MIMORI = smlua_model_util_get_id("mimori_geo")
+E_MODEL_MOMIJI = smlua_model_util_get_id("momiji_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
@@ -28,3 +29,5 @@ TEX_CHISE2 = get_texture_info("chiseswimsuiticon")
 TEX_SAYA = get_texture_info("Saya_Casual_Icon")
 TEX_SHIGURE = get_texture_info("Shigure_Icon")
 TEX_SHIGURE2 = get_texture_info("shigure2_icon")
+TEX_MIMORI = get_texture_info("Mimori_Icon")
+TEX_MOMIJI = get_texture_info("momijiicon")

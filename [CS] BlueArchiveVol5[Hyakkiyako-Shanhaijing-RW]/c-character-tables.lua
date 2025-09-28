@@ -160,3 +160,34 @@ BA_CHAR[E_MODEL_SHIGURE] = {
     },
     cmdId = 'shigure'
 }
+BA_CHAR[E_MODEL_MIMORI] = {
+    name = "Mimori",
+    description = {
+        "Yamato Nadeshiko"
+    },
+    school = "Hyakkiyako",
+    credit = "HerosLight",
+    color = { r = 225, g = 192, b = 200 },
+    model = E_MODEL_MIMORI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MIMORI,
+    voiceTable = VT_MIMORI,
+    altCostume = nil,
+    cmdId = 'mimori'
+}
+
+BA_CHAR[E_MODEL_MOMIJI] = {
+    name = "Momiji",
+    description = {
+        "BWEEHH"
+    },
+    school = "RedWinter",
+    credit = "HerosLight",
+    color = { r = 182, g = 234, b = 210 },
+    model = E_MODEL_MOMIJI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MOMIJI,
+    voiceTable = VT_MOMIJI,
+    altCostume = nil,
+    cmdId = 'momiji'
+}
