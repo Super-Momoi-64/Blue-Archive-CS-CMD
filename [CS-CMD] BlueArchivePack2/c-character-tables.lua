@@ -131,23 +131,7 @@ BA_CHAR[E_MODEL_HARUKA] = {
   cmdId = 'haruka'
 }
 
-BA_CHAR[E_MODEL_HIBIKI] = {
-  name = "Hibiki",
-  description = {
-    "Shy engineer"
-  },
-  school = "Millennium",
-  credit = "hash",
-  color = { r = 96, g = 96, b = 114 },
-  model = E_MODEL_HIBIKI,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_HIBIKI,
-  voiceTable = VT_HIBIKI,
-  altCostume = {
-    { name = 'Hibiki (Cheerleader)', desc = "Instant motivation", model = E_MODEL_HIBIKI2, lifeIcon = TEX_HIBIKI2, cmdId = 'hibiki2' }
-  },
-  cmdId = 'hibiki'
-}
+
 
 BA_CHAR[E_MODEL_IBUKI] = {
   name = "Ibuki",
@@ -421,23 +405,7 @@ BA_CHAR[E_MODEL_NAGISA] = {
   cmdId = 'nagisa'
 }
 
-BA_CHAR[E_MODEL_NERU] = {
-  name = "Neru",
-  description = {
-    "The beast"
-  },
-  school = "Millennium",
-  credit = "hash",
-  color = { r = 252, g = 134, b = 127 },
-  model = E_MODEL_NERU,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_NERU,
-  voiceTable = VT_NERU,
-  altCostume = {
-    { name = "Neru (Bunny)", model = E_MODEL_NERU2, desc = 'Hahh?', cmdId = 'neru2', lifeIcon = TEX_NERU2, credit="AllergyDonor" },
-  },
-  cmdId = 'neru'
-}
+
 
 BA_CHAR[E_MODEL_RABU] = {
   name = "Rabu",
@@ -509,27 +477,7 @@ BA_CHAR[E_MODEL_SHIROKOTERROR] = {
   cmdId = 'shiroko3'
 }
 
-BA_CHAR[E_MODEL_TOKI] = {
-  name = "Toki",
-  description = {
-    "There's the sky, there's the land,",
-    "and there's Asuma Toki"
-  },
-  school = "Millennium",
-  credit = "kzHouston",
-  color = { r = 56, g = 84, b = 110 },
-  model = E_MODEL_TOKI,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_TOKI,
-  voiceTable = VT_TOKI,
-  altCostume = {
-    { name = "Toki (Combat)", model = E_MODEL_TOKI_COMBAT, desc = "Ready for Combat", cmdId = 'toki2', lifeIcon = TEX_TOKI2 },
-	{ name = "Toki (Maid)", model = E_MODEL_TOKI_MAID, desc = "At the very least, she can make tea", cmdId = 'toki3' },
-	{ name = "Toki (Bunny)", model = E_MODEL_TOKI_BUNNY, desc = "Pyon pyon", cmdId = 'toki4', lifeIcon = TEX_TOKI3 },
-	{ name = "Toki (School)", model = E_MODEL_TOKI_SCHOOL, desc = "Official school alt, when?", cmdId = 'toki5', lifeIcon = TEX_TOKI4 },
-  },
-  cmdId = 'toki'
-}
+
 
 BA_CHAR[E_MODEL_TSURUGI] = {
   name = "Tsurugi",
@@ -565,21 +513,7 @@ BA_CHAR[E_MODEL_FUBUKI] = {
   cmdId = 'fubuki'
 }
 
-BA_CHAR[E_MODEL_KEI] = {
-  name = "Kei",
-  description = {"Kei-kei"},
-  school = "Millennium",
-  credit = "HerosLight",
-  color = { r = 132, g = 150, b = 162 },
-  model = E_MODEL_KEI,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_KEI,
-  voiceTable = VT_NOVOICE,
-  altCostume = {
-    { name = "Kei (Robot)", model = E_MODEL_KEI2, desc = '12KB of Data', voiceTable = VT_NOVOICE, cmdId = 'kei2', lifeIcon = TEX_KEI2, credit="ganewatch" },
-  },
-  cmdId = 'kei'
-}
+
 
 BA_CHAR[E_MODEL_SSMG] = {
   name = "Sukeban (SMG)",

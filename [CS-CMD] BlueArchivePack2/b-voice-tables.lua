@@ -43,60 +43,7 @@ VT_FUUKA = {
   -- [CHAR_SOUND_YAWNING] = {'silent.mp3'},
 }
 
-VT_NERU = {
-  [CHAR_SOUND_ATTACKED] = { 'neru_dmg1.mp3', 'neru_dmg2.mp3' },
-  [CHAR_SOUND_DYING] = 'neru_dying.mp3',
-  [CHAR_SOUND_DOH] = 'neru_dmg2.mp3',
-  [CHAR_SOUND_PUNCH_HOO] = 'neru_kick.mp3',
-  [CHAR_SOUND_GROUND_POUND_WAH] = 'neru_groundPound.mp3',
-  [CHAR_SOUND_HAHA] = 'neru_laugh.mp3',
-  [CHAR_SOUND_HAHA_2] = 'neru_laugh.mp3',
-  [CHAR_SOUND_LETS_A_GO] = { 'neru_letsGo.mp3', 'neru_letsGo2.mp3' },
-  [CHAR_SOUND_HOOHOO] = { 'neru_jump2.mp3', 'neru_jump2_2.mp3' },
-  [CHAR_SOUND_YAHOO] = 'neru_kick.mp3',
-  [CHAR_SOUND_MAMA_MIA] = { 'neru_levelFail.mp3', 'neru_levelFail2.mp3' },
-  [CHAR_SOUND_HRMM] = 'neru_grab.mp3',
-  [CHAR_SOUND_HERE_WE_GO] = { 'neru_star.mp3', 'neru_star2.mp3' },
-  [CHAR_SOUND_UH] = 'neru_eh.mp3',
-  [CHAR_SOUND_OOOF] = 'neru_dmg1.mp3',
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'neru_punch1.mp3' },
-  [CHAR_SOUND_OOOF2] = 'neru_dmg1.mp3',
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = 'neru_jump3.mp3',
-  [CHAR_SOUND_PUNCH_YAH] = 'neru_punch1.mp3',
-  [CHAR_SOUND_PUNCH_WAH] = 'neru_punch2.mp3',
-  [CHAR_SOUND_WAAAOOOW] = 'neru_falling.mp3',
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'neru_bowser.mp3' },
-  [CHAR_SOUND_WHOA] = 'neru_ledgeGrab.mp3',
-  [CHAR_SOUND_ON_FIRE] = 'neru_falling.mp3',
-  [CHAR_SOUND_IMA_TIRED] = 'neru_sleepy.mp3',
-}
-VT_TOKI = {
-  [CHAR_SOUND_ATTACKED] = { 'toki_dmg1.mp3', 'toki_dmg2.mp3', 'toki_dmg3.mp3' },
-  [CHAR_SOUND_DYING] = 'toki_dying.mp3',
-  [CHAR_SOUND_DOH] = 'toki_dmg1.mp3',
-  [CHAR_SOUND_PUNCH_HOO] = 'toki_kick.mp3',
-  [CHAR_SOUND_GROUND_POUND_WAH] = 'toki_groundPound.mp3',
-  [CHAR_SOUND_HAHA] = 'toki_pyon.mp3',
-  [CHAR_SOUND_HAHA_2] = 'toki_pyon.mp3',
-  [CHAR_SOUND_LETS_A_GO] = { 'toki_letsGo.mp3' },
-  [CHAR_SOUND_HOOHOO] = { 'toki_jump2.mp3' },
-  [CHAR_SOUND_YAHOO] = 'toki_longjump.mp3',
-  [CHAR_SOUND_MAMA_MIA] = { 'toki_levelFail.mp3' },
-  [CHAR_SOUND_HRMM] = 'toki_grab.mp3',
-  [CHAR_SOUND_HERE_WE_GO] = { 'toki_star.mp3', 'toki_star2.mp3' },
-  [CHAR_SOUND_UH] = 'toki_ah.mp3',
-  [CHAR_SOUND_OOOF] = 'toki_dmg2.mp3',
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'toki_jump1.mp3' },
-  [CHAR_SOUND_OOOF2] = 'toki_dmg2.mp3',
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = 'toki_yahoo.mp3',
-  [CHAR_SOUND_PUNCH_YAH] = 'toki_punch1.mp3',
-  [CHAR_SOUND_PUNCH_WAH] = 'toki_punch2.mp3',
-  [CHAR_SOUND_WAAAOOOW] = 'toki_falling.mp3',
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'toki_bowser.mp3' },
-  [CHAR_SOUND_WHOA] = 'toki_ledgeGrab.mp3',
-  [CHAR_SOUND_ON_FIRE] = 'toki_falling.mp3',
-  [CHAR_SOUND_IMA_TIRED] = 'toki_sleepy.mp3',
-}
+
 
 VT_SHIROKO = {
   [CHAR_SOUND_ATTACKED] = { 'srk_dmg1.mp3', 'srk_dmg2.mp3' },
@@ -388,33 +335,7 @@ VT_MIMORI = {
   [CHAR_SOUND_YAWNING] = { 'mmr_yawn.mp3' },
 }
 
-VT_HIBIKI = {
-  [CHAR_SOUND_ATTACKED] = { 'hibiki_dmg1.mp3', 'hibiki_dmg2.mp3' },
-  [CHAR_SOUND_DOH] = 'hibiki_huh.mp3',                                     -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'hibiki_dying.mp3' },
-  [CHAR_SOUND_EEUH] = { 'hibiki_ledgeUp.mp3' },                            -- Slow Get up from ledge
-  [CHAR_SOUND_GROUND_POUND_WAH] = { 'hibiki_groundPound.mp3' },
-  [CHAR_SOUND_HAHA] = { 'hibiki_hmm.mp3' },                                -- Landing after backflip
-  [CHAR_SOUND_HERE_WE_GO] = { 'hibiki_star.mp3' },                         -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_HOOHOO] = { 'hibiki_jump2.mp3' },                            -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_HRMM] = 'hibiki_hmm.mp3',                                    -- Object Pick-up
-  -- [CHAR_SOUND_IMA_TIRED] = 'srk_tired.mp3',
-  [CHAR_SOUND_LETS_A_GO] = { 'hibiki_letsGo.mp3' },                        -- Level Select
-  [CHAR_SOUND_MAMA_MIA] = { 'hibiki_levelFail.mp3' },                      -- Getting up after thrown out of level
-  [CHAR_SOUND_ON_FIRE] = { 'hibiki_falling.mp3' },                         -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'hibiki_huh.mp3',                                    -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'hibiki_dmg3.mp3',                                  -- Landing After a Bonk + Thrown out of level
-  [CHAR_SOUND_PUNCH_HOO] = { 'hibiki_kick.mp3' },                          -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'hibiki_punch2.mp3',                            -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'hibiki_punch1.mp3',                            -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'hibiki_bowser.mp3' },                  -- Bowser Throw
-  [CHAR_SOUND_UH] = 'hibiki_huh.mp3',                                      -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_WAAAOOOW] = 'hibiki_falling.mp3',                            -- Falling
-  [CHAR_SOUND_WHOA] = 'hibiki_huh.mp3',                                    -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'hibiki_iko.mp3' },                               -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'hibiki_kick.mp3' },                  -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'hibiki_jump1.mp3', 'hibiki_jump1_1.mp3' }, -- 1st Jump(s)
-}
+
 
 VT_MINE = {
   [CHAR_SOUND_ATTACKED] = { 'mine_dmg1.mp3', 'mine_dmg2.mp3' },
@@ -561,30 +482,7 @@ VT_HARUNA = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'haruna_jump1.mp3' },       -- 1st Jump(s)
 }
 
-VT_NOVOICE = {
-  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3' },
-  [CHAR_SOUND_DOH] = 'sfx_ml_bump.mp3',                                              -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3' },
-  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_LETS_A_GO] = { 'sfx_smb3_levelselect.mp3' },                           -- Level Select
-  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                      -- Object Pick-up
-  [CHAR_SOUND_HOOHOO] = { 'sfx_smw_jump.mp3' },                                      -- 2nd Jump + Dive Attack
-  [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },                                    -- Touch Fire
-  [CHAR_SOUND_OOOF] = 'sfx_pm64_what.mp3',                                           -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'sfx_smrpg_drop.mp3',                                         -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
-  [CHAR_SOUND_PUNCH_HOO] = { 'sfx_ssb64_atk3.mp3' },                                 -- Kick
-  [CHAR_SOUND_PUNCH_WAH] = 'sfx_ssb64_atk2.mp3',                                     -- 2nd Punch
-  [CHAR_SOUND_PUNCH_YAH] = 'sfx_ssb64_atk1.mp3',                                     -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'sfx_smrpg_fireball.mp3' },                       -- Bowser Throw
-  [CHAR_SOUND_WAH2] = { 'sfx_ssb64_itemthrow.mp3' },                                 -- Throw Object
-  [CHAR_SOUND_UH] = 'sfx_smrpg_throw.mp3',                                           -- Drop off of ledge + Fall off Ledge
-  [CHAR_SOUND_WAAAOOOW] = 'sfx_ssb64_falling.mp3',                                   -- Falling
-  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                              -- Boing
-  [CHAR_SOUND_WHOA] = 'sfx_ssb64_ledge.mp3',                                         -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'sfx_ssb64_superjump.mp3' },                                -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'sfx_ssb64_superjump.mp3' },                    -- 3rd Jump(s)
-  [CHAR_SOUND_YAH_WAH_HOO] = { 'sfx_smw_jump.mp3' },                                 -- 1st Jump(s)
-}
+
 
 VT_KIRINO = {
   [CHAR_SOUND_ATTACKED] = { 'kirino_dmg1.mp3', 'kirino_dmg2.mp3', 'kirino_dmg3.mp3' },
