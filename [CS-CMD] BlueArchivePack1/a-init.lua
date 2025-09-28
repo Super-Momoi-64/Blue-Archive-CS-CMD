@@ -24,20 +24,17 @@ E_MODEL_HIYORI3 = smlua_model_util_get_id("hiyori3_geo")
 
 E_MODEL_CHISE = smlua_model_util_get_id("chise_geo")
 E_MODEL_CHISE2 = smlua_model_util_get_id("chise_swimsuit_geo")
-E_MODEL_JUNKO = smlua_model_util_get_id("junko_geo")
-E_MODEL_JUNKO_NY = smlua_model_util_get_id("junko2_geo")
+
 
 E_MODEL_SAYA = smlua_model_util_get_id("saya_geo")
-E_MODEL_ARU = smlua_model_util_get_id("aru_geo")
+
 E_MODEL_ATSUKO = smlua_model_util_get_id("atsuko_geo")
 E_MODEL_ATSUKO2 = smlua_model_util_get_id("atsuko2_geo")
 -- E_MODEL_ATSUKO3 = smlua_model_util_get_id("atsuko3_geo")
 E_MODEL_MISAKI = smlua_model_util_get_id("misaki_geo")
 E_MODEL_SAORI = smlua_model_util_get_id("saori_geo")
 E_MODEL_SAORI2 = smlua_model_util_get_id("saori2_geo")
-E_MODEL_HOSHINO = smlua_model_util_get_id("hoshino_geo")
-E_MODEL_HOSHINO2 = smlua_model_util_get_id("shoshino_geo")
-E_MODEL_HOSHINO3 = smlua_model_util_get_id("hoshino_armed_geo")
+
 E_MODEL_SHIGURE = smlua_model_util_get_id("shigure_geo")
 E_MODEL_SHIGURE2 = smlua_model_util_get_id("shigure2_geo")
 E_MODEL_NATSU = smlua_model_util_get_id("natsu_geo")
@@ -64,17 +61,14 @@ TEX_HIYORI2 = get_texture_info("hiyori_swim_icon")
 
 TEX_CHISE = get_texture_info("Chise_Icon")
 TEX_CHISE2 = get_texture_info("chiseswimsuiticon")
-TEX_JUNKO = get_texture_info("Junko_Icon")
-TEX_JUNKO2 = get_texture_info("junko_ny_icon")
+
 
 TEX_SAYA = get_texture_info("Saya_Casual_Icon")
-TEX_ARU = get_texture_info("Aru_Icon")
+
 TEX_ATSUKO = get_texture_info("Atsuko_Unmask_Icon")
 TEX_MISAKI = get_texture_info("Misaki_Unmask_Icon")
 TEX_SAORI = get_texture_info("Saori_Unmask_Icon")
-TEX_HOSHINO = get_texture_info("hoshinoicon")
-TEX_HOSHINO2 = get_texture_info("Hoshino_Swimsuit_Icon")
-TEX_HOSHINO3 = get_texture_info("hoshinoarmedicon")
+
 TEX_SHIGURE = get_texture_info("Shigure_Icon")
 TEX_SHIGURE2 = get_texture_info("shigure2_icon")
 TEX_NATSU = get_texture_info("Natsu_Icon")
