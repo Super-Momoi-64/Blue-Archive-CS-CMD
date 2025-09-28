@@ -19,11 +19,9 @@ E_MODEL_YOSHIMI = smlua_model_util_get_id("yoshimi_geo")
 E_MODEL_YOSHIMI2 = smlua_model_util_get_id("yoshimi2_geo")
 E_MODEL_HASUMI = smlua_model_util_get_id("hasumi_geo")
 E_MODEL_SHIZUKO = smlua_model_util_get_id("shizuko_geo")
-E_MODEL_SERIKA = smlua_model_util_get_id("serika_geo")
-E_MODEL_AYANE = smlua_model_util_get_id("ayane_geo")
-E_MODEL_NONOMI = smlua_model_util_get_id("nonomi_geo")
 
-E_MODEL_AKARI = smlua_model_util_get_id("akari_geo")
+
+
 E_MODEL_SEIA = smlua_model_util_get_id("seia_geo")
 E_MODEL_SEIA2 = smlua_model_util_get_id("seia2_geo")
 
@@ -31,18 +29,14 @@ E_MODEL_SUZUMI = smlua_model_util_get_id("suzumi_geo")
 E_MODEL_SHUN = smlua_model_util_get_id("shun_geo")
 E_MODEL_CHILD_SHUN = smlua_model_util_get_id("child_shun_geo")
 
-E_MODEL_IROHA = smlua_model_util_get_id("iroha_geo")
 
-E_MODEL_MEGU = smlua_model_util_get_id("megu_geo")
-E_MODEL_IORI = smlua_model_util_get_id("iori_geo")
+
+
 E_MODEL_SENSEI = smlua_model_util_get_id("sensei_geo")
 
 E_MODEL_VALK = smlua_model_util_get_id("valk_geo")
 
-E_MODEL_HIKARI = smlua_model_util_get_id("hikari_geo")
-E_MODEL_NOZOMI = smlua_model_util_get_id("nozomi_geo")
-E_MODEL_TRAIN = smlua_model_util_get_id("train_geo")
-E_MODEL_AOBA = smlua_model_util_get_id("aoba_geo")
+
 
 -- Custom Texture Icons
 TEX_CHERINO = get_texture_info('cherino_icon')
@@ -62,27 +56,21 @@ TEX_YOSH = get_texture_info('yosh_icon')
 TEX_YOSH2 = get_texture_info('byosh_icon')
 TEX_HASUMI = get_texture_info('hasumi_icon')
 TEX_SHIZUKO = get_texture_info('shizuko_icon')
-TEX_SERIKA = get_texture_info('serikaicon')
-TEX_AYANE = get_texture_info('ayane_icon')
-TEX_NONOMI = get_texture_info('nonomi_icon')
 
-TEX_AKARI = get_texture_info('akari_icon')
+
+
 TEX_SEIA = get_texture_info('seiaicon')
 TEX_SEIA2 = get_texture_info('seiaswimicon')
 
 TEX_SUZUMI = get_texture_info('suzumi_icon')
 
-TEX_IROHA = get_texture_info('irohaicon')
 
-TEX_MEGU = get_texture_info('meguicon')
-TEX_IORI = get_texture_info('ioriicon')
+
+
 TEX_SENSEI = get_texture_info('senseiicon')
 
 TEX_VALK = get_texture_info('valkicon')
 
-TEX_HIKARI = get_texture_info("Hikari_Icon")
-TEX_NOZOMI = get_texture_info("Nozomi_Icon")
-TEX_TRAIN = get_texture_info("Train_Icon")
-TEX_AOBA = get_texture_info("aoba_icon")
+
 TEX_SHUN = get_texture_info("Shun_Icon")
 TEX_YOUNG_SHUN = get_texture_info("Shun_Young_Icon")

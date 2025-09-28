@@ -264,3 +264,183 @@ BA_CHAR[E_MODEL_KAYOKO] = {
     altCostume = nil,
     cmdId = 'kayoko'
 }
+
+BA_CHAR[E_MODEL_AOBA] = {
+    name = "Aoba",
+    description = {
+        "Desukedo"
+    },
+    school = "Highlander",
+    credit = "HerosLight",
+    color = { r = 245, g = 239, b = 227 },
+    model = E_MODEL_AOBA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_AOBA,
+    voiceTable = VT_AOBA,
+    altCostume = nil,
+    cmdId = 'aoba'
+}
+
+BA_CHAR[E_MODEL_AKARI] = {
+    name = "Akari",
+    description = {
+        "Food terrorist"
+    },
+    school = "Gehenna",
+    credit = "hash",
+    color = { r = 192, g = 0, b = 0 },
+    model = E_MODEL_AKARI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_AKARI,
+    voiceTable = VT_AKARI,
+    altCostume = nil,
+    cmdId = 'akari'
+}
+
+BA_CHAR[E_MODEL_AYANE] = {
+    name = "Ayane",
+    description = {
+        "Helicopter, helicopter"
+    },
+    school = "Abydos",
+    credit = "hash",
+    color = { r = 43, b = 46, g = 78 },
+    model = E_MODEL_AYANE,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_AYANE,
+    voiceTable = VT_AYANE,
+    altCostume = nil,
+    cmdId = 'ayane'
+}
+
+BA_CHAR[E_MODEL_HIKARI] = {
+    name = "Hikari",
+    description = {
+        "Shupogaki"
+    },
+    school = "Highlander",
+    credit = "HerosLight",
+    color = { r = 234, g = 251, b = 197 },
+    model = E_MODEL_HIKARI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_HIKARI,
+    voiceTable = VT_HIKARI,
+    altCostume = nil,
+    cmdId = 'hikari'
+}
+
+BA_CHAR[E_MODEL_IORI] = {
+    name = "Iori",
+    description = {
+        "You licked her feet"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 227, g = 232, b = 242 },
+    model = E_MODEL_IORI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_IORI,
+    voiceTable = VT_IORI,
+    altCostume = nil,
+    cmdId = 'iori'
+}
+
+BA_CHAR[E_MODEL_IROHA] = {
+    name = "Iroha",
+    description = {
+        "Slacker"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 186, g = 84, b = 116 },
+    model = E_MODEL_IROHA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_IROHA,
+    voiceTable = VT_IROHA,
+    altCostume = nil,
+    cmdId = 'iroha'
+}
+
+BA_CHAR[E_MODEL_MEGU] = {
+    name = "Megu",
+    description = {
+        "Get in the onsen"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 178, g = 56, b = 64 },
+    model = E_MODEL_MEGU,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MEGU,
+    voiceTable = VT_MEGU,
+    altCostume = nil,
+    cmdId = 'megu'
+}
+
+
+
+
+
+BA_CHAR[E_MODEL_NONOMI] = {
+    name = "Nonomi",
+    description = {
+        "Nonomi, ikimasu"
+    },
+    school = "Abydos",
+    credit = "hash",
+    color = { r = 242, g = 238, b = 193 },
+    model = E_MODEL_NONOMI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_NONOMI,
+    voiceTable = VT_NONOMI,
+    altCostume = nil,
+    cmdId = 'nonomi'
+}
+
+BA_CHAR[E_MODEL_NOZOMI] = {
+    name = "Nozomi",
+    description = {
+        "Shupogaki"
+    },
+    school = "Highlander",
+    credit = "HerosLight",
+    color = { r = 234, g = 251, b = 197 },
+    model = E_MODEL_NOZOMI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_NOZOMI,
+    voiceTable = VT_NOZOMI,
+    altCostume = nil,
+    cmdId = 'nozomi'
+}
+
+BA_CHAR[E_MODEL_SERIKA] = {
+    name = "Serika",
+    description = {
+        "Tsundere Cat"
+    },
+    school = "Abydos",
+    credit = "HerosLight",
+    color = { r = 69, g = 67, b = 98 },
+    model = E_MODEL_SERIKA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SERIKA,
+    voiceTable = VT_SERIKA,
+    altCostume = nil,
+    cmdId = 'serika'
+}
+
+BA_CHAR[E_MODEL_TRAIN] = {
+    name = "Attendant Highlander Mob",
+    description = {
+        "Cute Train Mob"
+    },
+    school = "Highlander",
+    credit = "HerosLight",
+    color = { r = 200, g = 200, b = 212 },
+    model = E_MODEL_TRAIN,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_TRAIN,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'train'
+}
