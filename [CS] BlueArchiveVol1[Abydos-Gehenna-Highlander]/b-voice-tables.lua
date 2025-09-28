@@ -1,0 +1,2 @@
+-- BA Pack 1 [Abydos-Gehenna-Highlander]
+-- Character Voice Tables

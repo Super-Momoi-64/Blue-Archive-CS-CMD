@@ -1,0 +1,2 @@
+-- BA Pack 3 [Trinity-Arius]
+-- Character Voice Tables

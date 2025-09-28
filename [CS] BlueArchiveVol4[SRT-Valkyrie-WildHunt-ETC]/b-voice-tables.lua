@@ -1,0 +1,2 @@
+-- BA Pack [SRT-Valkyrie-WildHunt-ETC]
+-- Character Voice Tables

@@ -1,0 +1,2 @@
+-- BA Pack 5 [Hyakkiyako-Shanhaijing]
+-- Character Voice Tables
