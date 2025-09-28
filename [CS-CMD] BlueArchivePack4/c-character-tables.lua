@@ -119,36 +119,7 @@ BA_CHAR[E_MODEL_YUKARI] = {
   cmdId = 'yukari'
 }
 
-BA_CHAR[E_MODEL_SAKURAKO] = {
-  name = "Sakurako",
-  description = {"Wappi"},
-  school = "Trinity",
-  credit = "HerosLight",
-  color = { r = 255, g = 255, b = 255 },
-  model = E_MODEL_SAKURAKO,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_SAKURAKO,
-  voiceTable = VT_SAKURAKO,
-  altCostume = nil,
-  cmdId = 'sakurako'
-}
 
-
-
-BA_CHAR[E_MODEL_REISA] = {
-  name = "Reisa",
-  description = {
-    "Everyone's Superstar"
-  },
-  school = "Trinity",
-  credit = "HerosLight",
-  color = { r = 229, g = 238, b = 252 },
-  model = E_MODEL_REISA,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_REISA,
-  voiceTable = VT_REISA,
-  cmdId = 'reisa'
-}
 
 BA_CHAR[E_MODEL_WAKAMO] = {
   name = "Wakamo",
@@ -168,56 +139,7 @@ BA_CHAR[E_MODEL_WAKAMO] = {
   cmdId = 'wakamo'
 }
 
-BA_CHAR[E_MODEL_HANAE] = {
-  name = "Hanae",
-  description = {
-    "The CUTEST healer."
-  },
-  school = "Trinity",
-  credit = "MiyuEnjoyer",
-  color = { r = 255, g = 153, b = 255 },
-  model = E_MODEL_HANAE,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_HANAE,
-  voiceTable = VT_HANAE,
-  altCostume = {
-    { name = "Hanae (Christmas)", model = E_MODEL_HANAE2, desc = 'The CUTEST little helper.', cmdId = 'hanae2', lifeIcon = TEX_HANAE2 },
-  },
-  cmdId = 'hanae'
-}
 
-BA_CHAR[E_MODEL_UI] = {
-  name = "Ui",
-  description = {
-    "*Ui noises*"
-  },
-  school = "Trinity",
-  credit = "HerosLight",
-  color = { r = 184, g = 184, b = 236 },
-  model = E_MODEL_UI,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_UI,
-  voiceTable = VT_UI,
-  altCostume = {
-    { name = "Ui (Swimsuit)",   model = E_MODEL_UI2, desc = 'Does not stink', cmdId = 'ui2', lifeIcon = TEX_UI2, credit = "hash" },
-  },
-  cmdId = 'ui'
-}
-
-BA_CHAR[E_MODEL_HINATA] = {
-  name = "Hinata",
-  description = {
-    "The Clumsy, Strongest Sister"
-  },
-  school = "Trinity",
-  credit = "HerosLight",
-  color = { r = 50, g = 50, b = 50 },
-  model = E_MODEL_HINATA,
-  forceChar = CT_MARIO,
-  lifeIcon = TEX_HINATA,
-  voiceTable = VT_HINATA,
-  cmdId = 'hinata'
-}
 
 BA_CHAR[E_MODEL_PINA] = {
   name = "Pina",
