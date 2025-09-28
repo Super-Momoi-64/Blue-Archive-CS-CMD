@@ -444,3 +444,55 @@ BA_CHAR[E_MODEL_TRAIN] = {
     altCostume = nil,
     cmdId = 'train'
 }
+
+BA_CHAR[E_MODEL_HINA] = {
+    name = "Hina",
+    description = {
+        "Hiniature"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 255, g = 255, b = 255 },
+    model = E_MODEL_HINA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_HINA,
+    voiceTable = VT_HINA,
+    altCostume = {
+        { name = "Hina (Pajama)", model = E_MODEL_HINA2, desc = 'Eepy',   voiceTable = VT_HINA, cmdId = 'hina2', lifeIcon = TEX_HINA2, credit = "MiyuEnjoyer" },
+        { name = "Hina (Dress)",  model = E_MODEL_HINA3, desc = 'Pretty', voiceTable = VT_HINA, cmdId = 'hina3', lifeIcon = TEX_HINA3, credit = "MiyuEnjoyer" },
+    },
+    cmdId = 'hina'
+}
+
+BA_CHAR[E_MODEL_SENA] = {
+    name = "Sena",
+    description = {
+        "Diagnostic?",
+        "You are dead!"
+    },
+    school = "Gehenna",
+    credit = "kzHouston",
+    color = { r = 0, g = 255, b = 255 },
+    model = E_MODEL_SENA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SENA,
+    voiceTable = VT_SENA,
+    altCostume = nil,
+    cmdId = 'sena'
+}
+
+BA_CHAR[E_MODEL_CHIAKI] = {
+    name = "Chiaki",
+    description = {
+        "Look under your desk"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 224, g = 136, b = 112 },
+    model = E_MODEL_CHIAKI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_CHIAKI,
+    voiceTable = VT_CHIAKI,
+    altCostume = nil,
+    cmdId = 'chiaki'
+}
