@@ -267,3 +267,99 @@ BA_CHAR[E_MODEL_KEI] = {
     },
     cmdId = 'kei'
 }
+
+BA_CHAR[E_MODEL_EIMI] = {
+    name = "Eimi",
+    description = {
+        "Interesting fashion sense"
+    },
+    school = "Millennium",
+    credit = "HerosLight",
+    color = { r = 255, g = 216, b = 226 },
+    model = E_MODEL_EIMI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_EIMI,
+    voiceTable = VT_EIMI,
+    altCostume = nil,
+    cmdId = 'eimi'
+}
+
+BA_CHAR[E_MODEL_MAKI] = {
+    name = "Maki",
+    description = {
+        "Binah's fear"
+    },
+    school = "Millennium",
+    credit = "hash",
+    color = { r = 192, g = 83, b = 92 },
+    model = E_MODEL_MAKI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MAKI,
+    voiceTable = VT_MAKI,
+    altCostume = nil,
+    cmdId = 'maki'
+}
+
+BA_CHAR[E_MODEL_NERD] = {
+    name = "Millennium Mob",
+    description = {
+        "Cute nerd"
+    },
+    school = "Millennium",
+    credit = "hash",
+    color = { r = 239, g = 146, b = 182 },
+    model = E_MODEL_NERD,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_NERD,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'nerd'
+}
+
+BA_CHAR[E_MODEL_NOA] = {
+    name = "Noa",
+    description = {
+        "Gomen Yuuka"
+    },
+    school = "Millennium",
+    credit = "hash",
+    color = { r = 232, g = 234, b = 247 },
+    model = E_MODEL_NOA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_NOA,
+    voiceTable = VT_NOA,
+    altCostume = nil,
+    cmdId = 'noa'
+}
+
+BA_CHAR[E_MODEL_RIO] = {
+    name = "Rio",
+    description = {
+        "Aris is innocent"
+    },
+    school = "Millennium",
+    credit = "hash",
+    color = { r = 246, g = 0, b = 0 },
+    model = E_MODEL_RIO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_RIO,
+    voiceTable = VT_RIO,
+    altCostume = nil,
+    cmdId = 'rio'
+}
+
+BA_CHAR[E_MODEL_SUMIRE] = {
+    name = "Sumire",
+    school = "Millennium",
+    description = {
+        "Time to train"
+    },
+    credit = "HerosLight",
+    color = { r = 158, g = 138, b = 220 },
+    model = E_MODEL_SUMIRE,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SUMIRE,
+    voiceTable = VT_SUMIRE,
+    altCostume = nil,
+    cmdId = 'sumire'
+}
