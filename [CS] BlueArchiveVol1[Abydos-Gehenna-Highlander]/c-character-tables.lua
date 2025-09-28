@@ -100,3 +100,167 @@ BA_CHAR[E_MODEL_JUNKO] = {
     },
     cmdId = 'junko'
 }
+
+BA_CHAR[E_MODEL_AKO] = {
+    name = "Ako",
+    description = {
+        "Hina's Pet"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 164, g = 182, b = 209 },
+    model = E_MODEL_AKO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_AKO,
+    voiceTable = VT_AKO,
+    altCostume = nil,
+    cmdId = 'ako'
+}
+
+BA_CHAR[E_MODEL_FUUKA] = {
+    name = "Fuuka",
+    description = {
+        "She does the funny face"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 73, g = 63, b = 92 },
+    model = E_MODEL_FUUKA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_FUUKA,
+    voiceTable = VT_FUUKA,
+    altCostume = nil,
+    cmdId = 'fuuka'
+}
+
+BA_CHAR[E_MODEL_HARUNA] = {
+    name = "Haruna",
+    description = {
+        "No.1 Fuuka kidnaper"
+    },
+    school = "Gehenna",
+    credit = "hash",
+    color = { r = 186, g = 181, b = 201 },
+    model = E_MODEL_HARUNA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_HARUNA,
+    voiceTable = VT_HARUNA,
+    altCostume = nil,
+    cmdId = 'haruna'
+}
+
+BA_CHAR[E_MODEL_HARUKA] = {
+    name = "Haruka",
+    description = {
+        "Aru samaaa"
+    },
+    school = "Gehenna",
+    credit = "hash",
+    color = { r = 95, g = 82, b = 105 },
+    model = E_MODEL_HARUKA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_HARUKA,
+    voiceTable = VT_HARUKA,
+    altCostume = nil,
+    cmdId = 'haruka'
+}
+
+BA_CHAR[E_MODEL_IBUKI] = {
+    name = "Ibuki",
+    description = {
+        "11"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 249, g = 225, b = 160 },
+    model = E_MODEL_IBUKI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_IBUKI,
+    voiceTable = VT_IBUKI,
+    altCostume = nil,
+    cmdId = 'ibuki'
+}
+
+BA_CHAR[E_MODEL_KASUMI] = {
+    name = "Kasumi",
+    description = {
+        "HAAA HA HA HA HA"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 155, g = 129, b = 131 },
+    model = E_MODEL_KASUMI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_KASUMI,
+    voiceTable = VT_KASUMI,
+    altCostume = nil,
+    cmdId = 'kasumi'
+}
+
+BA_CHAR[E_MODEL_MUTSUKI] = {
+    name = "Mutsuki",
+    description = {
+        "California gurls we are unforgettable"
+    },
+    school = "Gehenna",
+    credit = "hash",
+    color = { r = 221, g = 215, b = 214 },
+    model = E_MODEL_MUTSUKI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MUTSUKI,
+    voiceTable = VT_MUTSUKI,
+    altCostume = nil,
+    cmdId = 'mutsuki'
+}
+
+BA_CHAR[E_MODEL_SHIROKO] = {
+    name = "Shiroko",
+    description = {
+        "Nn",
+        "(Weak Shiroko)"
+    },
+    school = "Abydos",
+    credit = "HerosLight",
+    color = { r = 78, g = 235, b = 242 },
+    model = E_MODEL_SHIROKO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SHIROKO,
+    voiceTable = VT_SHIROKO,
+    altCostume = {
+        { name = "Shiroko (Swimsuit)", model = E_MODEL_SHIROKO2, desc = 'IWAK', voiceTable = VT_SHIROKO, cmdId = 'shiroko2', lifeIcon = TEX_SHIROKO2, credit = "kzHouston" },
+    },
+    cmdId = 'shiroko'
+}
+
+BA_CHAR[E_MODEL_SHIROKOTERROR] = {
+    name = "Shiroko (Terror)",
+    description = {
+        "Nn",
+        "(Fat Shiroko)"
+    },
+    school = "Abydos",
+    credit = "HerosLight",
+    color = { r = 136, g = 182, b = 201 },
+    model = E_MODEL_SHIROKOTERROR,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SHIROKOTERROR,
+    voiceTable = VT_SHIROKOTERROR,
+    altCostume = nil,
+    cmdId = 'shiroko3'
+}
+
+BA_CHAR[E_MODEL_KAYOKO] = {
+    name = "Kayoko",
+    description = {
+        "Cat lover"
+    },
+    school = "Gehenna",
+    credit = "hash",
+    color = { r = 50, g = 50, b = 50 },
+    model = E_MODEL_KAYOKO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_KAYOKO,
+    voiceTable = VT_KAYOKO,
+    altCostume = nil,
+    cmdId = 'kayoko'
+}

@@ -4,26 +4,21 @@ TEXT_MOD_NAME = "Blue Archive Pack " .. PACK_ID
 -- Custom Models
 E_MODEL_FUBUKI = smlua_model_util_get_id("fubuki_geo")
 E_MODEL_FUBUKI2 = smlua_model_util_get_id("fubuki2_geo")
-E_MODEL_FUUKA = smlua_model_util_get_id("fuuka_geo")
 
-E_MODEL_SHIROKO = smlua_model_util_get_id("shiroko_geo")
-E_MODEL_SHIROKOTERROR = smlua_model_util_get_id("shirokoterror_geo")
-E_MODEL_SHIROKO2 = smlua_model_util_get_id("shirokoswimkzh_geo")
+
+
 E_MODEL_AKIRA = smlua_model_util_get_id("akira_geo")
 E_MODEL_AKIRA2 = smlua_model_util_get_id("akira2_geo")
-E_MODEL_KASUMI = smlua_model_util_get_id("kasumi_geo")
+
 E_MODEL_JTF = smlua_model_util_get_id("jtf_geo")
-E_MODEL_MUTSUKI = smlua_model_util_get_id("mutsuki_geo")
-E_MODEL_KAYOKO = smlua_model_util_get_id("kayoko_geo")
-E_MODEL_HARUKA = smlua_model_util_get_id("haruka_geo")
-E_MODEL_AKO = smlua_model_util_get_id("ako_geo")
+
 E_MODEL_MIMORI = smlua_model_util_get_id("mimori_geo")
 
 E_MODEL_MINE = smlua_model_util_get_id("mine_geo")
 E_MODEL_TSURUGI = smlua_model_util_get_id("tsurugi_geo")
 E_MODEL_ICHIKA = smlua_model_util_get_id("ichika_geo")
 E_MODEL_RABU = smlua_model_util_get_id("rabu_geo")
-E_MODEL_HARUNA = smlua_model_util_get_id("haruna_geo")
+
 E_MODEL_KIRINO = smlua_model_util_get_id("kirino_geo")
 E_MODEL_KIRINO_SW = smlua_model_util_get_id("kirino_sw_geo")
 E_MODEL_KANNA = smlua_model_util_get_id("kanna_geo")
@@ -35,7 +30,7 @@ E_MODEL_MIYAKO2 = smlua_model_util_get_id("miyako2_geo")
 E_MODEL_SAKI = smlua_model_util_get_id("saki_geo")
 E_MODEL_SAKI2 = smlua_model_util_get_id("saki_swim_geo")
 E_MODEL_MOMIJI = smlua_model_util_get_id("momiji_geo")
-E_MODEL_IBUKI = smlua_model_util_get_id("ibuki_geo")
+
 E_MODEL_NAGISA = smlua_model_util_get_id("nagisa_geo")
 E_MODEL_NAGISA2 = smlua_model_util_get_id("nagisa2_geo")
 E_MODEL_NAGISA3 = smlua_model_util_get_id("nagisa_swim_geo")
@@ -52,25 +47,18 @@ E_MODEL_HG01 = smlua_model_util_get_id("HG01_geo")
 -- Custom Texture Icons
 TEX_FUBUKI = get_texture_info("Fubuki_Icon")
 TEX_FUBUKI2 = get_texture_info("fubukiswimsuit_icon")
-TEX_FUUKA = get_texture_info("Fuuka_Icon")
 
-TEX_SHIROKO = get_texture_info("Shiroko_Icon")
-TEX_SHIROKO2 = get_texture_info("shirokoswim_icon")
-TEX_SHIROKOTERROR = get_texture_info("shirokoterroricon")
 TEX_AKIRA = get_texture_info("Akira_Icon")
-TEX_KASUMI = get_texture_info("Kasumi_Icon")
+
 TEX_JTF = get_texture_info("Jtf_Icon")
-TEX_MUTSUKI = get_texture_info("Mutsuki_Icon")
-TEX_KAYOKO = get_texture_info("Kayoko_Icon")
-TEX_HARUKA = get_texture_info("Haruka_Icon")
-TEX_AKO = get_texture_info("Ako_Icon")
+
 TEX_MIMORI = get_texture_info("Mimori_Icon")
 
 TEX_MINE = get_texture_info("Mine_Icon")
 TEX_TSURUGI = get_texture_info("Tsurugi_Icon")
 TEX_ICHIKA = get_texture_info("Ichika_Icon")
 TEX_RABU = get_texture_info("Rabu_Icon")
-TEX_HARUNA = get_texture_info("Haruna_Icon")
+
 TEX_KIRINO = get_texture_info("kirinoicon")
 TEX_SKIRINO = get_texture_info("skirinoicon")
 TEX_KANNA = get_texture_info("kannaicon")
@@ -84,7 +72,7 @@ TEX_MIYU2 = get_texture_info("MiyuSwimsuit_Icon")
 TEX_SAKI = get_texture_info("sakiicon")
 TEX_SAKI2 = get_texture_info("sakiswimicon")
 TEX_MOMIJI = get_texture_info("momijiicon")
-TEX_IBUKI = get_texture_info("ibukiicon")
+
 TEX_NAGISA = get_texture_info("nagisaicon")
 TEX_NAGISA2 = get_texture_info("nagisaswimicon")
 TEX_MIKA = get_texture_info("mikaicon")
