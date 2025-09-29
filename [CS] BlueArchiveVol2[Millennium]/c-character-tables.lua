@@ -439,3 +439,53 @@ BA_CHAR[E_MODEL_REI] = {
     altCostume = nil,
     cmdId = 'rei'
 }
+
+BA_CHAR[E_MODEL_AKANE] = {
+    name = "Akane",
+    description = {
+        "Mom"
+    },
+    school = "Millennium",
+    credit = "hash",
+    color = { r = 228, g = 219, b = 205 },
+    model = E_MODEL_AKANE,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_AKANE,
+    voiceTable = VT_AKANE,
+    altCostume = nil,
+    cmdId = 'akane'
+}
+
+BA_CHAR[E_MODEL_ASUNA] = {
+    name = "Asuna",
+    description = {
+        "Energetic"
+    },
+    school = "Millennium",
+    credit = "hash",
+    color = { r = 191, g = 177, b = 157 },
+    model = E_MODEL_ASUNA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_ASUNA,
+    voiceTable = VT_ASUNA,
+    altCostume = {
+        { name = "Asuna (School)", model = E_MODEL_ASUNA2, desc = 'Energetic', cmdId = 'asuna2', lifeIcon = TEX_ASUNA2, credit = "kzHouston" },
+    },
+    cmdId = 'asuna'
+}
+
+BA_CHAR[E_MODEL_KARIN] = {
+    name = "Karin",
+    description = {
+        "Math is not her passion"
+    },
+    school = "Millennium",
+    credit = "hash",
+    color = { r = 97, g = 88, b = 99 },
+    model = E_MODEL_KARIN,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_KARIN,
+    voiceTable = VT_KARIN,
+    altCostume = nil,
+    cmdId = 'karin'
+}
