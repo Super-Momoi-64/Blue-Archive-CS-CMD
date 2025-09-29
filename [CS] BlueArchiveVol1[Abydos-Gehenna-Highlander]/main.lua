@@ -1,5 +1,5 @@
 -- name: \\#FFFF00\\[CS] \\#00D7FB\\Blue \\#FFFFFF\\Archive Vol. 1
--- description: Requires Blue Archive Main to run. Character Select is optional but recommended. \n TODO:School List
+-- description: \\#FF0000\\Requires \\#FFFFFF\\Blue Archive Main to run. Character Select is optional but recommended. \n\nSchools:\n\n\\#06BBFA\\Abydos\n\\#E34A45\\Gehenna\n\\#63929C\\Highlander
 -- category: cs
 
 --[[
