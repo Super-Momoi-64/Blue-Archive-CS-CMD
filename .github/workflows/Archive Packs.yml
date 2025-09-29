@@ -30,8 +30,8 @@ jobs:
         run: |
           mkdir mod_archive
           mkdir gdd_archive
-          cp "[CS] BlueArchiveMain" mod_archive/
-          cp "[CS] BlueArchiveMain" gdd_archive/
+          cp -r "[CS] BlueArchiveMain" mod_archive/
+          cp -r "[CS] BlueArchiveMain" gdd_archive/
           mv "[CS] BlueArchiveVol1[Abydos-Gehenna-Highlander]" mod_archive/
           mv "[CS] BlueArchiveVol2[Millennium]" mod_archive/
           mv "[CS] BlueArchiveVol3[Trinity-Arius]" mod_archive/
