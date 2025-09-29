@@ -28,11 +28,12 @@ jobs:
       - name: Move folders and readme to temporary folder
         run: |
           mkdir mod_archive
-          mv "[CS-CMD] BlueArchiveMain" mod_archive/
-          mv "[CS-CMD] BlueArchivePack1" mod_archive/
-          mv "[CS-CMD] BlueArchivePack2" mod_archive/
-          mv "[CS-CMD] BlueArchivePack3" mod_archive/
-          mv "[CS-CMD] BlueArchivePack4" mod_archive/
+          mv "[CS] BlueArchiveMain" mod_archive/
+          mv "[CS] BlueArchiveVol1[Abydos-Gehenna-Highlander]" mod_archive/
+          mv "[CS] BlueArchiveVol2[Millennium]" mod_archive/
+          mv "[CS] BlueArchiveVol3[Trinity-Arius]" mod_archive/
+          mv "[CS] BlueArchiveVol4[SRT-Valkyrie-WildHunt-ETC]" mod_archive/
+          mv "[CS] BlueArchiveVol5[Hyakkiyako-Shanhaijing-RW]" mod_archive/
           mv "[ReadMe] Place everything inside mods folder.txt" mod_archive/
 
       - name: Upload artifact
