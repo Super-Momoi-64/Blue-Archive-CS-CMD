@@ -55,10 +55,10 @@
 -- }
 
 -- ================================================================
--- Voice Tables
+-- NPC Voices
+-- Files are in Main
 -- ================================================================
 
--- NPC Voices are in Main
 VT_NOVOICE = {
   [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3' },
   [CHAR_SOUND_DOH] = 'sfx_ml_bump.mp3',                                              -- Bonk into walls
@@ -84,6 +84,9 @@ VT_NOVOICE = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'sfx_smw_jump.mp3' },                                 -- 1st Jump(s)
 }
 
+-- ================================================================
+-- Voice Tables
+-- ================================================================
 VT_MOMOI = {
   [CHAR_SOUND_ATTACKED] = { 'momoi_hurt1.mp3', 'momoi_hurt2.mp3', 'momoi_yurusenai.mp3' },
   [CHAR_SOUND_DOH] = { 'momoi_guo.mp3', 'momoi_hoh.mp3' },

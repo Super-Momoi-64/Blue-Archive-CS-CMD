@@ -48,24 +48,9 @@
 
 --- @type BACharacterTable[]
 BA_CHAR = {}
-BA_CHAR[E_MODEL_ATSUKO] = {
-    name = "Atsuko",
-    description = {
-        "Hime"
-    },
-    school = "Arius",
-    credit = "HerosLight",
-    color = { r = 216, g = 198, b = 229 },
-    model = E_MODEL_ATSUKO,
-    forceChar = CT_MARIO,
-    lifeIcon = TEX_ATSUKO,
-    voiceTable = VT_ATSUKO,
-    altCostume = {
-        { name = "Atsuko Masked", model = E_MODEL_ATSUKO2, desc = 'Masked Hime', cmdId = 'atsuko2' },
-        -- { name = "Atsuko Funny",  model = E_MODEL_ATSUKO3, desc = 'Meme',        cmdId = 'atsuko3' },
-    },
-    cmdId = 'atsuko'
-}
+-- ================
+-- Trinity Start
+-- ================
 
 BA_CHAR[E_MODEL_AZUSA] = {
     name = "Azusa",
@@ -80,29 +65,10 @@ BA_CHAR[E_MODEL_AZUSA] = {
     lifeIcon = TEX_AZUSA,
     voiceTable = VT_AZUSA,
     altCostume = {
-        --    { name = "Azoosa", model = E_MODEL_AZUSA2, desc = 'Vanilla Vitamins', cmdId = 'azusa2' },
+        { name = "Azoosa",           model = E_MODEL_AZUSA2, desc = 'Vanilla Vitamins',  cmdId = 'azusa2' },
         { name = "Azusa (Swimsuit)", model = E_MODEL_AZUSA3, desc = 'Vanitas Vanitatum', cmdId = 'azusa3', lifeIcon = TEX_AZUSA2, credit = "MiyuEnjoyer" },
     },
     cmdId = 'azusa'
-}
-
-BA_CHAR[E_MODEL_HIYORI] = {
-    name = "Hiyori",
-    description = {
-        "Life is pain"
-    },
-    school = "Arius",
-    credit = "HerosLight",
-    color = { r = 189, g = 233, b = 218 },
-    model = E_MODEL_HIYORI,
-    forceChar = CT_MARIO,
-    lifeIcon = TEX_HIYORI,
-    voiceTable = VT_HIYORI,
-    altCostume = {
-        --    { name = "Hiyori (Lightsaber)", model = E_MODEL_HIYORI2, desc = 'Meme', cmdId = 'hiyori2' },
-        { name = "Hiyori (Swimsuit)", model = E_MODEL_HIYORI3, desc = 'Fun Fact: She has the biggest chibi breast in the game', cmdId = 'hiyori3', lifeIcon = TEX_HIYORI2, credit = "MiyuEnjoyer" },
-    },
-    cmdId = 'hiyori'
 }
 
 BA_CHAR[E_MODEL_KAZUSA] = {
@@ -123,21 +89,6 @@ BA_CHAR[E_MODEL_KAZUSA] = {
     cmdId = 'kazusa'
 }
 
-BA_CHAR[E_MODEL_MISAKI] = {
-    name = "Misaki",
-    description = {
-        "Whatever"
-    },
-    school = "Arius",
-    credit = "HerosLight",
-    color = { r = 69, g = 70, b = 64 },
-    model = E_MODEL_MISAKI,
-    forceChar = CT_MARIO,
-    lifeIcon = TEX_MISAKI,
-    voiceTable = VT_MISAKI,
-    cmdId = 'misaki'
-}
-
 BA_CHAR[E_MODEL_NATSU] = {
     name = "Natsu",
     description = {
@@ -156,23 +107,6 @@ BA_CHAR[E_MODEL_NATSU] = {
     cmdId = 'natsu'
 }
 
-BA_CHAR[E_MODEL_SAORI] = {
-    name = "Saori",
-    description = {
-        "She shot me"
-    },
-    school = 'Arius',
-    credit = "HerosLight",
-    color = { r = 62, g = 104, b = 225 },
-    model = E_MODEL_SAORI,
-    forceChar = CT_MARIO,
-    lifeIcon = TEX_SAORI,
-    voiceTable = VT_SAORI,
-    altCostume = {
-        { name = "Saori [No Mask]", model = E_MODEL_SAORI2, desc = 'She shot me', cmdId = 'saori2' },
-    },
-    cmdId = 'saori'
-}
 BA_CHAR[E_MODEL_ICHIKA] = {
     name = "Ichika",
     description = {
@@ -204,6 +138,7 @@ BA_CHAR[E_MODEL_JTF] = {
     altCostume = nil,
     cmdId = 'jtf'
 }
+
 BA_CHAR[E_MODEL_MIKA] = {
     name = "Mika",
     description = {
@@ -221,6 +156,7 @@ BA_CHAR[E_MODEL_MIKA] = {
     },
     cmdId = 'mika'
 }
+
 BA_CHAR[E_MODEL_MINE] = {
     name = "Mine",
     description = {
@@ -236,6 +172,7 @@ BA_CHAR[E_MODEL_MINE] = {
     altCostume = nil,
     cmdId = 'mine'
 }
+
 BA_CHAR[E_MODEL_NAGISA] = {
     name = "Nagisa",
     description = {
@@ -254,6 +191,7 @@ BA_CHAR[E_MODEL_NAGISA] = {
     },
     cmdId = 'nagisa'
 }
+
 BA_CHAR[E_MODEL_TSURUGI] = {
     name = "Tsurugi",
     description = {
@@ -269,6 +207,7 @@ BA_CHAR[E_MODEL_TSURUGI] = {
     altCostume = nil,
     cmdId = 'tsurugi'
 }
+
 BA_CHAR[E_MODEL_AIRI] = {
     name = "Airi",
     description = {
@@ -286,6 +225,7 @@ BA_CHAR[E_MODEL_AIRI] = {
     },
     cmdId = 'airi'
 }
+
 BA_CHAR[E_MODEL_HANAKO] = {
     name = "Hanako",
     description = {
@@ -337,6 +277,7 @@ BA_CHAR[E_MODEL_HIFUMI] = {
     },
     cmdId = 'hifumi'
 }
+
 BA_CHAR[E_MODEL_KOHARU] = {
     name = "Koharu",
     description = {
@@ -354,6 +295,7 @@ BA_CHAR[E_MODEL_KOHARU] = {
     },
     cmdId = 'koharu'
 }
+
 BA_CHAR[E_MODEL_SEIA] = {
     name = "Seia",
     description = {
@@ -371,6 +313,7 @@ BA_CHAR[E_MODEL_SEIA] = {
     },
     cmdId = 'seia'
 }
+
 BA_CHAR[E_MODEL_SUZUMI] = {
     name = "Suzumi",
     description = {
@@ -386,6 +329,7 @@ BA_CHAR[E_MODEL_SUZUMI] = {
     altCostume = nil,
     cmdId = 'suzumi'
 }
+
 BA_CHAR[E_MODEL_YOSHIMI] = {
     name = "Yoshimi",
     description = {
@@ -403,6 +347,7 @@ BA_CHAR[E_MODEL_YOSHIMI] = {
     },
     cmdId = 'yoshimi'
 }
+
 BA_CHAR[E_MODEL_SAKURAKO] = {
     name = "Sakurako",
     description = { "Wappi" },
@@ -416,8 +361,6 @@ BA_CHAR[E_MODEL_SAKURAKO] = {
     altCostume = nil,
     cmdId = 'sakurako'
 }
-
-
 
 BA_CHAR[E_MODEL_REISA] = {
     name = "Reisa",
@@ -433,6 +376,7 @@ BA_CHAR[E_MODEL_REISA] = {
     voiceTable = VT_REISA,
     cmdId = 'reisa'
 }
+
 BA_CHAR[E_MODEL_HANAE] = {
     name = "Hanae",
     description = {
@@ -502,3 +446,82 @@ BA_CHAR[E_MODEL_MARI] = {
     },
     cmdId = 'mari'
 }
+-- ================
+-- Trinity End
+-- ================
+-- ================
+-- Arius Start
+-- ================
+BA_CHAR[E_MODEL_SAORI] = {
+    name = "Saori",
+    description = {
+        "She shot me"
+    },
+    school = 'Arius',
+    credit = "HerosLight",
+    color = { r = 62, g = 104, b = 225 },
+    model = E_MODEL_SAORI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SAORI,
+    voiceTable = VT_SAORI,
+    altCostume = {
+        { name = "Saori [No Mask]", model = E_MODEL_SAORI2, desc = 'She shot me', cmdId = 'saori2' },
+    },
+    cmdId = 'saori'
+}
+
+BA_CHAR[E_MODEL_ATSUKO] = {
+    name = "Atsuko",
+    description = {
+        "Hime"
+    },
+    school = "Arius",
+    credit = "HerosLight",
+    color = { r = 216, g = 198, b = 229 },
+    model = E_MODEL_ATSUKO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_ATSUKO,
+    voiceTable = VT_ATSUKO,
+    altCostume = {
+        { name = "Atsuko Masked", model = E_MODEL_ATSUKO2, desc = 'Masked Hime', cmdId = 'atsuko2' },
+        { name = "Atsuko Funny",  model = E_MODEL_ATSUKO3, desc = 'Meme',        cmdId = 'atsuko3' },
+    },
+    cmdId = 'atsuko'
+}
+
+BA_CHAR[E_MODEL_HIYORI] = {
+    name = "Hiyori",
+    description = {
+        "Life is pain"
+    },
+    school = "Arius",
+    credit = "HerosLight",
+    color = { r = 189, g = 233, b = 218 },
+    model = E_MODEL_HIYORI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_HIYORI,
+    voiceTable = VT_HIYORI,
+    altCostume = {
+        { name = "Hiyori (Lightsaber)", model = E_MODEL_HIYORI2, desc = 'Meme',                                                   cmdId = 'hiyori2' },
+        { name = "Hiyori (Swimsuit)",   model = E_MODEL_HIYORI3, desc = 'Fun Fact: She has the biggest chibi breast in the game', cmdId = 'hiyori3', lifeIcon = TEX_HIYORI2, credit = "MiyuEnjoyer" },
+    },
+    cmdId = 'hiyori'
+}
+
+BA_CHAR[E_MODEL_MISAKI] = {
+    name = "Misaki",
+    description = {
+        "Whatever"
+    },
+    school = "Arius",
+    credit = "HerosLight",
+    color = { r = 69, g = 70, b = 64 },
+    model = E_MODEL_MISAKI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MISAKI,
+    voiceTable = VT_MISAKI,
+    cmdId = 'misaki'
+}
+-- ================
+-- Arius End
+-- ================

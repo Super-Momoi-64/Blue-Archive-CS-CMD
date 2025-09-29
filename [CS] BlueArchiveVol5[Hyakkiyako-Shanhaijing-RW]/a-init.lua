@@ -4,26 +4,16 @@ TEXT_MOD_NAME = "Blue Archive Vol " .. PACK_ID
 -- ================================================================
 -- Custom Models
 -- ================================================================
-E_MODEL_KOKONA = smlua_model_util_get_id("kokona_geo")
+-- ================
+-- Hyakkiyako
+-- ================
 E_MODEL_IZUNA = smlua_model_util_get_id("izuna_geo")
 E_MODEL_IZUNA2 = smlua_model_util_get_id("izuna2_geo")
 E_MODEL_TSUKUYO = smlua_model_util_get_id("tsukuyo_geo")
 E_MODEL_MICHIRU = smlua_model_util_get_id("michiru_geo")
 E_MODEL_CHISE = smlua_model_util_get_id("chise_geo")
 E_MODEL_CHISE2 = smlua_model_util_get_id("chise_swimsuit_geo")
-E_MODEL_SAYA = smlua_model_util_get_id("saya_geo")
-E_MODEL_SHIGURE = smlua_model_util_get_id("shigure_geo")
-E_MODEL_SHIGURE2 = smlua_model_util_get_id("shigure2_geo")
-E_MODEL_MIMORI = smlua_model_util_get_id("mimori_geo")
-E_MODEL_MOMIJI = smlua_model_util_get_id("momiji_geo")
-E_MODEL_CHERINO = smlua_model_util_get_id("cherino_geo")
-E_MODEL_TOMOE = smlua_model_util_get_id("tomoe_geo")
-E_MODEL_MARINA = smlua_model_util_get_id("marina_geo")
-E_MODEL_KISAKI = smlua_model_util_get_id("kisaki_geo")
-E_MODEL_REIJO = smlua_model_util_get_id("reijo_geo")
 E_MODEL_SHIZUKO = smlua_model_util_get_id("shizuko_geo")
-E_MODEL_SHUN = smlua_model_util_get_id("shun_geo")
-E_MODEL_CHILD_SHUN = smlua_model_util_get_id("child_shun_geo")
 E_MODEL_RENGE = smlua_model_util_get_id("renge_geo")
 E_MODEL_RENGE2 = smlua_model_util_get_id("renge_swim_geo")
 E_MODEL_KIKYOU = smlua_model_util_get_id("kikyou_geo")
@@ -35,33 +25,42 @@ E_MODEL_WAKAMO = smlua_model_util_get_id("wakamo_geo")
 E_MODEL_WAKAMO2 = smlua_model_util_get_id("wakamo2_geo")
 E_MODEL_PINA = smlua_model_util_get_id("pina_geo")
 E_MODEL_UMIKA = smlua_model_util_get_id("umika_geo")
+E_MODEL_MIMORI = smlua_model_util_get_id("mimori_geo")
+-- ================
+-- Shanghaijing
+-- ================
+E_MODEL_KOKONA = smlua_model_util_get_id("kokona_geo")
+E_MODEL_SAYA = smlua_model_util_get_id("saya_geo")
+E_MODEL_KISAKI = smlua_model_util_get_id("kisaki_geo")
+E_MODEL_REIJO = smlua_model_util_get_id("reijo_geo")
+E_MODEL_SHUN = smlua_model_util_get_id("shun_geo")
+E_MODEL_CHILD_SHUN = smlua_model_util_get_id("child_shun_geo")
+E_MODEL_RUMI = smlua_model_util_get_id("rumi_geo")
+-- ================
+-- RedWinter
+-- ================
+E_MODEL_SHIGURE = smlua_model_util_get_id("shigure_geo")
+E_MODEL_SHIGURE2 = smlua_model_util_get_id("shigure2_geo")
+E_MODEL_MOMIJI = smlua_model_util_get_id("momiji_geo")
+E_MODEL_CHERINO = smlua_model_util_get_id("cherino_geo")
+E_MODEL_TOMOE = smlua_model_util_get_id("tomoe_geo")
+E_MODEL_MARINA = smlua_model_util_get_id("marina_geo")
 E_MODEL_NODOKA = smlua_model_util_get_id("nodoka_geo")
 E_MODEL_NODOKA2 = smlua_model_util_get_id("nodoka2_geo")
-E_MODEL_RUMI = smlua_model_util_get_id("rumi_geo")
 E_MODEL_MERU = smlua_model_util_get_id("meru_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
-TEX_KOKONA = get_texture_info("Kokona_Icon")
+-- ================
+-- Hyakkiyako
+-- ================
 TEX_IZUNA = get_texture_info("Izuna_Icon")
 TEX_IZUNA2 = get_texture_info("swimsuitizuna_icon")
 TEX_TSUKUYO = get_texture_info("Tsukuyo_Icon")
 TEX_MICHIRU = get_texture_info("Michiru_Icon")
 TEX_CHISE = get_texture_info("Chise_Icon")
 TEX_CHISE2 = get_texture_info("chiseswimsuiticon")
-TEX_SAYA = get_texture_info("Saya_Casual_Icon")
-TEX_SHIGURE = get_texture_info("Shigure_Icon")
-TEX_SHIGURE2 = get_texture_info("shigure2_icon")
-TEX_MIMORI = get_texture_info("Mimori_Icon")
-TEX_MOMIJI = get_texture_info("momijiicon")
-TEX_CHERINO = get_texture_info('cherino_icon')
-TEX_TOMOE = get_texture_info('tomoe_icon')
-TEX_MARINA = get_texture_info('marina_icon')
-TEX_KISAKI = get_texture_info('kisakiicon')
-TEX_REIJO = get_texture_info('reijo_icon')
 TEX_SHIZUKO = get_texture_info('shizuko_icon')
-TEX_SHUN = get_texture_info("Shun_Icon")
-TEX_YOUNG_SHUN = get_texture_info("Shun_Young_Icon")
 TEX_RENGE = get_texture_info("renge_icon")
 TEX_RENGE2 = get_texture_info("rengeswimsuit_icon")
 TEX_KIKYOU = get_texture_info("kikyou_icon")
@@ -72,7 +71,26 @@ TEX_YUKARI2 = get_texture_info("yukariswimsuit_icon")
 TEX_WAKAMO = get_texture_info("Wakamo_Icon")
 TEX_PINA = get_texture_info("pina_icon")
 TEX_UMIKA = get_texture_info("umika_icon")
+-- ================
+-- Shanghaijing
+-- ================
+TEX_KOKONA = get_texture_info("Kokona_Icon")
+TEX_SAYA = get_texture_info("Saya_Casual_Icon")
+TEX_KISAKI = get_texture_info('kisakiicon')
+TEX_REIJO = get_texture_info('reijo_icon')
+TEX_SHUN = get_texture_info("Shun_Icon")
+TEX_YOUNG_SHUN = get_texture_info("Shun_Young_Icon")
+TEX_RUMI = get_texture_info("rumiicon")
+-- ================
+-- RedWinter
+-- ================
+TEX_SHIGURE = get_texture_info("Shigure_Icon")
+TEX_SHIGURE2 = get_texture_info("shigure2_icon")
+TEX_MIMORI = get_texture_info("Mimori_Icon")
+TEX_MOMIJI = get_texture_info("momijiicon")
+TEX_CHERINO = get_texture_info('cherino_icon')
+TEX_TOMOE = get_texture_info('tomoe_icon')
+TEX_MARINA = get_texture_info('marina_icon')
 TEX_NODOKA = get_texture_info("nodoka_icon")
 TEX_NODOKA2 = get_texture_info("nodoka2_icon")
-TEX_RUMI = get_texture_info("rumiicon")
 TEX_MERU = get_texture_info("meru_icon")
