@@ -15,7 +15,8 @@ jobs:
         run: |
           echo "FULL_SHA=$GITHUB_SHA" >> $GITHUB_ENV
           TODAY=$(date +"%B-%d-%Y" | tr '[:upper:]' '[:lower:]')
-          echo "ARTIFACT_NAME=blue_archive_mod_pack_${TODAY}" >> $GITHUB_ENV
+          echo "MAIN_ARTIFACT_NAME=blue_archive_mod_pack_${TODAY}" >> $GITHUB_ENV
+          echo "GDD_ARTIFACT_NAME=gamers_only_pack_${TODAY}" >> $GITHUB_ENV
 
       - name: Create ReadMe file
         run: |
@@ -28,17 +29,28 @@ jobs:
       - name: Move folders and readme to temporary folder
         run: |
           mkdir mod_archive
-          mv "[CS] BlueArchiveMain" mod_archive/
+          mkdir gdd_archive
+          cp "[CS] BlueArchiveMain" mod_archive/
+          cp "[CS] BlueArchiveMain" gdd_archive/
           mv "[CS] BlueArchiveVol1[Abydos-Gehenna-Highlander]" mod_archive/
           mv "[CS] BlueArchiveVol2[Millennium]" mod_archive/
           mv "[CS] BlueArchiveVol3[Trinity-Arius]" mod_archive/
           mv "[CS] BlueArchiveVol4[SRT-Valkyrie-WildHunt-ETC]" mod_archive/
           mv "[CS] BlueArchiveVol5[Hyakkiyako-Shanhaijing-RW]" mod_archive/
-          mv "[ReadMe] Place everything inside mods folder.txt" mod_archive/
+          mv "[CS] BlueArchivePack[GDD]" gdd_archive/
+          cp "[ReadMe] Place everything inside mods folder.txt" mod_archive/
+          cp "[ReadMe] Place everything inside mods folder.txt" gdd_archive/
 
-      - name: Upload artifact
+      - name: Upload main artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.ARTIFACT_NAME }}
+          name: ${{ env.MAIN_ARTIFACT_NAME }}
           path: mod_archive
+          compression-level: 9
+
+      - name: Upload GDD artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.GDD_ARTIFACT_NAME }}
+          path: gdd_archive
           compression-level: 9
