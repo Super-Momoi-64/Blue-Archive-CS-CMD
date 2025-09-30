@@ -17,12 +17,15 @@ local HURT_ACT_TABLE = {
   [ACT_HARD_FORWARD_AIR_KB] = true,
   [ACT_FORWARD_WATER_KB] = true,
   [ACT_IN_QUICKSAND] = true,
+  [ACT_PANTING] = true,
 }
 -- Animations that can use Hurt Expression.
 local HURT_ANIM_TABLE = {
   [CHAR_ANIM_IDLE_IN_QUICKSAND] = true,
   [CHAR_ANIM_MOVE_IN_QUICKSAND] = true,
   [CHAR_ANIM_DYING_IN_QUICKSAND] = true,
+  [CHAR_ANIM_DROWNING_PART1] = true,
+  [CHAR_ANIM_FALL_OVER_BACKWARDS] = true,
 }
 
 -- Actions that can use Star Get
@@ -39,6 +42,16 @@ local STAR_GET_ACT_TABLE = {
 local STAR_GET_ANIM_TABLE = {
   [CHAR_ANIM_GROUND_KICK] = true,
   [CHAR_ANIM_AIR_KICK] = true,
+}
+
+
+-- Animation Table with frame delay values
+-- for hurt -> death transition
+local DELAY_ANIM_DEATH_TABLE = {
+  [CHAR_ANIM_DYING_ON_STOMACH] = 32,
+  [CHAR_ANIM_DYING_ON_BACK] = 32,
+  [CHAR_ANIM_ELECTROCUTION] = 32,
+  [CHAR_ANIM_DYING_FALL_OVER] = 62,
 }
 
 
@@ -71,10 +84,6 @@ function eye_state_handler(m)
   if HURT_ANIM_TABLE[animID] then
     mBody.eyeState = MARIO_EYES_HURT
   end
-  -- idk what this was going to be used for
-  if m.action == ACT_PANTING then
-    mBody.eyeState = MARIO_EYES_LOOK_LEFT
-  end
   -- Star Get when Mario does Peace Sign
   if m.marioBodyState.handState == MARIO_HAND_PEACE_SIGN then
     mBody.eyeState = MARIO_EYES_STAR_GET
@@ -88,3 +97,24 @@ function eye_state_handler(m)
     mBody.eyeState = MARIO_EYES_STAR_GET
   end
 end
+
+
+---Hook on object update because HOOK_MARIO_UPDATE's 
+---animFrame gets frozen on taunts for some reason
+---@param o Object
+hook_event(HOOK_ON_OBJECT_ANIM_UPDATE, function(o)
+  if obj_has_behavior_id(o, id_bhvMario) ~= 0 then
+    local animID = o.header.gfx.animInfo.animID
+    -- Delayed Expressions
+    local deathDelay = DELAY_ANIM_DEATH_TABLE[animID]
+    if deathDelay then
+      local animFrame = o.header.gfx.animInfo.animFrame
+      local mBody = geo_get_body_state()
+      if animFrame < deathDelay then
+        mBody.eyeState = MARIO_EYES_HURT
+      else
+        mBody.eyeState = MARIO_EYES_DEAD
+      end
+    end
+  end
+end)
