@@ -102,12 +102,18 @@ end
 ---@param modelId modelId
 ---@param cmdId string
 local function update_animation_table(modelId, cmdId)
-  local uniqueAT = ANIM_TABLE_UNIQUE[cmdId]
-  if uniqueAT == nil then return end
   local at = ANIM_TABLE_CHAR[modelId]
-  for animIndex, animName in pairs(uniqueAT) do
-    at[animIndex] = animName
+  local uniqueAT = ANIM_TABLE_UNIQUE[cmdId]
+  if uniqueAT then
+    for animIndex, animName in pairs(uniqueAT) do
+      at[animIndex] = animName
+    end
   end
+  -- Set the idle poses
+  at[CHAR_ANIM_IDLE_HEAD_LEFT] = at.idle
+  at[CHAR_ANIM_IDLE_HEAD_RIGHT] = at.idle
+  at[CHAR_ANIM_IDLE_HEAD_CENTER] = at.idle
+  at[CHAR_ANIM_FIRST_PERSON] = at.idle
 end
 
 ---Function that adds a character to the character table

@@ -6,6 +6,20 @@
 
 ]]
 
+---Add CS menu pose 
+---@param c table character table
+local function resolve_cs_menu_anim(c)
+  local cs_char_add_anim = _G.charSelect.character_add_animations
+  local csPose = ANIM_TABLE_CHAR[c.model][CS_ANIM_MENU] or ANIM_TABLE_CHAR[c.model][CHAR_ANIM_IDLE_HEAD_CENTER]
+  if csPose then
+    if type(csPose) == "string" then
+      cs_char_add_anim(c.model, { [CS_ANIM_MENU] = csPose })
+    elseif type(csPose) == "table" then
+      cs_char_add_anim(c.model, { [CS_ANIM_MENU] = csPose.anim }, nil, {[CS_ANIM_MENU] = csPose.hand })
+    end
+  end
+end
+
 if _G.charSelectExists then
   --[[
         Blue Archive Character Select Section
@@ -17,7 +31,6 @@ if _G.charSelectExists then
     local cs_add_health_meter = _G.charSelect.character_add_health_meter
     local cs_char_add_costume = _G.charSelect.character_add_costume
     local cs_char_set_category = _G.charSelect.character_set_category
-    local cs_char_add_anim = _G.charSelect.character_add_animations
     local cs_char_add_graffiti = _G.charSelect.character_add_graffiti
 
     -- Sort the unsorted character table
@@ -39,6 +52,7 @@ if _G.charSelectExists then
       cs_add_health_meter(cID, HEALTH_METER)
       -- Add Animations
       -- cs_char_add_anim(c.model, ANIM_TABLE_CHAR[c.model])
+      resolve_cs_menu_anim(c)
       -- Add School Logo
       if cs_char_add_graffiti ~= nil then
         cs_char_add_graffiti(cID, SCHOOL_ICON[c.school] or SCHOOL_ICON["Error"])
@@ -54,7 +68,7 @@ if _G.charSelectExists then
           -- Add costume to character
           cs_char_add_costume(cID, alt.name, alt.desc, alt.credit or c.credit, c.color, alt.model, c.forceChar,
             icon, 0.8)
-          
+
           -- Add voice to alt
           if alt.voiceTable ~= nil then
             vt = alt.voiceTable
@@ -63,6 +77,7 @@ if _G.charSelectExists then
           cs_char_add_voice(alt.model, vt)
           -- Add animation to costume
           -- cs_char_add_anim(alt.model, ANIM_TABLE_CHAR[alt.model])
+          resolve_cs_menu_anim(alt)
           -- Store alt name in translation table
           character_add_cmd(alt.cmdId, alt.name, c.school, c.color, j + 1)
         end

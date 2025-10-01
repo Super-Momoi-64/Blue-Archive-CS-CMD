@@ -1,15 +1,7 @@
 -- Base Animation Table
 ANIM_TABLE_CHAR_BASE = {
   tilt = true,
-  [CHAR_ANIM_IDLE_HEAD_LEFT] = "blue_archive_idle_edited_wider",
-  [CHAR_ANIM_IDLE_HEAD_RIGHT] = "blue_archive_idle_edited_wider",
-  [CHAR_ANIM_IDLE_HEAD_CENTER] = "blue_archive_idle_edited_wider",
-}
-
-HAND_STATE_BASE = {
-  [CHAR_ANIM_IDLE_HEAD_LEFT] = MARIO_HAND_OPEN,
-  [CHAR_ANIM_IDLE_HEAD_RIGHT] = MARIO_HAND_OPEN,
-  [CHAR_ANIM_IDLE_HEAD_CENTER] = MARIO_HAND_OPEN,
+  idle = "blue_archive_idle_edited_wider",
 }
 
 -- Character Animations index by their modelId
