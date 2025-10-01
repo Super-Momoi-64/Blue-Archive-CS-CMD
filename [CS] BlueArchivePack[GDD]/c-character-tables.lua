@@ -1,4 +1,5 @@
--- BA GDD
+---@diagnostic disable: duplicate-doc-field, duplicate-doc-alias
+-- BA Pack [GDD]
 -- Character Tables
 
 --[[
@@ -19,6 +20,7 @@
 ---| '"Valkyrie"' # Valkyrie
 ---| '"RedWinter"' # RedWinter
 ---| '"Highlander"' # Highlander
+---| '"WildHunt"' # Wild Hunt
 ---| '"ETC"' # ETC like Seven Prisoners or Collabs
 
 ---@class AltCostume
@@ -30,7 +32,7 @@
 ---@field cmdId string
 
 
---- @class CharacterTable
+--- @class BACharacterTable
 --- @field name string
 --- @field description table
 --- @field school School
@@ -42,9 +44,9 @@
 --- @field voiceTable table
 --- @field altCostume AltCostume[]|nil
 --- @field cmdId string --used for command version
--- local CharacterTable = {}
 
---- @type table<integer, CharacterTable>
+
+--- @type BACharacterTable[]
 BA_CHAR = {}
 
 BA_CHAR[E_MODEL_MOMOI] = {
@@ -60,7 +62,8 @@ BA_CHAR[E_MODEL_MOMOI] = {
   lifeIcon = TEX_MOMOI,
   voiceTable = VT_MOMOI,
   altCostume = {
-    { name = "Momoi (Maid)", model = E_MODEL_MOMOI2, desc = 'Gamer Maid', cmdId = 'momoi2', lifeIcon = TEX_MOMOI2 },
+    { name = "Momoi (Maid)",  model = E_MODEL_MOMOI2, desc = 'Gamer Maid',       cmdId = 'momoi2', lifeIcon = TEX_MOMOI2 },
+    { name = "Momoi (Bunny)", model = E_MODEL_MOMOI3, desc = 'Sexy Gamer Bunny', cmdId = 'momoi3', lifeIcon = TEX_MOMOI3 },
   },
   cmdId = 'momoi'
 }
@@ -78,7 +81,8 @@ BA_CHAR[E_MODEL_MIDORI] = {
   lifeIcon = TEX_MIDORI,
   voiceTable = VT_MIDORI,
   altCostume = {
-    { name = "Midori (Maid)", model = E_MODEL_MIDORI2, desc = 'Gamer Maid', cmdId = 'midori2', lifeIcon = TEX_MIDORI2 },
+    { name = "Midori (Maid)",  model = E_MODEL_MIDORI2, desc = 'Gamer Maid',       cmdId = 'midori2', lifeIcon = TEX_MIDORI2 },
+    { name = "Midori (Bunny)", model = E_MODEL_MIDORI3, desc = 'Sexy Gamer Bunny', cmdId = 'midori3', lifeIcon = TEX_MIDORI3, credit = "kzHouston" },
   },
   cmdId = 'midori'
 }
@@ -96,7 +100,8 @@ BA_CHAR[E_MODEL_YUZU] = {
   lifeIcon = TEX_YUZU,
   voiceTable = VT_YUZU,
   altCostume = {
-    { name = "Yuzu (Maid)", model = E_MODEL_YUZU2, desc = 'Gamer Maid', cmdId = 'yuzu2', lifeIcon = TEX_YUZU2 },
+    { name = "Yuzu (Maid)",  model = E_MODEL_YUZU2, desc = 'Gamer Maid',  cmdId = 'yuzu2', lifeIcon = TEX_YUZU2 },
+    { name = "Yuzu (Bunny)", model = E_MODEL_YUZU3, desc = 'Gamer Bunny', cmdId = 'yuzu3', lifeIcon = TEX_YUZU3, credit = "MiyuEnjoyer" },
   },
   cmdId = 'yuzu'
 }
@@ -114,7 +119,8 @@ BA_CHAR[E_MODEL_ALICE] = {
   lifeIcon = TEX_ALICE,
   voiceTable = VT_ALICE,
   altCostume = {
-    { name = "Alice (Maid)", model = E_MODEL_ALICE2, desc = 'Super Gamer Maid', cmdId = 'alice2', lifeIcon = TEX_ALICE2 },
+    { name = "Alice (Maid)",  model = E_MODEL_ALICE2, desc = 'Super Gamer Maid',        cmdId = 'alice2', lifeIcon = TEX_ALICE2 },
+    { name = "Alice (Bunny)", model = E_MODEL_ALICE3, desc = 'Your light (bunny suit)', cmdId = 'alice3', lifeIcon = TEX_ALICE3, credit = "AllergyDonor" },
   },
   cmdId = 'alice'
 }
