@@ -320,3 +320,18 @@ BA_CHAR[E_MODEL_PNIYA] = {
     altCostume = nil,
     cmdId = 'pniya'
 }
+
+BA_CHAR[E_MODEL_MIYO] = {
+    name = "Miyo",
+    description = {
+        "Stalker"
+    },
+    school = "WildHunt",
+    credit = "HerosLight",
+    color = { r = 223, g = 220, b = 214 },
+    model = E_MODEL_MIYO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MIYO,
+    voiceTable = VT_NOVOICE,
+    cmdId = 'miyo'
+}
