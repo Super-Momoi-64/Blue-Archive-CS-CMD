@@ -2,6 +2,8 @@
 ANIM_TABLE_CHAR_BASE = {
   tilt = true,
   idle = "blue_archive_idle_edited_wider",
+  [CHAR_ANIM_PULL_DOOR_WALK_IN] = "ba_pull_open_door",
+  [CHAR_ANIM_PUSH_DOOR_WALK_IN] = "ba_push_open_door",
 }
 
 -- Character Animations index by their modelId
@@ -21,13 +23,17 @@ function animation_handler(m, playerModelId)
     local customAnim = playerAnimTable[marioAnimID]
     -- If table, then it may be anim, hand state
     if type(customAnim) == "table" then
-      -- Try getting hand state before setting anim
+      -- Try getting hand/eye state before setting anim
       local handState = customAnim.hand
+      local eyeState = customAnim.eye
       -- Set to anim
       customAnim = customAnim.anim
       -- Set hand state
       if handState then
         m.marioBodyState.handState = handState
+      end
+      if eyeState then
+        m.marioBodyState.eyeState = eyeState
       end
     end
     if customAnim then

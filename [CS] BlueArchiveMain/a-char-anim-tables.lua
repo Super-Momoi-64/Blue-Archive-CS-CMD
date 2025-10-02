@@ -96,3 +96,35 @@ ANIM_TABLE_UNIQUE['rei'] = {
   [CHAR_ANIM_START_TIPTOE] = "rei_npc_walk",
   [CHAR_ANIM_TIPTOE] = "rei_npc_walk",
 }
+
+ANIM_TABLE_UNIQUE['eimi'] = {
+  idle = { anim = "momoi_npc_idle", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_START_TIPTOE] = { anim = "midori_npc_walk", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_TIPTOE] = { anim = "midori_npc_walk", hand = MARIO_HAND_OPEN },
+}
+
+ANIM_TABLE_UNIQUE['junko'] = {
+  idle = "junko_cafe_idle",
+  [CHAR_ANIM_WALKING] = "midori_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
+  [CHAR_ANIM_AIRBORNE_ON_STOMACH] = {anim = "junko_formation_pickup", eye = MARIO_EYES_DEAD},
+}
+ANIM_TABLE_UNIQUE['junko2'] = ANIM_TABLE_UNIQUE['junko']
+
+ANIM_TABLE_UNIQUE['rio'] = {
+  -- idle = "rio_npc_idle",
+  [CHAR_ANIM_WALKING] = "midori_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
+}
+
+ANIM_TABLE_UNIQUE['airi'] = {
+  idle = "airi_cafe_idle",
+  [CS_ANIM_MENU] = "airi_formation_idle",
+  [CHAR_ANIM_WALKING] = "airi_cafe_walk",
+  [CHAR_ANIM_START_TIPTOE] = "airi_cafe_walk",
+  [CHAR_ANIM_TIPTOE] = "airi_cafe_walk",
+}
+ANIM_TABLE_UNIQUE['airi2'] = ANIM_TABLE_UNIQUE['airi']
