@@ -128,3 +128,4 @@ ANIM_TABLE_UNIQUE['airi'] = {
   [CHAR_ANIM_TIPTOE] = "airi_cafe_walk",
 }
 ANIM_TABLE_UNIQUE['airi2'] = ANIM_TABLE_UNIQUE['airi']
+ANIM_TABLE_UNIQUE['hanae2'] = ANIM_TABLE_UNIQUE['airi']
