@@ -572,6 +572,36 @@ VT_MIMORI = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'mmr_jump2.mp3', 'mmr_jump4.mp3' }, -- 1st Jump(s)
   [CHAR_SOUND_YAWNING] = { 'mmr_yawn.mp3' },
 }
+
+VT_TSUBAKI = {
+  [CHAR_SOUND_ATTACKED] = { 'Tsubaki_ATTACKED1.ogg', 'Tsubaki_ATTACKED2.ogg' },
+  [CHAR_SOUND_DOH] = 'Tsubaki_UH.ogg',                                                         -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Tsubaki_DYING.ogg' },
+  [CHAR_SOUND_HAHA] = { 'Tsubaki_HAHA.ogg' },                                                    -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'Tsubaki_HEREWEGO1.ogg', 'Tsubaki_HEREWEGO2.ogg',},                -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'Tsubaki_LETSAGO1.ogg', 'Tsubaki_LETSAGO2.ogg' },                   -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'Tsubaki_MAMAMIA.ogg' },                                             -- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'Tsubaki_HRMM.ogg',                                                         -- Object Pick-up
+  [CHAR_SOUND_HOOHOO] = { 'Tsubaki_HOOHOO.ogg' },                                                -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'Tsubaki_ATTACKED2.ogg' },                                            -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'Tsubaki_OOOF2.ogg',                                                       -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Tsubaki_OOOF2.ogg',                                                      -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Tsubaki_PUNCH_HOO.ogg' },                                          -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Tsubaki_PUNCH_WAH.ogg',                                              -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Tsubaki_YAH_WAH_HOO.ogg',                                            -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Tsubaki_WAH2.ogg' },                                         -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'Tsubaki_WAH2.ogg' },                                                    -- Throw Object
+  [CHAR_SOUND_UH] = 'Tsubaki_UH.ogg',                                                            -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_UH2] = { 'Tsubaki_UH2.ogg' },                                                   -- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'Tsubaki_WAAAOOOW.ogg',                                                -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'Tsubaki_TWIRL_BOUNCE.ogg' },                                    -- Boing
+  [CHAR_SOUND_WHOA] = 'Tsubaki_OOOF2.ogg',                                                       -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Tsubaki_YAHOO.ogg' },                                                  -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Tsubaki_YAHOO_WAHA_YIPPEE.ogg' },                             -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Tsubaki_YAH_WAH_HOO.ogg', 'Tsubaki_YAH_WAH_HOO2.ogg' },          -- 1st Jump(s)
+  [CHAR_SOUND_EEUH] = { 'Tsubaki_EEUH.ogg' },                                                    -- Slow climb from ledge
+  [CHAR_SOUND_IMA_TIRED] = 'Tsubaki_IMATIRED.ogg',                                               -- Mario feeling tired
+}
 -- ================
 -- Hyakkiyako End
 -- ================
