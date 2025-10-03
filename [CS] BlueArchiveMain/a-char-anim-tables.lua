@@ -1,5 +1,17 @@
+-- Character Animations index by their modelId
+ANIM_TABLE_CHAR = {}
 -- Table for unique animations indexed by command ID because we don't know their ModelIds yet
 ANIM_TABLE_UNIQUE = {}
+
+-- Base Animation Table
+ANIM_TABLE_CHAR_BASE = {
+  tilt = true,
+  idle = "momoi_npc_idle",
+  [CHAR_ANIM_WALKING] = "midori_npc_walk",
+  [CHAR_ANIM_PULL_DOOR_WALK_IN] = "ba_pull_open_door",
+  [CHAR_ANIM_PUSH_DOOR_WALK_IN] = "ba_push_open_door",
+}
+
 CS_ANIM_MENU = CHAR_ANIM_MAX + 1
 
 --============================================================
@@ -110,6 +122,7 @@ ANIM_TABLE_UNIQUE['junko'] = {
   [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
   [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
   [CHAR_ANIM_AIRBORNE_ON_STOMACH] = {anim = "junko_formation_pickup", eye = MARIO_EYES_DEAD},
+  [CHAR_ANIM_WING_CAP_FLY] = { anim = "junko_formation_pickup",hand = MARIO_HAND_FISTS, eye = MARIO_EYES_DEAD },
 }
 ANIM_TABLE_UNIQUE['junko2'] = ANIM_TABLE_UNIQUE['junko']
 
@@ -128,6 +141,11 @@ ANIM_TABLE_UNIQUE['airi'] = {
   [CHAR_ANIM_TIPTOE] = "airi_cafe_walk",
 }
 ANIM_TABLE_UNIQUE['airi2'] = ANIM_TABLE_UNIQUE['airi']
+ANIM_TABLE_UNIQUE['airi2'] = ANIM_TABLE_UNIQUE['airi']
 ANIM_TABLE_UNIQUE['hanae2'] = ANIM_TABLE_UNIQUE['airi']
-ANIM_TABLE_UNIQUE['hanako2'] = ANIM_TABLE_UNIQUE['junko']
+ANIM_TABLE_UNIQUE['hanako2'] = ANIM_TABLE_UNIQUE['junko'] -- this means hanako will do the same cannon animation
 ANIM_TABLE_UNIQUE['umika'] = ANIM_TABLE_UNIQUE['alice']
+
+ANIM_TABLE_UNIQUE['sensei'] = {
+  [CHAR_ANIM_WALKING] = {anim=nil}
+}
