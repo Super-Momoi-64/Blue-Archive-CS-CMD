@@ -52,6 +52,7 @@ ANIM_TABLE_UNIQUE['alice'] = {
 }
 ANIM_TABLE_UNIQUE['alice2'] = ANIM_TABLE_UNIQUE['alice']
 ANIM_TABLE_UNIQUE['alice3'] = ANIM_TABLE_UNIQUE['alice']
+ANIM_TABLE_UNIQUE['kei'] = ANIM_TABLE_UNIQUE['alice']
 
 ANIM_TABLE_UNIQUE['yuzu'] = {
   idle = { anim = "yuzu_npc_idle", hand = MARIO_HAND_RIGHT_OPEN },
@@ -64,6 +65,9 @@ ANIM_TABLE_UNIQUE['yuzu3'] = ANIM_TABLE_UNIQUE['yuzu']
 
 ANIM_TABLE_UNIQUE['izuna'] = {
   idle = "midori_npc_idle",
+  [CHAR_ANIM_WALKING] = "izuna_cafe_walk",      -- Temporary
+  [CHAR_ANIM_START_TIPTOE] = "izuna_cafe_walk", -- Temporary
+  [CHAR_ANIM_TIPTOE] = "izuna_cafe_walk",       -- Temporary
 }
 
 ANIM_TABLE_UNIQUE['izuna2'] = ANIM_TABLE_UNIQUE['yuzu']
@@ -96,7 +100,7 @@ ANIM_TABLE_UNIQUE['moe2'] = {
 
 ANIM_TABLE_UNIQUE['kasumi'] = {
   idle = { anim = "kasumi_cafe_idle", hand = MARIO_HAND_FISTS },
-  [CS_ANIM_MENU] = { anim = "kasumi_formation_idle", hand = MARIO_HAND_FISTS },
+  [CS_ANIM_MENU] = { anim = "kasumi_formation_idle", hand = MARIO_HAND_PEACE_SIGN },
   [CHAR_ANIM_WALKING] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
   [CHAR_ANIM_START_TIPTOE] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
   [CHAR_ANIM_TIPTOE] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
@@ -143,9 +147,19 @@ ANIM_TABLE_UNIQUE['airi'] = {
 ANIM_TABLE_UNIQUE['airi2'] = ANIM_TABLE_UNIQUE['airi']
 ANIM_TABLE_UNIQUE['airi2'] = ANIM_TABLE_UNIQUE['airi']
 ANIM_TABLE_UNIQUE['hanae2'] = ANIM_TABLE_UNIQUE['airi']
-ANIM_TABLE_UNIQUE['hanako2'] = ANIM_TABLE_UNIQUE['junko'] -- this means hanako will do the same cannon animation
+ANIM_TABLE_UNIQUE['hanako2'] = {
+  idle = "junko_cafe_idle"
+}
 ANIM_TABLE_UNIQUE['umika'] = ANIM_TABLE_UNIQUE['alice']
+ANIM_TABLE_UNIQUE['koharu2'] = ANIM_TABLE_UNIQUE['yuzu']
 
 ANIM_TABLE_UNIQUE['sensei'] = {
   [CHAR_ANIM_WALKING] = {anim=nil}
+}
+
+ANIM_TABLE_UNIQUE['reisa'] = {
+  idle = "reisa_cafe_idle",
+  [CHAR_ANIM_WALKING] = "reisa_cafe_walk",
+  [CHAR_ANIM_START_TIPTOE] = "reisa_cafe_walk",
+  [CHAR_ANIM_TIPTOE] = "reisa_cafe_walk",
 }
