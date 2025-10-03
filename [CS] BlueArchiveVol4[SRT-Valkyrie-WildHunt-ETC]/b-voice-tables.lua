@@ -369,6 +369,51 @@ VT_ERI = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'eri_atk1.ogg', 'eri_atk2.ogg', 'eri_atk3.ogg' },    -- 1st Jump(s)
   [CHAR_SOUND_YAWNING] = { 'eri_yawn.ogg' },
 }
+
+VT_MIYO = {
+--   [CHAR_SOUND_OKEY_DOKEY] = 'CharStartGame.ogg',                                       -- Starting game
+--   [CHAR_SOUND_LETS_A_GO] = 'CharStartLevel.ogg',                                       -- Starting level
+  [CHAR_SOUND_PUNCH_YAH] = 'miyo_atk4.mp3',                                           -- Punch 1
+  [CHAR_SOUND_PUNCH_WAH] = 'miyo_atk3.mp3',                                           -- Punch 2
+  [CHAR_SOUND_PUNCH_HOO] = 'miyo_atk1.mp3',                                           -- Punch 3
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'miyo_atk3.mp3', 'miyo_jump1.mp3' },    -- First Jump Sounds
+  [CHAR_SOUND_HOOHOO] = 'miyo_jump2.mp3',                                          -- Second jump sound
+--   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'CharTripleJump1.ogg', 'CharTripleJump2.ogg' },   -- Triple jump sounds
+--   [CHAR_SOUND_UH] = 'CharBonk.ogg',                                                    -- Soft wall bonk
+--   [CHAR_SOUND_UH2] = 'CharLedgeGetUp.ogg',                                             -- Quick ledge get up
+--   [CHAR_SOUND_UH2_2] = 'CharLongJumpLand.ogg',                                         -- Landing after long jump
+--   [CHAR_SOUND_DOH] = 'CharBonk.ogg',                                                   -- Hard wall bonk
+--   [CHAR_SOUND_OOOF] = 'CharBonk.ogg',                                                  -- Attacked in air
+--   [CHAR_SOUND_OOOF2] = 'CharBonk.ogg',                                                 -- Land from hard bonk
+--   [CHAR_SOUND_HAHA] = 'CharTripleJumpLand.ogg',                                        -- Landing triple jump
+--   [CHAR_SOUND_HAHA_2] = 'CharWaterLanding.ogg',                                        -- Landing in water from big fall
+  [CHAR_SOUND_YAHOO] = 'miyo_atk2.mp3',                                             -- Long jump
+  [CHAR_SOUND_DOH] = 'miyo_bonk.mp3',                                                   -- Long jump wall bonk
+  [CHAR_SOUND_WHOA] = 'miyo_eh.mp3',                                             -- Grabbing ledge
+  [CHAR_SOUND_EEUH] = 'miyo_ledgeclimb.mp3',                                            -- Climbing over ledge
+--   [CHAR_SOUND_WAAAOOOW] = 'CharFalling.ogg',                                           -- Falling a long distance
+  [CHAR_SOUND_TWIRL_BOUNCE] = 'sfx_smw_spring.mp3',                                  -- Bouncing off of a flower spring
+--   [CHAR_SOUND_GROUND_POUND_WAH] = 'CharGroundPound.ogg',                               -- Ground Pound after startup
+--   [CHAR_SOUND_WAH2] = 'CharThrow.ogg',                                                 -- Throwing something
+--   [CHAR_SOUND_HRMM] = 'CharLift.ogg',                                                  -- Lifting something
+  [CHAR_SOUND_HERE_WE_GO] = { 'miyo_star1.mp3', 'miyo_star2.mp3' },                                        -- Star get
+--   [CHAR_SOUND_SO_LONGA_BOWSER] = 'CharThrowBowser.ogg',                                -- Throwing Bowser
+--   --DAMAGE
+  [CHAR_SOUND_ATTACKED] = { 'miyo_dmg1.mp3', 'miyo_ledgegrab.mp3' },                                           -- Damaged
+--   [CHAR_SOUND_PANTING] = 'CharPanting.ogg',                                            -- Low health
+--   [CHAR_SOUND_PANTING_COLD] = 'CharPanting.ogg',                                       -- Getting cold
+--   [CHAR_SOUND_ON_FIRE] = 'CharBurned.ogg',                                             -- Burned
+--   --SLEEP SOUNDS
+  [CHAR_SOUND_IMA_TIRED] = 'miyo_hmmm.mp3',                                            -- Mario feeling tired
+  [CHAR_SOUND_YAWNING] = 'miyo_sigh.mp3',                                               -- Mario yawning before he sits down to sleep
+--   [CHAR_SOUND_SNORING1] = 'CharSnore.ogg',                                             -- Snore Inhale
+--   [CHAR_SOUND_SNORING2] = 'CharExhale.ogg',                                            -- Exhale
+--   [CHAR_SOUND_SNORING3] = 'CharSleepTalk.ogg',                                         -- Sleep talking / mumbling
+--   --DEATH
+--   [CHAR_SOUND_DYING] = 'CharDying.ogg',                                                -- Dying from damage
+--   [CHAR_SOUND_DROWNING] = 'CharDrowning.ogg',                                          -- Running out of air underwater
+  [CHAR_SOUND_MAMA_MIA] = 'miyo_levelexit.mp3'                                         -- Booted out of level
+}
 -- ================
 -- WildHunt End
 -- ================

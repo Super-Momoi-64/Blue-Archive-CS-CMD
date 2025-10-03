@@ -332,6 +332,6 @@ BA_CHAR[E_MODEL_MIYO] = {
     model = E_MODEL_MIYO,
     forceChar = CT_MARIO,
     lifeIcon = TEX_MIYO,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_MIYO,
     cmdId = 'miyo'
 }
