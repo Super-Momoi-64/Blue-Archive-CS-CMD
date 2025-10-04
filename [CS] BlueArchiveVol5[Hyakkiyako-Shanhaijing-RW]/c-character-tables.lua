@@ -268,6 +268,22 @@ BA_CHAR[E_MODEL_UMIKA] = {
     altCostume = nil,
     cmdId = 'umika'
 }
+
+BA_CHAR[E_MODEL_TSUBAKI] = {
+    name = "Tsubaki",
+    description = {
+        "Sleepy"
+    },
+    school = "Hyakkiyako",
+    credit = "AllergyDonor",
+    color = { r = 237, g = 36, b = 36 },
+    model = E_MODEL_TSUBAKI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_TSUBAKI,
+    voiceTable = VT_TSUBAKI,
+    altCostume = nil,
+    cmdId = 'tsubaki'
+}
 -- ================
 -- Hyakkiyako End
 -- ================

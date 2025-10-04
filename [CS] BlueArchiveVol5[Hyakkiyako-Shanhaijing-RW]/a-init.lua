@@ -26,6 +26,7 @@ E_MODEL_WAKAMO2 = smlua_model_util_get_id("wakamo2_geo")
 E_MODEL_PINA = smlua_model_util_get_id("pina_geo")
 E_MODEL_UMIKA = smlua_model_util_get_id("umika_geo")
 E_MODEL_MIMORI = smlua_model_util_get_id("mimori_geo")
+E_MODEL_TSUBAKI = smlua_model_util_get_id("tsubaki_geo")
 -- ================
 -- Shanghaijing
 -- ================
@@ -72,6 +73,7 @@ TEX_WAKAMO = get_texture_info("Wakamo_Icon")
 TEX_PINA = get_texture_info("pina_icon")
 TEX_UMIKA = get_texture_info("umika_icon")
 TEX_MIMORI = get_texture_info("Mimori_Icon") -- Not to be confused with Minori (RW)
+TEX_TSUBAKI = get_texture_info("tsubaki_icon")
 -- ================
 -- Shanghaijing
 -- ================
