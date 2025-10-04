@@ -68,11 +68,18 @@ function character_add(cmdId, name, school, color, modelId, lifeIcon, voiceTable
   character_add_cmd(cmdId, name, school, color)
 end
 
----@description A function that gets the current character's voice table (From CS)
+
+--- A function that gets the current character's voice table
 ---@param m MarioState
 ---@return voiceTable
 function character_get_voice(m)
-  return characterVoices[gPlayerSyncTable[m.playerIndex].modelId]
+  -- Use the voice tables from CS context if it exists
+  if _G.charSelect.character_get_voice then
+    return _G.charSelect.character_get_voice(m)
+  else
+    -- Use the voice tables in BA context
+    return characterVoices[gPlayerSyncTable[m.playerIndex].modelId]
+  end
 end
 
 ---@description A function that adds animations to a model
@@ -119,7 +126,9 @@ end
 ---Function that adds a character to the character table
 ---to be processed for CS or CMD
 ---The table will be sorted after all packs all packs are inserted
+---=======================================================
 ---This is the first function that the packs send data to
+---=======================================================
 ---@param ct characterTable
 local function character_table_add(ct)
   if ct == nil then return end

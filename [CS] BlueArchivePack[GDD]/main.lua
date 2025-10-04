@@ -32,9 +32,9 @@ if _G.baMainCmdExists then
     local ba_config_char_sounds = _G.baMain.config_character_sounds
 
     -- If CS exists, remap the functions to CS instead of CMD
-    if _G.charSelectExists then
-        ba_config_char_sounds = _G.charSelect.config_character_sounds
-    end
+    -- if _G.charSelectExists then
+    --     ba_config_char_sounds = _G.charSelect.config_character_sounds
+    -- end
 
     for _, c in pairs(BA_CHAR) do
         -- Add Character to Main Character Table
