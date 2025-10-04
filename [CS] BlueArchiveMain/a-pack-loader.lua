@@ -27,7 +27,6 @@ if _G.charSelectExists then
   hook_event(HOOK_ON_MODS_LOADED, function()
     -- Localize Functions for CS
     local cs_char_add = _G.charSelect.character_add
-    local cs_char_add_voice = _G.charSelect.character_add_voice
     local cs_add_health_meter = _G.charSelect.character_add_health_meter
     local cs_char_add_costume = _G.charSelect.character_add_costume
     local cs_char_set_category = _G.charSelect.character_set_category
@@ -47,7 +46,7 @@ if _G.charSelectExists then
       character_add_cmd(c.cmdId, c.name, c.school, c.color, 1)
       -- Add Voice table to model
       preload_voices(vt)
-      cs_char_add_voice(c.model, vt)
+      character_add_voice(c.model, vt)
       -- Set health meter to character
       cs_add_health_meter(cID, HEALTH_METER)
       -- Add Animations
@@ -74,7 +73,7 @@ if _G.charSelectExists then
             vt = alt.voiceTable
             preload_voices(vt)
           end
-          cs_char_add_voice(alt.model, vt)
+          character_add_voice(alt.model, vt)
           -- Add animation to costume
           -- cs_char_add_anim(alt.model, ANIM_TABLE_CHAR[alt.model])
           resolve_cs_menu_anim(alt)

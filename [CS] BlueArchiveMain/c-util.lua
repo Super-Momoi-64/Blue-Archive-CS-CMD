@@ -62,22 +62,29 @@ end
 ---@param voiceTable table
 function character_add(cmdId, name, school, color, modelId, lifeIcon, voiceTable)
   characterModelIds[cmdId] = modelId
-  characterVoices[modelId] = type(voiceTable) == 'table' and voiceTable or nil
   characterIcons[modelId] = lifeIcon
-
+  character_add_voice(modelId, voiceTable)
   character_add_cmd(cmdId, name, school, color)
 end
 
 
+---Add to the character voice table in BA context
+---@param modelId ModelExtendedId
+---@param voiceTable table
+function character_add_voice(modelId, voiceTable)
+  characterVoices[modelId] = type(voiceTable) == 'table' and voiceTable or nil
+end
+
 --- A function that gets the current character's voice table
+-- Use the voice tables in BA context
 ---@param m MarioState
 ---@return voiceTable
 function character_get_voice(m)
-  -- Use the voice tables from CS context if it exists
-  if _G.charSelect.character_get_voice then
-    return _G.charSelect.character_get_voice(m)
+  if _G.charSelectExists then
+    -- Get the modelId from CS sync table
+    return characterVoices[_G.charSelect.gCSPlayers[m.playerIndex].modelId]
   else
-    -- Use the voice tables in BA context
+    -- Get the modelId from the regular sync table
     return characterVoices[gPlayerSyncTable[m.playerIndex].modelId]
   end
 end
@@ -235,7 +242,6 @@ function character_sound_test(packName, packTable)
   djui_chat_message_create(packName .. ' Sound Test. ' .. totalCount .. ' error(s) found. Check Console for log.')
 end
 
-
 local PRELOAD_VOICE_TABLE = {}
 
 ---Try loading audio file based on filename
@@ -245,7 +251,7 @@ local function try_loading_audio(sound)
   if type(sound) == "userdata" then
     return sound
   end
-  if PRELOAD_VOICE_TABLE[sound] then 
+  if PRELOAD_VOICE_TABLE[sound] then
     -- print('found preloaded voice ' .. sound)
     return PRELOAD_VOICE_TABLE[sound]
   end
@@ -269,7 +275,7 @@ function preload_voices(vt)
   for k, voice in pairs(vt) do
     -- Check if multiple sounds allocated
     if type(voice) == "table" then
-      for i, fname in pairs(voice) do 
+      for i, fname in pairs(voice) do
         voice[i] = try_loading_audio(fname) or fname
       end
     elseif type(voice) == "string" then
