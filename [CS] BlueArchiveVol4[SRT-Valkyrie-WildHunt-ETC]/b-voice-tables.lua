@@ -412,7 +412,7 @@ VT_MIYO = {
 --   [CHAR_SOUND_SNORING2] = 'CharExhale.ogg',                                            -- Exhale
 --   [CHAR_SOUND_SNORING3] = 'CharSleepTalk.ogg',                                         -- Sleep talking / mumbling
 --   --DEATH
-  [CHAR_SOUND_DYING] = 'miyo_ooof2.ogg',                                                -- Dying from damage
+  [CHAR_SOUND_DYING] = 'miyo_fall.mp3',                                                -- Dying from damage
 --   [CHAR_SOUND_DROWNING] = 'CharDrowning.ogg',                                          -- Running out of air underwater
   [CHAR_SOUND_MAMA_MIA] = 'miyo_levelexit.mp3'                                         -- Booted out of level
 }
