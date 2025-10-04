@@ -296,7 +296,9 @@ BA_CHAR[E_MODEL_MAKI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_MAKI,
     voiceTable = VT_MAKI,
-    altCostume = nil,
+    altCostume = {
+        {name = "Maki (Camp)", model=E_MODEL_MAKI_CAMP, desc="No internet", cmdId="maki2", lifeIcon=TEX_MAKI_CAMP}
+    },
     cmdId = 'maki'
 }
 
