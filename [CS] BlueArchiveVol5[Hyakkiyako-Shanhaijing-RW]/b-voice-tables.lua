@@ -599,7 +599,7 @@ VT_TSUBAKI = {
   [CHAR_SOUND_YAHOO] = { 'Tsubaki_YAHOO.ogg' },                                                  -- Long Jump
   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Tsubaki_YAHOO_WAHA_YIPPEE.ogg' },                             -- 3rd Jump(s)
   [CHAR_SOUND_YAH_WAH_HOO] = { 'Tsubaki_YAH_WAH_HOO.ogg', 'Tsubaki_YAH_WAH_HOO2.ogg' },          -- 1st Jump(s)
-  [CHAR_SOUND_EEUH] = { 'Tsubaki_UH.ogg' },                                                    -- Slow climb from ledge
+  [CHAR_SOUND_EEUH] = { 'Tsubaki_UH2.ogg' },                                                    -- Slow climb from ledge
   [CHAR_SOUND_IMA_TIRED] = 'Tsubaki_IMATIRED.ogg',                                               -- Mario feeling tired
 }
 -- ================
