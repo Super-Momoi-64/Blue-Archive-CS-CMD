@@ -71,6 +71,7 @@ TEX_YUKARI2 = get_texture_info("yukariswimsuit_icon")
 TEX_WAKAMO = get_texture_info("Wakamo_Icon")
 TEX_PINA = get_texture_info("pina_icon")
 TEX_UMIKA = get_texture_info("umika_icon")
+TEX_MIMORI = get_texture_info("Mimori_Icon") -- Not to be confused with Minori (RW)
 -- ================
 -- Shanghaijing
 -- ================
@@ -86,7 +87,6 @@ TEX_RUMI = get_texture_info("rumiicon")
 -- ================
 TEX_SHIGURE = get_texture_info("Shigure_Icon")
 TEX_SHIGURE2 = get_texture_info("shigure2_icon")
-TEX_MIMORI = get_texture_info("Mimori_Icon")
 TEX_MOMIJI = get_texture_info("momijiicon")
 TEX_CHERINO = get_texture_info('cherino_icon')
 TEX_TOMOE = get_texture_info('tomoe_icon')
