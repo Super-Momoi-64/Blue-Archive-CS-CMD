@@ -1,11 +1,15 @@
--- Replicate Vanilla Act Select Sound
-local menu_star_sound = audio_sample_load("0C.mp3")
+-- Plays a jingle and let's a go voice on act select, similar to vanilla behavior
+local bit_select = audio_stream_load("UI_Bit_Select.mp3")
+
 local m0 = gMarioStates[0]
 local DEBUG = false
 
+
 local function play_menu_star_sound()
+  local playPos = m0.pos
   -- Play the Menu Star sound from the loaded audio sample instead
-  audio_sample_play(menu_star_sound, m0.pos, 1.0)
+  -- audio_sample_play(menu_star_sound, playPos, 1.0)
+  audio_stream_play(bit_select, false, 1)
   -- Get the current character's voice table
   local charVoice = character_get_voice(m0)
   if charVoice == nil then return end
@@ -20,7 +24,7 @@ local function play_menu_star_sound()
       return
     end
     -- Voice should be loaded ModAudio
-    audio_sample_play(voice, m0.pos, 1.0)
+    audio_sample_play(voice, playPos, 1.0)
   end
 end
 
@@ -30,7 +34,7 @@ end
 ---@param pos Vec3s
 ---@return integer|nil
 local function on_play_sound(soundBits, pos)
-  -- If we are in the act selector, cancel the built in star menu sound 
+  -- If we are in the act selector, cancel the built in star menu sound
   if find_object_with_behavior(get_behavior_from_id(id_bhvActSelector)) ~= nil then
     if soundBits == SOUND_MENU_STAR_SOUND then
       play_menu_star_sound()
@@ -40,12 +44,12 @@ local function on_play_sound(soundBits, pos)
 end
 
 function on_character_sound(m, sound)
-  -- If we are outside of the act selector, cancel the let's a go sound 
+  -- If we are outside of the act selector, cancel the let's a go sound
   if find_object_with_behavior(get_behavior_from_id(id_bhvActSelector)) == nil then
-    if sound == CHAR_SOUND_LETS_A_GO or sound == SOUND_MARIO_LETS_A_GO then
+    if sound == CHAR_SOUND_LETS_A_GO then
       return NO_SOUND
     end
-  end 
+  end
 end
 
 if DEBUG then
@@ -59,7 +63,6 @@ if DEBUG then
     end
   end)
 end
-
 
 hook_event(HOOK_ON_PLAY_SOUND, on_play_sound)
 hook_event(HOOK_CHARACTER_SOUND, on_character_sound)
