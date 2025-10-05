@@ -506,6 +506,22 @@ BA_CHAR[E_MODEL_AOBA] = {
     cmdId = 'aoba'
 }
 
+BA_CHAR[E_MODEL_SUOU] = {
+    name = "Suou",
+    description = {
+        "I LOVE SHOTGUNS"
+    },
+    school = "Highlander",
+    credit = "kzHouston",
+    color = { r = 80, g = 80, b = 80 },
+    model = E_MODEL_SUOU,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SUOU,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'suou'
+}
+
 -- ================
 -- Highlander End
 -- ================

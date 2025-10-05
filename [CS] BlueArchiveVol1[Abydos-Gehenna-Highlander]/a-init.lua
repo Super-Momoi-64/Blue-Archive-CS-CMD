@@ -48,6 +48,7 @@ E_MODEL_HIKARI = smlua_model_util_get_id("hikari_geo")
 E_MODEL_NOZOMI = smlua_model_util_get_id("nozomi_geo")
 E_MODEL_TRAIN = smlua_model_util_get_id("train_geo")
 E_MODEL_AOBA = smlua_model_util_get_id("aoba_geo")
+E_MODEL_SUOU = smlua_model_util_get_id("suou_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
@@ -97,3 +98,4 @@ TEX_HIKARI = get_texture_info("Hikari_Icon")
 TEX_NOZOMI = get_texture_info("Nozomi_Icon")
 TEX_TRAIN = get_texture_info("Train_Icon")
 TEX_AOBA = get_texture_info("aoba_icon")
+TEX_SUOU = get_texture_info("suou_icon")
