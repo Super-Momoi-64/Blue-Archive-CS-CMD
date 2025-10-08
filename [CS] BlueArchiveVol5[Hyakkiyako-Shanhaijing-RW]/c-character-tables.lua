@@ -404,7 +404,8 @@ BA_CHAR[E_MODEL_SHIGURE] = {
     lifeIcon = TEX_SHIGURE,
     voiceTable = VT_SHIGURE,
     altCostume = {
-        { name = "Shigure (Hot Springs)", model = E_MODEL_SHIGURE2, desc = 'Naked Stoat', cmdId = 'shigure2', lifeIcon = TEX_SHIGURE2, credit = "AllergyDonor" },
+        { name = "Shigure (Bath Towel)", model = E_MODEL_SHIGURE2, desc = 'Naked Stoat', cmdId = 'shigure2', lifeIcon = TEX_SHIGURE2, credit = "AllergyDonor" },
+        { name = "Shigure (Hot Springs)", model = E_MODEL_SHIGURE3, desc = 'Comfy Stoat', cmdId = 'shigure3', lifeIcon = TEX_SHIGURE2, credit = "AllergyDonor" },
     },
     cmdId = 'shigure'
 }

@@ -42,6 +42,7 @@ E_MODEL_RUMI = smlua_model_util_get_id("rumi_geo")
 -- ================
 E_MODEL_SHIGURE = smlua_model_util_get_id("shigure_geo")
 E_MODEL_SHIGURE2 = smlua_model_util_get_id("shigure2_geo")
+E_MODEL_SHIGURE3 = smlua_model_util_get_id("shigure3_geo")
 E_MODEL_MOMIJI = smlua_model_util_get_id("momiji_geo")
 E_MODEL_CHERINO = smlua_model_util_get_id("cherino_geo")
 E_MODEL_TOMOE = smlua_model_util_get_id("tomoe_geo")
