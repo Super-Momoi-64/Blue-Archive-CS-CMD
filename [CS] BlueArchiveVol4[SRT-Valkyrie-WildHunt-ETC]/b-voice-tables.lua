@@ -390,7 +390,6 @@ VT_MIYO = {
    [CHAR_SOUND_HAHA] = 'miyo_haha.ogg',                                        -- Landing triple jump
 --   [CHAR_SOUND_HAHA_2] = 'CharWaterLanding.ogg',                                        -- Landing in water from big fall
   [CHAR_SOUND_YAHOO] = 'miyo_atk2.mp3',                                             -- Long jump
-  [CHAR_SOUND_DOH] = 'miyo_bonk.mp3',                                                   -- Long jump wall bonk
   [CHAR_SOUND_WHOA] = 'miyo_eh.mp3',                                             -- Grabbing ledge
   [CHAR_SOUND_EEUH] = 'miyo_ledgeclimb.mp3',                                            -- Climbing over ledge
   [CHAR_SOUND_WAAAOOOW] = 'miyo_fall.mp3',                                           -- Falling a long distance
@@ -404,7 +403,7 @@ VT_MIYO = {
   [CHAR_SOUND_ATTACKED] = { 'miyo_dmg1.mp3', 'miyo_dmg2.mp3' },                                           -- Damaged
 --   [CHAR_SOUND_PANTING] = 'CharPanting.ogg',                                            -- Low health
 --   [CHAR_SOUND_PANTING_COLD] = 'CharPanting.ogg',                                       -- Getting cold
-  [CHAR_SOUND_ON_FIRE] = 'sfx_ssb64_ledge.mp3',                                             -- Burned
+  [CHAR_SOUND_ON_FIRE] = 'sfx_smrpg_hot.mp3',                                             -- Burned
 --   --SLEEP SOUNDS
   [CHAR_SOUND_IMA_TIRED] = 'miyo_hmm.mp3',                                            -- Mario feeling tired
   [CHAR_SOUND_YAWNING] = 'miyo_sigh.mp3',                                               -- Mario yawning before he sits down to sleep
