@@ -89,10 +89,25 @@ ANIM_TABLE_UNIQUE['toki'] = {
   [CS_ANIM_MENU] = { anim = "toki_npc_idle", hand = MARIO_HAND_FISTS },
   [CHAR_ANIM_WALKING] = { anim = "toki_npc_walk", hand = MARIO_HAND_FISTS },
 }
-ANIM_TABLE_UNIQUE["toki2"] = ANIM_TABLE_UNIQUE["toki"]
 ANIM_TABLE_UNIQUE["toki3"] = ANIM_TABLE_UNIQUE["toki"]
-ANIM_TABLE_UNIQUE["toki4"] = ANIM_TABLE_UNIQUE["toki"]
-ANIM_TABLE_UNIQUE["toki5"] = ANIM_TABLE_UNIQUE["toki"]
+
+ANIM_TABLE_UNIQUE['toki4'] = {
+  idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_OPEN },
+}
+
+ANIM_TABLE_UNIQUE['toki2'] = {
+  idle = { anim = "suou_npc_idle", hand = MARIO_HAND_FISTS },
+  [CS_ANIM_MENU] = { anim = "suou_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_FISTS },
+}
+
+ANIM_TABLE_UNIQUE['toki5'] = {
+idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_OPEN },
+}
 
 ANIM_TABLE_UNIQUE['moe2'] = {
   idle = "moeswim_npc_idle",
