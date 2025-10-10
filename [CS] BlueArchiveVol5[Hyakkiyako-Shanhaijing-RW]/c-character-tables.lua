@@ -129,7 +129,9 @@ BA_CHAR[E_MODEL_MIMORI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_MIMORI,
     voiceTable = VT_MIMORI,
-    altCostume = nil,
+    altCostume = {
+        { name = "Mimori (Swimsuit)", model = E_MODEL_MIMORI2, desc = 'Traditional Wife (Summer)', cmdId = 'mimori2', lifeIcon = TEX_MIMORI2, credit = "AllergyDonor" },
+    },
     cmdId = 'mimori'
 }
 
