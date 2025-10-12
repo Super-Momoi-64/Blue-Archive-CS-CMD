@@ -88,6 +88,7 @@ TEX_REIJO = get_texture_info('reijo_icon')
 TEX_SHUN = get_texture_info("Shun_Icon")
 TEX_YOUNG_SHUN = get_texture_info("Shun_Young_Icon")
 TEX_RUMI = get_texture_info("rumiicon")
+TEX_KAI = get_texture_info("kaiicon")
 -- ================
 -- RedWinter
 -- ================
