@@ -387,6 +387,22 @@ BA_CHAR[E_MODEL_RUMI] = {
     altCostume = nil,
     cmdId = 'rumi'
 }
+
+BA_CHAR[E_MODEL_KAI] = {
+    name = "Kai",
+    description = {
+        "She is wearing garter belt"
+    },
+    school = "Shanhaijing",
+    credit = "HerosLight",
+    color = { r = 70, g = 70, b = 70 },
+    model = E_MODEL_KAI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_KAI,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'kai'
+}
 -- ================
 -- Shanhaijing End
 -- ================

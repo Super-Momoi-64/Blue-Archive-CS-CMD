@@ -38,6 +38,7 @@ E_MODEL_REIJO = smlua_model_util_get_id("reijo_geo")
 E_MODEL_SHUN = smlua_model_util_get_id("shun_geo")
 E_MODEL_CHILD_SHUN = smlua_model_util_get_id("child_shun_geo")
 E_MODEL_RUMI = smlua_model_util_get_id("rumi_geo")
+E_MODEL_KAI = smlua_model_util_get_id("kai_geo")
 -- ================
 -- RedWinter
 -- ================
