@@ -129,7 +129,9 @@ BA_CHAR[E_MODEL_MIMORI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_MIMORI,
     voiceTable = VT_MIMORI,
-    altCostume = nil,
+    altCostume = {
+        { name = "Mimori (Swimsuit)", model = E_MODEL_MIMORI2, desc = 'Traditional Wife (Summer)', cmdId = 'mimori2', lifeIcon = TEX_MIMORI2, credit = "AllergyDonor" },
+    },
     cmdId = 'mimori'
 }
 
@@ -385,22 +387,6 @@ BA_CHAR[E_MODEL_RUMI] = {
     altCostume = nil,
     cmdId = 'rumi'
 }
-
-BA_CHAR[E_MODEL_KAI] = {
-    name = "Kai",
-    description = {
-        "I'm all ears"
-    },
-    school = "Shanhaijing",
-    credit = "HerosLight",
-    color = { r = 70, g = 70, b = 70 },
-    model = E_MODEL_KAI,
-    forceChar = CT_MARIO,
-    lifeIcon = TEX_KAI,
-    voiceTable = VT_NOVOICE,
-    altCostume = nil,
-    cmdId = 'kai'
-}
 -- ================
 -- Shanhaijing End
 -- ================
@@ -420,7 +406,8 @@ BA_CHAR[E_MODEL_SHIGURE] = {
     lifeIcon = TEX_SHIGURE,
     voiceTable = VT_SHIGURE,
     altCostume = {
-        { name = "Shigure (Hot Springs)", model = E_MODEL_SHIGURE2, desc = 'Naked Stoat', cmdId = 'shigure2', lifeIcon = TEX_SHIGURE2, credit = "AllergyDonor" },
+        { name = "Shigure (Bath Towel)", model = E_MODEL_SHIGURE2, desc = 'Naked Stoat', cmdId = 'shigure2', lifeIcon = TEX_SHIGURE2, credit = "AllergyDonor" },
+        { name = "Shigure (Hot Springs)", model = E_MODEL_SHIGURE3, desc = 'Comfy Stoat', cmdId = 'shigure3', lifeIcon = TEX_SHIGURE2, credit = "AllergyDonor" },
     },
     cmdId = 'shigure'
 }
