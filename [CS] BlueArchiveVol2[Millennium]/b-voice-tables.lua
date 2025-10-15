@@ -591,9 +591,10 @@ VT_EIMI = {
   [CHAR_SOUND_UH] = 'eimi_hmmm3.mp3',                                               -- Drop off of ledge + Fall off Ledge
   [CHAR_SOUND_WAAAOOOW] = 'eimi_hmmm2.mp3',                                         -- Falling
   [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                             -- Boing
+  [CHAR_SOUND_HAHA] = { 'eimi_haha.mp3' },                                         -- Landing after backflip
   [CHAR_SOUND_WHOA] = 'eimi_huh1.mp3',                                              -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'sfx_ssb64_superjump.mp3' },                               -- Long Jump
-  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'sfx_ssb64_superjump.mp3' },                   -- 3rd Jump(s)
+  [CHAR_SOUND_YAHOO] = { 'eimi_longjump.mp3' },                                     -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'eimi_triplejump.mp3' },                       -- 3rd Jump(s)
   [CHAR_SOUND_YAH_WAH_HOO] = { 'eimi_atk4.mp3', 'eimi_atk5.mp3', 'eimi_atk3.mp3' }, -- 1st Jump(s)
   [CHAR_SOUND_YAWNING] = { 'eimi_sigh.mp3' },
 }

@@ -280,7 +280,9 @@ BA_CHAR[E_MODEL_EIMI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_EIMI,
     voiceTable = VT_EIMI,
-    altCostume = nil,
+    altCostume = {
+        {name = "Eimi (Swimsuit)", model= E_MODEL_EIMI2, desc = "She looks hot", cmdId = "eimi2", lifeIcon = TEX_EIMI2, credit = "kzHouston"}
+    },
     cmdId = 'eimi'
 }
 
