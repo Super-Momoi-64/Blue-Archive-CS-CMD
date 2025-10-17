@@ -184,3 +184,5 @@ ANIM_TABLE_UNIQUE['suou'] = {
   [CS_ANIM_MENU] = { anim = "suou_npc_idle", hand = MARIO_HAND_FISTS },
   [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_FISTS },
 }
+
+ANIM_TABLE_UNIQUE["makoto"] = ANIM_TABLE_UNIQUE["suou"]

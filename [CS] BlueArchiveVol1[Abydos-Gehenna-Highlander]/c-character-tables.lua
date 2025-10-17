@@ -436,6 +436,21 @@ BA_CHAR[E_MODEL_CHIAKI] = {
     cmdId = 'chiaki'
 }
 
+BA_CHAR[E_MODEL_MAKOTO] = {
+    name = "Makoto",
+    description = {
+        "The Honored One"
+    },
+    school = "Gehenna",
+    credit = "kzHouston",
+    color = { r = 150, g = 0, b = 0 },
+    model = E_MODEL_MAKOTO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MAKOTO,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'makoto'
+}
 -- ================
 -- Gehenna End
 -- ================

@@ -40,6 +40,7 @@ E_MODEL_HINA2 = smlua_model_util_get_id("hina2_geo")
 E_MODEL_HINA3 = smlua_model_util_get_id("hina3_geo")
 E_MODEL_SENA = smlua_model_util_get_id("senakzh_geo")
 E_MODEL_CHIAKI = smlua_model_util_get_id("chiaki_geo")
+E_MODEL_MAKOTO = smlua_model_util_get_id("makoto_geo")
 -- ================
 -- Highlander
 -- ================
@@ -89,6 +90,7 @@ TEX_HINA2 = get_texture_info("HinaPajama_Icon")
 TEX_HINA3 = get_texture_info("HinaDress_Icon")
 TEX_SENA = get_texture_info("senaicon")
 TEX_CHIAKI = get_texture_info("chiakiicon")
+TEX_MAKOTO = get_texture_info("makoto_icon")
 
 -- ================
 -- Highlander
