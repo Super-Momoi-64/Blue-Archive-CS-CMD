@@ -19,6 +19,9 @@ function is_stage()
     firstInit = true
     return
   end
+  if gMarioStates[0].action == ACT_CREDITS_CUTSCENE then
+    return false
+  end
   ---@type NetworkPlayer
   local p0 = gNetworkPlayers[0]
   local courseNum = p0.currCourseNum
