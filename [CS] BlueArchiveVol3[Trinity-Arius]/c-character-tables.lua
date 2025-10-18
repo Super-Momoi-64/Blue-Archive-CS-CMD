@@ -446,6 +446,22 @@ BA_CHAR[E_MODEL_MARI] = {
     },
     cmdId = 'mari'
 }
+
+BA_CHAR[E_MODEL_SHIMIKO] = {
+    name = "Shimiko",
+    description = {
+        "They actually remember her"
+    },
+    school = "Trinity",
+    credit = "kzHouston",
+    color = { r = 253, g = 187, b = 64 },
+    model = E_MODEL_SHIMIKO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SHIMIKO,
+    voiceTable = VT_NOVOICE,
+    cmdId = 'shimiko'
+}
+
 -- ================
 -- Trinity End
 -- ================
