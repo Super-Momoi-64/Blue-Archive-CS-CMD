@@ -858,6 +858,35 @@ VT_IROHA         = {
   [CHAR_SOUND_YAWNING] = { 'iroha_yawn.mp3' },
 }
 
+VT_MAKOTO        = {
+  [CHAR_SOUND_ATTACKED] = { 'Makoto_ATTACKED1.ogg', 'Makoto_ATTACKED2.ogg', },
+  [CHAR_SOUND_DOH] = 'Makoto_DOH.ogg',                                                     -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Makoto_DYING.ogg' },
+  [CHAR_SOUND_HAHA] = { 'Makoto_HAHA.ogg', 'Makoto_HAHA2.ogg', 'Makoto_HAHA3.ogg', 'Makoto_HAHA4.ogg'},                                             -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'Makoto_HERE_WE_GO1.ogg', 'Makoto_HERE_WE_GO2.ogg'}, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'Makoto_LETS_A_GO.ogg' },                                          -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'Makoto_MAMA_MIA.ogg' },                                    -- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'Makoto_HRMM.ogg',                                          -- Object Pick-up
+  [CHAR_SOUND_IMA_TIRED] = 'Makoto_YAWN.ogg',
+  [CHAR_SOUND_HOOHOO] = { 'Makoto_HOOHOO.ogg' },                                            -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'Makoto_ON_FIRE.ogg' },                                        -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'Makoto_UH.ogg',                                               -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Makoto_OOOF2.ogg',                                             -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Makoto_PUNCH_HOO.ogg' },                                         -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Makoto_PUNCH_WAH.ogg',                                             -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Makoto_PUNCH_YAH.ogg',                                             -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Makoto_WAH2.ogg' },                                 -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'Makoto_WAH2.ogg' },                                            -- Throw Object
+  [CHAR_SOUND_UH] = 'Makoto_UH.ogg',                                               -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_WAAAOOOW] = 'Makoto_WAAAOOOW.ogg',                                          -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'Makoto_TWIRL_BOUNCE.ogg' },                                  -- Boing
+  [CHAR_SOUND_WHOA] = 'Makoto_WHOA.ogg',                                             -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Makoto_YAHOO.ogg' },                                             -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Makoto_YAHOO_WAHA_YIPPEE.ogg' },                                 -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Makoto_YAH_WAH_HOO.ogg', 'Makoto_YAH_WAH_HOO2.ogg', 'Makoto_YAH_WAH_HOO3.ogg' },   -- 1st Jump(s)
+  --[CHAR_SOUND_YAWNING] = { 'Makoto_YAWN.ogg' },
+}
+
 -- ================
 -- Gehenna End
 -- ================

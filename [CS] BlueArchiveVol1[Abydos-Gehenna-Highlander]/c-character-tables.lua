@@ -447,7 +447,7 @@ BA_CHAR[E_MODEL_MAKOTO] = {
     model = E_MODEL_MAKOTO,
     forceChar = CT_MARIO,
     lifeIcon = TEX_MAKOTO,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_MAKOTO,
     altCostume = nil,
     cmdId = 'makoto'
 }
