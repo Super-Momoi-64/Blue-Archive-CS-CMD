@@ -458,7 +458,7 @@ BA_CHAR[E_MODEL_SHIMIKO] = {
     model = E_MODEL_SHIMIKO,
     forceChar = CT_MARIO,
     lifeIcon = TEX_SHIMIKO,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_SHIMIKO,
     cmdId = 'shimiko'
 }
 
