@@ -415,6 +415,37 @@ VT_MIYO = {
 --   [CHAR_SOUND_DROWNING] = 'CharDrowning.ogg',                                          -- Running out of air underwater
   [CHAR_SOUND_MAMA_MIA] = 'miyo_levelexit.mp3'                                         -- Booted out of level
 }
+
+VT_RITSU = {
+  [CHAR_SOUND_ATTACKED] = { 'Ritsu_ATTACKED.ogg', 'Ritsu_ATTACKED2.ogg' },
+  [CHAR_SOUND_DOH] = 'Ritsu_DOH.ogg',                                                           -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Ritsu_IMATIRED.ogg' },
+  [CHAR_SOUND_HERE_WE_GO] = { 'Ritsu_HEREWEGO.ogg', 'Ritsu_HEREWEGO2.ogg' },                    -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                                 -- Object Pick-up
+  [CHAR_SOUND_HOOHOO] = { 'Ritsu_HOOHOO.ogg' },                                                 -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_HAHA] = { 'Ritsu_HAHA.ogg', 'Ritsu_HAHA2.ogg', 'Ritsu_HAHA3.ogg' },               -- Landing after backflip
+  [CHAR_SOUND_HAHA_2] = { 'Ritsu_HAHA.ogg', 'Ritsu_HAHA2.ogg', 'Ritsu_HAHA3.ogg' },             -- Landing on Water after a fall
+  [CHAR_SOUND_LETS_A_GO] = { 'Ritsu_LETSAGO.ogg' },                                             -- Level Select
+  [CHAR_SOUND_ON_FIRE] = { 'Ritsu_ON_FIRE.ogg' },                                               -- Touch Fire
+  [CHAR_SOUND_IMA_TIRED] = 'Ritsu_IMATIRED.ogg',                                                -- Mario feeling tired
+  [CHAR_SOUND_OOOF] = 'Ritsu_OOOF2.ogg',                                                        -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Ritsu_OOOF2.ogg',                                                       -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Ritsu_PUNCH_HOO.ogg' },                                           -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Ritsu_PUNCH_WAH.ogg',                                               -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Ritsu_YAH_WAH_HOO2.ogg',                                            -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Ritsu_HAHA3.ogg' },                                         -- Bowser Throw
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'Ritsu_HEREWEGO2.ogg' },                                        -- Boing
+  [CHAR_SOUND_UH] = 'Ritsu_DOH.ogg',                                                            -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_UH2] = { 'Ritsu_UH2.ogg' },                                                       -- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'Ritsu_ON_FIRE.ogg',                                                  -- Falling
+  [CHAR_SOUND_WAH2] = { 'Ritsu_HAHA3.ogg' },                                                    -- Throw Object
+  [CHAR_SOUND_WHOA] = 'Ritsu_OOOF2.ogg',                                                        -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Ritsu_YAHOO.ogg' },                                                   -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Ritsu_YAHOO_WAHA_YIPPEE.ogg' },                           -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Ritsu_YAH_WAH_HOO.ogg', 'Ritsu_YAH_WAH_HOO2.ogg', 'Ritsu_YAH_WAH_HOO3.ogg' }, -- 1st Jump(s)
+}
+
+
 -- ================
 -- WildHunt End
 -- ================

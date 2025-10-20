@@ -335,3 +335,18 @@ BA_CHAR[E_MODEL_MIYO] = {
     voiceTable = VT_MIYO,
     cmdId = 'miyo'
 }
+
+BA_CHAR[E_MODEL_RITSU] = {
+    name = "Ritsu",
+    description = {
+        "Green Reisa"
+    },
+    school = "WildHunt",
+    credit = "MiyuEnjoyer",
+    color = { r = 236, g = 240, b = 212 },
+    model = E_MODEL_RITSU,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_RITSU,
+    voiceTable = VT_RITSU,
+    cmdId = 'ritsu'
+}

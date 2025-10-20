@@ -34,6 +34,7 @@ E_MODEL_AKIRA2 = smlua_model_util_get_id("akira2_geo")
 E_MODEL_KANOE = smlua_model_util_get_id("kanoe_geo")
 E_MODEL_ERI = smlua_model_util_get_id("eri_geo")
 E_MODEL_MIYO = smlua_model_util_get_id("miyo_geo")
+E_MODEL_RITSU = smlua_model_util_get_id("ritsu_geo")
 -- ================
 -- ETC
 -- ================
@@ -74,6 +75,7 @@ TEX_AKIRA = get_texture_info("Akira_Icon")
 TEX_KANOE = get_texture_info("kanoe_icon")
 TEX_ERI = get_texture_info("eriicon")
 TEX_MIYO = get_texture_info("miyoicon")
+TEX_RITSU = get_texture_info("ritsu_icon")
 -- ================
 -- ETC
 -- ================
