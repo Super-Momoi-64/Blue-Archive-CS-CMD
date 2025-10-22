@@ -192,3 +192,9 @@ ANIM_TABLE_UNIQUE['shimiko'] = {
   [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
   [CHAR_ANIM_WALKING] = { anim = "airi_cafe_walk", hand = MARIO_HAND_OPEN },
 }
+
+ANIM_TABLE_UNIQUE['rio'] = {
+idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_OPEN },
+}

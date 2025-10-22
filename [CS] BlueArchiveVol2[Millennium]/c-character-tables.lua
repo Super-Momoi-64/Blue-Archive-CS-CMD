@@ -342,7 +342,7 @@ BA_CHAR[E_MODEL_RIO] = {
         "Aris is innocent"
     },
     school = "Millennium",
-    credit = "hash",
+    credit = "hash/kzHouston",
     color = { r = 246, g = 0, b = 0 },
     model = E_MODEL_RIO,
     forceChar = CT_MARIO,
