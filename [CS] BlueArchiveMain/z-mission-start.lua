@@ -13,11 +13,14 @@ local scale = 1.5
 
 
 local firstInit = false
-function is_stage()
+local function is_stage()
   -- Skip the first init
   if not firstInit then
     firstInit = true
     return
+  end
+  if _G.geoguessr and _G.geoguessr.is_screenshot() then
+    return false
   end
   if gMarioStates[0].action == ACT_CREDITS_CUTSCENE then
     return false
