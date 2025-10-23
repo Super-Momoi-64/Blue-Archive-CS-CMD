@@ -178,6 +178,12 @@ ANIM_TABLE_UNIQUE['reisa'] = {
   [CHAR_ANIM_START_TIPTOE] = "reisa_cafe_walk",
   [CHAR_ANIM_TIPTOE] = "reisa_cafe_walk",
 }
+ANIM_TABLE_UNIQUE['reisa2'] = {
+  idle = "reisa_cafe_idle",
+  [CHAR_ANIM_WALKING] = "reisa_cafe_walk",
+  [CHAR_ANIM_START_TIPTOE] = "reisa_cafe_walk",
+  [CHAR_ANIM_TIPTOE] = "reisa_cafe_walk",
+}
 
 ANIM_TABLE_UNIQUE['suou'] = {
   idle = { anim = "suou_npc_idle", hand = MARIO_HAND_FISTS },

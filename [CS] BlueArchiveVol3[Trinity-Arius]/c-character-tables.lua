@@ -374,6 +374,9 @@ BA_CHAR[E_MODEL_REISA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_REISA,
     voiceTable = VT_REISA,
+    altCostume = {
+        { name = "Reisa (Magical)", model = E_MODEL_REISA2, desc = "Everyone's Magical Superstar.", cmdId = 'reisa2', lifeIcon = TEX_REISA2, credit = "MiyuEnjoyer" },
+    },
     cmdId = 'reisa'
 }
 
