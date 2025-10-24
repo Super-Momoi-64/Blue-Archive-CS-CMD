@@ -326,7 +326,9 @@ BA_CHAR[E_MODEL_SUZUMI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_SUZUMI,
     voiceTable = VT_SUZUMI,
-    altCostume = nil,
+    altCostume = {
+        { name = "Suzumi (Magical)", model = E_MODEL_SUZUMI2, desc = 'Suzumi alt today', cmdId = 'suzumi2', credit = "AllergyDonor", lifeIcon = TEX_SUZUMI2 },
+    },
     cmdId = 'suzumi'
 }
 
