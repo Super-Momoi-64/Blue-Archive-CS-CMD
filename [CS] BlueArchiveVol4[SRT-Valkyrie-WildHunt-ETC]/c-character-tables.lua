@@ -345,7 +345,7 @@ BA_CHAR[E_MODEL_BSG] = {
     color = { r = 208, g = 147, b = 171 },
     model = E_MODEL_BSG,
     forceChar = CT_MARIO,
-    lifeIcon = nil,
+    lifeIcon = TEX_BSG,
     voiceTable = VT_NOVOICE,
     altCostume = nil,
     cmdId = 'bikersg'
