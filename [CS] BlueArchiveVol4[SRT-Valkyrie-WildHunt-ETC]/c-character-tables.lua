@@ -157,22 +157,6 @@ BA_CHAR[E_MODEL_MOE] = {
     cmdId = 'moe'
 }
 
-BA_CHAR[E_MODEL_RABU] = {
-    name = "Rabu",
-    description = {
-        "Out of NPC Jail soon"
-    },
-    school = "ETC",
-    credit = "HerosLight",
-    color = { r = 178, g = 55, b = 76 },
-    model = E_MODEL_RABU,
-    forceChar = CT_MARIO,
-    lifeIcon = TEX_RABU,
-    voiceTable = VT_NOVOICE,
-    altCostume = nil,
-    cmdId = 'rabu'
-}
-
 BA_CHAR[E_MODEL_SAKI] = {
     name = "Saki",
     description = {

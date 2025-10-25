@@ -50,6 +50,7 @@ E_MODEL_UI = smlua_model_util_get_id("ui_geo")
 E_MODEL_UI2 = smlua_model_util_get_id("ui2_geo")
 E_MODEL_HINATA = smlua_model_util_get_id("hinata_geo")
 E_MODEL_SHIMIKO = smlua_model_util_get_id("shimiko_geo")
+E_MODEL_RABU = smlua_model_util_get_id("rabu_geo")
 -- ================
 -- Arius
 -- ================
@@ -108,6 +109,7 @@ TEX_UI = get_texture_info("uiicon")
 TEX_UI2 = get_texture_info("Ui_Swimsuit_Icon")
 TEX_HINATA = get_texture_info("hinataicon")
 TEX_SHIMIKO = get_texture_info("shimiko_icon")
+TEX_RABU = get_texture_info("Rabu_Icon")
 -- ================
 -- Arius
 -- ================

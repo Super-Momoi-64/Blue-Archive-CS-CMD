@@ -467,6 +467,22 @@ BA_CHAR[E_MODEL_SHIMIKO] = {
     cmdId = 'shimiko'
 }
 
+BA_CHAR[E_MODEL_RABU] = {
+    name = "Rabu",
+    description = {
+        "Rabu means Love"
+    },
+    school = "ETC",
+    credit = "HerosLight",
+    color = { r = 178, g = 55, b = 76 },
+    model = E_MODEL_RABU,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_RABU,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'rabu'
+}
+
 -- ================
 -- Trinity End
 -- ================
