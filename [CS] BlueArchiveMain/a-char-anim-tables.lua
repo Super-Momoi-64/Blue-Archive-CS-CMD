@@ -204,3 +204,13 @@ idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
   [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
   [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_OPEN },
 }
+
+ANIM_TABLE_UNIQUE['bikersg'] = {
+  idle = { anim = "kasumi_cafe_idle", hand = MARIO_HAND_FISTS },
+  [CS_ANIM_MENU] = { anim = "kasumi_formation_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_START_TIPTOE] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_TIPTOE] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
+}
+
+ANIM_TABLE_UNIQUE['rabu'] = ANIM_TABLE_UNIQUE['rei']

@@ -334,3 +334,19 @@ BA_CHAR[E_MODEL_RITSU] = {
     voiceTable = VT_RITSU,
     cmdId = 'ritsu'
 }
+
+BA_CHAR[E_MODEL_BSG] = {
+    name = "Biker SG",
+    description = {
+        "Her smug aura mocks me"
+    },
+    school = "ETC",
+    credit = "kzHouston",
+    color = { r = 208, g = 147, b = 171 },
+    model = E_MODEL_BSG,
+    forceChar = CT_MARIO,
+    lifeIcon = nil,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'bikersg'
+}

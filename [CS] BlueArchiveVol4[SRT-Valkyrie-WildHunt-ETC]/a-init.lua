@@ -43,6 +43,7 @@ E_MODEL_SHMG = smlua_model_util_get_id("skbhmg_geo")
 E_MODEL_HG01 = smlua_model_util_get_id("HG01_geo")
 E_MODEL_SENSEI = smlua_model_util_get_id("sensei_geo")
 E_MODEL_PNIYA = smlua_model_util_get_id("pniyakzh_geo")
+E_MODEL_BSG = smlua_model_util_get_id("biker_sg_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
@@ -83,3 +84,4 @@ TEX_SHMG = get_texture_info("Sukeban_HMG1")
 TEX_HG01 = get_texture_info("hg01icon")
 TEX_SENSEI = get_texture_info('senseiicon')
 TEX_PNIYA = get_texture_info("pniya_icon")
+--TEX_BSG = get_texture_info("bikersg_icon")
