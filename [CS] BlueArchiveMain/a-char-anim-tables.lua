@@ -213,4 +213,9 @@ ANIM_TABLE_UNIQUE['bikersg'] = {
   [CHAR_ANIM_TIPTOE] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
 }
 
-ANIM_TABLE_UNIQUE['rabu'] = ANIM_TABLE_UNIQUE['rei']
+ANIM_TABLE_UNIQUE['rabu'] = {
+  idle = "rei_npc_idle",
+  [CHAR_ANIM_WALKING] = "rabu_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "rabu_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "rabu_npc_walk",
+}
