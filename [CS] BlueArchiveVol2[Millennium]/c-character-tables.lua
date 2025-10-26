@@ -395,6 +395,9 @@ BA_CHAR[E_MODEL_KOTAMA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_KOTAMA,
     voiceTable = VT_KOTAMA,
+    altCostume = {
+        {name = "Kotama (Camp)", model=E_MODEL_KOTAMA_CAMP, desc="She is listening", lifeIcon=TEX_KOTAMA_CAMP, cmdId="kotama2"}
+    },
     cmdId = 'kotama'
 }
 
