@@ -366,3 +366,19 @@ BA_CHAR[E_MODEL_BSG] = {
     altCostume = nil,
     cmdId = 'bikersg'
 }
+
+BA_CHAR[E_MODEL_PLANA] = {
+    name = "Plana",
+    description = {
+        "Emo Arona"
+    },
+    school = "ETC",
+    credit = "kzHouston",
+    color = { r = 80, g = 80, b = 80 },
+    model = E_MODEL_PLANA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_PLANA,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'plana'
+}

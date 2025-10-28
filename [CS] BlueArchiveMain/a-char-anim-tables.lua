@@ -219,3 +219,10 @@ ANIM_TABLE_UNIQUE['rabu'] = {
   [CHAR_ANIM_START_TIPTOE] = "rabu_npc_walk",
   [CHAR_ANIM_TIPTOE] = "rabu_npc_walk",
 }
+
+ANIM_TABLE_UNIQUE['plana'] = {
+idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_START_TIPTOE] = { anim = "midori_npc_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_TIPTOE] = { anim = "midori_npc_walk", hand = MARIO_HAND_FISTS },
+}
