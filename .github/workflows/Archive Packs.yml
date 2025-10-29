@@ -34,9 +34,10 @@ jobs:
           cp -r "[CS] BlueArchiveMain" gdd_archive/
           mv "[CS] BlueArchiveVol1[Abydos-Gehenna-Highlander]" mod_archive/
           mv "[CS] BlueArchiveVol2[Millennium]" mod_archive/
-          mv "[CS] BlueArchiveVol3[Trinity-Arius]" mod_archive/
+          mv "[CS] BlueArchiveVol3[Trinity]" mod_archive/
           mv "[CS] BlueArchiveVol4[SRT-Valkyrie-WildHunt-ETC]" mod_archive/
           mv "[CS] BlueArchiveVol5[Hyakkiyako-Shanhaijing-RW]" mod_archive/
+          mv "[CS] BlueArchiveVol6[Arius]" mod_archive/
           mv "[CS] BlueArchivePack[GDD]" gdd_archive/
           cp "[ReadMe] Place everything inside mods folder.txt" mod_archive/
           cp "[ReadMe] Place everything inside mods folder.txt" gdd_archive/
