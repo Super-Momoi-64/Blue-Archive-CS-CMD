@@ -484,7 +484,7 @@ VT_ARONA = {
 
 VT_PLANA = {
   [CHAR_SOUND_ATTACKED] = { 'Plana_ATTACKED.ogg' },
-  [CHAR_SOUND_DOH] = 'Plana_HOOHOO.ogg',                                                   -- Bonk into walls
+  [CHAR_SOUND_DOH] = 'Plana_HOOHOO.ogg',                                                        -- Bonk into walls
   [CHAR_SOUND_DYING] = { 'Plana_OOOF2.ogg' },
   [CHAR_SOUND_HERE_WE_GO] = { 'Plana_HEREWEGO.ogg', 'Plana_HEREWEGO2.ogg' },                    -- Star Get + Obtaining Power-up
   [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                                 -- Object Pick-up
@@ -495,7 +495,7 @@ VT_PLANA = {
   [CHAR_SOUND_ON_FIRE] = { 'Plana_OOOF2.ogg' },                                                 -- Touch Fire
   [CHAR_SOUND_IMA_TIRED] = 'Plana_ATTACKED.ogg',                                                -- Mario feeling tired
   [CHAR_SOUND_OOOF] = 'Plana_ATTACKED.ogg',                                                     -- Grabbed by Chuckya
-  [CHAR_SOUND_OOOF2] = 'Plana_YAH_WAH_HOO.ogg',                                                      -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_OOOF2] = 'Plana_YAH_WAH_HOO.ogg',                                                 -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
   [CHAR_SOUND_PUNCH_HOO] = { 'sfx_ssb64_atk3.mp3' },                                            -- Kick
   [CHAR_SOUND_PUNCH_WAH] = 'sfx_ssb64_atk2.mp3',                                                -- 2nd Punch
   [CHAR_SOUND_PUNCH_YAH] = 'sfx_ssb64_atk1.mp3',                                                -- 1st Punch
@@ -506,7 +506,7 @@ VT_PLANA = {
   [CHAR_SOUND_WAAAOOOW] = 'Plana_ATTACKED.ogg',                                                 -- Falling
   [CHAR_SOUND_WAH2] = { 'sfx_ssb64_itemthrow.mp3' },                                            -- Throw Object
   [CHAR_SOUND_WHOA] = 'Plana_YAH_WAH_HOO.ogg',                                                  -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'sfx_ssb64_superjump.mp3' },                                           -- Long Jump
+  [CHAR_SOUND_YAHOO] = { 'Plana_YAHOO_WAHA_YIPPEE.ogg' },                                       -- Long Jump
   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Plana_YAHOO_WAHA_YIPPEE.ogg' },                           -- 3rd Jump(s)
   [CHAR_SOUND_YAH_WAH_HOO] = { 'Plana_YAH_WAH_HOO2.ogg', 'Plana_YAH_WAH_HOO3.ogg' },            -- 1st Jump(s)
 }
