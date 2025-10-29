@@ -316,7 +316,7 @@ BA_CHAR[E_MODEL_ARONA] = {
     model = E_MODEL_ARONA,
     forceChar = CT_MARIO,
     lifeIcon = TEX_ARONA,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_ARONA,
     altCostume = nil,
     cmdId = 'arona'
 }
@@ -378,7 +378,7 @@ BA_CHAR[E_MODEL_PLANA] = {
     model = E_MODEL_PLANA,
     forceChar = CT_MARIO,
     lifeIcon = TEX_PLANA,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_PLANA,
     altCostume = nil,
     cmdId = 'plana'
 }
