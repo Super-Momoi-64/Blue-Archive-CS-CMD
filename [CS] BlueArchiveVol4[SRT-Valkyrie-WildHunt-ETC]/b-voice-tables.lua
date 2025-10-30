@@ -470,14 +470,14 @@ VT_ARONA = {
   [CHAR_SOUND_PUNCH_HOO] = { 'Arona_PUNCH_HOO.ogg' },                                           -- Kick
   [CHAR_SOUND_PUNCH_WAH] = 'Arona_HOOHOO.ogg',                                                  -- 2nd Punch
   [CHAR_SOUND_PUNCH_YAH] = 'Arona_YAH_WAH_HOO.ogg',                                             -- 1st Punch
-  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Arona_HAHA.ogg' },                                          -- Bowser Throw
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Arona_YAHOO.ogg' },                                         -- Bowser Throw
   [CHAR_SOUND_TWIRL_BOUNCE] = { 'Arona_HAHA2.ogg' },                                            -- Boing
   [CHAR_SOUND_UH] = 'Arona_ATTACKED1.ogg',                                                      -- Drop off of ledge + Fall off Ledge
   [CHAR_SOUND_UH2] = { 'Arona_UH2.ogg' },                                                       -- Quick Ledge Get-Up
   [CHAR_SOUND_WAAAOOOW] = 'Arona_WAAAOOOW.ogg',                                                 -- Falling
   [CHAR_SOUND_WAH2] = { 'Arona_HAHA.ogg' },                                                     -- Throw Object
   [CHAR_SOUND_WHOA] = 'Arona_DOH.ogg',                                                          -- Ledge Grab
-  [CHAR_SOUND_YAHOO] = { 'Arona_YAHOO.ogg' },                                                   -- Long Jump
+  [CHAR_SOUND_YAHOO] = { 'Arona_YAHOO_WAHA_YIPPEE.ogg' },                                       -- Long Jump
   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Arona_YAHOO_WAHA_YIPPEE.ogg' },                           -- 3rd Jump(s)
   [CHAR_SOUND_YAH_WAH_HOO] = { 'Arona_YAH_WAH_HOO.ogg', 'Arona_YAH_WAH_HOO2.ogg', },            -- 1st Jump(s)
 }
