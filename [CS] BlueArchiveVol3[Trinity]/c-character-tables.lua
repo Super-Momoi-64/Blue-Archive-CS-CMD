@@ -478,7 +478,7 @@ BA_CHAR[E_MODEL_RABU] = {
     model = E_MODEL_RABU,
     forceChar = CT_MARIO,
     lifeIcon = TEX_RABU,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_RABU,
     altCostume = nil,
     cmdId = 'rabu'
 }
