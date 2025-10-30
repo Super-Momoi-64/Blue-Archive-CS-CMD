@@ -914,6 +914,37 @@ VT_RABU = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'sfx_smw_jump.mp3' },                             -- 1st Jump(s) --
   --[CHAR_SOUND_YAWNING] = 'Shimiko_YAWNING.ogg',
 }
+
+VT_SERINA = {
+  [CHAR_SOUND_ATTACKED] = { 'Serina_ATTACKED.ogg', },
+  [CHAR_SOUND_DOH] = 'Serina_ATTACKED.ogg',                                       -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Serina_DYING.ogg' },
+  [CHAR_SOUND_HAHA] = { 'Serina_HAHA.ogg' },                                  -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'Serina_HEREWEGO.ogg', 'Serina_HEREWEGO2.ogg' }, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_HOOHOO] = { 'Serina_HOOHOO.ogg' },                              -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                              -- Object Pick-up
+  --[CHAR_SOUND_IMA_TIRED] = '',
+  --[CHAR_SOUND_GROUND_POUND_WAH] = { 'Hanae_GROUND_POUND_WAH.ogg' },
+  [CHAR_SOUND_LETS_A_GO] = { 'Serina_LETSAGO.ogg' },                              -- Level Select
+  --[CHAR_SOUND_MAMA_MIA] = { 'Hanae_MAMA_MIA.ogg' },                              -- Getting up after thrown out of level
+  [CHAR_SOUND_ON_FIRE] = { 'Serina_ONFIRE.ogg' },                                  -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'Serina_OOOF2.ogg',                                          -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Serina_OOOF2.ogg',                                        -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Serina_YAHOO.ogg' },                            -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Serina_YAH_WAH_HOO2.ogg',                                -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Serina_YAH_WAH_HOO.ogg',                                -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Serina_WAH2.ogg' },                -- Bowser Throw
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'Serina_YAHOO_WAHA_YIPPEE.ogg' },                      -- Boing
+  [CHAR_SOUND_UH] = 'Serina_UH.ogg',                                              -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_UH2] = { 'Serina_UH.ogg' },                                         -- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'Serina_WAAAOOOW.ogg',                                  -- Falling
+  [CHAR_SOUND_WAH2] = { 'Serina_WAH2.ogg' },                                      -- Throw Object
+  [CHAR_SOUND_WHOA] = 'Serina_WHOA.ogg',                                          -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Serina_YAHOO.ogg' },                                    -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Serina_YAHOO_WAHA_YIPPEE.ogg' },                 -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Serina_YAH_WAH_HOO1.ogg', 'Serina_YAH_WAH_HOO2.ogg' }, -- 1st Jump(s)
+  --[CHAR_SOUND_YAWNING] = {''},
+}
 -- ================
 -- Trinity End
 -- ================
