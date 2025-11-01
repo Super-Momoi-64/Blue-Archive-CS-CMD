@@ -147,7 +147,9 @@ BA_CHAR[E_MODEL_SHIZUKO] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_SHIZUKO,
     voiceTable = VT_SHIZUKO,
-    altCostume = nil,
+    altCostume = {
+        { name = "Shizuko (Swimsuit)", model = E_MODEL_SHIZUKO2, desc = 'Nyan Nyan! (Beta)', cmdId = 'shizuko2', lifeIcon = TEX_SHIZUKO2, credit = "Twin Drive System" },
+    },
     cmdId = 'shizuko'
 }
 
