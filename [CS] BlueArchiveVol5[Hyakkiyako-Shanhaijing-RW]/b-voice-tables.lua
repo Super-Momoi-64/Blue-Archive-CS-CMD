@@ -602,6 +602,36 @@ VT_TSUBAKI = {
   [CHAR_SOUND_EEUH] = { 'Tsubaki_UH2.ogg' },                                                    -- Slow climb from ledge
   [CHAR_SOUND_IMA_TIRED] = 'Tsubaki_IMATIRED.ogg',                                               -- Mario feeling tired
 }
+
+VT_NIYA = {
+  [CHAR_SOUND_ATTACKED] = { 'niya_dmg1.mp3' },
+  [CHAR_SOUND_DOH] = 'niya_bonk.mp3',                                                         -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'niya_dead.mp3' },
+  [CHAR_SOUND_HAHA] = { 'niya_niha.mp3' },                                                    -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'niya_laugh2.mp3' },                -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'niya_ara-ara.mp3' },                   -- Level Select
+  --[CHAR_SOUND_MAMA_MIA] = { 'NIYA_MAMAMIA.ogg' },                                             -- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'niya_nyaha.mp3',                                                         -- Object Pick-up
+  [CHAR_SOUND_HOOHOO] = { 'sfx_smw_jump.mp3' },                                                -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'niya_burn.mp3' },                                            -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'niya_bonk.mp3',                                                       -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'niya_dmg1.mp3',                                                      -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'sfx_ssb64_atk3.mp3' },                                          -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'sfx_ssb64_atk2.mp3',                                              -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'sfx_ssb64_atk1.mp3',                                            -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'niya_bthrow.mp3' },                                         -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'niya_throw.mp3' },                                                    -- Throw Object
+  [CHAR_SOUND_UH] = 'niya_eh.mp3',                                                            -- Drop off of ledge + Fall off Ledge
+  --[CHAR_SOUND_UH2] = { 'NIYA_PUNCH_WAH.ogg' },                                                   -- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'niya_dmg1.mp3',                                                -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                    -- Boing
+  [CHAR_SOUND_WHOA] = 'niya_eh.mp3',                                                       -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'niya_niha.mp3' },                                                  -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'niya_laugh1.mp3', 'niya_hehe.mp3' },                             -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'sfx_smw_jump.mp3' },          -- 1st Jump(s)
+  --[CHAR_SOUND_EEUH] = { 'NIYA_UH2.ogg' },                                                    -- Slow climb from ledge
+  [CHAR_SOUND_IMA_TIRED] = 'niya_rest.mp3',                                               -- Mario feeling tired
+}
 -- ================
 -- Hyakkiyako End
 -- ================

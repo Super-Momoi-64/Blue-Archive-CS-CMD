@@ -316,7 +316,7 @@ BA_CHAR[E_MODEL_NIYA] = {
     model = E_MODEL_NIYA,
     forceChar = CT_MARIO,
     lifeIcon = TEX_NIYA,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_NIYA,
     altCostume = nil,
     cmdId = 'niya'
 }
