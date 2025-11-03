@@ -29,6 +29,7 @@ E_MODEL_UMIKA = smlua_model_util_get_id("umika_geo")
 E_MODEL_MIMORI = smlua_model_util_get_id("mimori_geo")
 E_MODEL_MIMORI2 = smlua_model_util_get_id("mimori2_geo")
 E_MODEL_TSUBAKI = smlua_model_util_get_id("tsubaki_geo")
+E_MODEL_NIYA = smlua_model_util_get_id("niya_geo")
 -- ================
 -- Shanghaijing
 -- ================
@@ -80,6 +81,7 @@ TEX_UMIKA = get_texture_info("umika_icon")
 TEX_MIMORI = get_texture_info("Mimori_Icon") -- Not to be confused with Minori (RW)
 TEX_MIMORI2 = get_texture_info("Mimori_Swimsuit_Icon")
 TEX_TSUBAKI = get_texture_info("tsubaki_icon")
+TEX_NIYA = get_texture_info("niya_icon")
 -- ================
 -- Shanghaijing
 -- ================

@@ -288,6 +288,22 @@ BA_CHAR[E_MODEL_TSUBAKI] = {
     altCostume = nil,
     cmdId = 'tsubaki'
 }
+
+BA_CHAR[E_MODEL_NIYA] = {
+    name = "Niya",
+    description = {
+        "Rightfully corrected"
+    },
+    school = "Hyakkiyako",
+    credit = "HerosLight",
+    color = { r = 255, g = 255, b = 255 },
+    model = E_MODEL_NIYA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_NIYA,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'niya'
+}
 -- ================
 -- Hyakkiyako End
 -- ================
