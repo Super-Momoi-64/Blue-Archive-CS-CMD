@@ -69,6 +69,22 @@ BA_CHAR[E_MODEL_CHISE] = {
     cmdId = 'chise'
 }
 
+BA_CHAR[E_MODEL_KAHO] = {
+    name = "Kaho",
+    description = {
+        "Chise's no.1 fan"
+    },
+    school = "Hyakkiyako",
+    credit = "AllergyDonor",
+    color = { r = 255, g = 255, b = 128 },
+    model = E_MODEL_KAHO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_KAHO,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'kaho'
+}
+
 BA_CHAR[E_MODEL_IZUNA] = {
     name = "Izuna",
     description = {
