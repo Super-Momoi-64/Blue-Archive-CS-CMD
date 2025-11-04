@@ -472,7 +472,7 @@ BA_CHAR[E_MODEL_RABU] = {
     description = {
         "Rabu means Love"
     },
-    school = "ETC",
+    school = "Trinity",
     credit = "HerosLight",
     color = { r = 178, g = 55, b = 76 },
     model = E_MODEL_RABU,
@@ -481,6 +481,24 @@ BA_CHAR[E_MODEL_RABU] = {
     voiceTable = VT_RABU,
     altCostume = nil,
     cmdId = 'rabu'
+}
+
+BA_CHAR[E_MODEL_SERINA] = {
+    name = "Serina",
+    description = {
+        "Take your meds"
+    },
+    school = "Trinity",
+    credit = "MiyuEnjoyer",
+    color = { r = 249, g = 187, b = 192 },
+    model = E_MODEL_SERINA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SERINA,
+    voiceTable = VT_SERINA,
+    altCostume = {
+        { name = "Serina (Christmas)", model = E_MODEL_SERINA2, desc = 'Take your meds', cmdId = 'serina2', lifeIcon = TEX_SERINA2,},
+	},
+    cmdId = 'serina'
 }
 
 -- ================
