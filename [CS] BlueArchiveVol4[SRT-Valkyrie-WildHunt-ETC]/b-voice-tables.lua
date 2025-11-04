@@ -453,6 +453,63 @@ VT_RITSU = {
 -- ETC Start
 -- ================
 
+VT_ARONA = {
+  [CHAR_SOUND_ATTACKED] = { 'Arona_ATTACKED1.ogg', 'Arona_ATTACKED2.ogg' },
+  [CHAR_SOUND_DOH] = 'Arona_DOH.ogg',                                                           -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Arona_DYING.ogg' },
+  [CHAR_SOUND_HERE_WE_GO] = { 'Arona_HEREWEGO.ogg', 'Arona_HEREWEGO2.ogg' },                    -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                                 -- Object Pick-up
+  [CHAR_SOUND_HOOHOO] = { 'Arona_HOOHOO.ogg' },                                                 -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_HAHA] = { 'Arona_HAHA.ogg', 'Arona_HAHA2.ogg','Arona_HAHA3.ogg' },                -- Landing after backflip
+  [CHAR_SOUND_HAHA_2] = { 'Arona_HAHA.ogg','Arona_HAHA2.ogg', 'Arona_HAHA3.ogg' },              -- Landing on Water after a fall
+  [CHAR_SOUND_LETS_A_GO] = { 'Arona_LETSAGO.ogg' },                                             -- Level Select
+  [CHAR_SOUND_ON_FIRE] = { 'Arona_ON_FIRE.ogg' },                                               -- Touch Fire
+  [CHAR_SOUND_IMA_TIRED] = 'Arona_IMATIRED.ogg',                                                -- Mario feeling tired
+  [CHAR_SOUND_OOOF] = 'Arona_OOOF2.ogg',                                                        -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Arona_OOOF2.ogg',                                                       -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Arona_PUNCH_HOO.ogg' },                                           -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Arona_HOOHOO.ogg',                                                  -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Arona_YAH_WAH_HOO.ogg',                                             -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Arona_YAHOO.ogg' },                                         -- Bowser Throw
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'Arona_HAHA2.ogg' },                                            -- Boing
+  [CHAR_SOUND_UH] = 'Arona_ATTACKED1.ogg',                                                      -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_UH2] = { 'Arona_UH2.ogg' },                                                       -- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'Arona_WAAAOOOW.ogg',                                                 -- Falling
+  [CHAR_SOUND_WAH2] = { 'Arona_HAHA.ogg' },                                                     -- Throw Object
+  [CHAR_SOUND_WHOA] = 'Arona_DOH.ogg',                                                          -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Arona_YAHOO_WAHA_YIPPEE.ogg' },                                       -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Arona_YAHOO_WAHA_YIPPEE.ogg' },                           -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Arona_YAH_WAH_HOO.ogg', 'Arona_YAH_WAH_HOO2.ogg', },            -- 1st Jump(s)
+}
+
+VT_PLANA = {
+  [CHAR_SOUND_ATTACKED] = { 'Plana_ATTACKED.ogg' },
+  [CHAR_SOUND_DOH] = 'Plana_HOOHOO.ogg',                                                        -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Plana_OOOF2.ogg' },
+  [CHAR_SOUND_HERE_WE_GO] = { 'Plana_HEREWEGO.ogg', 'Plana_HEREWEGO2.ogg' },                    -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                                 -- Object Pick-up
+  [CHAR_SOUND_HOOHOO] = { 'Plana_HOOHOO.ogg' },                                                 -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_HAHA] = { 'Plana_HAHA.ogg'},                                                      -- Landing after backflip
+  [CHAR_SOUND_HAHA_2] = { 'Plana_HAHA.ogg' },                                                   -- Landing on Water after a fall
+  [CHAR_SOUND_LETS_A_GO] = { 'Plana_LETSAGO.ogg' },                                             -- Level Select
+  [CHAR_SOUND_ON_FIRE] = { 'Plana_OOOF2.ogg' },                                                 -- Touch Fire
+  [CHAR_SOUND_IMA_TIRED] = 'Plana_ATTACKED.ogg',                                                -- Mario feeling tired
+  [CHAR_SOUND_OOOF] = 'Plana_ATTACKED.ogg',                                                     -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Plana_YAH_WAH_HOO.ogg',                                                 -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'sfx_ssb64_atk3.mp3' },                                            -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'sfx_ssb64_atk2.mp3',                                                -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'sfx_ssb64_atk1.mp3',                                                -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'sfx_smrpg_fireball.mp3' },                                  -- Bowser Throw
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                         -- Boing
+  [CHAR_SOUND_UH] = 'Plana_HOOHOO.ogg',                                                         -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_UH2] = { 'Plana_HOOHOO.ogg' },                                                    -- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'Plana_ATTACKED.ogg',                                                 -- Falling
+  [CHAR_SOUND_WAH2] = { 'sfx_ssb64_itemthrow.mp3' },                                            -- Throw Object
+  [CHAR_SOUND_WHOA] = 'Plana_YAH_WAH_HOO.ogg',                                                  -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Plana_YAHOO_WAHA_YIPPEE.ogg' },                                       -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Plana_YAHOO_WAHA_YIPPEE.ogg' },                           -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Plana_YAH_WAH_HOO2.ogg', 'Plana_YAH_WAH_HOO3.ogg' },            -- 1st Jump(s)
+}
 -- ================
 -- ETC End
 -- ================

@@ -305,6 +305,22 @@ BA_CHAR[E_MODEL_PNIYA] = {
     cmdId = 'pniya'
 }
 
+BA_CHAR[E_MODEL_ARONA] = {
+    name = "Arona",
+    description = {
+        "Your pakeji Sensei"
+    },
+    school = "ETC",
+    credit = "AllergyDonor",
+    color = { r = 255, g = 255, b = 128 },
+    model = E_MODEL_ARONA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_ARONA,
+    voiceTable = VT_ARONA,
+    altCostume = nil,
+    cmdId = 'arona'
+}
+
 BA_CHAR[E_MODEL_MIYO] = {
     name = "Miyo",
     description = {
@@ -349,4 +365,20 @@ BA_CHAR[E_MODEL_BSG] = {
     voiceTable = VT_NOVOICE,
     altCostume = nil,
     cmdId = 'bikersg'
+}
+
+BA_CHAR[E_MODEL_PLANA] = {
+    name = "Plana",
+    description = {
+        "Emo Arona"
+    },
+    school = "ETC",
+    credit = "kzHouston",
+    color = { r = 80, g = 80, b = 80 },
+    model = E_MODEL_PLANA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_PLANA,
+    voiceTable = VT_PLANA,
+    altCostume = nil,
+    cmdId = 'plana'
 }
