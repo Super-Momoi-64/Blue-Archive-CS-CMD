@@ -240,7 +240,7 @@ BA_CHAR[E_MODEL_SENSEI] = {
     lifeIcon = TEX_SENSEI,
     voiceTable = VT_NOVOICE,
     altCostume = {
-	{ name = "Phrenapates", model = E_MODEL_PHRENAPATES, desc = '...', voiceTable = VT_NOVOICE, cmdId = 'sensei2', lifeIcon = nil },
+	{ name = "Phrenapates", model = E_MODEL_PHRENAPATES, desc = '...', voiceTable = VT_NOVOICE, credit = "kzHouston", cmdId = 'sensei2', lifeIcon = nil },
 	},
     cmdId = 'sensei'
 }
