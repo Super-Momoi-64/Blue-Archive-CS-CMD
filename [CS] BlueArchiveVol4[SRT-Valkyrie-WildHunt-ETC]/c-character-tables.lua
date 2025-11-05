@@ -239,7 +239,9 @@ BA_CHAR[E_MODEL_SENSEI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_SENSEI,
     voiceTable = VT_NOVOICE,
-    altCostume = nil,
+    altCostume = {
+	{ name = "Phrenapates", model = E_MODEL_PHRENAPATES, desc = '...', voiceTable = VT_NOVOICE, cmdId = 'sensei2', lifeIcon = nil },
+	},
     cmdId = 'sensei'
 }
 
