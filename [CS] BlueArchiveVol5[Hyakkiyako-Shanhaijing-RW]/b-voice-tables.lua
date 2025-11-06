@@ -259,6 +259,37 @@ VT_CHISE = {
   [CHAR_SOUND_YAWNING] = { 'chise_yawn.mp3' },
 }
 
+VT_KAHO = {
+  [CHAR_SOUND_ATTACKED] = { 'kaho_hurt3.ogg', 'kaho_hurt1.ogg' },
+  [CHAR_SOUND_DOH] = 'kaho_hurt4.ogg',                                   -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'kaho_defeat1.ogg' },
+  [CHAR_SOUND_HAHA] = { 'kaho_ehehe.ogg' },                            -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'kaho_yokata.ogg', 'kaho_kawai.ogg' }, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_HOOHOO] = { 'kaho_ahh.ogg' },                       -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_HRMM] = 'kaho_bum.ogg',                                -- Object Pick-up
+  [CHAR_SOUND_IMA_TIRED] = 'kaho_sigh.ogg',
+  -- [CHAR_SOUND_GROUND_POUND_WAH] = {'shizuko_atk6.mp3'},
+  [CHAR_SOUND_LETS_A_GO] = { 'kaho_kiki.ogg' },                       -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'kaho_uhh.ogg' },                     -- Getting up after thrown out of level
+  [CHAR_SOUND_ON_FIRE] = { 'kaho_hurt2.ogg' },                           -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'kaho_eh2.ogg',                                    -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'kaho_sona.ogg',                                 -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'kaho_ya.ogg' },                         -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'kaho_hap.ogg',                           -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'kaho_ha.ogg',                             -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'kaho_sodesuka.ogg' },                 -- Bowser Throw
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'kaho_ehehe2.ogg' },                    -- Boing
+  [CHAR_SOUND_UH] = 'kaho_eh3.ogg',                                      -- Drop off of ledge + Fall off Ledge
+  -- [CHAR_SOUND_UH2] = {'shizuko_atk4.mp3'}, -- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'kaho_hurt2.ogg',                              -- Falling
+  [CHAR_SOUND_WAH2] = { 'kaho_ushimas.ogg' },                            -- Throw Object
+  [CHAR_SOUND_WHOA] = 'kaho_wa2.ogg',                                   -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'kaho_hai2.ogg' },                            -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'kaho_hai2.ogg' },                -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'kaho_wa2.ogg' }, -- 1st Jump(s)
+  -- [CHAR_SOUND_YAWNING] = {'shizuko_yawn.mp3'},
+}
+
 VT_SHIZUKO = {
   [CHAR_SOUND_ATTACKED] = { 'shizuko_dmg2.mp3', 'shizuko_wah.mp3' },
   [CHAR_SOUND_DOH] = 'shizuko_eh.mp3',                                   -- Bonk into walls

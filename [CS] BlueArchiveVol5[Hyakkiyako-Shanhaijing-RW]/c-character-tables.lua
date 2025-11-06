@@ -80,7 +80,7 @@ BA_CHAR[E_MODEL_KAHO] = {
     model = E_MODEL_KAHO,
     forceChar = CT_MARIO,
     lifeIcon = TEX_KAHO,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_KAHO,
     altCostume = nil,
     cmdId = 'kaho'
 }
