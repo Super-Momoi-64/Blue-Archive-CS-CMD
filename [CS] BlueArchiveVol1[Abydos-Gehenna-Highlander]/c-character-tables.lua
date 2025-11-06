@@ -66,6 +66,7 @@ BA_CHAR[E_MODEL_HOSHINO] = {
     altCostume = {
         { name = "Hoshino (Swimsuit)", model = E_MODEL_HOSHINO2, desc = 'Atsui yo',          cmdId = 'hoshino2', lifeIcon = TEX_HOSHINO2, credit = "hash" },
         { name = "Hoshino (Armed)",    model = E_MODEL_HOSHINO3, desc = 'Locked and Loaded', cmdId = 'hoshino3', lifeIcon = TEX_HOSHINO3, credit = "kzHouston" },
+		{ name = "Hoshino (Terror)",    model = E_MODEL_HOSHINO4, desc = 'DID SHE FUCKING DRAGON INSTALL!?', cmdId = 'hoshino4', lifeIcon = TEX_HOSHINO4, credit = "kzHouston", voiceTable = VT_NOVOICE,},
     },
     cmdId = 'hoshino'
 }
