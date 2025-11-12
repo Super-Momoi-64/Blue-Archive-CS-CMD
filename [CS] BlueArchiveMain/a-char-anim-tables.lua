@@ -89,10 +89,25 @@ ANIM_TABLE_UNIQUE['toki'] = {
   [CS_ANIM_MENU] = { anim = "toki_npc_idle", hand = MARIO_HAND_FISTS },
   [CHAR_ANIM_WALKING] = { anim = "toki_npc_walk", hand = MARIO_HAND_FISTS },
 }
-ANIM_TABLE_UNIQUE["toki2"] = ANIM_TABLE_UNIQUE["toki"]
 ANIM_TABLE_UNIQUE["toki3"] = ANIM_TABLE_UNIQUE["toki"]
-ANIM_TABLE_UNIQUE["toki4"] = ANIM_TABLE_UNIQUE["toki"]
-ANIM_TABLE_UNIQUE["toki5"] = ANIM_TABLE_UNIQUE["toki"]
+
+ANIM_TABLE_UNIQUE['toki4'] = {
+  idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_OPEN },
+}
+
+ANIM_TABLE_UNIQUE['toki2'] = {
+  idle = { anim = "suou_npc_idle", hand = MARIO_HAND_FISTS },
+  [CS_ANIM_MENU] = { anim = "suou_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_FISTS },
+}
+
+ANIM_TABLE_UNIQUE['toki5'] = {
+idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_OPEN },
+}
 
 ANIM_TABLE_UNIQUE['moe2'] = {
   idle = "moeswim_npc_idle",
@@ -145,8 +160,8 @@ ANIM_TABLE_UNIQUE['airi'] = {
   [CHAR_ANIM_TIPTOE] = "airi_cafe_walk",
 }
 ANIM_TABLE_UNIQUE['airi2'] = ANIM_TABLE_UNIQUE['airi']
-ANIM_TABLE_UNIQUE['airi2'] = ANIM_TABLE_UNIQUE['airi']
 ANIM_TABLE_UNIQUE['hanae2'] = ANIM_TABLE_UNIQUE['airi']
+
 ANIM_TABLE_UNIQUE['hanako2'] = {
   idle = "junko_cafe_idle"
 }
@@ -163,3 +178,61 @@ ANIM_TABLE_UNIQUE['reisa'] = {
   [CHAR_ANIM_START_TIPTOE] = "reisa_cafe_walk",
   [CHAR_ANIM_TIPTOE] = "reisa_cafe_walk",
 }
+ANIM_TABLE_UNIQUE['reisa2'] = {
+  idle = "reisa_cafe_idle",
+  [CHAR_ANIM_WALKING] = "reisa_cafe_walk",
+  [CHAR_ANIM_START_TIPTOE] = "reisa_cafe_walk",
+  [CHAR_ANIM_TIPTOE] = "reisa_cafe_walk",
+}
+
+ANIM_TABLE_UNIQUE['suou'] = {
+  idle = { anim = "suou_npc_idle", hand = MARIO_HAND_FISTS },
+  [CS_ANIM_MENU] = { anim = "suou_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_FISTS },
+}
+
+ANIM_TABLE_UNIQUE["makoto"] = ANIM_TABLE_UNIQUE["suou"]
+
+ANIM_TABLE_UNIQUE['shimiko'] = {
+  idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_WALKING] = { anim = "airi_cafe_walk", hand = MARIO_HAND_OPEN },
+}
+
+ANIM_TABLE_UNIQUE['rio'] = {
+idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
+  [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_OPEN },
+}
+
+ANIM_TABLE_UNIQUE['bikersg'] = {
+  idle = { anim = "kasumi_cafe_idle", hand = MARIO_HAND_FISTS },
+  [CS_ANIM_MENU] = { anim = "kasumi_formation_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_START_TIPTOE] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_TIPTOE] = { anim = "kasumi_cafe_walk", hand = MARIO_HAND_FISTS },
+}
+
+ANIM_TABLE_UNIQUE['rabu'] = {
+  idle = "rei_npc_idle",
+  [CHAR_ANIM_WALKING] = "rabu_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "rabu_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "rabu_npc_walk",
+}
+
+ANIM_TABLE_UNIQUE['plana'] = {
+idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_START_TIPTOE] = { anim = "midori_npc_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_TIPTOE] = { anim = "midori_npc_walk", hand = MARIO_HAND_FISTS },
+}
+
+ANIM_TABLE_UNIQUE['sensei2'] = {
+idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "suou_npc_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_START_TIPTOE] = { anim = "suou_npc_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_TIPTOE] = { anim = "suou_npc_walk", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_RUNNING] = { anim = "suou_npc_walk", hand = MARIO_HAND_FISTS },
+}
+
+ANIM_TABLE_UNIQUE['hoshino4'] = ANIM_TABLE_UNIQUE['suou']

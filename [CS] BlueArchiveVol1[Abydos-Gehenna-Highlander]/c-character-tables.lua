@@ -66,6 +66,7 @@ BA_CHAR[E_MODEL_HOSHINO] = {
     altCostume = {
         { name = "Hoshino (Swimsuit)", model = E_MODEL_HOSHINO2, desc = 'Atsui yo',          cmdId = 'hoshino2', lifeIcon = TEX_HOSHINO2, credit = "hash" },
         { name = "Hoshino (Armed)",    model = E_MODEL_HOSHINO3, desc = 'Locked and Loaded', cmdId = 'hoshino3', lifeIcon = TEX_HOSHINO3, credit = "kzHouston" },
+		{ name = "Hoshino (Terror)",    model = E_MODEL_HOSHINO4, desc = 'DID SHE FUCKING DRAGON INSTALL!?', cmdId = 'hoshino4', lifeIcon = TEX_HOSHINO4, credit = "kzHouston", voiceTable = VT_NOVOICE,},
     },
     cmdId = 'hoshino'
 }
@@ -436,6 +437,21 @@ BA_CHAR[E_MODEL_CHIAKI] = {
     cmdId = 'chiaki'
 }
 
+BA_CHAR[E_MODEL_MAKOTO] = {
+    name = "Makoto",
+    description = {
+        "The Honored One"
+    },
+    school = "Gehenna",
+    credit = "kzHouston",
+    color = { r = 150, g = 0, b = 0 },
+    model = E_MODEL_MAKOTO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_MAKOTO,
+    voiceTable = VT_MAKOTO,
+    altCostume = nil,
+    cmdId = 'makoto'
+}
 -- ================
 -- Gehenna End
 -- ================
@@ -504,6 +520,22 @@ BA_CHAR[E_MODEL_AOBA] = {
     voiceTable = VT_AOBA,
     altCostume = nil,
     cmdId = 'aoba'
+}
+
+BA_CHAR[E_MODEL_SUOU] = {
+    name = "Suou",
+    description = {
+        "I LOVE SHOTGUNS"
+    },
+    school = "Highlander",
+    credit = "kzHouston",
+    color = { r = 80, g = 80, b = 80 },
+    model = E_MODEL_SUOU,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SUOU,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'suou'
 }
 
 -- ================

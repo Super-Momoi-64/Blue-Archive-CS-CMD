@@ -34,15 +34,19 @@ E_MODEL_AKIRA2 = smlua_model_util_get_id("akira2_geo")
 E_MODEL_KANOE = smlua_model_util_get_id("kanoe_geo")
 E_MODEL_ERI = smlua_model_util_get_id("eri_geo")
 E_MODEL_MIYO = smlua_model_util_get_id("miyo_geo")
+E_MODEL_RITSU = smlua_model_util_get_id("ritsu_geo")
 -- ================
 -- ETC
 -- ================
 E_MODEL_SSMG = smlua_model_util_get_id("sukeban_smg_geo")
 E_MODEL_SHMG = smlua_model_util_get_id("skbhmg_geo")
 E_MODEL_HG01 = smlua_model_util_get_id("HG01_geo")
-E_MODEL_RABU = smlua_model_util_get_id("rabu_geo")
 E_MODEL_SENSEI = smlua_model_util_get_id("sensei_geo")
+E_MODEL_PHRENAPATES = smlua_model_util_get_id("phrenapates_geo")
 E_MODEL_PNIYA = smlua_model_util_get_id("pniyakzh_geo")
+E_MODEL_BSG = smlua_model_util_get_id("biker_sg_geo")
+E_MODEL_ARONA = smlua_model_util_get_id("arona_geo")
+E_MODEL_PLANA = smlua_model_util_get_id("plana_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
@@ -74,12 +78,16 @@ TEX_AKIRA = get_texture_info("Akira_Icon")
 TEX_KANOE = get_texture_info("kanoe_icon")
 TEX_ERI = get_texture_info("eriicon")
 TEX_MIYO = get_texture_info("miyoicon")
+TEX_RITSU = get_texture_info("ritsu_icon")
 -- ================
 -- ETC
 -- ================
 TEX_SSMG = get_texture_info("ssmgicon")
 TEX_SHMG = get_texture_info("Sukeban_HMG1")
 TEX_HG01 = get_texture_info("hg01icon")
-TEX_RABU = get_texture_info("Rabu_Icon")
 TEX_SENSEI = get_texture_info('senseiicon')
+TEX_PHRENAPATES = get_texture_info("phrenapatesicon")
 TEX_PNIYA = get_texture_info("pniya_icon")
+TEX_BSG = get_texture_info("bikersg_icon")
+TEX_ARONA = get_texture_info("arona_icon")
+TEX_PLANA = get_texture_info("plana_icon")

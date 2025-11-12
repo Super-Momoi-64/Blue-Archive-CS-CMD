@@ -280,7 +280,9 @@ BA_CHAR[E_MODEL_EIMI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_EIMI,
     voiceTable = VT_EIMI,
-    altCostume = nil,
+    altCostume = {
+        {name = "Eimi (Swimsuit)", model= E_MODEL_EIMI2, desc = "She looks hot", cmdId = "eimi2", lifeIcon = TEX_EIMI2, credit = "kzHouston"}
+    },
     cmdId = 'eimi'
 }
 
@@ -340,7 +342,7 @@ BA_CHAR[E_MODEL_RIO] = {
         "Aris is innocent"
     },
     school = "Millennium",
-    credit = "hash",
+    credit = "hash/kzHouston",
     color = { r = 246, g = 0, b = 0 },
     model = E_MODEL_RIO,
     forceChar = CT_MARIO,
@@ -393,6 +395,9 @@ BA_CHAR[E_MODEL_KOTAMA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_KOTAMA,
     voiceTable = VT_KOTAMA,
+    altCostume = {
+        {name = "Kotama (Camp)", model=E_MODEL_KOTAMA_CAMP, desc="She is listening", lifeIcon=TEX_KOTAMA_CAMP, cmdId="kotama2"}
+    },
     cmdId = 'kotama'
 }
 

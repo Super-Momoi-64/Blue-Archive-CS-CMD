@@ -157,22 +157,6 @@ BA_CHAR[E_MODEL_MOE] = {
     cmdId = 'moe'
 }
 
-BA_CHAR[E_MODEL_RABU] = {
-    name = "Rabu",
-    description = {
-        "Out of NPC Jail soon"
-    },
-    school = "ETC",
-    credit = "HerosLight",
-    color = { r = 178, g = 55, b = 76 },
-    model = E_MODEL_RABU,
-    forceChar = CT_MARIO,
-    lifeIcon = TEX_RABU,
-    voiceTable = VT_NOVOICE,
-    altCostume = nil,
-    cmdId = 'rabu'
-}
-
 BA_CHAR[E_MODEL_SAKI] = {
     name = "Saki",
     description = {
@@ -255,7 +239,9 @@ BA_CHAR[E_MODEL_SENSEI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_SENSEI,
     voiceTable = VT_NOVOICE,
-    altCostume = nil,
+    altCostume = {
+	{ name = "Phrenapates", model = E_MODEL_PHRENAPATES, desc = '...', voiceTable = VT_NOVOICE, credit = "kzHouston", cmdId = 'sensei2', lifeIcon = TEX_PHRENAPATES },
+	},
     cmdId = 'sensei'
 }
 
@@ -321,6 +307,22 @@ BA_CHAR[E_MODEL_PNIYA] = {
     cmdId = 'pniya'
 }
 
+BA_CHAR[E_MODEL_ARONA] = {
+    name = "Arona",
+    description = {
+        "Your pakeji Sensei"
+    },
+    school = "ETC",
+    credit = "AllergyDonor",
+    color = { r = 255, g = 255, b = 128 },
+    model = E_MODEL_ARONA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_ARONA,
+    voiceTable = VT_ARONA,
+    altCostume = nil,
+    cmdId = 'arona'
+}
+
 BA_CHAR[E_MODEL_MIYO] = {
     name = "Miyo",
     description = {
@@ -334,4 +336,51 @@ BA_CHAR[E_MODEL_MIYO] = {
     lifeIcon = TEX_MIYO,
     voiceTable = VT_MIYO,
     cmdId = 'miyo'
+}
+
+BA_CHAR[E_MODEL_RITSU] = {
+    name = "Ritsu",
+    description = {
+        "Green Reisa"
+    },
+    school = "WildHunt",
+    credit = "MiyuEnjoyer",
+    color = { r = 236, g = 240, b = 212 },
+    model = E_MODEL_RITSU,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_RITSU,
+    voiceTable = VT_RITSU,
+    cmdId = 'ritsu'
+}
+
+BA_CHAR[E_MODEL_BSG] = {
+    name = "Biker SG",
+    description = {
+        "Her smug aura mocks me"
+    },
+    school = "ETC",
+    credit = "kzHouston",
+    color = { r = 208, g = 147, b = 171 },
+    model = E_MODEL_BSG,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_BSG,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'bikersg'
+}
+
+BA_CHAR[E_MODEL_PLANA] = {
+    name = "Plana",
+    description = {
+        "Emo Arona"
+    },
+    school = "ETC",
+    credit = "kzHouston",
+    color = { r = 80, g = 80, b = 80 },
+    model = E_MODEL_PLANA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_PLANA,
+    voiceTable = VT_PLANA,
+    altCostume = nil,
+    cmdId = 'plana'
 }
