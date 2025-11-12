@@ -883,7 +883,7 @@ VT_SHIMIKO = {
 }
 
 VT_RABU = {
-  [CHAR_SOUND_ATTACKED] = { 'rabu_dmg1', 'rabu_dmg3.mp3' }, --
+  [CHAR_SOUND_ATTACKED] = { 'rabu_dmg1.mp3', 'rabu_dmg3.mp3' }, --
   [CHAR_SOUND_DOH] = 'rabu_eh2.mp3',                                               -- Bonk into walls
   [CHAR_SOUND_DYING] = { 'rabu_dead1.mp3', 'rabu_dead2.mp3' },
   --[CHAR_SOUND_EEUH] = nil,                                                            -- Slow Get up from ledge
