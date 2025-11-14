@@ -446,7 +446,7 @@ BA_CHAR[E_MODEL_MARI] = {
     lifeIcon = TEX_MARI,
     voiceTable = VT_MARI,
     altCostume = {
-        { name = "Mari (Sportswear)", model = E_MODEL_SPMARI, desc = 'Not a fox',       cmdId = 'mari2' },
+        { name = "Mari (Sportswear)", model = E_MODEL_SPMARI, desc = 'Not a fox',       cmdId = 'mari2', lifeIcon = TEX_SPMARI },
         { name = "Mari (Idol)",       model = E_MODEL_IMARI,  desc = 'Not a chihuahua', cmdId = 'mari3', lifeIcon = TEX_IMARI, credit = "MiyuEnjoyer" },
     },
     cmdId = 'mari'
