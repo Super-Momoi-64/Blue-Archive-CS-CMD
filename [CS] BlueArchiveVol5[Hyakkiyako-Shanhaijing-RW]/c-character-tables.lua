@@ -571,7 +571,7 @@ BA_CHAR[E_MODEL_TAKANE] = {
     model = E_MODEL_TAKANE,
     forceChar = CT_MARIO,
     lifeIcon = TEX_TAKANE,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_TAKANE,
     altCostume = nil,
     cmdId = 'takane'
 }
