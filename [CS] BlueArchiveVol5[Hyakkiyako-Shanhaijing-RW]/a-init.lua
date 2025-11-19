@@ -55,6 +55,7 @@ E_MODEL_MARINA = smlua_model_util_get_id("marina_geo")
 E_MODEL_NODOKA = smlua_model_util_get_id("nodoka_geo")
 E_MODEL_NODOKA2 = smlua_model_util_get_id("nodoka2_geo")
 E_MODEL_MERU = smlua_model_util_get_id("meru_geo")
+E_MODEL_TAKANE = smlua_model_util_get_id("takane_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
@@ -107,3 +108,4 @@ TEX_MARINA = get_texture_info('marina_icon')
 TEX_NODOKA = get_texture_info("nodoka_icon")
 TEX_NODOKA2 = get_texture_info("nodoka2_icon")
 TEX_MERU = get_texture_info("meru_icon")
+TEX_TAKANE = get_texture_info("takane_icon")

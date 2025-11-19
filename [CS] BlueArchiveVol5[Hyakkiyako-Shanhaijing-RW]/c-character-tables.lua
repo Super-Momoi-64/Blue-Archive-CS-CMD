@@ -559,6 +559,22 @@ BA_CHAR[E_MODEL_MERU] = {
     altCostume = nil,
     cmdId = 'meru'
 }
+
+BA_CHAR[E_MODEL_TAKANE] = {
+    name = "Takane",
+    description = {
+        "Desu Wa"
+    },
+    school = "RedWinter",
+    credit = "MiyuEnjoyer",
+    color = { r = 208, g = 71, b = 98 },
+    model = E_MODEL_TAKANE,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_TAKANE,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'takane'
+}
 -- ================
 -- RedWinter End
 -- ================
