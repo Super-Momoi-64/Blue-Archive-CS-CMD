@@ -314,7 +314,7 @@ BA_CHAR[E_MODEL_ARONA] = {
     },
     school = "ETC",
     credit = "AllergyDonor",
-    color = { r = 255, g = 255, b = 128 },
+    color = { r = 78, g = 235, b = 242 },
     model = E_MODEL_ARONA,
     forceChar = CT_MARIO,
     lifeIcon = TEX_ARONA,
@@ -383,4 +383,20 @@ BA_CHAR[E_MODEL_PLANA] = {
     voiceTable = VT_PLANA,
     altCostume = nil,
     cmdId = 'plana'
+}
+
+BA_CHAR[E_MODEL_SORA] = {
+    name = "Sora",
+    description = {
+        "Part timer forehead"
+    },
+    school = "ETC",
+    credit = "kzHouston",
+    color = { r = 255, g = 255, b = 128 },
+    model = E_MODEL_SORA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SORA,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'sora'
 }
