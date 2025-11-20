@@ -396,7 +396,7 @@ BA_CHAR[E_MODEL_SORA] = {
     model = E_MODEL_SORA,
     forceChar = CT_MARIO,
     lifeIcon = TEX_SORA,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_SORA,
     altCostume = nil,
     cmdId = 'sora'
 }
