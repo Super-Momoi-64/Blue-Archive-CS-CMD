@@ -575,6 +575,22 @@ BA_CHAR[E_MODEL_TAKANE] = {
     altCostume = nil,
     cmdId = 'takane'
 }
+
+BA_CHAR[E_MODEL_YAKUMO] = {
+    name = "Yakumo",
+    description = {
+        "Hot Dog"
+    },
+    school = "RedWinter",
+    credit = "AllergyDonor",
+    color = { r = 177, g = 167, b = 131 },
+    model = E_MODEL_YAKUMO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_YAKUMO,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'yakumo'
+}
 -- ================
 -- RedWinter End
 -- ================
