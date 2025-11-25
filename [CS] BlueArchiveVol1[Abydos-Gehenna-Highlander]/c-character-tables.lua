@@ -452,6 +452,22 @@ BA_CHAR[E_MODEL_MAKOTO] = {
     altCostume = nil,
     cmdId = 'makoto'
 }
+
+BA_CHAR[E_MODEL_SATSUKI] = {
+    name = "Satsuki",
+    description = {
+        "'Hypnotism' Expert"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 236, g = 194, b = 208 },
+    model = E_MODEL_SATSUKI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SATSUKI,
+    voiceTable = VT_SATSUKI,
+    altCostume = nil,
+    cmdId = 'satsuki'
+}
 -- ================
 -- Gehenna End
 -- ================
