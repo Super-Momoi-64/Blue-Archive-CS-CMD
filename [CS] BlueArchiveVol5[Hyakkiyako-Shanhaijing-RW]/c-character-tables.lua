@@ -587,7 +587,7 @@ BA_CHAR[E_MODEL_YAKUMO] = {
     model = E_MODEL_YAKUMO,
     forceChar = CT_MARIO,
     lifeIcon = TEX_YAKUMO,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_YAKUMO,
     altCostume = nil,
     cmdId = 'yakumo'
 }

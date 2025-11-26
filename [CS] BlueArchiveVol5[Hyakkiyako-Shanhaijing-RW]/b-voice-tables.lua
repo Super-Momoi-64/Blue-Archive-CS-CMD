@@ -60,10 +60,10 @@
 -- ================================================================
 
 VT_NOVOICE = {
-  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3' },
+  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3', 'sfx_ff6_fistattack.mp3', 'sfx_smw_bossstun.mp3', 'sfx_mmx_hurt.mp3' },
   [CHAR_SOUND_DOH] = 'sfx_ml_bump.mp3',                                              -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3' },
-  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3' }, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3', 'sfx_cv3_dead.mp3', 'sfx_earthbound_dead.mp3'},
+  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3', 'sfx_earthbound_good.mp3', 'sfx_kirby_1up.mp3' }, -- Star Get + Obtaining Power-up
   [CHAR_SOUND_LETS_A_GO] = { 'sfx_smb3_levelselect.mp3' },                           -- Level Select
   [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                      -- Object Pick-up
   [CHAR_SOUND_HOOHOO] = { 'sfx_smw_jump.mp3' },                                      -- 2nd Jump + Dive Attack
@@ -1175,6 +1175,34 @@ VT_TAKANE = {
   [CHAR_SOUND_YAHOO] = { 'Takane_YAHOO.ogg' },                                                   -- Long Jump
   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Takane_YAHOO_WAHA_YIPPEE.ogg' },                           -- 3rd Jump(s)
   [CHAR_SOUND_YAH_WAH_HOO] = { 'Takane_YAH_WAH_HOO.ogg', 'Takane_YAH_WAH_HOO2.ogg' },            -- 1st Jump(s)
+}
+
+VT_YAKUMO = {
+  [CHAR_SOUND_ATTACKED] = { 'sfx_ff6_fistattack.mp3', 'sfx_smw_bossstun.mp3', 'sfx_mmx_hurt.mp3' },
+  [CHAR_SOUND_DOH] = 'sfx_ml_bump.mp3',                                                           -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'yakumo_dead1.mp3' },
+  [CHAR_SOUND_HAHA] = { 'yakumo_laugh1.mp3' },                                                     -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'yakumo_star1.mp3', 'yakumo_star3.mp3', 'yakumo_star2.mp3' },                   -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'yakumo_levelselect.mp3' },                                             -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'yakumo_levelexit2.mp3' },                                              -- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'yakumo_grab.mp3',                                                  -- Object Pick-up
+  [CHAR_SOUND_HOOHOO] = { 'sfx_smw_jump.mp3' },                                                 -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },                                              -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'yakumo_ledgegrab.mp3',                                                        -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'sfx_smrpg_drop.mp3',                                                       -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'sfx_ssb64_atk3.mp3' },                                           -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'sfx_ssb64_atk2.mp3',                                                  -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'sfx_ssb64_atk1.mp3',                                            -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'sfx_smrpg_fireball.mp3' },                             -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'yakumo_throw.mp3' },                                        -- Throw Object
+  [CHAR_SOUND_UH] = 'yakumo_sneeze.mp3',                                                            -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_WAAAOOOW] = 'sfx_ssb64_falling.mp3',                                                    -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                          -- Boing
+  [CHAR_SOUND_WHOA] = 'yakumo_ledgegrab.mp3',                                                           -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'yakumo_laugh4.mp3' },                                                   -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'yakumo_laugh2.mp3' },                           -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'yakumo_jump1.mp3', 'sfx_smw_jump.mp3' },            -- 1st Jump(s)
+  [CHAR_SOUND_IMA_TIRED] = 'yakumo_sigh.mp3',
 }
 -- ================
 -- RedWinter End
