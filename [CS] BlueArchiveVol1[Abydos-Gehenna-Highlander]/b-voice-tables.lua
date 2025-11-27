@@ -60,10 +60,10 @@
 -- ================================================================
 
 VT_NOVOICE = {
-  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3' },
+  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3', 'sfx_ff6_fistattack.mp3', 'sfx_smw_bossstun.mp3', 'sfx_mmx_hurt.mp3' },
   [CHAR_SOUND_DOH] = 'sfx_ml_bump.mp3',                                              -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3' },
-  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3' }, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3', 'sfx_cv3_dead.mp3', 'sfx_earthbound_dead.mp3'},
+  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3', 'sfx_earthbound_good.mp3', 'sfx_kirby_1up.mp3' }, -- Star Get + Obtaining Power-up
   [CHAR_SOUND_LETS_A_GO] = { 'sfx_smb3_levelselect.mp3' },                           -- Level Select
   [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                      -- Object Pick-up
   [CHAR_SOUND_HOOHOO] = { 'sfx_smw_jump.mp3' },                                      -- 2nd Jump + Dive Attack
@@ -893,8 +893,8 @@ VT_SATSUKI        = {
   [CHAR_SOUND_DYING] = { 'Satsuki_DYING.ogg', },
   [CHAR_SOUND_HAHA] = { 'Satsuki_HAHA.ogg'},                                             -- Landing after backflip
   [CHAR_SOUND_HERE_WE_GO] = { 'Satsuki_HEREWEGO.ogg', 'Satsuki_HEREWEGO2.ogg'}, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_LETS_A_GO] = { 'Satsuki_LETSAGO.ogg' },                                          -- Level Select
-  --[CHAR_SOUND_MAMA_MIA] = { 'Makoto_MAMA_MIA.ogg' },                                    -- Getting up after thrown out of level
+  [CHAR_SOUND_LETS_A_GO] = { 'satsuki_levelselect.mp3', 'Satsuki_LETSAGO.ogg' },                                          -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'satsuki_nofair.mp3' },                                    -- Getting up after thrown out of level
   [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                          -- Object Pick-up
   [CHAR_SOUND_IMA_TIRED] = 'Satsuki_IMATIRED.ogg',
   [CHAR_SOUND_HOOHOO] = { 'Satsuki_HOOHOO.ogg' },                                            -- 2nd Jump + Dive Attack
@@ -905,7 +905,7 @@ VT_SATSUKI        = {
   [CHAR_SOUND_PUNCH_WAH] = 'Satsuki_HOOHOO.ogg',                                             -- 2nd Punch
   [CHAR_SOUND_PUNCH_YAH] = 'Satsuki_YAH_WAH_HOO2.ogg',                                             -- 1st Punch
   [CHAR_SOUND_SO_LONGA_BOWSER] = { 'sfx_ssb64_itemthrow.mp3' },                                 -- Bowser Throw
-  [CHAR_SOUND_WAH2] = { 'sfx_ssb64_itemthrow.mp3' },                                 -- Throw Object
+  [CHAR_SOUND_WAH2] = { 'satsuki_throw.mp3' },                                 -- Throw Object
   [CHAR_SOUND_UH] = 'Satsuki_UH.ogg',                                               -- Drop off of ledge + Fall off Ledge
   [CHAR_SOUND_WAAAOOOW] = 'Satsuki_WAAAOOOW.ogg',                                          -- Falling
   [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                  -- Boing
