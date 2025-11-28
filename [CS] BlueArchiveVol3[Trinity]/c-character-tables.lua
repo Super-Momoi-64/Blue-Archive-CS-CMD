@@ -119,7 +119,9 @@ BA_CHAR[E_MODEL_ICHIKA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_ICHIKA,
     voiceTable = VT_ICHIKA,
-    altCostume = nil,
+    altCostume =  { 
+	      {name = "Ichika (Swimsuit)", model = E_MODEL_ICHIKA_SWIM, desc = 'Sexy cutting board', cmdId = 'ichika2', lifeIcon = TEX_ICHIKASWIM, credit = "kzHouston" },
+    },
     cmdId = 'ichika'
 }
 

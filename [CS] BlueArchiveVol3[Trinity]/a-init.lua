@@ -53,6 +53,7 @@ E_MODEL_SHIMIKO = smlua_model_util_get_id("shimiko_geo")
 E_MODEL_RABU = smlua_model_util_get_id("rabu_geo")
 E_MODEL_SERINA = smlua_model_util_get_id("serina_geo")
 E_MODEL_SERINA2 = smlua_model_util_get_id("serina2_geo")
+E_MODEL_ICHIKA_SWIM = smlua_model_util_get_id("ichika_swim_geo")
 
 -- ================================================================
 -- Custom Texture Icons
@@ -103,3 +104,4 @@ TEX_SHIMIKO = get_texture_info("shimiko_icon")
 TEX_RABU = get_texture_info("Rabu_Icon")
 TEX_SERINA = get_texture_info("serina_icon")
 TEX_SERINA2 = get_texture_info("christmasserina_icon")
+TEX_ICHIKASWIM = get_texture_info("ichika_swim_icon")

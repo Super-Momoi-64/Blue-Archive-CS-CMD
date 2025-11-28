@@ -238,3 +238,8 @@ idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
 ANIM_TABLE_UNIQUE['hoshino4'] = ANIM_TABLE_UNIQUE['suou']
 
 ANIM_TABLE_UNIQUE['sora'] = ANIM_TABLE_UNIQUE['midori']
+
+ANIM_TABLE_UNIQUE['ichika2'] = {
+idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_FISTS },
+  }
