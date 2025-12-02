@@ -362,7 +362,9 @@ BA_CHAR[E_MODEL_SAKURAKO] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_SAKURAKO,
     voiceTable = VT_SAKURAKO,
-    altCostume = nil,
+    altCostume = {
+        { name = "Sakurako (Idol)", model = E_MODEL_SAKURAKO2, desc = 'WAPPIIIII', cmdId = 'sakurako2', lifeIcon = TEX_SAKURAKO2 },
+    },
     cmdId = 'sakurako'
 }
 
