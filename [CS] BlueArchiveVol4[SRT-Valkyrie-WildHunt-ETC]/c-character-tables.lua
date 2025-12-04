@@ -400,19 +400,3 @@ BA_CHAR[E_MODEL_SORA] = {
     altCostume = nil,
     cmdId = 'sora'
 }
-
-BA_CHAR[E_MODEL_TRAINMG] = {
-    name = "Train MG",
-    description = {
-        "Cute Train Mob"
-    },
-    school = "ETC",
-    credit = "JOHN_FREEMAN",
-    color = { r = 255, g = 255, b = 128 },
-    model = E_MODEL_TRAINMG,
-    forceChar = CT_MARIO,
-    lifeIcon = TEX_TRAINMG,
-    voiceTable = VT_NOVOICE,
-    altCostume = nil,
-    cmdId = 'trainmg'
-}

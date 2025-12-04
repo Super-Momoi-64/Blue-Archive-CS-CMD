@@ -534,7 +534,9 @@ BA_CHAR[E_MODEL_AOBA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_AOBA,
     voiceTable = VT_AOBA,
-    altCostume = nil,
+    altCostume = {
+        { name = "Aoba (Concept art)", model = E_MODEL_AOBA2, desc = 'Desukedo concept',  cmdId = 'aoba2', credit = "kzHouston" },
+    },
     cmdId = 'aoba'
 }
 
@@ -554,6 +556,21 @@ BA_CHAR[E_MODEL_SUOU] = {
     cmdId = 'suou'
 }
 
+BA_CHAR[E_MODEL_TRAINMG] = {
+    name = "Train MG",
+    description = {
+        "Cute Train Mob"
+    },
+    school = "ETC",
+    credit = "JOHN_FREEMAN",
+    color = { r = 255, g = 255, b = 128 },
+    model = E_MODEL_TRAINMG,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_TRAINMG,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'trainmg'
+}
 -- ================
 -- Highlander End
 -- ================
