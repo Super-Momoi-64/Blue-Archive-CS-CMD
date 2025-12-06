@@ -557,7 +557,7 @@ BA_CHAR[E_MODEL_SUOU] = {
 }
 
 BA_CHAR[E_MODEL_TRAINMG] = {
-    name = "train mg",
+    name = "Train mg",
     description = {
         "the peaceful morning...."
     },
@@ -569,7 +569,7 @@ BA_CHAR[E_MODEL_TRAINMG] = {
     lifeIcon = TEX_TRAINMG,
     voiceTable = VT_NOVOICE,
     altCostume = nil,
-    cmdId = 'trainmg'
+    cmdId = 'train_mg'
 }
 
 -- ================
