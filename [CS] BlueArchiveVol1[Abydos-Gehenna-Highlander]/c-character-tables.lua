@@ -557,13 +557,13 @@ BA_CHAR[E_MODEL_SUOU] = {
 }
 
 BA_CHAR[E_MODEL_TRAINMG] = {
-    name = "Train MG",
+    name = "train mg",
     description = {
-        "Cute Train Mob"
+        "the peaceful morning...."
     },
-    school = "ETC",
-    credit = "JOHN_FREEMAN",
-    color = { r = 255, g = 255, b = 128 },
+    school = "Highlander",
+    credit = "JOHN FREEMAN",
+    color = { r = 200, g = 200, b = 212 },
     model = E_MODEL_TRAINMG,
     forceChar = CT_MARIO,
     lifeIcon = TEX_TRAINMG,
@@ -571,6 +571,7 @@ BA_CHAR[E_MODEL_TRAINMG] = {
     altCostume = nil,
     cmdId = 'trainmg'
 }
+
 -- ================
 -- Highlander End
 -- ================
