@@ -468,6 +468,23 @@ BA_CHAR[E_MODEL_SATSUKI] = {
     altCostume = nil,
     cmdId = 'satsuki'
 }
+
+BA_CHAR[E_MODEL_IZUMI] = {
+    name = "Izumi",
+    description = {
+        "The real fat fuck"
+    },
+    school = "Gehenna",
+    credit = "kzHouston",
+    color = { r = 236, g = 194, b = 208 },
+    model = E_MODEL_IZUMI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_IZUMI,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'izumi'
+}
+
 -- ================
 -- Gehenna End
 -- ================

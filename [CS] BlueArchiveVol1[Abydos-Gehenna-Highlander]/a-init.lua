@@ -43,6 +43,7 @@ E_MODEL_SENA = smlua_model_util_get_id("senakzh_geo")
 E_MODEL_CHIAKI = smlua_model_util_get_id("chiaki_geo")
 E_MODEL_MAKOTO = smlua_model_util_get_id("makoto_geo")
 E_MODEL_SATSUKI = smlua_model_util_get_id("satsuki_geo")
+E_MODEL_IZUMI = smlua_model_util_get_id("izumi_geo")
 -- ================
 -- Highlander
 -- ================
@@ -97,7 +98,7 @@ TEX_SENA = get_texture_info("senaicon")
 TEX_CHIAKI = get_texture_info("chiakiicon")
 TEX_MAKOTO = get_texture_info("makoto_icon")
 TEX_SATSUKI = get_texture_info("satsukiicon")
-
+TEX_IZUMI = get_texture_info("izumi_icon")
 -- ================
 -- Highlander
 -- ================
