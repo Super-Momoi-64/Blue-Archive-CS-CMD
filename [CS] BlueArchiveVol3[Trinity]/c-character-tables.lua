@@ -171,7 +171,9 @@ BA_CHAR[E_MODEL_MINE] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_MINE,
     voiceTable = VT_MINE,
-    altCostume = nil,
+    altCostume = {
+        { name = "Mine (Idol)", model = E_MODEL_MINE2, desc = 'What is this >we< you speak of?', cmdId = 'mine2', lifeIcon = TEX_MINE2 },
+    },
     cmdId = 'mine'
 }
 
@@ -189,7 +191,7 @@ BA_CHAR[E_MODEL_NAGISA] = {
     voiceTable = VT_NAGISA,
     altCostume = {
         { name = "Nagisa (with Chair)", model = E_MODEL_NAGISA2, desc = 'Eat your cakeroll', cmdId = 'nagisa2' },
-        { name = "Nagisa (Swimsuit)",   model = E_MODEL_NAGISA3, desc = 'Sexy',              lifeIcon = TEX_NAGISA2, cmdId = 'nagisa3' },
+        { name = "Nagisa (Swimsuit)",   model = E_MODEL_NAGISA3, desc = 'Sexy', lifeIcon = TEX_NAGISA2, cmdId = 'nagisa3' },
     },
     cmdId = 'nagisa'
 }
