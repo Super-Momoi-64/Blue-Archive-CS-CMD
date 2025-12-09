@@ -480,7 +480,7 @@ BA_CHAR[E_MODEL_IZUMI] = {
     model = E_MODEL_IZUMI,
     forceChar = CT_MARIO,
     lifeIcon = TEX_IZUMI,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_IZUMI,
     altCostume = nil,
     cmdId = 'izumi'
 }

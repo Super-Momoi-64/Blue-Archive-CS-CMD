@@ -915,6 +915,57 @@ VT_SATSUKI        = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'Satsuki_YAH_WAH_HOO.ogg', 'Satsuki_YAH_WAH_HOO2.ogg',},   -- 1st Jump(s)
 }
 
+ VT_IZUMI = {
+--   [CHAR_SOUND_OKEY_DOKEY] = 'CharStartGame.ogg',                                       -- Starting game
+   [CHAR_SOUND_LETS_A_GO] = 'izumi_starselect.mp3',                                       -- Starting level
+--   [CHAR_SOUND_GAME_OVER] = 'CharGameOver.ogg',                                         -- Game Overed
+   [CHAR_SOUND_PUNCH_YAH] = 'izumi_jump1dos.mp3',                                           -- Punch 1
+   [CHAR_SOUND_PUNCH_WAH] = 'izumi_punch2.mp3',                                           -- Punch 2
+   [CHAR_SOUND_PUNCH_HOO] = 'izumi_jump2dos.mp3',                                          -- Punch 3
+   [CHAR_SOUND_YAH_WAH_HOO] = 'izumi_jump1.mp3',     -- First Jump Sounds
+   [CHAR_SOUND_HOOHOO] =  'izumi_jump2.mp3',                                         -- Second jump sound
+   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] =  'izumi_triplejump.mp3',   -- Triple jump sounds
+   [CHAR_SOUND_UH] = 'izumi_bonk.mp3',                                                    -- Soft wall bonk
+   [CHAR_SOUND_UH2] = 'izumi_ledgeupfast.mp3',                                             -- Quick ledge get up
+--   [CHAR_SOUND_UH2_2] = 'CharLongJumpLand.ogg',                                         -- Landing after long jump
+   [CHAR_SOUND_DOH] = 'izumi_bonk.mp3',                                                   -- Hard wall bonk
+   [CHAR_SOUND_OOOF] = 'izumi_hurt.mp3',                                                  -- Attacked in air
+   [CHAR_SOUND_OOOF2] = 'izumi_bonkhard.mp3',                                                 -- Land from hard bonk
+   [CHAR_SOUND_HAHA] = 'izumi_HAHA.mp3',                                        -- Landing triple jump
+   [CHAR_SOUND_HAHA_2] = 'izumi_panting.mp3',                                        -- Landing in water from big fall
+   [CHAR_SOUND_YAHOO] = 'izumi_longjump.mp3',                                             -- Long jump
+   [CHAR_SOUND_DOH] = 'izumi_bonk.mp3',                                                   -- Long jump wall bonk
+   [CHAR_SOUND_WHOA] = 'izumi_ledgegrab.mp3',                                             -- Grabbing ledge
+   [CHAR_SOUND_EEUH] = 'izumi_ledgeup.mp3',                                            -- Climbing over ledge
+   [CHAR_SOUND_WAAAOOOW] = 'izumi_falling.mp3',                                           -- Falling a long distance
+   [CHAR_SOUND_TWIRL_BOUNCE] = 'izumi_twirl.mp3',                                  -- Bouncing off of a flower spring
+   [CHAR_SOUND_GROUND_POUND_WAH] = 'izumi_jump2dos.mp3',                               -- Ground Pound after startup
+   [CHAR_SOUND_WAH2] = 'izumi_throw.mp3',                                                 -- Throwing something
+   [CHAR_SOUND_HRMM] = 'izumi_jump2.mp3',                                                  -- Lifting something
+   [CHAR_SOUND_HERE_WE_GO] = 'izumi_starget.mp3',                                         -- Star get
+   [CHAR_SOUND_SO_LONGA_BOWSER] = 'izumi_bowser.mp3',                                -- Throwing Bowser
+--   --DAMAGE
+   [CHAR_SOUND_ATTACKED] = {'izumi_hurt.mp3', 'izumi_hurt2.mp3' },                                          -- Damaged
+   [CHAR_SOUND_PANTING] = 'izumi_panting.mp3',                                            -- Low health
+   [CHAR_SOUND_PANTING_COLD] = 'izumi_panting.mp3',                                       -- Getting cold
+   [CHAR_SOUND_ON_FIRE] = 'izumi_hurt2.mp3',                                             -- Burned
+--   --SLEEP SOUNDS
+--   [CHAR_SOUND_IMA_TIRED] = 'izumi_sleep.mp3',                                            -- Mario feeling tired
+   [CHAR_SOUND_YAWNING] = 'izumi_sleep.mp3',                                               -- Mario yawning before he sits down to sleep
+--   [CHAR_SOUND_SNORING1] = 'CharSnore.ogg',                                             -- Snore Inhale
+--   [CHAR_SOUND_SNORING2] = 'CharExhale.ogg',                                            -- Exhale
+--   [CHAR_SOUND_SNORING3] = 'CharSleepTalk.ogg',                                         -- Sleep talking / mumbling
+--   --COUGHING (USED IN THE GAS MAZE)
+--   [CHAR_SOUND_COUGHING1] = 'CharCough1.ogg',                                           -- Cough take 1
+--   [CHAR_SOUND_COUGHING2] = 'CharCough2.ogg',                                           -- Cough take 2
+--   [CHAR_SOUND_COUGHING3] = 'CharCough3.ogg',                                           -- Cough take 3
+--   --DEATH
+  [CHAR_SOUND_DYING] = 'izumi_dying.mp3',                                                -- Dying from damage
+--   [CHAR_SOUND_DROWNING] = 'CharDrowning.ogg',                                          -- Running out of air underwater
+  [CHAR_SOUND_MAMA_MIA] = 'izumi_levelout.mp3'                                         -- Booted out of level
+ }
+
+
 -- ================
 -- Gehenna End
 -- ================
