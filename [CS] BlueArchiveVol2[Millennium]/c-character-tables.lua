@@ -413,6 +413,9 @@ BA_CHAR[E_MODEL_UTAHA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_UTAHA,
     voiceTable = VT_UTAHA,
+    altCostume = {
+        {name = "Utaha {Cheerleader}", model=E_MODEL_UTAHA_CHEER, desc="Motivated engineer", lifeIcon=TEX_UTAHA_CHEER, cmdId="utaha2"}
+    },
     cmdId = 'utaha'
 }
 
