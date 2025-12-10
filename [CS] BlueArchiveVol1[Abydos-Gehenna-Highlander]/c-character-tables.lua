@@ -487,6 +487,22 @@ BA_CHAR[E_MODEL_IZUMI] = {
     cmdId = 'izumi'
 }
 
+BA_CHAR[E_MODEL_KIRARA] = {
+    name = "Kirara",
+    description = {
+        "cute gyaru"
+    },
+    school = "Gehenna",
+    credit = "AllergyDonor",
+    color = { r = 236, g = 194, b = 208 },
+    model = E_MODEL_KIRARA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_KIRARA,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'kirara'
+}
+
 -- ================
 -- Gehenna End
 -- ================

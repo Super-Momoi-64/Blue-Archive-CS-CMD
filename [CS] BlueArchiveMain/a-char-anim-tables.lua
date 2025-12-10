@@ -72,6 +72,8 @@ ANIM_TABLE_UNIQUE['izuna'] = {
 
 ANIM_TABLE_UNIQUE['izuna2'] = ANIM_TABLE_UNIQUE['yuzu']
 
+ANIM_TABLE_UNIQUE['izuna3'] = ANIM_TABLE_UNIQUE['izuna']
+
 ANIM_TABLE_UNIQUE['jtf'] = {
   idle = "jtf_npc_idle",
   [CS_ANIM_MENU] = "jtf_npc_idle",
@@ -247,4 +249,8 @@ idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
   ANIM_TABLE_UNIQUE['izumi2'] = {
   idle = "momoi_npc_idle",
   [CHAR_ANIM_WALKING] = "airi_cafe_walk",
+}
+
+ANIM_TABLE_UNIQUE['kirara'] = {
+  idle = "midori_npc_idle"
 }

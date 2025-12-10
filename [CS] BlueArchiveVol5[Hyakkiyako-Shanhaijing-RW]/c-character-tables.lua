@@ -99,6 +99,7 @@ BA_CHAR[E_MODEL_IZUNA] = {
     voiceTable = VT_IZUNA,
     altCostume = {
         { name = "Izuna (Swimsuit)", model = E_MODEL_IZUNA2, desc = 'Nin-nin', cmdId = 'izuna2', lifeIcon = TEX_IZUNA2 },
+        { name = "Izuna (Sports)", model = E_MODEL_IZUNA3, desc = 'Nin-nin', cmdId = 'izuna3', lifeIcon = TEX_IZUNA3, credit = "AllergyDonor" },
     },
     cmdId = 'izuna'
 }

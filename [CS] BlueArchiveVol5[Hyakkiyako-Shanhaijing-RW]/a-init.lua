@@ -9,6 +9,7 @@ TEXT_MOD_NAME = "Blue Archive Vol " .. PACK_ID
 -- ================
 E_MODEL_IZUNA = smlua_model_util_get_id("izuna_geo")
 E_MODEL_IZUNA2 = smlua_model_util_get_id("izuna2_geo")
+E_MODEL_IZUNA3 = smlua_model_util_get_id("izuna3_geo")
 E_MODEL_TSUKUYO = smlua_model_util_get_id("tsukuyo_geo")
 E_MODEL_MICHIRU = smlua_model_util_get_id("michiru_geo")
 E_MODEL_CHISE = smlua_model_util_get_id("chise_geo")
@@ -65,6 +66,7 @@ E_MODEL_YAKUMO = smlua_model_util_get_id("yakumo_geo")
 -- ================
 TEX_IZUNA = get_texture_info("Izuna_Icon")
 TEX_IZUNA2 = get_texture_info("swimsuitizuna_icon")
+TEX_IZUNA3 = get_texture_info("izuna3_icon")
 TEX_TSUKUYO = get_texture_info("Tsukuyo_Icon")
 TEX_MICHIRU = get_texture_info("Michiru_Icon")
 TEX_CHISE = get_texture_info("Chise_Icon")
