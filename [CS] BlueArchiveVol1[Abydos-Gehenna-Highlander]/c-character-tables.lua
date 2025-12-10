@@ -481,7 +481,9 @@ BA_CHAR[E_MODEL_IZUMI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_IZUMI,
     voiceTable = VT_IZUMI,
-    altCostume = nil,
+    altCostume = {
+        { name = "Izumi (Swimsuit)", model = E_MODEL_IZUMI2, desc = 'Sexy Fat fuck', cmdId = 'izumi2', lifeIcon = TEX_IZUMI2, credit = "kzHouston" },
+    },
     cmdId = 'izumi'
 }
 

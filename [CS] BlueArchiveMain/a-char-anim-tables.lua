@@ -243,3 +243,8 @@ ANIM_TABLE_UNIQUE['ichika2'] = {
 idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
   [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_FISTS },
   }
+  
+  ANIM_TABLE_UNIQUE['izumi2'] = {
+  idle = "momoi_npc_idle",
+  [CHAR_ANIM_WALKING] = "airi_cafe_walk",
+}
