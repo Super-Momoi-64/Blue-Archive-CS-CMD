@@ -52,6 +52,7 @@ E_MODEL_KOTAMA_CAMP = smlua_model_util_get_id("kotama_camp_geo")
 E_MODEL_UTAHA = smlua_model_util_get_id("utaha_geo")
 E_MODEL_UTAHA_CHEER = smlua_model_util_get_id("utaha_cheer_geo")
 E_MODEL_KOTORI = smlua_model_util_get_id("kotori_geo")
+E_MODEL_KOTORI_CHEER = smlua_model_util_get_id("kotori_cheer_geo")
 E_MODEL_REI = smlua_model_util_get_id("rei_geo")
 -- ================================================================
 -- Custom Texture Icons
@@ -102,4 +103,5 @@ TEX_KOTAMA_CAMP = get_texture_info("kotama_camp_icon")
 TEX_UTAHA = get_texture_info("utaha_icon")
 TEX_UTAHA_CHEER = get_texture_info("utaha_cheer_icon")
 TEX_KOTORI = get_texture_info("kotori_icon")
+TEX_KOTORI_CHEER = get_texture_info("kotori_cheer_icon")
 TEX_REI = get_texture_info("reiicon")

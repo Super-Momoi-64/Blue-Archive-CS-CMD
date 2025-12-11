@@ -414,7 +414,7 @@ BA_CHAR[E_MODEL_UTAHA] = {
     lifeIcon = TEX_UTAHA,
     voiceTable = VT_UTAHA,
     altCostume = {
-        {name = "Utaha {Cheerleader}", model=E_MODEL_UTAHA_CHEER, desc="Motivated engineer", lifeIcon=TEX_UTAHA_CHEER, cmdId="utaha2"}
+        {name = "Utaha (Cheerleader)", model=E_MODEL_UTAHA_CHEER, desc="Motivated engineer", lifeIcon=TEX_UTAHA_CHEER, cmdId="utaha2"}
     },
     cmdId = 'utaha'
 }
@@ -431,6 +431,9 @@ BA_CHAR[E_MODEL_KOTORI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_KOTORI,
     voiceTable = VT_KOTORI,
+    altCostume = {
+        {name = "Kotori (Cheerleader)", model=E_MODEL_KOTORI_CHEER, desc="Nerd belly", lifeIcon=TEX_KOTORI_CHEER, cmdId='kotori2'}
+    },
     cmdId = 'kotori'
 }
 
