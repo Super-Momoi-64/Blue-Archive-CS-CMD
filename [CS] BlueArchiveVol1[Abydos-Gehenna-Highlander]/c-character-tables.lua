@@ -597,7 +597,7 @@ BA_CHAR[E_MODEL_TRAINMG] = {
         "the peaceful morning...."
     },
     school = "Highlander",
-    credit = "JOHN FREEMAN",
+    credit = "JOHN FREEMAN also thx john",
     color = { r = 200, g = 200, b = 212 },
     model = E_MODEL_TRAINMG,
     forceChar = CT_MARIO,
@@ -607,6 +607,21 @@ BA_CHAR[E_MODEL_TRAINMG] = {
     cmdId = 'train_mg'
 }
 
+BA_CHAR[E_MODEL_TRAINSG] = {
+    name = "Train sg",
+    description = {
+        "the answer lies in gunpowder"
+    },
+    school = "Highlander",
+    credit = "JOHN FREEMAN",
+    color = { r = 200, g = 200, b = 212 },
+    model = E_MODEL_TRAINSG,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_TRAINSG,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'trainsg'
+}
 -- ================
 -- Highlander End
 -- ================
