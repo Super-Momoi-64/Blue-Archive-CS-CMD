@@ -57,6 +57,7 @@ E_MODEL_AOBA = smlua_model_util_get_id("aoba_geo")
 E_MODEL_AOBA2 = smlua_model_util_get_id("aoba2_geo")
 E_MODEL_SUOU = smlua_model_util_get_id("suou_geo")
 E_MODEL_TRAINMG = smlua_model_util_get_id("train_mg_geo")
+E_MODEL_TRAINSG = smlua_model_util_get_id("train_sg_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================

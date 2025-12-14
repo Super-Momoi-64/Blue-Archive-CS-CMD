@@ -604,7 +604,7 @@ BA_CHAR[E_MODEL_TRAINMG] = {
     lifeIcon = TEX_TRAINMG,
     voiceTable = VT_NOVOICE,
     altCostume = nil,
-    cmdId = 'train_mg'
+    cmdId = 'trainmg'
 }
 
 BA_CHAR[E_MODEL_TRAINSG] = {
