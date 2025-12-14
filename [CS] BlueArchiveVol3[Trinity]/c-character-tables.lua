@@ -436,6 +436,9 @@ BA_CHAR[E_MODEL_HINATA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_HINATA,
     voiceTable = VT_HINATA,
+    altCostume = {
+        { name = "Hinata (Swimsuit)", model = E_MODEL_HINATA2, desc = 'The Clumsy, Strongest Sister', cmdId = 'hinata2', lifeIcon = TEX_HINATA2 },
+    },
     cmdId = 'hinata'
 }
 
