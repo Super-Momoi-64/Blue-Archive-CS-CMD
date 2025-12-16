@@ -1,0 +1,69 @@
+name: Upload CS Packs to Litterbox
+
+on:
+  workflow_dispatch:
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get date and commit hash
+        run: |
+          echo "FULL_SHA=$GITHUB_SHA" >> $GITHUB_ENV
+          TODAY=$(date +"%B-%d-%Y" | tr '[:upper:]' '[:lower:]')
+          echo "MAIN_ARTIFACT_NAME=blue_archive_mod_pack_${TODAY}" >> $GITHUB_ENV
+
+      - name: Create ReadMe file
+        run: |
+          echo "Commit: $FULL_SHA" > "[ReadMe] Place everything inside mods folder.txt"
+          echo "" >> "[ReadMe] Place everything inside mods folder.txt"
+          echo "Move everything to the mods folder and enable the mods:" >> "[ReadMe] Place everything inside mods folder.txt"
+          echo "-> Blue Archive Main (Required)" >> "[ReadMe] Place everything inside mods folder.txt"
+          echo "-> Packs of your choice" >> "[ReadMe] Place everything inside mods folder.txt"
+
+      - name: Move folders and readme to temporary folder
+        run: |
+          mkdir mod_archive
+          cp -r "[CS] BlueArchiveMain" mod_archive/
+          mv "[CS] BlueArchiveVol1[Abydos-Gehenna-Highlander]" mod_archive/
+          mv "[CS] BlueArchiveVol2[Millennium]" mod_archive/
+          mv "[CS] BlueArchiveVol3[Trinity]" mod_archive/
+          mv "[CS] BlueArchiveVol4[SRT-Valkyrie-WildHunt-ETC]" mod_archive/
+          mv "[CS] BlueArchiveVol5[Hyakkiyako-Shanhaijing-RW]" mod_archive/
+          mv "[CS] BlueArchiveVol6[Arius]" mod_archive/
+          cp "[ReadMe] Place everything inside mods folder.txt" mod_archive/
+
+      - name: Create zip archive
+        run: |
+          mkdir -p artifacts
+          zip -9 -r artifacts/${{ env.MAIN_ARTIFACT_NAME }}.zip mod_archive
+
+      - name: Upload main artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.MAIN_ARTIFACT_NAME }}
+          path: artifacts/${{ env.MAIN_ARTIFACT_NAME }}.zip
+
+      - name: Upload to Catbox
+        id: catbox
+        run: |
+          URL=$(curl -s \
+            -F "reqtype=fileupload" \
+            -F "time=72h" \
+            -F "fileToUpload=@artifacts/${{ env.MAIN_ARTIFACT_NAME }}.zip" \
+            https://litterbox.catbox.moe/resources/internals/api.php)
+
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+
+      - name: Send Catbox link to Discord
+        env:
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -s -H "Content-Type: application/json" \
+            -X POST \
+            -d "{\"content\":\"**New pack uploaded**\n${{ steps.catbox.outputs.url }}\"}" \
+            "$WEBHOOK_URL"
