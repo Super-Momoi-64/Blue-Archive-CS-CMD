@@ -45,6 +45,7 @@ E_MODEL_MAKOTO = smlua_model_util_get_id("makoto_geo")
 E_MODEL_SATSUKI = smlua_model_util_get_id("satsuki_geo")
 E_MODEL_IZUMI = smlua_model_util_get_id("izumi_geo")
 E_MODEL_IZUMI2 = smlua_model_util_get_id("izumi_swim_geo")
+E_MODEL_IZUMI3 = smlua_model_util_get_id("izumi_ny_geo")
 E_MODEL_KIRARA = smlua_model_util_get_id("kirara_geo")
 -- ================
 -- Highlander
@@ -103,6 +104,7 @@ TEX_MAKOTO = get_texture_info("makoto_icon")
 TEX_SATSUKI = get_texture_info("satsukiicon")
 TEX_IZUMI = get_texture_info("izumi_icon")
 TEX_IZUMI2 = get_texture_info("izumi_swim_icon")
+TEX_IZUMI3 = get_texture_info("izumi_ny_icon")
 TEX_KIRARA = get_texture_info("Kirara_Icon")
 
 -- ================

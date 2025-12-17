@@ -483,6 +483,7 @@ BA_CHAR[E_MODEL_IZUMI] = {
     voiceTable = VT_IZUMI,
     altCostume = {
         { name = "Izumi (Swimsuit)", model = E_MODEL_IZUMI2, desc = 'Sexy Fat fuck', cmdId = 'izumi2', lifeIcon = TEX_IZUMI2, credit = "kzHouston" },
+		{ name = "Izumi (New Year)", model = E_MODEL_IZUMI3, desc = 'New year Fat fuck', cmdId = 'izumi3', lifeIcon = TEX_IZUMI3, credit = "kzHouston" },
     },
     cmdId = 'izumi'
 }
