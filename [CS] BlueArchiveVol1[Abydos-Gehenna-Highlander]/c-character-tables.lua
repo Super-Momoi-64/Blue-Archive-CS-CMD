@@ -522,6 +522,22 @@ BA_CHAR[E_MODEL_JURI] = {
     cmdId = 'juri'
 }
 
+BA_CHAR[E_MODEL_ERIKA] = {
+    name = "Erika",
+    description = {
+        "Forgotten Gyaru"
+    },
+    school = "Gehenna",
+    credit = "AllergyDonor",
+    color = { r = 236, g = 194, b = 208 },
+    model = E_MODEL_ERIKA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_ERIKA,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'erika'
+}
+
 -- ================
 -- Gehenna End
 -- ================
