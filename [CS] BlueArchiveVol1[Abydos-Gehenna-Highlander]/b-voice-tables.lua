@@ -965,6 +965,33 @@ VT_SATSUKI        = {
   [CHAR_SOUND_MAMA_MIA] = 'izumi_levelout.mp3'                                         -- Booted out of level
  }
 
+ VT_JURI        = {
+  [CHAR_SOUND_ATTACKED] = { 'Juri_ATTACKED.ogg', 'Juri_ATTACKED2.ogg' },
+  [CHAR_SOUND_DOH] = 'Juri_DOH.ogg',                                                     -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Juri_DYING.ogg', },
+  [CHAR_SOUND_HAHA] = { 'Juri_HAHA.ogg'},                                             -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'Juri_HEREWEGO.ogg'}, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'Juri_LETSAGO.ogg'},                                          -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'Juri_MAMAMIA.ogg' },                                    -- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                          -- Object Pick-up
+  --[CHAR_SOUND_IMA_TIRED] = 'Satsuki_IMATIRED.ogg',
+  [CHAR_SOUND_HOOHOO] = { 'Juri_HOOHOO.ogg' },                                            -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'Juri_ATTACKED2.ogg' },                                        -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'Juri_UH.ogg',                                               -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Juri_OOOF2.ogg',                                             -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Juri_HOOHOO.ogg' },                                         -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Juri_PUNCH_HOO.ogg',                                             -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Juri_YAH_WAH_HOO2.ogg',                                             -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Juri_HOOHOO.ogg' },                                 -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'Juri_HOOHOO.ogg' },                                 -- Throw Object
+  [CHAR_SOUND_UH] = 'Juri_UH.ogg',                                               -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_WAAAOOOW] = 'Juri_WAAAOOOW.ogg',                                          -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                  -- Boing
+  [CHAR_SOUND_WHOA] = 'Juri_WHOA.ogg',                                             -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Juri_YAHOO.ogg' },                                             -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Juri_YAHOO_WAHA_YIPPEE.ogg' },                                 -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Juri_YAH_WAH_HOO.ogg', 'Juri_YAH_WAH_HOO2.ogg',},   -- 1st Jump(s)
+}
 
 -- ================
 -- Gehenna End

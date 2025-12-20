@@ -504,6 +504,24 @@ BA_CHAR[E_MODEL_KIRARA] = {
     cmdId = 'kirara'
 }
 
+BA_CHAR[E_MODEL_JURI] = {
+    name = "Juri",
+    description = {
+        "Eat her food"
+    },
+    school = "Gehenna",
+    credit = "MiyuEnjoyer",
+    color = { r = 254, g = 188, b = 190 },
+    model = E_MODEL_JURI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_JURI,
+    voiceTable = VT_JURI,
+    altCostume = {
+        { name = "Juri (Part-Timer)", model = E_MODEL_JURI2, desc = 'Eat her food', cmdId = 'juri2', lifeIcon = TEX_JURI2, credit = "MiyuEnjoyer" },
+    },
+    cmdId = 'juri'
+}
+
 -- ================
 -- Gehenna End
 -- ================

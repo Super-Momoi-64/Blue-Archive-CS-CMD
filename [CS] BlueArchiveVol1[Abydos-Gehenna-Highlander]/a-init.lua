@@ -47,6 +47,8 @@ E_MODEL_IZUMI = smlua_model_util_get_id("izumi_geo")
 E_MODEL_IZUMI2 = smlua_model_util_get_id("izumi_swim_geo")
 E_MODEL_IZUMI3 = smlua_model_util_get_id("izumi_ny_geo")
 E_MODEL_KIRARA = smlua_model_util_get_id("kirara_geo")
+E_MODEL_JURI = smlua_model_util_get_id("juri_geo")
+E_MODEL_JURI2 = smlua_model_util_get_id("juri2_geo")
 -- ================
 -- Highlander
 -- ================
@@ -106,6 +108,8 @@ TEX_IZUMI = get_texture_info("izumi_icon")
 TEX_IZUMI2 = get_texture_info("izumi_swim_icon")
 TEX_IZUMI3 = get_texture_info("izumi_ny_icon")
 TEX_KIRARA = get_texture_info("Kirara_Icon")
+TEX_JURI = get_texture_info("Juri_Icon")
+TEX_JURI2 = get_texture_info("Juri2_Icon")
 
 -- ================
 -- Highlander
