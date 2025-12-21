@@ -254,3 +254,15 @@ idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
 ANIM_TABLE_UNIQUE['kirara'] = {
   idle = "midori_npc_idle"
 }
+
+ANIM_TABLE_UNIQUE['hiyori3'] = {
+  [CHAR_ANIM_WALKING] = "midori_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
+}
+
+ANIM_TABLE_UNIQUE['hiyori4'] = {
+  [CHAR_ANIM_WALKING] = "midori_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
+}
