@@ -111,6 +111,8 @@ idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
   [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_OPEN },
 }
 
+ANIM_TABLE_UNIQUE['toki6'] = ANIM_TABLE_UNIQUE['toki5']
+
 ANIM_TABLE_UNIQUE['moe2'] = {
   idle = "moeswim_npc_idle",
 }

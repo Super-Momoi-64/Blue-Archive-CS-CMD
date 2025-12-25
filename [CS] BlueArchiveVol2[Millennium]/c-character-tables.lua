@@ -248,6 +248,7 @@ BA_CHAR[E_MODEL_TOKI] = {
         { name = "Toki (Maid)",   model = E_MODEL_TOKI_MAID,   desc = "At the very least, she can make tea", cmdId = 'toki3' },
         { name = "Toki (Bunny)",  model = E_MODEL_TOKI_BUNNY,  desc = "Pyon pyon",                           cmdId = 'toki4', lifeIcon = TEX_TOKI3 },
         { name = "Toki (School)", model = E_MODEL_TOKI_SCHOOL, desc = "Official school alt, when?",          cmdId = 'toki5', lifeIcon = TEX_TOKI4 },
+		{ name = "Toki (Christmas)", model = E_MODEL_TOKI_XMAS, desc = "Merry Christmas!",                   cmdId = 'toki6', lifeIcon = TEX_TOKI4 },
     },
     cmdId = 'toki'
 }
