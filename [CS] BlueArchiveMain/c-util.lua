@@ -331,6 +331,17 @@ function get_sorted_keys(table, compare)
   return keys
 end
 
+---Return a random key of a table
+---@param t table
+---@return string
+function get_random_key(t)
+  local keys = {}
+  for k in pairs(t) do
+    keys[#keys + 1] = k
+  end
+  return keys[math.random(#keys)]
+end
+
 ---@param hookEventType LuaHookedEventType
 local function create_hook_wrapper(hookEventType)
   local callbacks = {}
