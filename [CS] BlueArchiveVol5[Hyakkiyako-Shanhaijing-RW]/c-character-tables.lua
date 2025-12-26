@@ -116,6 +116,9 @@ BA_CHAR[E_MODEL_MICHIRU] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_MICHIRU,
     voiceTable = VT_MICHIRU,
+    altCostume = {
+        { name = "Michiru (Dress)", model = E_MODEL_MICHIRU2, desc = 'The wedding ring stays on', cmdId = 'michiru2', lifeIcon = TEX_MICHIRU2 },
+    },
     cmdId = 'michiru'
 }
 
