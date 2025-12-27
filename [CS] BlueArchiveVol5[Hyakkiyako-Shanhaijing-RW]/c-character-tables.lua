@@ -134,6 +134,9 @@ BA_CHAR[E_MODEL_TSUKUYO] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_TSUKUYO,
     voiceTable = VT_TSUKUYO,
+    altCostume = {
+        { name = "Tsukuyo (Dress)", model = E_MODEL_TSUKUYO2, desc = 'Nin-nin', cmdId = 'tsukuyo2', lifeIcon = TEX_TSUKUYO2, credit = "AllergyDonor" },
+    },
     cmdId = 'tsukuyo'
 }
 
