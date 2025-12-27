@@ -268,3 +268,9 @@ ANIM_TABLE_UNIQUE['hiyori4'] = {
   [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
   [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
 }
+
+ANIM_TABLE_UNIQUE['whhg'] = {
+  [CHAR_ANIM_WALKING] = "midori_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
+}

@@ -353,6 +353,21 @@ BA_CHAR[E_MODEL_RITSU] = {
     cmdId = 'ritsu'
 }
 
+BA_CHAR[E_MODEL_WILDHUNT_HG] = {
+    name = "Wildhunt HG",
+    description = {
+        "Cute nerd glasses"
+    },
+    school = "WildHunt",
+    credit = "MiyuEnjoyer",
+    color = { r = 151, g = 143, b = 159 },
+    model = E_MODEL_WILDHUNT_HG,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_WILDHUNT,
+    voiceTable = VT_NOVOICE,
+    cmdId = 'whhg'
+}
+
 BA_CHAR[E_MODEL_BSG] = {
     name = "Biker SG",
     description = {

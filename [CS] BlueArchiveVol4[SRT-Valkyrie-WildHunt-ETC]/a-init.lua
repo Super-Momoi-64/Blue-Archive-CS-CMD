@@ -35,6 +35,7 @@ E_MODEL_KANOE = smlua_model_util_get_id("kanoe_geo")
 E_MODEL_ERI = smlua_model_util_get_id("eri_geo")
 E_MODEL_MIYO = smlua_model_util_get_id("miyo_geo")
 E_MODEL_RITSU = smlua_model_util_get_id("ritsu_geo")
+E_MODEL_WILDHUNT_HG = smlua_model_util_get_id("wildhunt_hg_geo")
 -- ================
 -- ETC
 -- ================
@@ -80,6 +81,7 @@ TEX_KANOE = get_texture_info("kanoe_icon")
 TEX_ERI = get_texture_info("eriicon")
 TEX_MIYO = get_texture_info("miyoicon")
 TEX_RITSU = get_texture_info("ritsu_icon")
+TEX_WILDHUNT = get_texture_info("School_Icon_WILDHUNT")
 -- ================
 -- ETC
 -- ================
