@@ -50,6 +50,7 @@ E_MODEL_KIRARA = smlua_model_util_get_id("kirara_geo")
 E_MODEL_JURI = smlua_model_util_get_id("juri_geo")
 E_MODEL_JURI2 = smlua_model_util_get_id("juri2_geo")
 E_MODEL_ERIKA = smlua_model_util_get_id("erika_geo")
+E_MODEL_CHINATSU = smlua_model_util_get_id("chinatsu_geo")
 
 -- ================
 -- Highlander
@@ -113,6 +114,7 @@ TEX_KIRARA = get_texture_info("Kirara_Icon")
 TEX_JURI = get_texture_info("Juri_Icon")
 TEX_JURI2 = get_texture_info("Juri2_Icon")
 TEX_ERIKA = get_texture_info("erika_icon")
+TEX_CHINATSU = get_texture_info("Chinatsu_Icon")
 
 -- ================
 -- Highlander

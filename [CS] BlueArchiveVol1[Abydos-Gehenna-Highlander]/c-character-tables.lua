@@ -538,6 +538,23 @@ BA_CHAR[E_MODEL_ERIKA] = {
     cmdId = 'erika'
 }
 
+BA_CHAR[E_MODEL_CHINATSU] = {
+    name = "Chinatsu",
+    description = {
+        "Take the jab"
+    },
+    school = "Gehenna",
+    credit = "MiyuEnjoyer",
+    color = { r = 254, g = 227, b = 219 },
+    model = E_MODEL_CHINATSU,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_CHINATSU,
+    voiceTable = VT_CHINATSU,
+    altCostume = nil,
+    cmdId = 'chinatsu'
+}
+
+
 -- ================
 -- Gehenna End
 -- ================

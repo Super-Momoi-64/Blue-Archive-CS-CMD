@@ -993,6 +993,35 @@ VT_SATSUKI        = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'Juri_YAH_WAH_HOO.ogg', 'Juri_YAH_WAH_HOO2.ogg',},   -- 1st Jump(s)
 }
 
+ VT_CHINATSU        = {
+  [CHAR_SOUND_ATTACKED] = { 'Chinatsu_ATTACKED.ogg' },
+  [CHAR_SOUND_DOH] = 'Chinatsu_DOH.ogg',                                                     -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Chinatsu_DYING.ogg', },
+  [CHAR_SOUND_HAHA] = { 'Chinatsu_HAHA.ogg'},                                             -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'Chinatsu_HEREWEGO.ogg', 'Chinatsu_HEREWEGO2.ogg'}, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'Chinatsu_LETSAGO.ogg'},                                          -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'Chinatsu_MAMAMIA.ogg' },                                    -- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                          -- Object Pick-up
+  --[CHAR_SOUND_IMA_TIRED] = 'Satsuki_IMATIRED.ogg',
+  [CHAR_SOUND_HOOHOO] = { 'Chinatsu_HOOHOO.ogg' },                                            -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'Chinatsu_ONFIRE.ogg' },                                        -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'Chinatsu_UH.ogg',                                               -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Chinatsu_UH.ogg',                                             -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Chinatsu_HOOHOO.ogg' },                                         -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Chinatsu_YAH_WAH_HOO.ogg',                                             -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Chinatsu_YAH_WAH_HOO2.ogg',                                             -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Chinatsu_WAH2.ogg' },                                 -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'Chinatsu_WAH2.ogg' },                                 -- Throw Object
+  [CHAR_SOUND_UH] = 'Chinatsu_ATTACKED.ogg',                                               -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_WAAAOOOW] = 'Chinatsu_ATTACKED.ogg',                                          -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                  -- Boing
+  [CHAR_SOUND_WHOA] = 'Chinatsu_UH.ogg',                                             -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Chinatsu_YAHOO.ogg' },                                             -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Chinatsu_YAHOO_WAHA_YIPPEE.ogg' },                                 -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Chinatsu_YAH_WAH_HOO.ogg', 'Chinatsu_YAH_WAH_HOO2.ogg',},   -- 1st Jump(s)
+  [CHAR_SOUND_PANTING] = 'Chinatsu_PANTING.ogg',                                            -- Low health
+}
+
 -- ================
 -- Gehenna End
 -- ================
