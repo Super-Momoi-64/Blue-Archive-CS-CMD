@@ -176,9 +176,9 @@ VT_TSUKUYO = {
 }
 
 VT_MICHIRU = {
-  [CHAR_SOUND_ATTACKED] = { 'michiru_dmg1.mp3', 'michiru_hua.mp3' },
+  [CHAR_SOUND_ATTACKED] = { 'michiru_dmg1.mp3', 'michiru_hua.mp3', 'michiru_dmg3.mp3' },
   [CHAR_SOUND_DOH] = 'michiru_eh1.mp3', -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'michiru_dead1.mp3', 'michiru_dead2.mp3' },
+  [CHAR_SOUND_DYING] = { 'michiru_dead1.mp3', 'michiru_dead2.mp3', 'michiru_dead3.mp3' },
   -- [CHAR_SOUND_EEUH] = {nil,}, -- Slow Get up from ledge
   -- [CHAR_SOUND_GAME_OVER] = nil,
   [CHAR_SOUND_GROUND_POUND_WAH] = { 'michiru_atk7.mp3' },
@@ -208,7 +208,7 @@ VT_MICHIRU = {
   [CHAR_SOUND_UH] = 'michiru_ah1.mp3',                                                        -- Drop off of ledge + Fall off Ledge
   [CHAR_SOUND_UH2] = { 'michiru_atk1.mp3' },                                                  -- Quick Ledge Get-Up
   -- [CHAR_SOUND_UH2_2] = nil, -- Landing after Long Jump
-  [CHAR_SOUND_WAAAOOOW] = 'michiru_fall.mp3',                                                 -- Falling
+  [CHAR_SOUND_WAAAOOOW] = { 'michiru_fall.mp3', 'michiru_fall2.mp3' },                                                 -- Falling
   [CHAR_SOUND_WAH2] = 'michiru_throw.mp3',                                                    -- Throw Object
   [CHAR_SOUND_WHOA] = 'michiru_are1.mp3',                                                     -- Ledge Grab
   [CHAR_SOUND_YAHOO] = { 'michiru_shuba.mp3' },                                               -- Long Jump
