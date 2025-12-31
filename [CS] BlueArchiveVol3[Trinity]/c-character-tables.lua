@@ -119,7 +119,9 @@ BA_CHAR[E_MODEL_ICHIKA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_ICHIKA,
     voiceTable = VT_ICHIKA,
-    altCostume = nil,
+    altCostume =  { 
+	      {name = "Ichika (Swimsuit)", model = E_MODEL_ICHIKA_SWIM, desc = 'Sexy cutting board', cmdId = 'ichika2', lifeIcon = TEX_ICHIKASWIM, credit = "kzHouston" },
+    },
     cmdId = 'ichika'
 }
 
@@ -169,7 +171,9 @@ BA_CHAR[E_MODEL_MINE] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_MINE,
     voiceTable = VT_MINE,
-    altCostume = nil,
+    altCostume = {
+        { name = "Mine (Idol)", model = E_MODEL_MINE2, desc = 'What is this >we< you speak of?', cmdId = 'mine2', lifeIcon = TEX_MINE2 },
+    },
     cmdId = 'mine'
 }
 
@@ -187,7 +191,7 @@ BA_CHAR[E_MODEL_NAGISA] = {
     voiceTable = VT_NAGISA,
     altCostume = {
         { name = "Nagisa (with Chair)", model = E_MODEL_NAGISA2, desc = 'Eat your cakeroll', cmdId = 'nagisa2' },
-        { name = "Nagisa (Swimsuit)",   model = E_MODEL_NAGISA3, desc = 'Sexy',              lifeIcon = TEX_NAGISA2, cmdId = 'nagisa3' },
+        { name = "Nagisa (Swimsuit)",   model = E_MODEL_NAGISA3, desc = 'Sexy', lifeIcon = TEX_NAGISA2, cmdId = 'nagisa3' },
     },
     cmdId = 'nagisa'
 }
@@ -360,7 +364,9 @@ BA_CHAR[E_MODEL_SAKURAKO] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_SAKURAKO,
     voiceTable = VT_SAKURAKO,
-    altCostume = nil,
+    altCostume = {
+        { name = "Sakurako (Idol)", model = E_MODEL_SAKURAKO2, desc = 'WAPPIIIII', cmdId = 'sakurako2', lifeIcon = TEX_SAKURAKO2 },
+    },
     cmdId = 'sakurako'
 }
 
@@ -430,6 +436,9 @@ BA_CHAR[E_MODEL_HINATA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_HINATA,
     voiceTable = VT_HINATA,
+    altCostume = {
+        { name = "Hinata (Swimsuit)", model = E_MODEL_HINATA2, desc = 'The Clumsy, Strongest Sister', cmdId = 'hinata2', lifeIcon = TEX_HINATA2 },
+    },
     cmdId = 'hinata'
 }
 
@@ -446,7 +455,7 @@ BA_CHAR[E_MODEL_MARI] = {
     lifeIcon = TEX_MARI,
     voiceTable = VT_MARI,
     altCostume = {
-        { name = "Mari (Sportswear)", model = E_MODEL_SPMARI, desc = 'Not a fox',       cmdId = 'mari2' },
+        { name = "Mari (Sportswear)", model = E_MODEL_SPMARI, desc = 'Not a fox',       cmdId = 'mari2', lifeIcon = TEX_SPMARI },
         { name = "Mari (Idol)",       model = E_MODEL_IMARI,  desc = 'Not a chihuahua', cmdId = 'mari3', lifeIcon = TEX_IMARI, credit = "MiyuEnjoyer" },
     },
     cmdId = 'mari'

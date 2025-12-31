@@ -72,6 +72,8 @@ ANIM_TABLE_UNIQUE['izuna'] = {
 
 ANIM_TABLE_UNIQUE['izuna2'] = ANIM_TABLE_UNIQUE['yuzu']
 
+ANIM_TABLE_UNIQUE['izuna3'] = ANIM_TABLE_UNIQUE['izuna']
+
 ANIM_TABLE_UNIQUE['jtf'] = {
   idle = "jtf_npc_idle",
   [CS_ANIM_MENU] = "jtf_npc_idle",
@@ -108,6 +110,8 @@ idle = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
   [CS_ANIM_MENU] = { anim = "midori_npc_idle", hand = MARIO_HAND_OPEN },
   [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_OPEN },
 }
+
+ANIM_TABLE_UNIQUE['toki6'] = ANIM_TABLE_UNIQUE['toki5']
 
 ANIM_TABLE_UNIQUE['moe2'] = {
   idle = "moeswim_npc_idle",
@@ -236,3 +240,37 @@ idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
 }
 
 ANIM_TABLE_UNIQUE['hoshino4'] = ANIM_TABLE_UNIQUE['suou']
+
+ANIM_TABLE_UNIQUE['sora'] = ANIM_TABLE_UNIQUE['midori']
+
+ANIM_TABLE_UNIQUE['ichika2'] = {
+idle = { anim = "midori_npc_idle", hand = MARIO_HAND_FISTS },
+  [CHAR_ANIM_WALKING] = { anim = "midori_npc_walk", hand = MARIO_HAND_FISTS },
+  }
+  
+  ANIM_TABLE_UNIQUE['izumi2'] = {
+  idle = "momoi_npc_idle",
+  [CHAR_ANIM_WALKING] = "airi_cafe_walk",
+}
+
+ANIM_TABLE_UNIQUE['kirara'] = {
+  idle = "midori_npc_idle"
+}
+
+ANIM_TABLE_UNIQUE['hiyori3'] = {
+  [CHAR_ANIM_WALKING] = "midori_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
+}
+
+ANIM_TABLE_UNIQUE['hiyori4'] = {
+  [CHAR_ANIM_WALKING] = "midori_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
+}
+
+ANIM_TABLE_UNIQUE['whhg'] = {
+  [CHAR_ANIM_WALKING] = "midori_npc_walk",
+  [CHAR_ANIM_START_TIPTOE] = "midori_npc_walk",
+  [CHAR_ANIM_TIPTOE] = "midori_npc_walk",
+}

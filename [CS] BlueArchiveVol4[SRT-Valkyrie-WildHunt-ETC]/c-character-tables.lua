@@ -314,7 +314,7 @@ BA_CHAR[E_MODEL_ARONA] = {
     },
     school = "ETC",
     credit = "AllergyDonor",
-    color = { r = 255, g = 255, b = 128 },
+    color = { r = 78, g = 235, b = 242 },
     model = E_MODEL_ARONA,
     forceChar = CT_MARIO,
     lifeIcon = TEX_ARONA,
@@ -353,6 +353,21 @@ BA_CHAR[E_MODEL_RITSU] = {
     cmdId = 'ritsu'
 }
 
+BA_CHAR[E_MODEL_WILDHUNT_HG] = {
+    name = "Wildhunt HG",
+    description = {
+        "Cute nerd glasses"
+    },
+    school = "WildHunt",
+    credit = "MiyuEnjoyer",
+    color = { r = 151, g = 143, b = 159 },
+    model = E_MODEL_WILDHUNT_HG,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_WILDHUNT,
+    voiceTable = VT_NOVOICE,
+    cmdId = 'whhg'
+}
+
 BA_CHAR[E_MODEL_BSG] = {
     name = "Biker SG",
     description = {
@@ -383,4 +398,20 @@ BA_CHAR[E_MODEL_PLANA] = {
     voiceTable = VT_PLANA,
     altCostume = nil,
     cmdId = 'plana'
+}
+
+BA_CHAR[E_MODEL_SORA] = {
+    name = "Sora",
+    description = {
+        "You can see your reflection in that forehead"
+    },
+    school = "ETC",
+    credit = "kzHouston",
+    color = { r = 255, g = 255, b = 128 },
+    model = E_MODEL_SORA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SORA,
+    voiceTable = VT_SORA,
+    altCostume = nil,
+    cmdId = 'sora'
 }

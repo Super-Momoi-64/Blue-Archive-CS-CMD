@@ -452,6 +452,109 @@ BA_CHAR[E_MODEL_MAKOTO] = {
     altCostume = nil,
     cmdId = 'makoto'
 }
+
+BA_CHAR[E_MODEL_SATSUKI] = {
+    name = "Satsuki",
+    description = {
+        "'Hypnotism' Expert"
+    },
+    school = "Gehenna",
+    credit = "HerosLight",
+    color = { r = 236, g = 194, b = 208 },
+    model = E_MODEL_SATSUKI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_SATSUKI,
+    voiceTable = VT_SATSUKI,
+    altCostume = nil,
+    cmdId = 'satsuki'
+}
+
+BA_CHAR[E_MODEL_IZUMI] = {
+    name = "Izumi",
+    description = {
+        "The real fat fuck"
+    },
+    school = "Gehenna",
+    credit = "kzHouston",
+    color = { r = 236, g = 194, b = 208 },
+    model = E_MODEL_IZUMI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_IZUMI,
+    voiceTable = VT_IZUMI,
+    altCostume = {
+        { name = "Izumi (Swimsuit)", model = E_MODEL_IZUMI2, desc = 'Sexy Fat fuck', cmdId = 'izumi2', lifeIcon = TEX_IZUMI2, credit = "kzHouston" },
+		{ name = "Izumi (New Year)", model = E_MODEL_IZUMI3, desc = 'New year Fat fuck', cmdId = 'izumi3', lifeIcon = TEX_IZUMI3, credit = "kzHouston" },
+    },
+    cmdId = 'izumi'
+}
+
+BA_CHAR[E_MODEL_KIRARA] = {
+    name = "Kirara",
+    description = {
+        "cute gyaru"
+    },
+    school = "Gehenna",
+    credit = "AllergyDonor",
+    color = { r = 236, g = 194, b = 208 },
+    model = E_MODEL_KIRARA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_KIRARA,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'kirara'
+}
+
+BA_CHAR[E_MODEL_JURI] = {
+    name = "Juri",
+    description = {
+        "Eat her food"
+    },
+    school = "Gehenna",
+    credit = "MiyuEnjoyer",
+    color = { r = 254, g = 188, b = 190 },
+    model = E_MODEL_JURI,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_JURI,
+    voiceTable = VT_JURI,
+    altCostume = {
+        { name = "Juri (Part-Timer)", model = E_MODEL_JURI2, desc = 'Eat her food', cmdId = 'juri2', lifeIcon = TEX_JURI2, credit = "MiyuEnjoyer" },
+    },
+    cmdId = 'juri'
+}
+
+BA_CHAR[E_MODEL_ERIKA] = {
+    name = "Erika",
+    description = {
+        "Forgotten Gyaru"
+    },
+    school = "Gehenna",
+    credit = "AllergyDonor",
+    color = { r = 236, g = 194, b = 208 },
+    model = E_MODEL_ERIKA,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_ERIKA,
+    voiceTable = VT_ERIKA,
+    altCostume = nil,
+    cmdId = 'erika'
+}
+
+BA_CHAR[E_MODEL_CHINATSU] = {
+    name = "Chinatsu",
+    description = {
+        "Take the jab"
+    },
+    school = "Gehenna",
+    credit = "MiyuEnjoyer",
+    color = { r = 254, g = 227, b = 219 },
+    model = E_MODEL_CHINATSU,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_CHINATSU,
+    voiceTable = VT_CHINATSU,
+    altCostume = nil,
+    cmdId = 'chinatsu'
+}
+
+
 -- ================
 -- Gehenna End
 -- ================
@@ -518,7 +621,9 @@ BA_CHAR[E_MODEL_AOBA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_AOBA,
     voiceTable = VT_AOBA,
-    altCostume = nil,
+    altCostume = {
+        { name = "Aoba (Concept art)", model = E_MODEL_AOBA2, desc = 'Desukedo concept',  cmdId = 'aoba2', credit = "kzHouston" },
+    },
     cmdId = 'aoba'
 }
 
@@ -538,6 +643,37 @@ BA_CHAR[E_MODEL_SUOU] = {
     cmdId = 'suou'
 }
 
+BA_CHAR[E_MODEL_TRAINMG] = {
+    name = "Train mg",
+    description = {
+        "the peaceful morning...."
+    },
+    school = "Highlander",
+    credit = "JOHN FREEMAN also thx john",
+    color = { r = 200, g = 200, b = 212 },
+    model = E_MODEL_TRAINMG,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_TRAINMG,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'trainmg'
+}
+
+BA_CHAR[E_MODEL_TRAINSG] = {
+    name = "Train sg",
+    description = {
+        "the answer lies in gunpowder"
+    },
+    school = "Highlander",
+    credit = "JOHN FREEMAN",
+    color = { r = 200, g = 200, b = 212 },
+    model = E_MODEL_TRAINSG,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_TRAINSG,
+    voiceTable = VT_NOVOICE,
+    altCostume = nil,
+    cmdId = 'trainsg'
+}
 -- ================
 -- Highlander End
 -- ================

@@ -99,6 +99,7 @@ BA_CHAR[E_MODEL_IZUNA] = {
     voiceTable = VT_IZUNA,
     altCostume = {
         { name = "Izuna (Swimsuit)", model = E_MODEL_IZUNA2, desc = 'Nin-nin', cmdId = 'izuna2', lifeIcon = TEX_IZUNA2 },
+        { name = "Izuna (Sports)", model = E_MODEL_IZUNA3, desc = 'Nin-nin', cmdId = 'izuna3', lifeIcon = TEX_IZUNA3, credit = "AllergyDonor" },
     },
     cmdId = 'izuna'
 }
@@ -115,6 +116,9 @@ BA_CHAR[E_MODEL_MICHIRU] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_MICHIRU,
     voiceTable = VT_MICHIRU,
+    altCostume = {
+        { name = "Michiru (Dress)", model = E_MODEL_MICHIRU2, desc = 'The wedding ring stays on', cmdId = 'michiru2', lifeIcon = TEX_MICHIRU2 },
+    },
     cmdId = 'michiru'
 }
 
@@ -130,6 +134,9 @@ BA_CHAR[E_MODEL_TSUKUYO] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_TSUKUYO,
     voiceTable = VT_TSUKUYO,
+    altCostume = {
+        { name = "Tsukuyo (Dress)", model = E_MODEL_TSUKUYO2, desc = 'Nin-nin', cmdId = 'tsukuyo2', lifeIcon = TEX_TSUKUYO2, credit = "AllergyDonor" },
+    },
     cmdId = 'tsukuyo'
 }
 
@@ -558,6 +565,38 @@ BA_CHAR[E_MODEL_MERU] = {
     voiceTable = VT_MERU,
     altCostume = nil,
     cmdId = 'meru'
+}
+
+BA_CHAR[E_MODEL_TAKANE] = {
+    name = "Takane",
+    description = {
+        "Desu Wa"
+    },
+    school = "RedWinter",
+    credit = "MiyuEnjoyer",
+    color = { r = 208, g = 71, b = 98 },
+    model = E_MODEL_TAKANE,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_TAKANE,
+    voiceTable = VT_TAKANE,
+    altCostume = nil,
+    cmdId = 'takane'
+}
+
+BA_CHAR[E_MODEL_YAKUMO] = {
+    name = "Yakumo",
+    description = {
+        "Hot Dog"
+    },
+    school = "RedWinter",
+    credit = "AllergyDonor",
+    color = { r = 177, g = 167, b = 131 },
+    model = E_MODEL_YAKUMO,
+    forceChar = CT_MARIO,
+    lifeIcon = TEX_YAKUMO,
+    voiceTable = VT_YAKUMO,
+    altCostume = nil,
+    cmdId = 'yakumo'
 }
 -- ================
 -- RedWinter End

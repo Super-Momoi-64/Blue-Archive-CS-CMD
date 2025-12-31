@@ -10,6 +10,7 @@ TEXT_MOD_NAME = "Blue Archive Vol " .. PACK_ID
 E_MODEL_HIYORI = smlua_model_util_get_id("hiyori_geo")
 E_MODEL_HIYORI2 = smlua_model_util_get_id("hiyori2_geo")
 E_MODEL_HIYORI3 = smlua_model_util_get_id("hiyori3_geo")
+E_MODEL_HIYORI4 = smlua_model_util_get_id("hiyori4_geo")
 E_MODEL_ATSUKO = smlua_model_util_get_id("atsuko_geo")
 E_MODEL_ATSUKO2 = smlua_model_util_get_id("atsuko2_geo")
 E_MODEL_ATSUKO3 = smlua_model_util_get_id("atsuko3_geo")

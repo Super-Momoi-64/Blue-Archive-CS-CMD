@@ -60,11 +60,11 @@
 -- ================================================================
 
 VT_NOVOICE = {
-  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3' },
+  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3', 'sfx_ff6_fistattack.mp3', 'sfx_smw_bossstun.mp3', 'sfx_mmx_hurt.mp3' },
   [CHAR_SOUND_DOH] = 'sfx_ml_bump.mp3',                                              -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3' },
-  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3' }, -- Star Get + Obtaining Power-up
-  [CHAR_SOUND_LETS_A_GO] = { 'sfx_smb3_levelselect.mp3' },                           -- Level Select
+  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3', 'sfx_cv3_dead.mp3', 'sfx_earthbound_dead.mp3'},
+  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3', 'sfx_earthbound_good.mp3', 'sfx_kirby_1up.mp3' }, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'sfx_smb3_levelselect.mp3', 'sfx_sf2_stageselect.mp3' },                           -- Level Select
   [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                      -- Object Pick-up
   [CHAR_SOUND_HOOHOO] = { 'sfx_smw_jump.mp3' },                                      -- 2nd Jump + Dive Attack
   [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },                                    -- Touch Fire
@@ -510,6 +510,33 @@ VT_PLANA = {
   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Plana_YAHOO_WAHA_YIPPEE.ogg' },                           -- 3rd Jump(s)
   [CHAR_SOUND_YAH_WAH_HOO] = { 'Plana_YAH_WAH_HOO2.ogg', 'Plana_YAH_WAH_HOO3.ogg' },            -- 1st Jump(s)
 }
+
+VT_SORA = {
+  [CHAR_SOUND_ATTACKED] = { 'Sora_ATTACKED.ogg', 'Sora_ATTACKED2.ogg' },
+  [CHAR_SOUND_DOH] = 'Sora_ATTACKED2.ogg',                                          -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Sora_OOOF2.ogg' },
+  [CHAR_SOUND_HERE_WE_GO] = { 'Sora_HEREWEGO.ogg', },                                -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'sfx_smb3_levelselect.mp3' },                           -- Level Select
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                      -- Object Pick-up
+  [CHAR_SOUND_HOOHOO] = { 'Sora_HOOHOO.ogg' },                                       -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'sfx_smrpg_hot.mp3' },                                    -- Touch Fire
+  [CHAR_SOUND_IMA_TIRED] = 'Sora_IMATIRED.ogg',                                      -- Mario feeling tired
+  [CHAR_SOUND_OOOF] = 'Sora_ATTACKED.ogg',                                           -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Sora_OOOF2.ogg',                                             -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Sora_HOOHOO.ogg' },                                    -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Sora_ATTACKED2.ogg',                                     -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Sora_YAHOO.ogg',                                         -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'sfx_smrpg_fireball.mp3' },                       -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'sfx_ssb64_itemthrow.mp3' },                                 -- Throw Object
+  [CHAR_SOUND_UH] = 'sfx_smrpg_throw.mp3',                                           -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_WAAAOOOW] = 'sfx_ssb64_falling.mp3',                                   -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                              -- Boing
+  [CHAR_SOUND_WHOA] = 'Sora_ATTACKED.ogg',                                           -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Sora_YAHOO_WAHA_YIPPEE.ogg' },                             -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Sora_YAHOO_WAHA_YIPPEE.ogg' },                 -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Sora_YAH_WAH_HOO.ogg', 'Sora_YAH_WAH_HOO2.ogg', 'Sora_YAHOO.ogg'},    -- 1st Jump(s)
+}
+
 -- ================
 -- ETC End
 -- ================

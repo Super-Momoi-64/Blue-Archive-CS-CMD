@@ -60,10 +60,10 @@
 -- ================================================================
 
 VT_NOVOICE = {
-  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3' },
+  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3', 'sfx_ff6_fistattack.mp3', 'sfx_smw_bossstun.mp3', 'sfx_mmx_hurt.mp3' },
   [CHAR_SOUND_DOH] = 'sfx_ml_bump.mp3',                                              -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3' },
-  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3' }, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3', 'sfx_cv3_dead.mp3', 'sfx_earthbound_dead.mp3'},
+  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3', 'sfx_earthbound_good.mp3', 'sfx_kirby_1up.mp3' }, -- Star Get + Obtaining Power-up
   [CHAR_SOUND_LETS_A_GO] = { 'sfx_smb3_levelselect.mp3' },                           -- Level Select
   [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                      -- Object Pick-up
   [CHAR_SOUND_HOOHOO] = { 'sfx_smw_jump.mp3' },                                      -- 2nd Jump + Dive Attack
@@ -886,6 +886,188 @@ VT_MAKOTO        = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'Makoto_YAH_WAH_HOO.ogg', 'Makoto_YAH_WAH_HOO2.ogg', 'Makoto_YAH_WAH_HOO3.ogg' },   -- 1st Jump(s)
   --[CHAR_SOUND_YAWNING] = { 'Makoto_YAWN.ogg' },
 }
+
+VT_SATSUKI        = {
+  [CHAR_SOUND_ATTACKED] = { 'Satsuki_ATTACKED.ogg', 'Satsuki_ATTACKED2.ogg' },
+  [CHAR_SOUND_DOH] = 'Satsuki_DOH.ogg',                                                     -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Satsuki_DYING.ogg', },
+  [CHAR_SOUND_HAHA] = { 'Satsuki_HAHA.ogg'},                                             -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'Satsuki_HEREWEGO.ogg', 'Satsuki_HEREWEGO2.ogg'}, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'satsuki_levelselect.mp3', 'Satsuki_LETSAGO.ogg' },                                          -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'satsuki_nofair.mp3' },                                    -- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                          -- Object Pick-up
+  [CHAR_SOUND_IMA_TIRED] = 'Satsuki_IMATIRED.ogg',
+  [CHAR_SOUND_HOOHOO] = { 'Satsuki_HOOHOO.ogg' },                                            -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'Satsuki_ATTACKED.ogg' },                                        -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'Satsuki_UH.ogg',                                               -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Satsuki_OOOF2.ogg',                                             -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Satsuki_PUNCH_HOO.ogg' },                                         -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Satsuki_HOOHOO.ogg',                                             -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Satsuki_YAH_WAH_HOO2.ogg',                                             -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'sfx_ssb64_itemthrow.mp3' },                                 -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'satsuki_throw.mp3' },                                 -- Throw Object
+  [CHAR_SOUND_UH] = 'Satsuki_UH.ogg',                                               -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_WAAAOOOW] = 'Satsuki_WAAAOOOW.ogg',                                          -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                  -- Boing
+  [CHAR_SOUND_WHOA] = 'Satsuki_OOOF2.ogg',                                             -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Satsuki_YAHOO.ogg' },                                             -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Satsuki_YAHOO_WAHA_YIPPEE.ogg' },                                 -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Satsuki_YAH_WAH_HOO.ogg', 'Satsuki_YAH_WAH_HOO2.ogg',},   -- 1st Jump(s)
+}
+
+ VT_IZUMI = {
+--   [CHAR_SOUND_OKEY_DOKEY] = 'CharStartGame.ogg',                                       -- Starting game
+   [CHAR_SOUND_LETS_A_GO] = 'izumi_starselect.mp3',                                       -- Starting level
+--   [CHAR_SOUND_GAME_OVER] = 'CharGameOver.ogg',                                         -- Game Overed
+   [CHAR_SOUND_PUNCH_YAH] = 'izumi_jump1dos.mp3',                                           -- Punch 1
+   [CHAR_SOUND_PUNCH_WAH] = 'izumi_punch2.mp3',                                           -- Punch 2
+   [CHAR_SOUND_PUNCH_HOO] = 'izumi_jump2dos.mp3',                                          -- Punch 3
+   [CHAR_SOUND_YAH_WAH_HOO] = 'izumi_jump1.mp3',     -- First Jump Sounds
+   [CHAR_SOUND_HOOHOO] =  'izumi_jump2.mp3',                                         -- Second jump sound
+   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] =  'izumi_triplejump.mp3',   -- Triple jump sounds
+   [CHAR_SOUND_UH] = 'izumi_bonk.mp3',                                                    -- Soft wall bonk
+   [CHAR_SOUND_UH2] = 'izumi_ledgeupfast.mp3',                                             -- Quick ledge get up
+--   [CHAR_SOUND_UH2_2] = 'CharLongJumpLand.ogg',                                         -- Landing after long jump
+   [CHAR_SOUND_DOH] = 'izumi_bonk.mp3',                                                   -- Hard wall bonk
+   [CHAR_SOUND_OOOF] = 'izumi_hurt.mp3',                                                  -- Attacked in air
+   [CHAR_SOUND_OOOF2] = 'izumi_bonkhard.mp3',                                                 -- Land from hard bonk
+   [CHAR_SOUND_HAHA] = 'izumi_HAHA.mp3',                                        -- Landing triple jump
+   [CHAR_SOUND_HAHA_2] = 'izumi_panting.mp3',                                        -- Landing in water from big fall
+   [CHAR_SOUND_YAHOO] = 'izumi_longjump.mp3',                                             -- Long jump
+   [CHAR_SOUND_DOH] = 'izumi_bonk.mp3',                                                   -- Long jump wall bonk
+   [CHAR_SOUND_WHOA] = 'izumi_ledgegrab.mp3',                                             -- Grabbing ledge
+   [CHAR_SOUND_EEUH] = 'izumi_ledgeup.mp3',                                            -- Climbing over ledge
+   [CHAR_SOUND_WAAAOOOW] = 'izumi_falling.mp3',                                           -- Falling a long distance
+   [CHAR_SOUND_TWIRL_BOUNCE] = 'izumi_twirl.mp3',                                  -- Bouncing off of a flower spring
+   [CHAR_SOUND_GROUND_POUND_WAH] = 'izumi_jump2dos.mp3',                               -- Ground Pound after startup
+   [CHAR_SOUND_WAH2] = 'izumi_throw.mp3',                                                 -- Throwing something
+   [CHAR_SOUND_HRMM] = 'izumi_jump2.mp3',                                                  -- Lifting something
+   [CHAR_SOUND_HERE_WE_GO] = 'izumi_starget.mp3',                                         -- Star get
+   [CHAR_SOUND_SO_LONGA_BOWSER] = 'izumi_bowser.mp3',                                -- Throwing Bowser
+--   --DAMAGE
+   [CHAR_SOUND_ATTACKED] = {'izumi_hurt.mp3', 'izumi_hurt2.mp3' },                                          -- Damaged
+   [CHAR_SOUND_PANTING] = 'izumi_panting.mp3',                                            -- Low health
+   [CHAR_SOUND_PANTING_COLD] = 'izumi_panting.mp3',                                       -- Getting cold
+   [CHAR_SOUND_ON_FIRE] = 'izumi_hurt2.mp3',                                             -- Burned
+--   --SLEEP SOUNDS
+--   [CHAR_SOUND_IMA_TIRED] = 'izumi_sleep.mp3',                                            -- Mario feeling tired
+   [CHAR_SOUND_YAWNING] = 'izumi_sleep.mp3',                                               -- Mario yawning before he sits down to sleep
+--   [CHAR_SOUND_SNORING1] = 'CharSnore.ogg',                                             -- Snore Inhale
+--   [CHAR_SOUND_SNORING2] = 'CharExhale.ogg',                                            -- Exhale
+--   [CHAR_SOUND_SNORING3] = 'CharSleepTalk.ogg',                                         -- Sleep talking / mumbling
+--   --COUGHING (USED IN THE GAS MAZE)
+--   [CHAR_SOUND_COUGHING1] = 'CharCough1.ogg',                                           -- Cough take 1
+--   [CHAR_SOUND_COUGHING2] = 'CharCough2.ogg',                                           -- Cough take 2
+--   [CHAR_SOUND_COUGHING3] = 'CharCough3.ogg',                                           -- Cough take 3
+--   --DEATH
+  [CHAR_SOUND_DYING] = 'izumi_dying.mp3',                                                -- Dying from damage
+--   [CHAR_SOUND_DROWNING] = 'CharDrowning.ogg',                                          -- Running out of air underwater
+  [CHAR_SOUND_MAMA_MIA] = 'izumi_levelout.mp3'                                         -- Booted out of level
+ }
+
+ VT_JURI        = {
+  [CHAR_SOUND_ATTACKED] = { 'Juri_ATTACKED.ogg', 'Juri_ATTACKED2.ogg' },
+  [CHAR_SOUND_DOH] = 'Juri_DOH.ogg',                                                     -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Juri_DYING.ogg', },
+  [CHAR_SOUND_HAHA] = { 'Juri_HAHA.ogg'},                                             -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'Juri_HEREWEGO.ogg'}, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'Juri_LETSAGO.ogg'},                                          -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'Juri_MAMAMIA.ogg' },                                    -- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                          -- Object Pick-up
+  --[CHAR_SOUND_IMA_TIRED] = 'Satsuki_IMATIRED.ogg',
+  [CHAR_SOUND_HOOHOO] = { 'Juri_HOOHOO.ogg' },                                            -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'Juri_ATTACKED2.ogg' },                                        -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'Juri_UH.ogg',                                               -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Juri_OOOF2.ogg',                                             -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Juri_HOOHOO.ogg' },                                         -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Juri_PUNCH_HOO.ogg',                                             -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Juri_YAH_WAH_HOO2.ogg',                                             -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Juri_HOOHOO.ogg' },                                 -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'Juri_HOOHOO.ogg' },                                 -- Throw Object
+  [CHAR_SOUND_UH] = 'Juri_UH.ogg',                                               -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_WAAAOOOW] = 'Juri_WAAAOOOW.ogg',                                          -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                  -- Boing
+  [CHAR_SOUND_WHOA] = 'Juri_WHOA.ogg',                                             -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Juri_YAHOO.ogg' },                                             -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Juri_YAHOO_WAHA_YIPPEE.ogg' },                                 -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Juri_YAH_WAH_HOO.ogg', 'Juri_YAH_WAH_HOO2.ogg',},   -- 1st Jump(s)
+}
+
+ VT_CHINATSU        = {
+  [CHAR_SOUND_ATTACKED] = { 'Chinatsu_ATTACKED.ogg' },
+  [CHAR_SOUND_DOH] = 'Chinatsu_DOH.ogg',                                                     -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'Chinatsu_DYING.ogg', },
+  [CHAR_SOUND_HAHA] = { 'Chinatsu_HAHA.ogg'},                                             -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'Chinatsu_HEREWEGO.ogg', 'Chinatsu_HEREWEGO2.ogg'}, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_LETS_A_GO] = { 'Chinatsu_LETSAGO.ogg'},                                          -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'Chinatsu_MAMAMIA.ogg' },                                    -- Getting up after thrown out of level
+  [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                          -- Object Pick-up
+  --[CHAR_SOUND_IMA_TIRED] = 'Satsuki_IMATIRED.ogg',
+  [CHAR_SOUND_HOOHOO] = { 'Chinatsu_HOOHOO.ogg' },                                            -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_ON_FIRE] = { 'Chinatsu_ONFIRE.ogg' },                                        -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'Chinatsu_UH.ogg',                                               -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'Chinatsu_UH.ogg',                                             -- Landing After a Bonk + Thrown out of level + Also Bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'Chinatsu_HOOHOO.ogg' },                                         -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'Chinatsu_YAH_WAH_HOO.ogg',                                             -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'Chinatsu_YAH_WAH_HOO2.ogg',                                             -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'Chinatsu_WAH2.ogg' },                                 -- Bowser Throw
+  [CHAR_SOUND_WAH2] = { 'Chinatsu_WAH2.ogg' },                                 -- Throw Object
+  [CHAR_SOUND_UH] = 'Chinatsu_ATTACKED.ogg',                                               -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_WAAAOOOW] = 'Chinatsu_ATTACKED.ogg',                                          -- Falling
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                                  -- Boing
+  [CHAR_SOUND_WHOA] = 'Chinatsu_UH.ogg',                                             -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'Chinatsu_YAHOO.ogg' },                                             -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'Chinatsu_YAHOO_WAHA_YIPPEE.ogg' },                                 -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'Chinatsu_YAH_WAH_HOO.ogg', 'Chinatsu_YAH_WAH_HOO2.ogg',},   -- 1st Jump(s)
+  [CHAR_SOUND_PANTING] = 'Chinatsu_PANTING.ogg',                                            -- Low health
+}
+
+ VT_ERIKA = {
+--   [CHAR_SOUND_OKEY_DOKEY] = 'CharStartGame.ogg',                                       -- Starting game
+   [CHAR_SOUND_LETS_A_GO] = 'erika_reload.ogg',                                       -- Starting level
+--   [CHAR_SOUND_GAME_OVER] = 'CharGameOver.ogg',                                         -- Game Overed
+   [CHAR_SOUND_PUNCH_YAH] = 'erika_hu.ogg',                                           -- Punch 1
+   [CHAR_SOUND_PUNCH_WAH] = 'erika_do.ogg',                                           -- Punch 2
+   [CHAR_SOUND_PUNCH_HOO] = 'erika_khe.ogg',                                          -- Punch 3
+   [CHAR_SOUND_YAH_WAH_HOO] = 'erika_tok.ogg',     -- First Jump Sounds
+   [CHAR_SOUND_HOOHOO] =  'erika_yo.ogg',                                         -- Second jump sound
+   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] =  'erika_sa.ogg',   -- Triple jump sounds
+   [CHAR_SOUND_UH] = 'erika_tok.ogg',                                                    -- Soft wall bonk
+   [CHAR_SOUND_UH2] = 'erika_tok.ogg',                                             -- Quick ledge get up
+--   [CHAR_SOUND_UH2_2] = 'CharLongJumpLand.ogg',                                         -- Landing after long jump
+   [CHAR_SOUND_DOH] = 'erika_hit2.ogg',                                                   -- Hard wall bonk
+   [CHAR_SOUND_OOOF] = 'erika_hit1.ogg',                                                  -- Attacked in air
+   [CHAR_SOUND_OOOF2] = 'erika_hit2.ogg',                                                 -- Land from hard bonk
+   [CHAR_SOUND_HAHA] = 'erika_jan.ogg',                                        -- Landing triple jump
+   [CHAR_SOUND_HAHA_2] = 'erika_jan.ogg',                                        -- Landing in water from big fall
+   [CHAR_SOUND_YAHOO] = 'erika_sa.ogg',                                             -- Long jump
+   [CHAR_SOUND_DOH] = 'erika_hit2.ogg',                                                   -- Long jump wall bonk
+   [CHAR_SOUND_WHOA] = 'erika_tok.ogg',                                             -- Grabbing ledge
+   [CHAR_SOUND_EEUH] = 'erika_io.ogg',                                            -- Climbing over ledge
+   [CHAR_SOUND_WAAAOOOW] = 'erika_hit1.ogg',                                           -- Falling a long distance
+   [CHAR_SOUND_TWIRL_BOUNCE] = 'erika_ya.ogg',                                  -- Bouncing off of a flower spring
+   [CHAR_SOUND_GROUND_POUND_WAH] = 'erika_do.ogg',                               -- Ground Pound after startup
+   [CHAR_SOUND_WAH2] = 'erika_ya.ogg',                                                 -- Throwing something
+   [CHAR_SOUND_HRMM] = 'erika_io.ogg',                                                  -- Lifting something
+   [CHAR_SOUND_HERE_WE_GO] = 'erika_ex.ogg',                                         -- Star get
+   [CHAR_SOUND_SO_LONGA_BOWSER] = 'erika_revolution.ogg',                                -- Throwing Bowser
+--   --DAMAGE
+   [CHAR_SOUND_ATTACKED] = {'erika_hit1.ogg', 'erika_hit2.ogg' },                                          -- Damaged
+   [CHAR_SOUND_ON_FIRE] = 'erika_hit2.ogg',                                             -- Burned
+--   --SLEEP SOUNDS
+   [CHAR_SOUND_YAWNING] = 'erika_yawn.ogg',                                               -- Mario yawning before he sits down to sleep
+--   [CHAR_SOUND_SNORING1] = 'CharSnore.ogg',                                             -- Snore Inhale
+--   [CHAR_SOUND_SNORING2] = 'CharExhale.ogg',                                            -- Exhale
+--   [CHAR_SOUND_SNORING3] = 'CharSleepTalk.ogg',                                         -- Sleep talking / mumbling
+--   --COUGHING (USED IN THE GAS MAZE)
+--   [CHAR_SOUND_COUGHING1] = 'CharCough1.ogg',                                           -- Cough take 1
+--   [CHAR_SOUND_COUGHING2] = 'CharCough2.ogg',                                           -- Cough take 2
+--   [CHAR_SOUND_COUGHING3] = 'CharCough3.ogg',                                           -- Cough take 3
+--   --DEATH
+  [CHAR_SOUND_DYING] = 'erika_gomen.ogg',                                                -- Dying from damage
+--   [CHAR_SOUND_DROWNING] = 'CharDrowning.ogg',                                          -- Running out of air underwater
+  [CHAR_SOUND_MAMA_MIA] = 'erika_abunai.ogg'                                         -- Booted out of level
+ }
 
 -- ================
 -- Gehenna End

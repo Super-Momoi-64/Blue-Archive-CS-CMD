@@ -42,6 +42,16 @@ E_MODEL_HINA3 = smlua_model_util_get_id("hina3_geo")
 E_MODEL_SENA = smlua_model_util_get_id("senakzh_geo")
 E_MODEL_CHIAKI = smlua_model_util_get_id("chiaki_geo")
 E_MODEL_MAKOTO = smlua_model_util_get_id("makoto_geo")
+E_MODEL_SATSUKI = smlua_model_util_get_id("satsuki_geo")
+E_MODEL_IZUMI = smlua_model_util_get_id("izumi_geo")
+E_MODEL_IZUMI2 = smlua_model_util_get_id("izumi_swim_geo")
+E_MODEL_IZUMI3 = smlua_model_util_get_id("izumi_ny_geo")
+E_MODEL_KIRARA = smlua_model_util_get_id("kirara_geo")
+E_MODEL_JURI = smlua_model_util_get_id("juri_geo")
+E_MODEL_JURI2 = smlua_model_util_get_id("juri2_geo")
+E_MODEL_ERIKA = smlua_model_util_get_id("erika_geo")
+E_MODEL_CHINATSU = smlua_model_util_get_id("chinatsu_geo")
+
 -- ================
 -- Highlander
 -- ================
@@ -50,7 +60,10 @@ E_MODEL_HIKARI = smlua_model_util_get_id("hikari_geo")
 E_MODEL_NOZOMI = smlua_model_util_get_id("nozomi_geo")
 E_MODEL_TRAIN = smlua_model_util_get_id("train_geo")
 E_MODEL_AOBA = smlua_model_util_get_id("aoba_geo")
+E_MODEL_AOBA2 = smlua_model_util_get_id("aoba2_geo")
 E_MODEL_SUOU = smlua_model_util_get_id("suou_geo")
+E_MODEL_TRAINMG = smlua_model_util_get_id("train_mg_geo")
+E_MODEL_TRAINSG = smlua_model_util_get_id("train_sg_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
@@ -93,6 +106,15 @@ TEX_HINA3 = get_texture_info("HinaDress_Icon")
 TEX_SENA = get_texture_info("senaicon")
 TEX_CHIAKI = get_texture_info("chiakiicon")
 TEX_MAKOTO = get_texture_info("makoto_icon")
+TEX_SATSUKI = get_texture_info("satsukiicon")
+TEX_IZUMI = get_texture_info("izumi_icon")
+TEX_IZUMI2 = get_texture_info("izumi_swim_icon")
+TEX_IZUMI3 = get_texture_info("izumi_ny_icon")
+TEX_KIRARA = get_texture_info("Kirara_Icon")
+TEX_JURI = get_texture_info("Juri_Icon")
+TEX_JURI2 = get_texture_info("Juri2_Icon")
+TEX_ERIKA = get_texture_info("erika_icon")
+TEX_CHINATSU = get_texture_info("Chinatsu_Icon")
 
 -- ================
 -- Highlander
@@ -103,3 +125,5 @@ TEX_NOZOMI = get_texture_info("Nozomi_Icon")
 TEX_TRAIN = get_texture_info("Train_Icon")
 TEX_AOBA = get_texture_info("aoba_icon")
 TEX_SUOU = get_texture_info("suou_icon")
+TEX_TRAINMG = get_texture_info("train_mgicon")
+TEX_TRAINSG = get_texture_info("trainsg_icon")

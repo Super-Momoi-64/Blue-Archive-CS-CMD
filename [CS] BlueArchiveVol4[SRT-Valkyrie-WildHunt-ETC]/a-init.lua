@@ -35,6 +35,7 @@ E_MODEL_KANOE = smlua_model_util_get_id("kanoe_geo")
 E_MODEL_ERI = smlua_model_util_get_id("eri_geo")
 E_MODEL_MIYO = smlua_model_util_get_id("miyo_geo")
 E_MODEL_RITSU = smlua_model_util_get_id("ritsu_geo")
+E_MODEL_WILDHUNT_HG = smlua_model_util_get_id("wildhunt_hg_geo")
 -- ================
 -- ETC
 -- ================
@@ -47,6 +48,7 @@ E_MODEL_PNIYA = smlua_model_util_get_id("pniyakzh_geo")
 E_MODEL_BSG = smlua_model_util_get_id("biker_sg_geo")
 E_MODEL_ARONA = smlua_model_util_get_id("arona_geo")
 E_MODEL_PLANA = smlua_model_util_get_id("plana_geo")
+E_MODEL_SORA = smlua_model_util_get_id("sora_geo")
 -- ================================================================
 -- Custom Texture Icons
 -- ================================================================
@@ -79,6 +81,7 @@ TEX_KANOE = get_texture_info("kanoe_icon")
 TEX_ERI = get_texture_info("eriicon")
 TEX_MIYO = get_texture_info("miyoicon")
 TEX_RITSU = get_texture_info("ritsu_icon")
+TEX_WILDHUNT = get_texture_info("School_Icon_WILDHUNT")
 -- ================
 -- ETC
 -- ================
@@ -91,3 +94,4 @@ TEX_PNIYA = get_texture_info("pniya_icon")
 TEX_BSG = get_texture_info("bikersg_icon")
 TEX_ARONA = get_texture_info("arona_icon")
 TEX_PLANA = get_texture_info("plana_icon")
+TEX_SORA = get_texture_info("sora_icon")

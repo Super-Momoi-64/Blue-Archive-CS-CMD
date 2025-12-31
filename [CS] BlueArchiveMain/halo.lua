@@ -45,6 +45,17 @@ local MAX_OFFSET_X = 100       -- Maximum displacement from rest position (Up/Do
 local MAX_OFFSET_Y = 75        -- Maximum displacement from rest position (Forward/Backward)
 local THRESHOLD = 5            -- Threshold below which we consider movement stopped
 
+---Don't render Halo when sleeping
+---@param m MarioState
+---@param node GraphNode
+local function halo_sleep(m, node)
+  if m.action == ACT_SLEEPING then
+    node.flags = node.flags & ~GRAPH_RENDER_ACTIVE
+  else
+    node.flags = node.flags | GRAPH_RENDER_ACTIVE
+  end
+end
+
 --- @param m MarioState
 function animate_halo(m)
   -- Get the player states which store offset information for a player's halo
@@ -53,6 +64,9 @@ function animate_halo(m)
   local xObj = extraObjects[m.playerIndex]
 
   if xObj.haloObj ~= nil then
+    -- Don't render Halo when sleeping
+    halo_sleep(m, xObj.haloObj.node)
+
     -- Calculate spring force based on displacement from rest position (-kx)
     local spring_forceX = -SPRING_CONSTANT_X * ba.halo.current_offsetX
     local spring_forceY = -SPRING_CONSTANT_Y * ba.halo.current_offsetY

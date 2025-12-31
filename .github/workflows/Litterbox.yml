@@ -37,16 +37,18 @@ jobs:
           mv "[CS] BlueArchiveVol6[Arius]" mod_archive/
           cp "[ReadMe] Place everything inside mods folder.txt" mod_archive/
 
-      - name: Create zip archive
-        run: |
-          mkdir -p artifacts
-          zip -9 -r artifacts/${{ env.MAIN_ARTIFACT_NAME }}.zip mod_archive
-
       - name: Upload main artifact
         uses: actions/upload-artifact@v4
         with:
           name: ${{ env.MAIN_ARTIFACT_NAME }}
-          path: artifacts/${{ env.MAIN_ARTIFACT_NAME }}.zip
+          path: mod_archive
+          compression-level: 9
+
+      - name: Create zip archive
+        run: |
+          mkdir -p artifacts
+          cd mod_archive
+          zip -9 -r ../artifacts/${{ env.MAIN_ARTIFACT_NAME }}.zip .
 
       - name: Upload to Catbox
         id: catbox
@@ -65,5 +67,5 @@ jobs:
         run: |
           curl -s -H "Content-Type: application/json" \
             -X POST \
-            -d "{\"content\":\"**New pack uploaded**\n${{ steps.catbox.outputs.url }}\"}" \
+            -d "{\"content\":\"**New CS pack uploaded:**\n${{ env.MAIN_ARTIFACT_NAME }}\n${{ steps.catbox.outputs.url }}\"}" \
             "$WEBHOOK_URL"

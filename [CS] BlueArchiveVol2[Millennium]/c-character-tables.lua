@@ -191,6 +191,10 @@ BA_CHAR[E_MODEL_YUUKA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_YUUKA,
     voiceTable = VT_YUUKA,
+    altCostume = {
+        {name = "Yuuka (Track)", model = E_MODEL_YUUKA_TRACK, desc = "100Kg runner", cmdId = 'yuuka2', lifeIcon = TEX_YUUKA_TRACK, credit = 'hash'},
+        {name = "Yuuka (Pajama)", model = E_MODEL_YUUKA_PAJAMA, desc = "A mimir", cmdId = 'yuuka3', lifeIcon = TEX_YUUKA_PAJAMA, credit = 'hash'}
+    },
     cmdId = 'yuuka'
 }
 
@@ -248,6 +252,7 @@ BA_CHAR[E_MODEL_TOKI] = {
         { name = "Toki (Maid)",   model = E_MODEL_TOKI_MAID,   desc = "At the very least, she can make tea", cmdId = 'toki3' },
         { name = "Toki (Bunny)",  model = E_MODEL_TOKI_BUNNY,  desc = "Pyon pyon",                           cmdId = 'toki4', lifeIcon = TEX_TOKI3 },
         { name = "Toki (School)", model = E_MODEL_TOKI_SCHOOL, desc = "Official school alt, when?",          cmdId = 'toki5', lifeIcon = TEX_TOKI4 },
+		{ name = "Toki (Christmas)", model = E_MODEL_TOKI_XMAS, desc = "Merry Christmas!",                   cmdId = 'toki6', lifeIcon = TEX_TOKI5 },
     },
     cmdId = 'toki'
 }
@@ -413,6 +418,9 @@ BA_CHAR[E_MODEL_UTAHA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_UTAHA,
     voiceTable = VT_UTAHA,
+    altCostume = {
+        {name = "Utaha (Cheerleader)", model=E_MODEL_UTAHA_CHEER, desc="Motivated engineer", lifeIcon=TEX_UTAHA_CHEER, cmdId="utaha2"}
+    },
     cmdId = 'utaha'
 }
 
@@ -428,6 +436,9 @@ BA_CHAR[E_MODEL_KOTORI] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_KOTORI,
     voiceTable = VT_KOTORI,
+    altCostume = {
+        {name = "Kotori (Cheerleader)", model=E_MODEL_KOTORI_CHEER, desc="Nerd belly", lifeIcon=TEX_KOTORI_CHEER, cmdId='kotori2'}
+    },
     cmdId = 'kotori'
 }
 

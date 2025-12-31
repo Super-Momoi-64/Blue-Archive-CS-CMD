@@ -104,6 +104,7 @@ BA_CHAR[E_MODEL_HIYORI] = {
     altCostume = {
         { name = "Hiyori (Lightsaber)", model = E_MODEL_HIYORI2, desc = 'Meme',                                                   cmdId = 'hiyori2' },
         { name = "Hiyori (Swimsuit)",   model = E_MODEL_HIYORI3, desc = 'Fun Fact: She has the biggest chibi breast in the game', cmdId = 'hiyori3', lifeIcon = TEX_HIYORI2, credit = "MiyuEnjoyer" },
+        { name = "Hiyori (Swimsuit)",   model = E_MODEL_HIYORI4, desc = 'Fun Fact: She has the biggest chibi breast in the game', cmdId = 'hiyori4', lifeIcon = TEX_HIYORI2, credit = "MiyuEnjoyer" },
     },
     cmdId = 'hiyori'
 }

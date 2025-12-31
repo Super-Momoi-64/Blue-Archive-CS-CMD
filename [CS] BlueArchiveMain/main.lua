@@ -1,4 +1,4 @@
--- name: \\#FFFF00\\[CS] \\#00D7FB\\Blue \\#FFFFFF\\Archive Main 1.0.6
+-- name: \\#FFFF00\\[CS] \\#00D7FB\\Blue \\#FFFFFF\\Archive Main 1.0.8
 -- description: \\#FF0000\\ This script must be on in order to use the Blue Archive character packs. \n\n This applies to both Character Select and Command.
 -- category: cs
 
@@ -106,6 +106,12 @@ local function on_ba_command(msg)
   -- ================================================================
   -- Load Character
   -- ================================================================
+
+  -- Random Character
+  if (msg == "random" or msg == "r") then
+    msg = get_random_key(characterCmdTable)
+  end
+
   -- Change alice cmd if it exists
   msg = string.gsub(msg, "arisu", "alice")
   msg = string.gsub(msg, "aris", "alice")
@@ -190,6 +196,7 @@ hook_chat_command('ba',
   "\n" ..
   "\\#7A9FFF\\ /ba [list/menu/help] \\#FFFFFF\\to show a list of available students.\n" ..
   "\\#7A9FFF\\ /ba [student] \\#FFFFFF\\to load a student. \n" ..
+  "\\#7A9FFF\\ /ba [r]andom \\#FFFFFF\\to load a random student. \n" ..
   "\\#7A9FFF\\ /ba idle \\#FFFFFF\\to toggle the idle state. \n" ..
   "\\#7A9FFF\\ /ba nametag \\#FFFFFF\\to toggle nametag display. \n" ..
   "\\#7A9FFF\\ /ba [off/disable] \\#FFFFFF\\to turn off.", on_ba_command)

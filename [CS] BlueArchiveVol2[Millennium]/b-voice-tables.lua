@@ -60,10 +60,10 @@
 -- ================================================================
 
 VT_NOVOICE = {
-  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3' },
+  [CHAR_SOUND_ATTACKED] = { 'sfx_smrpg_hit1.mp3', 'sfx_smrpg_shell.mp3', 'sfx_smw_bossstun.mp3', 'sfx_ff6_fistattack.mp3', 'sfx_smw_bossstun.mp3', 'sfx_mmx_hurt.mp3' },
   [CHAR_SOUND_DOH] = 'sfx_ml_bump.mp3',                                              -- Bonk into walls
-  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3' },
-  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3' }, -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_DYING] = { 'sfx_smb3_down.mp3', 'sfx_cv3_dead.mp3', 'sfx_earthbound_dead.mp3'},
+  [CHAR_SOUND_HERE_WE_GO] = { 'sfx_alttp_item.mp3', 'sfx_smrpg_specialflower.mp3', 'sfx_earthbound_good.mp3', 'sfx_kirby_1up.mp3' }, -- Star Get + Obtaining Power-up
   [CHAR_SOUND_LETS_A_GO] = { 'sfx_smb3_levelselect.mp3' },                           -- Level Select
   [CHAR_SOUND_HRMM] = 'sfx_ssb64_itemgrab.mp3',                                      -- Object Pick-up
   [CHAR_SOUND_HOOHOO] = { 'sfx_smw_jump.mp3' },                                      -- 2nd Jump + Dive Attack
@@ -289,8 +289,8 @@ VT_YUUKA = {
   -- [CHAR_SOUND_EEUH] = {nil,}, -- Slow Get up from ledge
   -- [CHAR_SOUND_GAME_OVER] = nil, -- Game Over Voiceline
   [CHAR_SOUND_GROUND_POUND_WAH] = { 'yuuka_atk2.mp3' },
-  -- [CHAR_SOUND_HAHA] = nil, -- Landing after backflip
-  -- [CHAR_SOUND_HAHA_2] = nil, -- Landing on Water after a fall
+  [CHAR_SOUND_HAHA] = 'yuuka_starget1.mp3', -- Landing after backflip
+  [CHAR_SOUND_HAHA_2] = 'yuuka_starget1.mp3', -- Landing on Water after a fall
   -- [CHAR_SOUND_HELLO] = nil, -- Intro Voiceline
   [CHAR_SOUND_HERE_WE_GO] = { 'yuuka_starget1.mp3' },                  -- Star Get + Obtaining Power-up
   [CHAR_SOUND_HOOHOO] = 'yuuka_atk2.mp3',                              -- 2nd Jump + Dive Attack
@@ -325,7 +325,7 @@ VT_YUUKA = {
 }
 
 VT_KOYUKI = {
-  [CHAR_SOUND_ATTACKED] = { 'koyuki_dmg1.mp3', 'koyuki_dmg2.mp3', 'koyuki_dmg4.mp3' },
+  [CHAR_SOUND_ATTACKED] = { 'koyuki_dmg1.mp3', 'koyuki_dmg2.mp3', 'koyuki_dmg4.mp3', 'koyuki_dmg5.mp3' },
   [CHAR_SOUND_DOH] = 'koyuki_bonk.mp3', -- Bonk into walls
   [CHAR_SOUND_DYING] = { 'koyuki_dead.mp3' },
   -- [CHAR_SOUND_EEUH] = {'silent.mp3',}, -- Slow Get up from ledge
