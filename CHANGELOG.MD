@@ -14,8 +14,6 @@
 - Juri + Part Timer (ME)
 - Chinatsu (ME)
 - Highlander Mob (MG & SG) (JF)
-- Tsukuyo Dress (AD)
-- Michiru Dress
 - Wildhunt Mob (ME)
 
 ### New Alts
@@ -29,6 +27,8 @@
 - Toki (Xmas) (KZ)
 - Utaha (Cheer) (hash)
 - Kotori (Cheerleader) (hash)
+- Tsukuyo Dress (AD)
+- Michiru Dress
 
 ### NPCs/Items
 
