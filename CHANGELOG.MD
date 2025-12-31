@@ -62,4 +62,5 @@
 - Kotori (Fixed leg issue that caused animation issues, updated hair texture)
 - Swimsuit Hiyori (Better rigging, Updated Hair Texture, coatless variant)
 - Kanoe (Fixed collar disappearing on star pose)
+- Swimsuit Yukari (Model isn't off-center, reduced filesize)
 - All Tokis (Added shading, Toki (Combat) opens helmet on star pose)
