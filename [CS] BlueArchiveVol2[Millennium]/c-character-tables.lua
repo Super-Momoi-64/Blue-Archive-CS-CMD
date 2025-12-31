@@ -191,6 +191,10 @@ BA_CHAR[E_MODEL_YUUKA] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_YUUKA,
     voiceTable = VT_YUUKA,
+    altCostume = {
+        {name = "Yuuka (Track)", model = E_MODEL_YUUKA_TRACK, desc = "100Kg runner", cmdId = 'yuuka2', lifeIcon = TEX_YUUKA_TRACK, credit = 'hash'},
+        {name = "Yuuka (Pajama)", model = E_MODEL_YUUKA_PAJAMA, desc = "A mimir", cmdId = 'yuuka3', lifeIcon = TEX_YUUKA_PAJAMA, credit = 'hash'}
+    },
     cmdId = 'yuuka'
 }
 

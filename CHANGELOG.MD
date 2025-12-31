@@ -29,6 +29,8 @@
 - Kotori (Cheerleader) (hash)
 - Tsukuyo Dress (AD)
 - Michiru Dress
+- Yuuka (Track) (hash)
+- Yuuka (Pajama) (hash)
 
 ### NPCs/Items
 
