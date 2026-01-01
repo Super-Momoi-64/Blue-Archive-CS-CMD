@@ -453,6 +453,7 @@ VT_TOKI = {
   [CHAR_SOUND_WHOA] = 'toki_ledgeGrab.mp3',
   [CHAR_SOUND_ON_FIRE] = 'toki_falling.mp3',
   [CHAR_SOUND_IMA_TIRED] = 'toki_sleepy.mp3',
+  [CHAR_SOUND_PANTING] = 'toki_dmg1.mp3',                                            -- Low health
 }
 
 VT_HIBIKI = {
