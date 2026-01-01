@@ -1051,6 +1051,40 @@ VT_KIRARA        = {
   [CHAR_SOUND_YAH_WAH_HOO] = { 'kirara_atk1.mp3' },           -- 1st Jump(s)
   [CHAR_SOUND_YAWNING] = { 'kirara_yawn.mp3' },
 }
+
+VT_ERIKA = {
+   [CHAR_SOUND_LETS_A_GO] = 'erika_reload.ogg',                                       -- Starting level
+   [CHAR_SOUND_PUNCH_YAH] = 'erika_hu.ogg',                                           -- Punch 1
+   [CHAR_SOUND_PUNCH_WAH] = 'erika_do.ogg',                                           -- Punch 2
+   [CHAR_SOUND_PUNCH_HOO] = 'erika_khe.ogg',                                          -- Punch 3
+   [CHAR_SOUND_YAH_WAH_HOO] = 'erika_tok.ogg',     -- First Jump Sounds
+   [CHAR_SOUND_HOOHOO] =  'erika_yo.ogg',                                         -- Second jump sound
+   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] =  'erika_sa.ogg',   -- Triple jump sounds
+   [CHAR_SOUND_UH] = 'erika_tok.ogg',                                                    -- Soft wall bonk
+   [CHAR_SOUND_UH2] = 'erika_tok.ogg',                                             -- Quick ledge get up
+   [CHAR_SOUND_DOH] = 'erika_hit2.ogg',                                                   -- Hard wall bonk
+   [CHAR_SOUND_OOOF] = 'erika_hit1.ogg',                                                  -- Attacked in air
+   [CHAR_SOUND_OOOF2] = 'erika_hit2.ogg',                                                 -- Land from hard bonk
+   [CHAR_SOUND_HAHA] = 'erika_jan.ogg',                                        -- Landing triple jump
+   [CHAR_SOUND_HAHA_2] = 'erika_jan.ogg',                                        -- Landing in water from big fall
+   [CHAR_SOUND_YAHOO] = 'erika_sa.ogg',                                             -- Long jump
+   [CHAR_SOUND_DOH] = 'erika_hit2.ogg',                                                   -- Long jump wall bonk
+   [CHAR_SOUND_WHOA] = 'erika_tok.ogg',                                             -- Grabbing ledge
+   [CHAR_SOUND_EEUH] = 'erika_io.ogg',                                            -- Climbing over ledge
+   [CHAR_SOUND_WAAAOOOW] = 'erika_hit1.ogg',                                           -- Falling a long distance
+   [CHAR_SOUND_TWIRL_BOUNCE] = 'erika_ya.ogg',                                  -- Bouncing off of a flower spring
+   [CHAR_SOUND_GROUND_POUND_WAH] = 'erika_do.ogg',                               -- Ground Pound after startup
+   [CHAR_SOUND_WAH2] = 'erika_ya.ogg',                                                 -- Throwing something
+   [CHAR_SOUND_HRMM] = 'erika_io.ogg',                                                  -- Lifting something
+   [CHAR_SOUND_HERE_WE_GO] = 'erika_ex.ogg',                                         -- Star get
+   [CHAR_SOUND_SO_LONGA_BOWSER] = 'erika_revolution.ogg',                                -- Throwing Bowser
+   [CHAR_SOUND_ATTACKED] = {'erika_hit1.ogg', 'erika_hit2.ogg' },                                          -- Damaged
+   [CHAR_SOUND_ON_FIRE] = 'erika_hit2.ogg',                                             -- Burned
+   [CHAR_SOUND_YAWNING] = 'erika_yawn.ogg',                                               -- Mario yawning before he sits down to sleep
+   [CHAR_SOUND_DYING] = 'erika_gomen.ogg',                                                -- Dying from damage
+   [CHAR_SOUND_MAMA_MIA] = 'erika_abunai.ogg'                                         -- Booted out of level
+ }
+ 
 -- ================
 -- Gehenna End
 -- ================
