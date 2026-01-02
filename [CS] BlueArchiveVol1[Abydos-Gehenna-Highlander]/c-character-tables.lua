@@ -499,7 +499,7 @@ BA_CHAR[E_MODEL_KIRARA] = {
     model = E_MODEL_KIRARA,
     forceChar = CT_MARIO,
     lifeIcon = TEX_KIRARA,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_KIRARA,
     altCostume = nil,
     cmdId = 'kirara'
 }
@@ -533,7 +533,7 @@ BA_CHAR[E_MODEL_ERIKA] = {
     model = E_MODEL_ERIKA,
     forceChar = CT_MARIO,
     lifeIcon = TEX_ERIKA,
-    voiceTable = VT_ERIKA,
+    voiceTable = VT_NOVOICE,
     altCostume = nil,
     cmdId = 'erika'
 }

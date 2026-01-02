@@ -1022,10 +1022,38 @@ VT_SATSUKI        = {
   [CHAR_SOUND_PANTING] = 'Chinatsu_PANTING.ogg',                                            -- Low health
 }
 
- VT_ERIKA = {
---   [CHAR_SOUND_OKEY_DOKEY] = 'CharStartGame.ogg',                                       -- Starting game
+VT_KIRARA        = {
+  [CHAR_SOUND_ATTACKED] = { 'kirara_dmg1.mp3', 'kirara_dmg3.mp3' },
+  [CHAR_SOUND_DOH] = 'kirara_huh.mp3',                                         -- Bonk into walls
+  [CHAR_SOUND_DYING] = { 'kirara_dead1.mp3' },
+  [CHAR_SOUND_HAHA] = { 'kirara_jan.mp3' },                                   -- Landing after backflip
+  [CHAR_SOUND_HERE_WE_GO] = { 'kirara_star1.mp3' },          -- Star Get + Obtaining Power-up
+  [CHAR_SOUND_HOOHOO] = { 'kirara_atk2.mp3' },                                   -- 2nd Jump + Dive Attack
+  [CHAR_SOUND_HRMM] = 'kirara_grab.mp3',                                         -- Object Pick-up
+  [CHAR_SOUND_GROUND_POUND_WAH] = { 'kirara_atk3.mp3' },
+  [CHAR_SOUND_LETS_A_GO] = { 'kirara_start.mp3' },                                 -- Level Select
+  [CHAR_SOUND_MAMA_MIA] = { 'kirara_levelexit.mp3' },                                -- Getting up after thrown out of level
+  [CHAR_SOUND_ON_FIRE] = { 'kirara_dmg2.mp3' },                                  -- Touch Fire
+  [CHAR_SOUND_OOOF] = 'kirara_hm1.mp3',                                        -- Grabbed by Chuckya
+  [CHAR_SOUND_OOOF2] = 'kirara_dmg1.mp3',                                         -- Landing After a Bonk + Thrown out of level + Also bonk into walls?
+  [CHAR_SOUND_PUNCH_HOO] = { 'kirara_atk3.mp3' },                                -- Kick
+  [CHAR_SOUND_PUNCH_WAH] = 'kirara_atk4.mp3',                                    -- 2nd Punch
+  [CHAR_SOUND_PUNCH_YAH] = 'kirara_atk1.mp3',                                    -- 1st Punch
+  [CHAR_SOUND_SO_LONGA_BOWSER] = { 'kirara_bthrow.mp3' },                        -- Bowser Throw
+  [CHAR_SOUND_TWIRL_BOUNCE] = { 'sfx_smw_spring.mp3' },                          -- Boing
+  [CHAR_SOUND_UH] = 'kirara_huh.mp3',                                          -- Drop off of ledge + Fall off Ledge
+  [CHAR_SOUND_UH2] = { 'kirara_atk1.mp3' },                                      -- Quick Ledge Get-Up
+  [CHAR_SOUND_WAAAOOOW] = 'kirara_fall.mp3',                                     -- Falling
+  [CHAR_SOUND_WAH2] = { 'sfx_ssb64_itemthrow.mp3' },                                   -- Throw Object
+  [CHAR_SOUND_WHOA] = 'kirara_hm1.mp3',                                        -- Ledge Grab
+  [CHAR_SOUND_YAHOO] = { 'kirara_atk2.mp3' },                                  -- Long Jump
+  [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'kirara_yahoo.mp3' }, -- 3rd Jump(s)
+  [CHAR_SOUND_YAH_WAH_HOO] = { 'kirara_atk1.mp3' },           -- 1st Jump(s)
+  [CHAR_SOUND_YAWNING] = { 'kirara_yawn.mp3' },
+}
+
+VT_ERIKA = {
    [CHAR_SOUND_LETS_A_GO] = 'erika_reload.ogg',                                       -- Starting level
---   [CHAR_SOUND_GAME_OVER] = 'CharGameOver.ogg',                                         -- Game Overed
    [CHAR_SOUND_PUNCH_YAH] = 'erika_hu.ogg',                                           -- Punch 1
    [CHAR_SOUND_PUNCH_WAH] = 'erika_do.ogg',                                           -- Punch 2
    [CHAR_SOUND_PUNCH_HOO] = 'erika_khe.ogg',                                          -- Punch 3
@@ -1034,7 +1062,6 @@ VT_SATSUKI        = {
    [CHAR_SOUND_YAHOO_WAHA_YIPPEE] =  'erika_sa.ogg',   -- Triple jump sounds
    [CHAR_SOUND_UH] = 'erika_tok.ogg',                                                    -- Soft wall bonk
    [CHAR_SOUND_UH2] = 'erika_tok.ogg',                                             -- Quick ledge get up
---   [CHAR_SOUND_UH2_2] = 'CharLongJumpLand.ogg',                                         -- Landing after long jump
    [CHAR_SOUND_DOH] = 'erika_hit2.ogg',                                                   -- Hard wall bonk
    [CHAR_SOUND_OOOF] = 'erika_hit1.ogg',                                                  -- Attacked in air
    [CHAR_SOUND_OOOF2] = 'erika_hit2.ogg',                                                 -- Land from hard bonk
@@ -1051,24 +1078,13 @@ VT_SATSUKI        = {
    [CHAR_SOUND_HRMM] = 'erika_io.ogg',                                                  -- Lifting something
    [CHAR_SOUND_HERE_WE_GO] = 'erika_ex.ogg',                                         -- Star get
    [CHAR_SOUND_SO_LONGA_BOWSER] = 'erika_revolution.ogg',                                -- Throwing Bowser
---   --DAMAGE
    [CHAR_SOUND_ATTACKED] = {'erika_hit1.ogg', 'erika_hit2.ogg' },                                          -- Damaged
    [CHAR_SOUND_ON_FIRE] = 'erika_hit2.ogg',                                             -- Burned
---   --SLEEP SOUNDS
    [CHAR_SOUND_YAWNING] = 'erika_yawn.ogg',                                               -- Mario yawning before he sits down to sleep
---   [CHAR_SOUND_SNORING1] = 'CharSnore.ogg',                                             -- Snore Inhale
---   [CHAR_SOUND_SNORING2] = 'CharExhale.ogg',                                            -- Exhale
---   [CHAR_SOUND_SNORING3] = 'CharSleepTalk.ogg',                                         -- Sleep talking / mumbling
---   --COUGHING (USED IN THE GAS MAZE)
---   [CHAR_SOUND_COUGHING1] = 'CharCough1.ogg',                                           -- Cough take 1
---   [CHAR_SOUND_COUGHING2] = 'CharCough2.ogg',                                           -- Cough take 2
---   [CHAR_SOUND_COUGHING3] = 'CharCough3.ogg',                                           -- Cough take 3
---   --DEATH
-  [CHAR_SOUND_DYING] = 'erika_gomen.ogg',                                                -- Dying from damage
---   [CHAR_SOUND_DROWNING] = 'CharDrowning.ogg',                                          -- Running out of air underwater
-  [CHAR_SOUND_MAMA_MIA] = 'erika_abunai.ogg'                                         -- Booted out of level
+   [CHAR_SOUND_DYING] = 'erika_gomen.ogg',                                                -- Dying from damage
+   [CHAR_SOUND_MAMA_MIA] = 'erika_abunai.ogg'                                         -- Booted out of level
  }
-
+ 
 -- ================
 -- Gehenna End
 -- ================
@@ -1100,7 +1116,7 @@ VT_HIKARI        = {
   [CHAR_SOUND_UH2] = { 'hikari_atk2.mp3' },                                                     -- Quick Ledge Get-Up
   [CHAR_SOUND_WAAAOOOW] = 'hikari_fall.mp3',                                                    -- Falling
   [CHAR_SOUND_WAH2] = { 'hikari_throw.mp3' },                                                   -- Throw Object
-  --[CHAR_SOUND_WHOA] = 'ibuki_ah1.mp3',                                                  -- Ledge Grab
+  [CHAR_SOUND_WHOA] = 'sfx_ssb64_ledge.mp3',                                                  -- Ledge Grab
   [CHAR_SOUND_YAHOO] = { 'hikari_longjump.mp3' },                                               -- Long Jump
   [CHAR_SOUND_YAHOO_WAHA_YIPPEE] = { 'hikari_longjump.mp3' },                                   -- 3rd Jump(s)
   [CHAR_SOUND_YAH_WAH_HOO] = { 'hikari_atk1.mp3', 'hikari_jump2.mp3', 'hikari_atk2.mp3' },      -- 1st Jump(s)
