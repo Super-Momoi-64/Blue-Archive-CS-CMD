@@ -533,7 +533,7 @@ BA_CHAR[E_MODEL_ERIKA] = {
     model = E_MODEL_ERIKA,
     forceChar = CT_MARIO,
     lifeIcon = TEX_ERIKA,
-    voiceTable = VT_NOVOICE,
+    voiceTable = VT_ERIKA,
     altCostume = nil,
     cmdId = 'erika'
 }
