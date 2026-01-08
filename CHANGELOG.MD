@@ -70,4 +70,8 @@
 ## 1.0.9
 
 ### Updated
-- Nozomi (Reduced filesize, updated expression and hair texture)
+- Nozomi -> (Reduced filesize, updated expression and hair texture)
+- Hikari -> (Reduced filesize, expression update and hair texture)
+- Seia -> (Shaded Eyes, reduced filesize)
+- Mine (Idol) -> (Shaded eyes)
+- Aoba -> (Shaded hair outline)
