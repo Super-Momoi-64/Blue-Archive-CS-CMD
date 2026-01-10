@@ -1,4 +1,25 @@
 # Changelog
+## Table of Contents
+
+- [1.0.9](#109)
+- [1.0.8](#108)
+
+---
+
+## 1.0.9
+
+### Updated
+- Nozomi -> (Reduced filesize, updated expression and hair texture)
+- Hikari -> (Reduced filesize, expression update and hair texture)
+- Seia -> (Shaded Eyes, reduced filesize)
+- Mine (Idol) -> (Shaded eyes)
+- Aoba -> (Shaded hair outline)
+- Ako -> (Reduced Filesize, expression update, Shaded)
+
+### New Alts
+- Ako (Dress) (KZ)
+
+---
 
 ## 1.0.8
 
@@ -66,16 +87,3 @@
 - Kanoe (Fixed collar disappearing on star pose)
 - Swimsuit Yukari (Model isn't off-center, reduced filesize)
 - All Tokis (Added shading, Toki (Combat) opens helmet on star pose)
-
-## 1.0.9
-
-### Updated
-- Nozomi -> (Reduced filesize, updated expression and hair texture)
-- Hikari -> (Reduced filesize, expression update and hair texture)
-- Seia -> (Shaded Eyes, reduced filesize)
-- Mine (Idol) -> (Shaded eyes)
-- Aoba -> (Shaded hair outline)
-- Ako -> (Reduced Filesize, expression update, Shaded)
-
-### New Alts
-- Ako (Dress) (KZ)
