@@ -75,3 +75,4 @@
 - Seia -> (Shaded Eyes, reduced filesize)
 - Mine (Idol) -> (Shaded eyes)
 - Aoba -> (Shaded hair outline)
+- Ako -> (Reduced Filesize, expression update, Shaded)
