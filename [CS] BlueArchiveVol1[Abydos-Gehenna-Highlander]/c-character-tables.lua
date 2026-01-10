@@ -205,7 +205,9 @@ BA_CHAR[E_MODEL_AKO] = {
     forceChar = CT_MARIO,
     lifeIcon = TEX_AKO,
     voiceTable = VT_AKO,
-    altCostume = nil,
+    altCostume = {
+        { name = "Ako (Dress)", model = E_MODEL_AKO2, desc = 'My stupid bitch wife', cmdId = 'ako2', lifeIcon = TEX_AKO2, credit = "kzHouston" },
+    },
     cmdId = 'ako'
 }
 

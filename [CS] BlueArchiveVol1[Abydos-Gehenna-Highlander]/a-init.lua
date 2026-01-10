@@ -21,6 +21,8 @@ E_MODEL_NONOMI = smlua_model_util_get_id("nonomi_geo")
 -- ================
 -- Gehenna
 -- ================
+E_MODEL_AKO = smlua_model_util_get_id("ako_geo")
+E_MODEL_AKO2 = smlua_model_util_get_id("ako2_geo")
 E_MODEL_ARU = smlua_model_util_get_id("aru_geo")
 E_MODEL_JUNKO = smlua_model_util_get_id("junko_geo")
 E_MODEL_JUNKO_NY = smlua_model_util_get_id("junko2_geo")
@@ -29,7 +31,6 @@ E_MODEL_KASUMI = smlua_model_util_get_id("kasumi_geo")
 E_MODEL_MUTSUKI = smlua_model_util_get_id("mutsuki_geo")
 E_MODEL_KAYOKO = smlua_model_util_get_id("kayoko_geo")
 E_MODEL_HARUKA = smlua_model_util_get_id("haruka_geo")
-E_MODEL_AKO = smlua_model_util_get_id("ako_geo")
 E_MODEL_HARUNA = smlua_model_util_get_id("haruna_geo")
 E_MODEL_IBUKI = smlua_model_util_get_id("ibuki_geo")
 E_MODEL_AKARI = smlua_model_util_get_id("akari_geo")
@@ -85,6 +86,8 @@ TEX_NONOMI = get_texture_info('nonomi_icon')
 -- ================
 -- Gehenna
 -- ================
+TEX_AKO = get_texture_info("Ako_Icon")
+TEX_AKO2 = get_texture_info("ako2_icon")
 TEX_ARU = get_texture_info("Aru_Icon")
 TEX_JUNKO = get_texture_info("Junko_Icon")
 TEX_JUNKO2 = get_texture_info("junko_ny_icon")
@@ -93,7 +96,6 @@ TEX_KASUMI = get_texture_info("Kasumi_Icon")
 TEX_MUTSUKI = get_texture_info("Mutsuki_Icon")
 TEX_KAYOKO = get_texture_info("Kayoko_Icon")
 TEX_HARUKA = get_texture_info("Haruka_Icon")
-TEX_AKO = get_texture_info("Ako_Icon")
 TEX_HARUNA = get_texture_info("Haruna_Icon")
 TEX_IBUKI = get_texture_info("ibukiicon")
 TEX_AKARI = get_texture_info('akari_icon')

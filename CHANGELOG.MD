@@ -76,3 +76,6 @@
 - Mine (Idol) -> (Shaded eyes)
 - Aoba -> (Shaded hair outline)
 - Ako -> (Reduced Filesize, expression update, Shaded)
+
+### New Alts
+- Ako (Dress) (KZ)
